@@ -1,0 +1,8 @@
+(a) sum mod 3 of the canonical families:
+   with-defect family: sum = 12P+6k+3 => %3 == 0 for ALL members; violations: 0
+   bulk family (no defect): sum = 12P+6k+4 => %%3 == 1 for ALL members (no cancellation!)
+(b) off-sequence k, p >= max(200,j+100): run true dynamics
+   5760 runs, halts: NONE
+(c) p below the claimed floor (p = J+1 .. J+12):
+   22080 runs, halts below floor: [(2, 3, 13, 2, 1), (2, 4, 5, 2, 1), (2, 6, 21, 2, 1)]
+total 0.2s

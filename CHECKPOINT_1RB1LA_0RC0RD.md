@@ -89,3 +89,23 @@ Non-halting ⇔ A+2b+3 is never a power of 2 at an odd-A top step. Path R4 (indu
   start, where the head is even).
 - Status: UNDECIDED; R4 theorem unchanged. Non-halting [Class-C], now with three routes
   each reduced to explicitly stated finite/by-hand lemmas.
+
+## Attempt R9 (work_r9/) — CLAIMED COMPLETE PROOF (universal-replay route); coordinator-reviewed, PENDING BLIND AUDIT
+- Route (scratch/agentB_closedform.md, second pass): one universal (p, k) sequence
+  governs every run-chain at every nesting level: x = 3·2^ρ·U + (6k_ρ+4), j = 1+v₂(3k_ρ+2),
+  u ≥ 9; locality by queue-determinism (L0); ρ-induction (k_ρ ≤ ρ³ ⇒ j_ρ < ρ; U odd at
+  every level ⇒ tie-free); ell(v) = 2·k_b(v) + e(v); assembly ⇒ Lemma E(v) ∀v ⇒ the
+  machine never halts.
+- Review status (scratch/review_B_coordinator.md): 6 adversarial probes + coordinator
+  code-audit + two cross-route reconciliations (R8 compositional; agentG fire table —
+  identical universal object). Findings: 3 wording-level gaps (mod-3 "superset" overstatement;
+  "generically" should say margin-protected/on-sequence — planted halters exist only in the
+  never-claimed small-p off-sequence region, unreachable; e ∈ [0,12] → e ≤ 16 at the
+  v=6132–35 j=14 boundary). j-extension probe: per-J verifier OK to j = 20000. Anchors
+  re-executed: invariant ρ ≤ 20000 (6372 events, 0 failures), ell ≤ 2s to 6500, room
+  j−t ≥ 2 at v=4000 w∈{1,3}, extreme-w universality, conservation to p=4·10⁵.
+  **Blind-auditor pass NOT run (infrastructure failures killed repeated attempts).**
+- work_r9/verify_r9.py: anchor driver (checkA/D/E/C) — all green.
+- Global status: **NON-HALTING CLAIMED** [Class-A route with machine anchors; audit
+  incomplete]. If the blind audit confirms, #1 closes as PROVABLY NON-HALTING and the
+  R4 finite-range theorem is superseded.

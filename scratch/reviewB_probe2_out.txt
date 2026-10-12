@@ -1,0 +1,62 @@
+kpos to 13000 (3996 positions)
+(1) first universal position with j >= J:
+    J= 5: rho=26 (k=10, j=6)  [need v >= ~28 for a host chain with this j]
+    J= 6: rho=26 (k=10, j=6)  [need v >= ~28 for a host chain with this j]
+    J= 8: rho=99 (k=42, j=8)  [need v >= ~101 for a host chain with this j]
+    J= 9: rho=388 (k=170, j=10)  [need v >= ~390 for a host chain with this j]
+    J=12: rho=1537 (k=682, j=12)  [need v >= ~1539 for a host chain with this j]
+    J=16: rho=24494 (k=10922, j=16)  [need v >= ~24496 for a host chain with this j]
+    J=20: rho=391794 (k=174762, j=20)  [need v >= ~391796 for a host chain with this j]
+    J=28: rho=100296962 (k=44739242, j=28)  [need v >= ~100296964 for a host chain with this j]
+    J=40: not found below rho=4e8
+    scan 33.4s
+(2) artificial deep levels:
+U=73                        R=30    : halt=False done=True steps=26 runchains=9 fails=0 maxdepth=1 minu=1753 maxj=6 [0.0s]
+    depth_hist: {0: 8, 1: 1}
+U=73                        R=60    : halt=False done=True steps=53 runchains=18 fails=0 maxdepth=1 minu=1753 maxj=6 [0.0s]
+    depth_hist: {0: 17, 1: 1}
+U=73                        R=200   : halt=False done=True steps=176 runchains=62 fails=0 maxdepth=1 minu=1753 maxj=8 [0.0s]
+    depth_hist: {0: 59, 1: 3}
+U=73                        R=1000  : halt=False done=True steps=892 runchains=318 fails=0 maxdepth=1 minu=1753 maxj=10 [0.0s]
+    depth_hist: {0: 302, 1: 16}
+U=73                        R=3000  : halt=False done=True steps=2674 runchains=953 fails=0 maxdepth=1 minu=1753 maxj=12 [0.0s]
+    depth_hist: {0: 906, 1: 47}
+U=73                        R=12000 : halt=False done=True steps=10706 runchains=3821 fails=0 maxdepth=1 minu=1753 maxj=14 [0.2s]
+    depth_hist: {0: 3632, 1: 189}
+U=9663676423                R=30    : halt=False done=True steps=26 runchains=9 fails=0 maxdepth=1 minu=231928234153 maxj=6 [0.0s]
+    depth_hist: {0: 8, 1: 1}
+U=9663676423                R=60    : halt=False done=True steps=53 runchains=18 fails=0 maxdepth=1 minu=231928234153 maxj=6 [0.0s]
+    depth_hist: {0: 17, 1: 1}
+U=9663676423                R=200   : halt=False done=True steps=176 runchains=62 fails=0 maxdepth=1 minu=231928234153 maxj=8 [0.0s]
+    depth_hist: {0: 59, 1: 3}
+U=9663676423                R=1000  : halt=False done=True steps=892 runchains=318 fails=0 maxdepth=1 minu=231928234153 maxj=10 [0.0s]
+    depth_hist: {0: 302, 1: 16}
+U=9663676423                R=3000  : halt=False done=True steps=2674 runchains=953 fails=0 maxdepth=1 minu=231928234153 maxj=12 [0.0s]
+    depth_hist: {0: 906, 1: 47}
+U=9663676423                R=12000 : halt=False done=True steps=10706 runchains=3821 fails=0 maxdepth=1 minu=231928234153 maxj=14 [0.2s]
+    depth_hist: {0: 3632, 1: 189}
+U=2305843009213693951       R=30    : halt=False done=True steps=26 runchains=9 fails=0 maxdepth=1 minu=55340232221128654825 maxj=6 [0.0s]
+    depth_hist: {0: 8, 1: 1}
+U=2305843009213693951       R=60    : halt=False done=True steps=53 runchains=18 fails=0 maxdepth=1 minu=55340232221128654825 maxj=6 [0.0s]
+    depth_hist: {0: 17, 1: 1}
+U=2305843009213693951       R=200   : halt=False done=True steps=176 runchains=62 fails=0 maxdepth=1 minu=55340232221128654825 maxj=8 [0.0s]
+    depth_hist: {0: 59, 1: 3}
+U=2305843009213693951       R=1000  : halt=False done=True steps=892 runchains=318 fails=0 maxdepth=1 minu=55340232221128654825 maxj=10 [0.0s]
+    depth_hist: {0: 302, 1: 16}
+U=2305843009213693951       R=3000  : halt=False done=True steps=2674 runchains=953 fails=0 maxdepth=1 minu=55340232221128654825 maxj=12 [0.0s]
+    depth_hist: {0: 906, 1: 47}
+U=2305843009213693951       R=12000 : halt=False done=True steps=10706 runchains=3821 fails=0 maxdepth=1 minu=55340232221128654825 maxj=14 [0.2s]
+    depth_hist: {0: 3632, 1: 189}
+U=8581344657413             R=30    : halt=False done=True steps=26 runchains=9 fails=0 maxdepth=1 minu=205952271777913 maxj=6 [0.0s]
+    depth_hist: {0: 8, 1: 1}
+U=8581344657413             R=60    : halt=False done=True steps=53 runchains=18 fails=0 maxdepth=1 minu=205952271777913 maxj=6 [0.0s]
+    depth_hist: {0: 17, 1: 1}
+U=8581344657413             R=200   : halt=False done=True steps=176 runchains=62 fails=0 maxdepth=1 minu=205952271777913 maxj=8 [0.0s]
+    depth_hist: {0: 59, 1: 3}
+U=8581344657413             R=1000  : halt=False done=True steps=892 runchains=318 fails=0 maxdepth=1 minu=205952271777913 maxj=10 [0.0s]
+    depth_hist: {0: 302, 1: 16}
+U=8581344657413             R=3000  : halt=False done=True steps=2674 runchains=953 fails=0 maxdepth=1 minu=205952271777913 maxj=12 [0.0s]
+    depth_hist: {0: 906, 1: 47}
+U=8581344657413             R=12000 : halt=False done=True steps=10706 runchains=3821 fails=0 maxdepth=1 minu=205952271777913 maxj=14 [0.2s]
+    depth_hist: {0: 3632, 1: 189}
+NOTE: depth counting is relative to the instantiated level; depth d here = nesting d levels BELOW it, i.e. level d+1 counting the instantiated run as level 1.

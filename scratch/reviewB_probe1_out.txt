@@ -1,0 +1,48 @@
+kpos built: 1392 universal positions, max j needed 12 (0.0s)
+sanity: positions->k first 8: [(4, 1), (7, 2), (11, 4), (13, 5), (16, 6), (21, 8), (23, 9), (26, 10)]
+w=1                      v=200  : halt=False singleton=True ell=175 (2kb=172 e=3) runchains=62 nonrun=3 nonuniv=0 fails=0 maxdepth=1 minu=73 maxj=8 sum3=0 [0.0s]
+   depth_hist: {0: 59, 1: 3}
+w=2305843009213693951    v=200  : halt=False singleton=True ell=175 (2kb=172 e=3) runchains=62 nonrun=3 nonuniv=0 fails=0 maxdepth=1 minu=166020696663385964473 maxj=8 sum3=0 [0.0s]
+   depth_hist: {0: 59, 1: 3}
+w=1000000000001          v=200  : halt=False singleton=True ell=175 (2kb=172 e=3) runchains=62 nonrun=3 nonuniv=0 fails=0 maxdepth=1 minu=72000000000073 maxj=8 sum3=0 [0.0s]
+   depth_hist: {0: 59, 1: 3}
+w=1000000000000000001    v=200  : halt=False singleton=True ell=175 (2kb=172 e=3) runchains=62 nonrun=3 nonuniv=0 fails=0 maxdepth=1 minu=72000000000000000073 maxj=8 sum3=0 [0.0s]
+   depth_hist: {0: 59, 1: 3}
+w=1                      v=500  : halt=False singleton=True ell=444 (2kb=442 e=2) runchains=158 nonrun=8 nonuniv=0 fails=0 maxdepth=1 minu=73 maxj=10 sum3=0 [0.0s]
+   depth_hist: {0: 150, 1: 8}
+w=2305843009213693951    v=500  : halt=False singleton=True ell=444 (2kb=442 e=2) runchains=158 nonrun=8 nonuniv=0 fails=0 maxdepth=1 minu=166020696663385964473 maxj=10 sum3=0 [0.0s]
+   depth_hist: {0: 150, 1: 8}
+w=1000000000001          v=500  : halt=False singleton=True ell=444 (2kb=442 e=2) runchains=158 nonrun=8 nonuniv=0 fails=0 maxdepth=1 minu=72000000000073 maxj=10 sum3=0 [0.0s]
+   depth_hist: {0: 150, 1: 8}
+w=1000000000000000001    v=500  : halt=False singleton=True ell=444 (2kb=442 e=2) runchains=158 nonrun=8 nonuniv=0 fails=0 maxdepth=1 minu=72000000000000000073 maxj=10 sum3=0 [0.0s]
+   depth_hist: {0: 150, 1: 8}
+w=1                      v=1539 : halt=False singleton=True ell=1376 (2kb=1364 e=12) runchains=490 nonrun=25 nonuniv=0 fails=0 maxdepth=1 minu=73 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 465, 1: 25}
+w=2305843009213693951    v=1539 : halt=False singleton=True ell=1376 (2kb=1364 e=12) runchains=490 nonrun=25 nonuniv=0 fails=0 maxdepth=1 minu=166020696663385964473 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 465, 1: 25}
+w=1000000000001          v=1539 : halt=False singleton=True ell=1376 (2kb=1364 e=12) runchains=490 nonrun=25 nonuniv=0 fails=0 maxdepth=1 minu=72000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 465, 1: 25}
+w=1000000000000000001    v=1539 : halt=False singleton=True ell=1376 (2kb=1364 e=12) runchains=490 nonrun=25 nonuniv=0 fails=0 maxdepth=1 minu=72000000000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 465, 1: 25}
+w=1                      v=2500 : halt=False singleton=True ell=2226 (2kb=2224 e=2) runchains=794 nonrun=40 nonuniv=0 fails=0 maxdepth=1 minu=73 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 755, 1: 39}
+w=2305843009213693951    v=2500 : halt=False singleton=True ell=2226 (2kb=2224 e=2) runchains=794 nonrun=40 nonuniv=0 fails=0 maxdepth=1 minu=166020696663385964473 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 755, 1: 39}
+w=1000000000001          v=2500 : halt=False singleton=True ell=2226 (2kb=2224 e=2) runchains=794 nonrun=40 nonuniv=0 fails=0 maxdepth=1 minu=72000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 755, 1: 39}
+w=1000000000000000001    v=2500 : halt=False singleton=True ell=2226 (2kb=2224 e=2) runchains=794 nonrun=40 nonuniv=0 fails=0 maxdepth=1 minu=72000000000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 755, 1: 39}
+w=1                      v=4000 : halt=False singleton=True ell=3566 (2kb=3564 e=2) runchains=1273 nonrun=64 nonuniv=0 fails=0 maxdepth=1 minu=73 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 1210, 1: 63}
+w=2305843009213693951    v=4000 : halt=False singleton=True ell=3566 (2kb=3564 e=2) runchains=1273 nonrun=64 nonuniv=0 fails=0 maxdepth=1 minu=166020696663385964473 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 1210, 1: 63}
+w=1000000000001          v=4000 : halt=False singleton=True ell=3566 (2kb=3564 e=2) runchains=1273 nonrun=64 nonuniv=0 fails=0 maxdepth=1 minu=72000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 1210, 1: 63}
+w=1000000000000000001    v=4000 : halt=False singleton=True ell=3566 (2kb=3564 e=2) runchains=1273 nonrun=64 nonuniv=0 fails=0 maxdepth=1 minu=72000000000000000073 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 1210, 1: 63}
+w=999                    v=4000 : halt=False singleton=True ell=3566 (2kb=3564 e=2) runchains=1273 nonrun=64 nonuniv=0 fails=0 maxdepth=1 minu=71929 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 1210, 1: 63}
+w=999                    v=2500 : halt=False singleton=True ell=2226 (2kb=2224 e=2) runchains=794 nonrun=40 nonuniv=0 fails=0 maxdepth=1 minu=71929 maxj=12 sum3=0 [0.0s]
+   depth_hist: {0: 755, 1: 39}
+==== AGGREGATE: runs=22 halts=[] total_fails=0 nonuniv=0
+total 0.2s

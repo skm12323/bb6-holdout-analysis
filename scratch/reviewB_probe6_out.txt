@@ -1,0 +1,19 @@
+v=60..300: distinct endgame template shapes: 27
+  v=60: 1 boundary chains, shapes seen; chains (j, u = au*t+bu):
+     j= 2  u = 1297036692682702848*t + 648518346341351461   (x = u*2^j)
+  v=61: 2 boundary chains, shapes seen; chains (j, u = au*t+bu):
+     j= 2  u = 1297036692682702848*t + 648518346341351461   (x = u*2^j)
+     j= 3  u = 2594073385365405696*t + 1297036692682702867   (x = u*2^j)
+  v=100: 1 boundary chains, shapes seen; chains (j, u = au*t+bu):
+     j= 1  u = 5704427701027032306735164424192*t + 2852213850513516153367582212223   (x = u*2^j)
+  v=128: 0 boundary chains, shapes seen; chains (j, u = au*t+bu):
+  v=200: 1 boundary chains, shapes seen; chains (j, u = au*t+bu):
+     j= 3  u = 451951324947841014996176838470951981959369592001410484928512*t + 225975662473920507498088419235475990979684796000705242464321   (x = u*2^j)
+Traceback (most recent call last):
+  File "D:/math_cc/scratch/reviewB_probe6.py", line 73, in <module>
+    main()
+    ~~~~^^
+  File "D:/math_cc/scratch/reviewB_probe6.py", line 49, in main
+    print('worst v (min chain odd-part u(0)=bu): v=%d u=%d' % worst)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: %d format: a real number is required, not NoneType

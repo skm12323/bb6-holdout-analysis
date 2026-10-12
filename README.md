@@ -11,7 +11,7 @@
 | 机器 | 已审查的结论 | 文档 |
 |---|---|---|
 | `1RB0LE_0RC1RB_1LC1RD_1RF0LA_0RD1LE_1RB---` 及其三台兄弟机器 | 归约到块列表映射 M；停机 ⇔ 某次左端到达值 u₀ ∈ {2ᵏ−2}；四台机器停机与否互相等价 | `REPORT_1RB0LE_0RC1RB.md`、`work_q4/`、`work_q6/`、`work_u1/` |
-| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射；停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；**顶层步 n < 2²⁰⁰¹−2 内不停机**；R8（已经三方审查）：组合式证书 v ≤ 1000 + 模板引擎（2-adic 无障碍、谱系剩余类封闭、sum-类分离——所发现的全部停机族成员均 sum ≢ 0 mod 3，被已审计不变量排除）；三条独立路线各自把 ∀v 化归为明确的有限引理 | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_r8/` |
+| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射；停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；**顶层步 n < 2²⁰⁰¹−2 内不停机**（已审计）；R8（已审查）：组合式+模板路线与 sum-类分离；**R9（2026-10-13）：宣称永不停机**——普适重放路线（普适 (p,k) 序列、队列决定性局部性、ρ-归纳、ell = 2k_b+e），经协调员审查（6 项对抗探针 + 代码审计 + 两条交叉路线互证，3 处措辞级缺口），**盲审计待做** | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_r8/`、`work_r9/` |
 | #2 `1RB1RA_1LC0RC_---0LD_0LE0RF_1RE0RA_0LF1LB` | 归约到 Σ 栈机；定理 H | `REPORT_1RB1RA_1LC0RC.md`、`work_s1/`、`work_s3/` |
 | `1RB1LE_1LB1LC_1RD0LE_---0RB_1RF1LA_0RA0RD` | 停机 ⇔ 轨道到达 (0;10,…) | `REPORT_1RB1LE_1LB1LC.md`、`work_t1/` |
 | `1RB1LC_1RC1LB_1LD0RB_0LE1RD_---0LF_0LA1LF` | 无（各路径都没走通） | `CHECKPOINT_1RB1LC_1RC1LB.md` |
@@ -23,7 +23,7 @@
 - `REPORT_*.md`、`CHECKPOINT_*.md`：每台机器的仲裁记录与阶段性检查点
 - `work_*/`：主定理文档（`RULES.md`、`LEMMAS.md`、`PROOF.md`、`EQUIV.md`）与对应的验证脚本 `verify_*.py`
 - `work_r5/`、`work_r6/`、`work_r7/`：#1 全局不停机的三次尝试，**未经审查**
-- `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`scratch/`：研究草稿与子代理报告（agentB/C/D），部分未经审查
+- `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`work_r9/`：永不停机定理的宣称与锚点驱动（`THEOREM.md`、`verify_r9.py`）；`scratch/`：研究草稿与子代理报告（agentB/C/D/E/G、审查报告），部分未经审查
 - `data/BB6_holdouts_815.txt`：bbchallenge 2026-09-24 版 holdout 清单
 - `triage2/scan.txt`：815 台机器各跑 10⁶ 步的初筛数据
 
@@ -34,6 +34,7 @@
 ```bash
 cd work_r4 && python verify_r4.py 60
 cd work_r8 && python verify_r8.py 1000 300   # check1–6,约 2 分钟
+cd work_r9 && python verify_r9.py            # 定理锚点,约 1 分钟
 ```
 
 注意两处依赖：`verify_q6.py` 依赖 `work_q4`，`verify_s3.py` 依赖 `work_s1`，`verify_u1.py` 依赖 `work_q4`。

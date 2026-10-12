@@ -1,0 +1,24 @@
+(i) margin p-J from the two k-bounds:
+    J=33: linear-bound p >= 3.21e+09 (margin 3.21e+09), cubic-bound p >= 1127 (margin 1094) -> p>=2^18 lin-yes
+    J=40: linear-bound p >= 4.1e+11 (margin 4.1e+11), cubic-bound p >= 5680 (margin 5640) -> p>=2^18 lin-yes
+    J=45: linear-bound p >= 1.31e+13 (margin 1.31e+13), cubic-bound p >= 1.803e+04 (margin 1.799e+04) -> p>=2^18 lin-yes
+    J=50: linear-bound p >= 4.2e+14 (margin 4.2e+14), cubic-bound p >= 5.725e+04 (margin 5.72e+04) -> p>=2^18 lin-yes
+    J=55: linear-bound p >= 1.34e+16 (margin 1.34e+16), cubic-bound p >= 1.818e+05 (margin 1.817e+05) -> p>=2^18 lin-yes
+    J=58: linear-bound p >= 1.08e+17 (margin 1.08e+17), cubic-bound p >= 3.635e+05 (margin 3.635e+05) -> p>=2^18 yes
+    J=59: linear-bound p >= 2.15e+17 (margin 2.15e+17), cubic-bound p >= 4.58e+05 (margin 4.579e+05) -> p>=2^18 yes
+    J=60: linear-bound p >= 4.3e+17 (margin 4.3e+17), cubic-bound p >= 5.771e+05 (margin 5.77e+05) -> p>=2^18 yes
+    J=61: linear-bound p >= 8.61e+17 (margin 8.61e+17), cubic-bound p >= 7.27e+05 (margin 7.27e+05) -> p>=2^18 yes
+    J=64: linear-bound p >= 6.89e+18 (margin 6.89e+18), cubic-bound p >= 1.454e+06 (margin 1.454e+06) -> p>=2^18 yes
+    NOTE: linear bound (k<=0.4465p) is machine-verified only p<4e5,
+    where J<=20 spikes live; J>=60 needs the WRITTEN cubic bound.
+(ii) verifier p-floor vs real events:
+    run7/run13 assume p >= max(200, j+100).
+    rho=     200: structural j_rho <= 25.9, rho-j >= 174.1
+    rho=    1000: structural j_rho <= 32.9, rho-j >= 967.1
+    rho=    2000: structural j_rho <= 35.9, rho-j >= 1964.1
+    rho=    2001: structural j_rho <= 35.9, rho-j >= 1965.1
+    rho= 1000000: structural j_rho <= 62.8, rho-j >= 999937.2
+    rho= 1048576: structural j_rho <= 63.0, rho-j >= 1048513.0
+    measured: max j and min p-j on universal seq: {2000: (12, 1989), 20000: (14, 19987), 100000: (18, 99983)}
+(iii) walker N=4000: 3565 steps, 1337 chains, min v2(cM) over chain u = +3 at (1, ('R', 4)) [0.7s]
+(iii) walker N=20000: 17841 steps, 6690 chains, min v2(cM) over chain u = +3 at (1, ('R', 4)) [62.7s]

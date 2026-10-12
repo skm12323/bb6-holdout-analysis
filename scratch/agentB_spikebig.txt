@@ -1,0 +1,49 @@
+v=7000 ell=6247 chains=2342 tchains=2118
+j= 1 -> (dk,dp) in [(1, 3)]
+j= 2 -> (dk,dp) in [(1, 2)]
+j= 3 -> (dk,dp) in [(2, 5)]
+j= 4 -> (dk,dp) in [(2, 4)]
+j= 5 -> (dk,dp) in [(3, 4)]
+j= 6 -> (dk,dp) in [(3, 5)]
+j= 7 -> (dk,dp) in [(3, 4)]
+j= 8 -> (dk,dp) in [(4, 6)]
+j= 9 -> (dk,dp) in [(4, 2)]
+j=10 -> (dk,dp) in [(5, 5)]
+j=11 -> (dk,dp) in [(5, 4)]
+j=12 -> (dk,dp) in [(6, 6)]
+j=14 -> (dk,dp) in [(8, 5)]
+
+--- spike chain 127: j=10 p=388 k=170
+    chain  127 j=10 b=T388     c=T389     p=388 k=170
+    chain  128 j= 1 b=U128.4   c=U128.5   p=None k=None
+    chain  129 j= 4 b=U128.7   c=U128.8   p=None k=None
+--- spike chain 319: j=9 p=963 k=426
+    chain  319 j= 9 b=T963     c=T964     p=963 k=426
+    chain  320 j= 1 b=U320.4   c=U320.5   p=None k=None
+    chain  321 j= 4 b=U320.7   c=D320     p=None k=None
+    chain  322 j= 3 b=T965     c=T966     p=965 k=430
+--- spike chain 511: j=12 p=1537 k=682
+    chain  511 j=12 b=T1537    c=T1538    p=1537 k=682
+    chain  512 j= 1 b=U512.4   c=U512.5   p=None k=None
+    chain  513 j= 4 b=U512.7   c=U512.8   p=None k=None
+    chain  514 j= 1 b=D512     c=T1539    p=None k=None
+--- spike chain 703: j=9 p=2110 k=938
+    chain  703 j= 9 b=T2110    c=T2111    p=2110 k=938
+    chain  704 j= 1 b=U704.4   c=U704.5   p=None k=None
+    chain  705 j= 4 b=U704.7   c=D704     p=None k=None
+    chain  706 j= 3 b=T2112    c=T2113    p=2112 k=942
+--- spike chain 895: j=10 p=2684 k=1194
+    chain  895 j=10 b=T2684    c=T2685    p=2684 k=1194
+    chain  896 j= 1 b=U896.4   c=U896.5   p=None k=None
+    chain  897 j= 4 b=U896.7   c=U896.8   p=None k=None
+--- spike chain 1087: j=9 p=3259 k=1450
+    chain 1087 j= 9 b=T3259    c=T3260    p=3259 k=1450
+    chain 1088 j= 1 b=U1088.4  c=U1088.5  p=None k=None
+    chain 1089 j= 4 b=U1088.7  c=D1088    p=None k=None
+    chain 1090 j= 3 b=T3261    c=T3262    p=3261 k=1454
+--- j=7 spike chain 79: p=243 k=106
+    chain   79 j= 7 b=T243     c=T244     p=243 k=106
+    chain   80 j= 1 b=U80.4    c=U80.5    p=None k=None
+    chain   81 j= 1 b=T247     c=T248     p=247 k=109
+    chain   82 j= 3 b=T250     c=T251     p=250 k=110
+    chain   83 j= 2 b=T255     c=T256     p=255 k=112

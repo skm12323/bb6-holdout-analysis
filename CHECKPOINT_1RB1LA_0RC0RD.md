@@ -55,3 +55,37 @@ Non-halting ⇔ A+2b+3 is never a power of 2 at an odd-A top step. Path R4 (indu
 - **THEOREM (audited): the TM does not halt during top steps n < 2^2001 − 2.** Lemma E(v), v≤2000, is a mechanical certificate (verify_r4.py check1, independently reproduced). Base: RULES.md (audited).
 - Note: TM-step equivalent is t(2^2001−2) via exact RULES §5 step costs (≈1.35n³, i.e. ~10^1806 TM steps); no explicit number certified.
 - Global status: UNDECIDED (Lemma E(v) ∀v open; gaps G1/G2).
+
+## Attempt R8 (work_r8/) — compositional + template; reviewed (1 adversary + 2 auditors)
+- Compositional prover (verify_r8.py check1–4): F(v) re-proved for v ≤ 1000 with verified
+  contracts via macro-recursion; structure over 153,558 nested calls: a(s) ≤ 2, margin
+  v₂(H)−v₂(d+3) ≥ 3 for t ≥ 1 (G1 measured, never assumed), d−(3t+1) ∈ {0} ∪ neg-odd,
+  windows = clean + [J] + Z only, ell ≤ 1.08v. **Auditor 1 (independent re-implementation,
+  v ≤ 150 + from-scratch template on 5120 starts): all correct.**
+- Template engine (check5/5b): 16,896 + 28,160 multi-symbol runs, 0 failures, lineage
+  residue classes closed {0,−1} ∪ {−2 mod 2^7} **for the r ≥ 2 deep branches occurring in
+  real excursions**. **Adversary REFUTED the original closure claim**: the deep branch
+  does not simulate children, and the product family contains halting members
+  ([2301,2048,4095] → HALT t=8108 past the contract singleton; 142/240 sampled at ρ=253).
+  Counter-verification: ALL halting members found (104/104 in check5c, incl. every re-tested
+  3|H instance) have sum ≢ 0 mod 3 — excluded from the real orbit by the audited sum
+  invariant (sum = 3n+3); 520 sum-valid instances: 0 halts ≤ 5000 steps. **Auditor 2**
+  reproduced V1–V3/V5 from scratch (margin min 3; windows clean+[J]+Z; 27,648 concrete
+  runs 0 halts, shape (w,j)-independent) and found: (i) the −2-generator family contains
+  r ∈ {0,1} deep branches with out-of-family children (classes ≡ 1, −3 mod 2^7; 48
+  instances; real excursions v ≤ 400 have none — all 1236 deep fires are r ≥ 2);
+  (ii) the 2816 glue-start runs are vacuous (match at t=0). Corrected scope:
+  check5 = 2-adic non-obstruction; check5c = sum-class separation; glue starts dropped.
+  Remaining for ∀v: (L-sum) mod-3 constraint in the symbolic family; (L-coverage)
+  level-decreasing induction with child-prefix coverage (family extended/excluded per
+  auditor 2); (L-middle) ell ≤ 2s bound.
+- Convergent independent routes (scratch/): agent B — universal closed-form event sequence
+  x = 9·2^p·w + (6k+4) with universal (Δk,Δp) table, self-similar replay with decreasing
+  parameters, 41 endgame templates, ell(v) = 2k_b+e, E(v) ∀ v ≤ 12·2^1194 (residual: one
+  locality step of the j-induction); agent C — master law x = αw+γ, v₂(γ)<v₂(α), affine
+  exclusion lemma PROVED, 374,114 fire families v ≤ 1500 (residual: preservation induction
+  + room invariant i ≥ t+2); agent D — raw-TM re-derivation of R1–R5/coverage/halting
+  criterion/E(v) v ≤ 100: all PASS (margin claim holds ∀t ≥ 1; the t=0 "margin −2" is the
+  start, where the head is even).
+- Status: UNDECIDED; R4 theorem unchanged. Non-halting [Class-C], now with three routes
+  each reduced to explicitly stated finite/by-hand lemmas.

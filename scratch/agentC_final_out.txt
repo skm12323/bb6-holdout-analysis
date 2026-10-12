@@ -1,0 +1,2 @@
+random sweep: fires=28444 bad=0
+orbit 20M steps: fires=7500000 min q=3 at n=2

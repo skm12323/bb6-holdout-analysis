@@ -1,0 +1,3 @@
+TaskC: starts=5120  symbolic-runs(incl. concrete parallels)=15360  failures=0
+TaskC: PASS -- 0 failures over all 5120 canonical starts (kap=-1, r0=1..5, rho=0..255, 4 tail patterns)
+TaskC stats: {'runs': 15360, 'final': 0, 'deep': 15360, 'macro': 331431, 'chain': 747741, 'glue': 912726, 'coinc': 913158, 'nest_spurious': 909702, 'top_spurious': 3456, 'deepest_sp': 8, 'ell_max': 263}

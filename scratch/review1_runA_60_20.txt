@@ -1,0 +1,9 @@
+check1 OK: compositional F(v) (no halt, verified conclusion) for v = 1..60 [0.0s]
+check2 OK: ell(v) equals direct symbolic full-run ell for v <= 20
+check3 OK: concrete orbits (w=1,3,5) match ell(v) and never halt, v <= 20
+check4 OK: a(s)<=1, min margin v2(H)-v2(d+3)=3, Delta in {0,odd<0}, windows clean+J (calls=468, spmax=6, coincidental suffix matches=0)
+check5 OK: 16896 end-phase template runs (all residues mod 2^8, r0=1..5, 11 tail patterns, glue starts), 0 failures; deep branches hand off within family
+check5b OK: 28160 lineage template runs (kap generators -1 and -2 mod 2^{K-1}), 0 failures, 0 new residue classes
+check6 OK: initial prefix: 9 steps, identical decisions for r0 in (30, 40, 50), reaches H = 2^11-multiple with J/tail in family
+ell table (1..40): [1, 1, 2, 2, 5, 4, 4, 6, 7, 8, 8, 10, 10, 15, 12, 12, 14, 15, 15, 16, 16, 18, 18, 21, 20, 20, 22, 25, 25, 26, 26, 29, 28, 28, 30, 31, 31, 32, 32, 34]
+max ell(v)/v = 1.0714285714285714

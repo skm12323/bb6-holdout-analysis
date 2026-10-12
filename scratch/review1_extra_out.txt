@@ -1,0 +1,4 @@
+extra1 K=10 (sampled 60/1024 rho residues, r0=1..5, 11 tails + glue): runs=3960 fails=0 [0s]
+extra2a r0=6..8 canonical K=8 full: runs=8448 fails=0 [1s]
+extra2b r0=6..8 lineage K=8 full (both kap generators): runs=16896 fails=0 new residue classes=[]
+extra2 total runs = 25344 (PROOF.md claims 25344)

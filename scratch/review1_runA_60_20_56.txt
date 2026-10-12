@@ -1,0 +1,3 @@
+check5 OK: 16896 end-phase template runs (all residues mod 2^8, r0=1..5, 11 tail patterns, glue starts), 0 failures; deep branches hand off within family
+check5b OK: 28160 lineage template runs (kap generators -1 and -2 mod 2^{K-1}), 0 failures, 0 new residue classes
+check6 OK: initial prefix: 9 steps, identical decisions for r0 in (30, 40, 50), reaches H = 2^11-multiple with J/tail in family

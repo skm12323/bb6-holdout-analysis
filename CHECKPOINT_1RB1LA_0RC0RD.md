@@ -195,3 +195,20 @@ defects 1–2 for U ∈ {3, 5, 1001, 2^61−1}.
 Consequence: the reduction "everything ⇔ (M) on one integer orbit" is NOT yet valid as
 written. G6 is repairing Theorem R (D:\math_cc_g6, §5). **#1 status: non-halting
 UNPROVED; the conditional theorem itself is under repair.**
+
+## Repaired Theorem R (work_g6/PROOF_G6.md §5) — ACCEPTED as a CONDITIONAL theorem (2026-10-13)
+- Stage 3: adversary (Claude) `1. closed in all states`; blind auditor 1 (Claude, own R1–R5
+  implementation, 9 values of U incl. 2^61−1 and 200-bit, full base i ≤ 20000, analytic proof
+  of the margin inequality) `1. all correct`; auditor 2 (GPT Astra, `reviews/astra_theoremR_repair_review.md`)
+  `1. all correct` — its own defects D1–D5 FIXED, D6 PARTIALLY FIXED (Return stays a hypothesis).
+- **Theorem (audited, conditional).** Formal pair map F (values c·U+λ; defined under (S1)
+  v2(λ_x)<v2(c_x), (S2) c_A even) simulates the universal walk exactly for every odd U;
+  Σc=2^i, Σλ=3s+1; level fires are clean and satisfy I(ρ): x=3·2^ρ·U+6k_ρ+4, k_ρ=s/2 —
+  universality PROVED. Base: F defined at all states i ≤ 20000 (symbolic, every odd U).
+  If (M1′) v2(c) ≥ i−⌊log2 i⌋² and (M2′) s ≤ i² hold at every F-state with i > 20000, then
+  F is defined forever, the universal walk never halts, the pointer progresses, k_ρ ≤ ρ²/2.
+- **Scope (do not misread):** this is about the idealized universal walk. It does NOT by itself
+  prove the TM never halts: real excursions equal F only until the defect at v−1 is read;
+  Return (another level fire / canonical re-entry) and the endgame remain open.
+- **#1 STATUS: non-halting UNPROVED.** Open obligations: (M1′), (M2′) for i > 20000; Return;
+  endgame audit. Data (C): max deficit 16 vs allowance 144; s/i² ≤ 0.25.

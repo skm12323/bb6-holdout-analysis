@@ -2,7 +2,7 @@
 
 **Claim.** The machine never halts.
 
-**Status: CLAIMED — coordinator-reviewed, pending blind audit.** The proof route
+**Status (2026-10-13): CLAIMED, NOT PROVED.** The all-j induction step is false as written (G6 gap, confirmed); the proposed repair via margin inequality (M) itself has open defects (GPT Astra review). Governing status: CHECKPOINT_1RB1LA_0RC0RD.md (last sections). The text below is the original claim record. The proof route
 (agent B's closed-form/universal-replay route, scratch/agentB_closedform.md) survived
 six adversarial probes, the coordinator's code audit of its verification engines, and
 two independent cross-route reconciliations (compositional frames; 2-adic fire table).

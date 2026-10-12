@@ -177,3 +177,21 @@ ranges verified (j <= 20000, rho/walker index <= 4·10^5, v <= 6500, w extreme);
 all-v step requires (M) or an equivalent control of the exit-inside-exit depth.
 The R9 theorem package remains as the claim record with this CHECKPOINT entry as the
 governing status.
+
+## External review of G6's reformulation by GPT Astra (2026-10-13) — "2. with fixable gaps"
+Reviewer: GPT Astra (gpt-6-astra via Codex CLI, read-only sandbox); full text archived at
+`reviews/astra_theoremR_review.md`. Coordinator (Claude Opus 5.5) numerically confirmed
+defects 1–2 for U ∈ {3, 5, 1001, 2^61−1}.
+1. (M) as literally stated fails at the first chain: x = 48U+10, v2(c_x) = 4 < log2 17.
+   The chain is safe (v2(λ_x) = 1). Repair: verified finite prefix, then (M).
+2. **The small parts do NOT follow the ordinary top map** (critical): the second fire has
+   x = 384U+16 (real chain u = 24U+1, safe) but λ_x = 16 is a power of 2, so the plain
+   top map on λ would HALT. A formal tagged λ-update is required.
+3. Full simulation invariant (integrality, parity, stack length) unstated.
+4. Crossing classification omits an original-entry partner.
+5. §4.5 "iff" is false (algebraic counterexample); only "unequal valuations ⇒ margin" holds.
+6. Progress does not imply clean re-entry; a Return Lemma is needed. dk ≥ 1, dp ≥ 2,
+   k_ρ = s_ρ/2 are conditional on it.
+Consequence: the reduction "everything ⇔ (M) on one integer orbit" is NOT yet valid as
+written. G6 is repairing Theorem R (D:\math_cc_g6, §5). **#1 status: non-halting
+UNPROVED; the conditional theorem itself is under repair.**

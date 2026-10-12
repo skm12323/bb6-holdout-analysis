@@ -2,7 +2,7 @@
 
 Source list: bbchallenge BB(6) holdouts, 2026-09-24 (815 classes), stored as `data/BB6_holdouts_815.txt`. Triage scan of all 815 machines at 10^6 steps: `triage2/scan.txt` (no halts).
 
-Every result below went through a three-way review: one adversary and two blind auditors. A statement is "audited" only if it passed that review.
+A statement is marked "audited" only if it passed a three-way review (one adversary, two blind auditors). Claims not so marked are unaudited or under repair.
 
 ## Results by machine
 
@@ -10,7 +10,7 @@ Every result below went through a three-way review: one adversary and two blind 
 |---|---|---|---|
 | `1RB1LC_1RC1LB_1LD0RB_0LE1RD_---0LF_0LA1LF` | none (paths fuse-reset) | undecided | — |
 | `1RB0LE_0RC1RB_1LC1RD_1RF0LA_0RD1LE_1RB---` | Reduction v2 (block-list map M, halt ⇔ orbit hits H); refined criterion: halt ⇔ some left-edge arrival has u0 ∈ {2^k−2} (Lemma W sweep map) | undecided | likely new; **3 siblings proved equivalent (work_u1, audited)** |
-| `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | Reduction to stack top-map; halt ⇔ some step with A odd and A+2b+3 = 2^k; ΣL_n = 3n+3; **no halt for top steps n < 2^2001 − 2** (audited); R8 (reviewed): compositional + template with sum-class separation; **R9 (2026-10-13): non-halting CLAIMED** — three-way review passed on all verified ranges, then an external gap analysis (G6, confirmed) showed the write-up's "finitely many exit types" induction step is false as stated (exit-inside-exit depth uncontrolled; j_D = 1+v2(3K+4) unbounded); G6's reformulation reduces the residual to one margin inequality (M), verified to index 4·10^5 via the universal-replay route (one universal (p,k) sequence, x = 3·2^ρ·U + 6k+4, u ≥ 9 at every chain every level; queue-determinism locality; ρ-induction; ell = 2k_b + e) — see CHECKPOINT (G6 section) for the governing status (work_r9/THEOREM.md, verify_r9.py) | **claimed (residual: margin inequality (M))** | covered in more depth by [CyclingCycloid/bb6-holdout-research](https://github.com/CyclingCycloid/bb6-holdout-research) (as "M1"); community sheet lists it as "Cubic Mess", no notes |
+| `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | Reduction to stack top-map; halt ⇔ some step with A odd and A+2b+3 = 2^k; ΣL_n = 3n+3; **no halt for top steps n < 2^2001 − 2** (audited); R8 (reviewed): compositional + template with sum-class separation; **R9 (2026-10-13): non-halting CLAIMED** — three-way review passed on all verified ranges, then an external gap analysis (G6, confirmed) showed the write-up's "finitely many exit types" induction step is false as stated (exit-inside-exit depth uncontrolled; j_D = 1+v2(3K+4) unbounded); G6's reformulation reduces the residual to one margin inequality (M), verified to index 4·10^5 via the universal-replay route (one universal (p,k) sequence, x = 3·2^ρ·U + 6k+4, u ≥ 9 at every chain every level; queue-determinism locality; ρ-induction; ell = 2k_b + e) — see CHECKPOINT (G6 section) for the governing status (work_r9/THEOREM.md, verify_r9.py) | **non-halting UNPROVED** (claim under repair: GPT Astra found defects in the (M) reformulation — λ does not follow the plain top map; (M) fails at the first chain; Return Lemma missing) | covered in more depth by [CyclingCycloid/bb6-holdout-research](https://github.com/CyclingCycloid/bb6-holdout-research) (as "M1"); community sheet lists it as "Cubic Mess", no notes |
 | `1RB1RA_1LC0RC_---0LD_0LE0RF_1RE0RA_0LF1LB` | Phase system + Σ stack machine; Theorem H (halt ⇔ an empty-stack state (p,1;∅) satisfying the stated condition) | undecided | equivalent reduction exists (Racheline, Discord 2024); also treated as "cm2" in CyclingCycloid/bb6-holdout-research |
 | `1RB1LE_1LB1LC_1RD0LE_---0RB_1RF1LA_0RA0RD` | 11-row rule table; halt ⇔ orbit visits (0;10,…) | undecided | already covered (Polygon R1–R14; simulated to 10^190,000) |
 
@@ -44,4 +44,4 @@ Notes:
 ## Related work & attribution
 This campaign was suggested by the author of [CyclingCycloid/bb6-holdout-research](https://github.com/CyclingCycloid/bb6-holdout-research). That repository covers #1 (M1) and #2 (cm2) in greater depth and, per its author, includes the equivalence proof. The results here were derived independently and claim no priority; where they overlap, defer to that repository.
 
-All work in this repository was carried out by Claude Opus 5.5 (Anthropic), acting as coordinator of sub-agents via Claude Code under the user's direction.
+Contributors, under the user's direction: **Claude Opus 5.5** (Anthropic; coordinator for all work except R8/R9, plus the G6 gap analysis and repository curation), **GLM 5.3** (coordinator for #1 attempts R8 and R9), **GPT Astra** (OpenAI, via Codex CLI; external review of Theorem R, `reviews/astra_theoremR_review.md`).

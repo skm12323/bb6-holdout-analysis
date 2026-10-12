@@ -109,3 +109,39 @@ Non-halting ⇔ A+2b+3 is never a power of 2 at an odd-A top step. Path R4 (indu
 - Global status: **NON-HALTING CLAIMED** [Class-A route with machine anchors; audit
   incomplete]. If the blind audit confirms, #1 closes as PROVABLY NON-HALTING and the
   R4 finite-range theorem is superseded.
+
+## FINAL AUDIT of R9 — ALL THREE REVIEWERS PASS (2026-10-13)
+- **Blind auditor 1** (scratch/blind1_report.md; from-scratch re-implementation, no access
+  to the artifact's code): C1 step closed form (10^5 orbit steps vs the literal loop,
+  0 mismatches), C2 universal sequence (18 runs w ∈ {1,3,5,7,2^31−1,10^12+1} ×
+  v ∈ {300,1000,2000}: 6276 events + E(·,20000): 6371 events, ALL levels, 0 mismatches),
+  C3 per-J table + class verifier (j = 1..30, 0 refusals/splits), C4 ell formula
+  (v ≤ 3000, e ∈ [1,12]). **"all correct"**; one artifact finding: two transposed entries
+  in the §3 j-row (p/k rows and the transition table are correct).
+- **Blind auditor 2** (scratch/blind2_report.md; from-scratch, cross-validated against a
+  fresh R1–R5 macro implementation): S1 queue-determinism (10^4 pairs, 0 mismatches) +
+  spike prefix universality (divergence exactly at the defect D, as claimed), S2 non-run
+  fire census (2,006 excursions: run 640,108 / seam 32,037 / tail 607 / zero 2,006;
+  min u = 3 at the analytic zero-fire, run min 73; affine x = α·w+γ with v₂(γ) < v₂(α)
+  at 670,412 fires, 0 violations; ⇒ u ≥ 3 for all odd w, spot-verified to w = 31),
+  S3 universal invariant + decrease (j < ρ EVERYWHERE, k ≤ 0.4465ρ, nested sequences are
+  universal prefixes, tables match), S4 assembly (fire families complete; margin
+  arithmetic exact; nested decrease 0 violations). **No mathematical error found.**
+- **Final adversary** (scratch/final_adversary_report.md): **STANDS WITH GAPS — no
+  mathematical or implementation hole**: 6372/6372 exact replication, fire-for-fire
+  identity with the symbolic walker, 5.44M top-level fires v ≤ 6000 zero failures,
+  occurring-j = {1..13}(+14 at v ≥ 6132), chain census clean, dp ≥ 2 evidence extended
+  to j = 30000, ρ-induction well-founded non-circular. Findings: F1 (nesting depth ≥ 3
+  never occurs on-orbit below v ≈ 6·10^7; covered by L0-justified synthetic hops —
+  222/222 — and the per-J verifier at j ≥ 28), margin-900 inert (required −3), plus
+  the documentation errata also found by the auditors.
+- **Verdict: the R9 non-halting theorem is AUDITED** (one adversary + two blind
+  auditors, all re-implementing independently; AI-agent review, not peer review —
+  per this repository's standing caveat). Residual documentation errata to fix in
+  agentB_closedform.md: §3 j-row typos; mod-3 superset overstatement; e ≤ 16;
+  "sum forces progress" → pointer monotonicity; margin wording.
+- **#1 GLOBAL STATUS: PROVABLY NON-HALTING (audited).** The machine
+  `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` never halts. R4's finite-range theorem
+  is superseded. Five prior attempts (R4–R8) are archived with their roles in the
+  final assembly (R4: base certificates; R8: compositional cross-route + sum-class
+  separation; R5–R7: the residual analyses that guided the route).

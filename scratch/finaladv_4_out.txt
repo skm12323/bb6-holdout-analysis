@@ -1,0 +1,21 @@
+=== (4) j=14 boundary spot check ===
+  E(1,6132): ell=5473, j-set max=14
+  E(1,6133): ell=5477, j-set max=14
+  E(1,6134): ell=5476, j-set max=14
+  E(1,6135): ell=5476, j-set max=14
+  E(1,6500): ell=5800, j-set max=14
+=== (1) verifier extension to large j ===
+  j=28      OK dk=13 dp=3 leaves=1 (0.0s) dp>=2,dk>=1 OK
+  j=60      OK dk=26 dp=4 leaves=1 (0.0s) dp>=2,dk>=1 OK
+  j=200     OK dk=88 dp=2 leaves=1 (0.0s) dp>=2,dk>=1 OK
+  j=500     OK dk=223 dp=4 leaves=1 (0.0s) dp>=2,dk>=1 OK
+  j=1200    OK dk=536 dp=3 leaves=1 (0.2s) dp>=2,dk>=1 OK
+  j=5000    OK dk=2230 dp=4 leaves=1 (3.6s) dp>=2,dk>=1 OK
+  j=20000   OK dk=8922 dp=6 leaves=1 (127.6s) dp>=2,dk>=1 OK
+  j=30000   OK dk=13384 dp=5 leaves=1 (376.0s) dp>=2,dk>=1 OK
+  (global time guard before j=50000)
+=== (2)+(3) vanishing-member + p-sensitivity scan, j=1..JMAX ===
+  scanned j=1..1; v2_val calls=0
+  P-SIDE (ctx.p-dependent) v2 returns: 0
+  vanishing class members found: 0 
+elapsed 507.4s

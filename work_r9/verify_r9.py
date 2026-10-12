@@ -95,17 +95,31 @@ if __name__ == '__main__':
         assert ells[v] <= 2 * v
     print('checkD OK: ell(v) <= 2s for v=1..%d (max ratio %.4f); formula e in [0,%d], violations %d'
           % (V, max(ells[v] / v for v in range(10, V + 1)), emax, badf))
-    # checkE: fire positions on the universal sequence (w=1 and w=3, v <= min(V,800))
+    # checkE: host-level universality: every canonical fire's position rho lies on the
+    # universal sequence and x = 3*2^rho*(3w) + 6*k_rho + 4 with j = 1+v2(3k_rho+2).
     badE = 0; totE = 0
     for w in (1, 3):
-        for v in range(50, min(V, 800) + 1, 50):
+        for v in range(20, min(V, 800) + 1, 7):
             L = [3 * w + 1] + [3 * w << i for i in range(v - 1)] + [(3 * w << (v - 1)) - 1]
             t = 0
             while len(L) > 1:
-                if len(L) >= 3 and L[2] == 2 * L[1] and L[0] % 2 == 1 and L[1] % 3 == 0:
-                    totE += 1
+                if len(L) >= 3 and L[2] == 2 * L[1] and L[0] % 2 == 1 and L[1] % (3 * w) == 0:
+                    U = L[1] // (3 * w)
+                    if U & (U - 1) == 0 and U > 0:      # top-level canonical: H = 3w*2^rho
+                        rho = U.bit_length() - 1
+                        A = L[0]; b = L[1]
+                        x = A + 2 * b + 3
+                        if rho in kpos:
+                            kexp = kpos[rho]
+                            if x != 3 * (3 * w << rho) + 6 * kexp + 4:
+                                badE += 1
+                            totE += 1
+                        else:
+                            badE += 1      # fire at a non-universal position
                 L = top(L); t += 1
-    print('checkE (light): %d host fires scanned, structure consistent (full check in scratch/agentG2)' % totE)
+    assert badE == 0, badE
+    print('checkE OK: %d host-level canonical fires (w=1,3, v<=800): every position on the '
+          'universal sequence and x = 3*2^rho*3w + 6k_rho + 4 exactly' % totE)
     # checkC: per-J verifier
     okJ = 0
     for j in range(1, JV + 1):

@@ -1,0 +1,10 @@
+=== (2)+(3) vanishing-member + p-sensitivity scan, j=1..JMAX ===
+  scanned j<=100 (0s), vanish-members=0, p-side returns=0
+  scanned j<=200 (1s), vanish-members=0, p-side returns=0
+  scanned j<=300 (3s), vanish-members=0, p-side returns=0
+  scanned j=1..399; v2_val calls=26067
+  P-SIDE (ctx.p-dependent) v2 returns: 0
+  required min true p per j (max over calls): worst j=399 needs p > 396
+  j<=60 required-p entries (<=60): {5: 4, 6: 3, 7: 4, 8: 5, 9: 6, 10: 7, 11: 8, 12: 9, 13: 10, 14: 11, 15: 12, 16: 13, 17: 14, 18: 15, 19: 16, 20: 17, 21: 18, 22: 19, 23: 20, 24: 21}
+  vanishing class members found: 0 
+elapsed 5.6s

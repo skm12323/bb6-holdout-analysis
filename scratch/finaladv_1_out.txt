@@ -1,0 +1,81 @@
+=== A. kpos from pure U=1 integer walk (independent) ===
+walk steps=17931 fires=6724 kpos positions=6087 max=20099
+kpos consecutive-gaps vs REPORT table (j<=20): ALL MATCH
+=== B. labeled U=3 infinite walk to maxpos 20000 (replication of run15) ===
+steps=17841 fires=6690 stats={'INV-OK': 6372, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 318}
+run15 headline was: 6372 run-chain events, 0 failures, max j 14
+=== C. cross-check vs agentB symbolic mu-Walker (event streams) ===
+agentB walker steps=17841 fires=6690; my fires=6690; full (rho|None,j) streams EQUAL=True
+my walk: max j over all fires=14 (run15 reported 14)
+=== D. labeled excursions (angle 4 classification + safety) ===
+E(1,600): ell=532 result=singleton
+   b-classes H/m/d/T/Z: {'H': 181, 'm': 9, 'd': 9, 'T': 0, 'Z': 0} invariant: {'INV-OK': 190, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 9} min u: 73
+   mixed-lineage run fires: 0, of which INV-OK: 0
+   top-level spikes: 16, j-set [5, 6, 7, 8, 10], margin(p-J) min=20 all-small=[20, 58, 91, 129, 164, 202]
+   max j over ALL fires: 10 (b-label ('H', 388), depth 1)
+E(1,3000): ell=2672 result=singleton
+   b-classes H/m/d/T/Z: {'H': 906, 'm': 47, 'd': 48, 'T': 0, 'Z': 0} invariant: {'INV-OK': 953, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 48} min u: 73
+   mixed-lineage run fires: 0, of which INV-OK: 0
+   top-level spikes: 83, j-set [5, 6, 7, 8, 9, 10, 12], margin(p-J) min=20 all-small=[20, 58, 91, 129, 164, 202]
+   max j over ALL fires: 12 (b-label ('H', 1537), depth 1)
+E(1,5000): ell=4458 result=singleton
+   b-classes H/m/d/T/Z: {'H': 1513, 'm': 79, 'd': 79, 'T': 0, 'Z': 0} invariant: {'INV-OK': 1592, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 79} min u: 73
+   mixed-lineage run fires: 0, of which INV-OK: 0
+   top-level spikes: 139, j-set [5, 6, 7, 8, 9, 10, 11, 12], margin(p-J) min=20 all-small=[20, 58, 91, 129, 164, 202]
+   max j over ALL fires: 12 (b-label ('H', 1537), depth 1)
+E(3,300): ell=264 result=singleton
+   b-classes H/m/d/T/Z: {'H': 89, 'm': 4, 'd': 5, 'T': 0, 'Z': 0} invariant: {'INV-OK': 93, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 5} min u: 217
+   mixed-lineage run fires: 0, of which INV-OK: 0
+   top-level spikes: 8, j-set [5, 6, 7, 8], margin(p-J) min=20 all-small=[20, 58, 91, 129, 164, 202]
+   max j over ALL fires: 8 (b-label ('H', 99), depth 1)
+E(5,300): ell=264 result=singleton
+   b-classes H/m/d/T/Z: {'H': 89, 'm': 4, 'd': 5, 'T': 0, 'Z': 0} invariant: {'INV-OK': 93, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 5} min u: 361
+   mixed-lineage run fires: 0, of which INV-OK: 0
+   top-level spikes: 8, j-set [5, 6, 7, 8], margin(p-J) min=20 all-small=[20, 58, 91, 129, 164, 202]
+   max j over ALL fires: 8 (b-label ('H', 99), depth 1)
+=== E. deep nesting (angle 1 core ask) ===
+E1. deepest real spike in E(1,5000): j=12 at ('H', 1537)
+    spike u has 1529 bits (u=603979776 ...)
+    nested fires in its replay: 2, at sub-positions [4, 7]
+  [real depth-2 fire] bl=('m', 512, 4) rho=4
+    A=169475092517885103884539448861365...223358746961694388383147211358231(462 digits)
+    b=169475092517885103884539448861365...223358746961694388383147211358224(462 digits)
+    c=338950185035770207769078897722731...446717493923388776766294422716448(462 digits)
+    x = A+2b+3 = 508425277553655311653618346584097...670076240885083165149441634074682(462 digits)
+    U has 1529 bits; 3*2^4*U + 6*k_rho+4 (k_rho=1) = 508425277553655311653618346584097...670076240885083165149441634074682(462 digits)
+    x==expected: True   j=1 (jpos[rho]=1)  u>3: True
+  [real depth-2 fire] bl=('m', 512, 7) rho=7
+    A=135580074014308083107631559089092...786869975693555107065177690865805(463 digits)
+    b=135580074014308083107631559089092...786869975693555107065177690865792(463 digits)
+    c=271160148028616166215263118178185...573739951387110214130355381731584(463 digits)
+    x = A+2b+3 = 406740222042924249322894677267278...360609927080665321195533072597392(463 digits)
+    U has 1529 bits; 3*2^7*U + 6*k_rho+4 (k_rho=2) = 406740222042924249322894677267278...360609927080665321195533072597392(463 digits)
+    x==expected: True   j=4 (jpos[rho]=4)  u>3: True
+  [exit-window fire] bl=('d', 512) rho=None
+    A=216928118422892932972210494542548...589919611096881713042843053852697(464 digits)
+    b=361546864038154888287017490904247...649866018494802855071405089753087(464 digits)
+    c=578474982461047821259227985446795...239785629591684568114248143601664(464 digits)
+    x = A+2b+3 = 940021846499202709546245476351042...889651648086487423185653233358874(464 digits)
+    (non-run/off-position fire) j=1 u>3: True
+  [exit-window fire] bl=('H', 1543) rho=1543
+    A=925559971937676514014764776714872...836570073466953089827970297630753(465 digits)
+    b=925559971937676514014764776714872...836570073466953089827970297626624(465 digits)
+    c=185111994387535302802952955342974...673140146933906179655940595253248(466 digits)
+    x = A+2b+3 = 277667991581302954204429433014461...509710220400859269483910892884004(466 digits)
+    U has 2 bits; 3*2^1543*U + 6*k_rho+4 (k_rho=688) = 277667991581302954204429433014461...509710220400859269483910892884004(466 digits)
+    x==expected: True   j=2 (jpos[rho]=2)  u>3: True
+  [exit-window fire] bl=('H', 1545) rho=1545
+    A=370223988775070605605905910685949...346280293867812359311881190510631(466 digits)
+    b=370223988775070605605905910685949...346280293867812359311881190506496(466 digits)
+    c=740447977550141211211811821371898...692560587735624718623762381012992(466 digits)
+    x = A+2b+3 = 111067196632521181681771773205784...038840881603437077935643571523626(467 digits)
+    U has 2 bits; 3*2^1545*U + 6*k_rho+4 (k_rho=689) = 111067196632521181681771773205784...038840881603437077935643571523626(467 digits)
+    x==expected: True   j=1 (jpos[rho]=1)  u>3: True
+E2. synthetic nesting hops (walk with base U = u of a spike = replay prefix of any spike with that u and j>=702):
+  hop 1: U 1529 bits; total fires 233; fires by depth [(0, 11), (1, 211), (2, 11)]; {'INV-OK': 222, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 11}
+    hop 2 -> 2 from host spike at ('H', 26) (j=6)
+  hop 2: U 1550 bits; total fires 233; fires by depth [(0, 11), (1, 211), (2, 11)]; {'INV-OK': 222, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 11}
+    hop 3 -> 3 from host spike at ('H', 26) (j=6)
+  hop 3: U 1572 bits; total fires 233; fires by depth [(0, 11), (1, 211), (2, 11)]; {'INV-OK': 222, 'INV-FAIL': 0, 'LOWPOS': 0, 'OFFPOS': 0, 'NONRUN': 11}
+    hop 4 -> 4 from host spike at ('H', 26) (j=6)
+elapsed 28.6s

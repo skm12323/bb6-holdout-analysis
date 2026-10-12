@@ -1,0 +1,16 @@
+kpos built: 6087 positions to 20099
+U=1-walk gaps vs REPORT_TABLE (j<=20): ALL MATCH
+  v=1000 (0s) form_bad=0
+  v=2000 (1s) form_bad=0
+  v=3000 (3s) form_bad=0
+  v=4000 (6s) form_bad=0
+  v=5000 (10s) form_bad=0
+  v=6000 (16s) form_bad=0
+excursions v=1..6000: ALL SINGLETON, no halt; max ell=5349
+occurring j set over ALL fires (all levels): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+top-level form failures vs independent kpos: 0 []
+ell > 2*k_b+16 violations: 0 []; max ell/v = 0.9128
+w=3: v<=400 ALL SINGLETON; top-level form failures: 0 []
+w=5: v<=400 ALL SINGLETON; top-level form failures: 0 []
+w=7: v<=400 ALL SINGLETON; top-level form failures: 0 []
+elapsed 16.8s

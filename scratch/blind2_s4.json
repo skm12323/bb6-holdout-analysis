@@ -1,0 +1,55 @@
+{
+ "spike_class_bad": 0,
+ "spike_identity_bad": 0,
+ "spike_kbound_bad": 0,
+ "maxj_rho32": [
+  12,
+  [
+   1537,
+   682
+  ]
+ ],
+ "log_bad": 0,
+ "nested_spikes": 0,
+ "n_spikes": 55703,
+ "max_spike": [
+  12,
+  1537,
+  682,
+  1539,
+  1,
+  0
+ ],
+ "min_u_by_role": {
+  "zero": 3,
+  "tail": 19,
+  "run": 73,
+  "seam": 30749
+ },
+ "role_max_j": {
+  "zero": 4000,
+  "tail": 11,
+  "run": 12,
+  "seam": 4
+ },
+ "uni_rho_count": 1210,
+ "uni_viol": 0,
+ "viol_counts": {
+  "viol_j_ge_rho": 0,
+  "viol_k_bound": 0,
+  "viol_j_bound": 0,
+  "viol_nested": 0,
+  "viol_c_role": 0,
+  "viol_rho_lt4": 0,
+  "viol_k_int": 0,
+  "viol_j_formula": 0
+ },
+ "halts": 0,
+ "total_fires": 674758,
+ "role_counts": {
+  "zero": 2006,
+  "tail": 607,
+  "run": 640108,
+  "seam": 32037
+ }
+}

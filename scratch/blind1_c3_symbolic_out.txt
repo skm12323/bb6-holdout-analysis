@@ -1,0 +1,32 @@
+j= 1 SYMBOLIC-PROVED dk=1 dp=3  (69 rhos, 0 refusals) matches-empirical=True
+j= 2 SYMBOLIC-PROVED dk=1 dp=2  (69 rhos, 0 refusals) matches-empirical=True
+j= 3 SYMBOLIC-PROVED dk=2 dp=5  (73 rhos, 0 refusals) matches-empirical=True
+j= 4 SYMBOLIC-PROVED dk=2 dp=4  (73 rhos, 0 refusals) matches-empirical=True
+j= 5 SYMBOLIC-PROVED dk=3 dp=4  (77 rhos, 0 refusals) matches-empirical=True
+j= 6 SYMBOLIC-PROVED dk=3 dp=5  (77 rhos, 0 refusals) matches-empirical=True
+j= 7 SYMBOLIC-PROVED dk=3 dp=4  (77 rhos, 0 refusals) matches-empirical=True
+j= 8 SYMBOLIC-PROVED dk=4 dp=6  (81 rhos, 0 refusals) matches-empirical=True
+j= 9 SYMBOLIC-PROVED dk=4 dp=2  (81 rhos, 0 refusals) matches-empirical=True
+j=10 SYMBOLIC-PROVED dk=5 dp=5  (85 rhos, 0 refusals) matches-empirical=True
+j=11 SYMBOLIC-PROVED dk=5 dp=4  (85 rhos, 0 refusals) matches-empirical=True
+j=12 SYMBOLIC-PROVED dk=6 dp=6  (89 rhos, 0 refusals) matches-empirical=True
+j=13 SYMBOLIC-PROVED dk=6 dp=4  (89 rhos, 0 refusals) matches-empirical=True
+j=14 SYMBOLIC-PROVED dk=8 dp=5  (97 rhos, 0 refusals) matches-empirical=True
+j=15 SYMBOLIC-PROVED dk=7 dp=5  (93 rhos, 0 refusals) matches-empirical=True
+j=16 SYMBOLIC-PROVED dk=7 dp=4  (93 rhos, 0 refusals) matches-empirical=True
+j=17 SYMBOLIC-PROVED dk=8 dp=6  (97 rhos, 0 refusals) matches-empirical=True
+j=18 SYMBOLIC-PROVED dk=8 dp=3  (97 rhos, 0 refusals) matches-empirical=True
+j=19 SYMBOLIC-PROVED dk=8 dp=2  (97 rhos, 0 refusals) matches-empirical=True
+j=20 SYMBOLIC-PROVED dk=9 dp=5  (101 rhos, 0 refusals) matches-empirical=True
+j=21 SYMBOLIC-PROVED dk=9 dp=4  (101 rhos, 0 refusals) matches-empirical=True
+j=22 SYMBOLIC-PROVED dk=10 dp=6  (105 rhos, 0 refusals) matches-empirical=True
+j=23 SYMBOLIC-PROVED dk=10 dp=4  (105 rhos, 0 refusals) matches-empirical=True
+j=24 SYMBOLIC-PROVED dk=11 dp=4  (109 rhos, 0 refusals) matches-empirical=True
+j=25 SYMBOLIC-PROVED dk=11 dp=5  (109 rhos, 0 refusals) matches-empirical=True
+j=26 SYMBOLIC-PROVED dk=11 dp=4  (109 rhos, 0 refusals) matches-empirical=True
+j=27 SYMBOLIC-PROVED dk=12 dp=6  (113 rhos, 0 refusals) matches-empirical=True
+j=28 SYMBOLIC-PROVED dk=13 dp=3  (117 rhos, 0 refusals) matches-empirical=True
+j=29 SYMBOLIC-PROVED dk=13 dp=2  (117 rhos, 0 refusals) matches-empirical=True
+j=30 SYMBOLIC-PROVED dk=14 dp=5  (121 rhos, 0 refusals) matches-empirical=True
+ALL SYMBOLIC OK: True
+global max v2-decision depth=6, max total divisions=30, min margin (min_v2U - max_depth) = -5

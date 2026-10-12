@@ -1,0 +1,25 @@
+=== (a) margin census on E(1,5000) ===
+spike hosts: 139; margins p-J: min=20, small ones=[20, 58, 91, 129, 164, 202, 236, 274], max=4971
+hosts with margin in {12,20,50}: [(26, 6, 20)]
+deepest top spike: p=1537 J=12 margin=1525
+=== (b) MARGIN-patch equivalence of agentB walker ===
+  MARGIN=50   vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=20   vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=12   vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=8    vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=4    vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=2    vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=1    vs 900 to N=4000: identical=True (1337 fires)
+  MARGIN=1 vs 900 to N=20000: identical=True (17841 steps, 6690 fires)
+=== (c)+(d) vanishing-mu scan + required margin, N=20000 ===
+v2_val calls=6690; M-only (margin-SENSITIVE) calls=0
+required margin (max s - v2(cM) over calls): -3  (walker sound for all true margins > -3)
+no vanishing admissible mu0 in any v2_val input: generic decisions valid for every host mu in range
+=== (e) concrete transfer at smallest-margin hosts ===
+  margin  20 host (p=26, J=6): sub-fires concrete at [4], walk at [4]; x/j EQUAL=True
+    resumption: dp=5 dk=3  (report table for j=6: (3, 5))
+  margin  58 host (p=63, J=5): sub-fires concrete at [], walk at []; x/j EQUAL=True
+    resumption: dp=4 dk=3  (report table for j=5: (3, 4))
+  margin  91 host (p=99, J=8): sub-fires concrete at [4], walk at [4]; x/j EQUAL=True
+    resumption: dp=6 dk=4  (report table for j=8: (4, 6))
+elapsed 133.5s

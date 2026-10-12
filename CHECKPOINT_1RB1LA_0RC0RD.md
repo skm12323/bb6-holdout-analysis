@@ -145,3 +145,35 @@ Non-halting ⇔ A+2b+3 is never a power of 2 at an odd-A top step. Path R4 (indu
   is superseded. Five prior attempts (R4–R8) are archived with their roles in the
   final assembly (R4: base certificates; R8: compositional cross-route + sum-class
   separation; R5–R7: the residual analyses that guided the route).
+
+## G6 GAP ANALYSIS (external, 2026-10-13) — CONFIRMED; R9 status downgraded
+An external review (D:\math_cc_g6\PROOF_G6.md, read-only; its verifier re-run here, all
+checks pass) identified a real gap in the R9 write-up's rho-induction, independently
+CONFIRMED by the coordinator:
+- **The "finitely many interlude/exit types" step is false as stated.** Exit chains
+  reading the host D have parameter j_D = 1+v2(3K+4) — measured up to 11 (m < 3000;
+  coordinator's own run: 755 D-fires, max j_D = 11 at m = 770), unbounded along the
+  class — and each spawns a nested cascade with a NON-STANDARD tail. Exit-inside-exit
+  depth keeps generating new scale shapes (denominators 8, 32, 128, ...; first new
+  shape at level index n = 6134, from the j = 14 spike at rho = 6130 whose chain trace
+  is [(R,4)j=1,(R,7)j=4,(R,11)j=2,(D)j=5,(d)j=1] — re-derived here independently).
+  This is the same event region as the ell anomaly e = 13..16 at v = 6132–6135.
+- The per-J verifier does NOT verify by type enumeration (it runs the full interlude
+  symbolically, covering nested exits), so the verified range (j <= 20000,
+  index <= 4·10^5) is sound; what fails is the write-up's argument that the induction
+  closes for ALL j. The final adversary had flagged exactly this residual ("verifier
+  totality for all j; k <= rho^3 asserted not derived") — the coordinator under-weighted
+  it when recording the audit as passed. Corrected here.
+- **G6's positive contributions** [Class-A]: Prop 1 (s = 2·dk, dp >= 2, ell = 2·k_rho
+  from the sum lemma); Prop 2 (dk = K + e/2 decomposition); Prop 3 (the D-fire formula
+  j_D = 1+v2(3K+4), x_D = (39/2)P + 9k + 6K + 14); Prop 4 (k_rho <= rho^2 conditional);
+  and the §4.3–4.6 REFORMULATION: margin-safety (v2(lambda_x) < v2(c_x) => u >= 2U+1,
+  no halt, decisions U-independent) reduces everything to ONE margin inequality
+  (M) v2(c_x) > log2(6s+5) on the single parameter-free universal walk — verified
+  symbolically to index 4·10^5 (deficit <= 14, s ~ 0.9i), NOT proved for all i
+  (equivalently: (M1) deficit <= C·log i, (M2) s <= i^C).
+**REVISED STATUS: #1 = CLAIMED NON-HALTING with a precise residual.** All finite
+ranges verified (j <= 20000, rho/walker index <= 4·10^5, v <= 6500, w extreme); the
+all-v step requires (M) or an equivalent control of the exit-inside-exit depth.
+The R9 theorem package remains as the claim record with this CHECKPOINT entry as the
+governing status.

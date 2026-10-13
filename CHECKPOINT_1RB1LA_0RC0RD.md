@@ -256,3 +256,22 @@ UNPROVED; the conditional theorem itself is under repair.**
   s < (2^{T₁} − 4)/3, T₁ = 2^499998** (supersedes work_m's 2^{10^6} horizon).
 - **Open:** (NT) for J ≥ T₁ (sufficient for (EL) ⇒ Theorem M unconditional); then Return and the
   real-machine endgame. #1 non-halting remains UNPROVED.
+
+## (NT) attack, two independent routes (2026-10-13) — NOT closed; route assessed as likely dead
+- **Claude (work_nt/, unaudited):** Lemma C′ — an a-step ties iff θ̃ ≡ c_n = 2^{n−1}−3k_n (mod 2^n);
+  smallest |c_n|: c_4=5, c_7=58, then ≥1012. No θ-window is invariant (largest tie-free window [−1,4];
+  each b-step copy of a fire shifts θ̃ by −1, reaching −2 → (17,−2)→(5,5) ties). Residual (R):
+  (R5) j=5 ⇒ θ̃≢5 mod 16; (R8) j=8 ⇒ θ̃≢58 mod 128; (Rs) |θ̃|<1012.
+- **GPT Astra (reviews/astra_NT_research.md, unaudited):** ancestry potential L (fire leaves in the
+  unfolded copy tree), q=2θ̃−3 ⇒ |q| ≤ 2L−1; NT follows from (A3) "L ≤ 3 at every a-step input".
+  **Realized negative θ̃:** first J=28 fire at ρ=100296962 has exit (28,1)→b(6,0)→b(1,−1), so the
+  empirical invariant θ̃∈{0,1,2} is false for real F. **Conditional obstruction:** with
+  B(h)=1+v2(3k_{h−2}+2), B(244875)=B(538715)=B(832554)=17; any realized fire parameter J with
+  B³(J)=17 gives (J,1)→bbb→(17,−2)→a(5,5) and an NT failure. If fire parameters occur with
+  sufficient position correlation, **NT is FALSE** for real F at large J.
+- Note: an NT failure is an unresolved non-descent, NOT a halt — so this kills the (NT) route,
+  not non-halting itself.
+- **Assessment (coordinator):** both routes converge: (NT) is a statement about the fire spectrum
+  and position–parameter correlations of F at unbounded levels (Collatz-type), and may be false.
+  #1 FINAL STATUS: non-halting UNPROVED; audited: reduction, finite horizon s < (2^{T₁}−4)/3,
+  T₁ = 2^499998 (work_el), conditional theorems R and M.

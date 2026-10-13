@@ -1,0 +1,9 @@
+N1 real-walk transitions (kind,th_prev,th_next): [(('F', 1), 302879), (('a', 1, 2), 15822), (('a', 2, 1), 28), (('b', 1, 0), 7910)]
+N2 j<200000, |th|<=40: maximal tie-free window around 1 = [-1,4]
+   tie starts per th: [(-34, 2788), (-27, 8), (-26, 2788), (-18, 2788), (-11, 7), (-10, 2788), (-2, 2788), (5, 7), (6, 2788), (14, 2788), (21, 7), (22, 2788), (30, 2788), (37, 8), (38, 2788)]
+   tie location (n,k_n) counts: [((4, 1), 27917)]
+N3 j<20000,|th|<=300: tie starts by tie level n: [(4, 20963), (7, 284)]
+   n=4 ties violating (th=6 mod 8 or th=5 mod 16): 0;  n=7 ties: min |th| at start = 55
+N4 level 0 (J<10^6): max |th~| over exit chains = 3, max chains after fire = 2
+N5 smallest |c_n| over odd type-a 4<=n<10^6: [(5, 4, 5), (58, 7, 58), (1012, 11, 1012), (4081, 13, 4081), (32750, 16, 32750), (1048552, 21, 1048552)]
+   min over n>=8, n!=7: |c_n|=1012 at n=11

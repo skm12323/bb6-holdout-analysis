@@ -1,0 +1,83 @@
+# work_r10/ASSEMBLY.md — the complete conditional proof tree for #1's non-halting
+
+Notation: F = the formal pair map (work_g6 §5.1); the universal walk = F from (1,1;[],0);
+(M1′) Δ ≤ ⌊log₂i⌋²; (M2′) s ≤ i²; K = Lemma K (work_r10 §3: every j-spike has
+k ≥ (2^{j−1}−2)/3 ⟹ j ≤ log₂k+2); INV-L = the lineage invariant δ(v) ≤ J_lin(v)+2;
+PD = position-dominance t ≥ j at every chain; CL = the conservation law p ≥ k+C;
+EX = the exit lemma j_D ≤ J−2; EG = the endgame closure.
+
+GOAL: the machine `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` never halts.
+
+## Proof tree (dependency edges)
+
+G0 [AUDITED, work_r1]: HALT ⟺ fire with x = A+2b+3 = 2^k; singletons safe;
+    excursions E(w,v) from even singletons; it suffices that no excursion halts.
+    |
+G1 [work_g6 §5.2, Class-A]: F simulates the real level walk for every odd U while
+    defined; chains have u = cU+λ, c even ≥ 2, λ odd ≥ 1 ⟹ u ≥ 2U+1 ≥ 3 (no halt)
+    — SO: "F defined forever + the excursion agrees with F up to the boundary +
+    the endgame is safe" ⟹ no excursion halts.
+    |
+    +-- G2 [work_g6 §5.5 Theorem R]: F defined forever ⟸ (M1′)+(M2′) for i > 20000
+    |       + the base i ≤ 20000 [Class-B, V6].
+    |       |
+    |       +-- G3 (M1′): Δ ≤ j*+2 [INV-L, work_r10 §7: 0 violations in 10^5 chains,
+    |       |     architecture proved except PD] and j* ≤ log₂k*+2 [K, PROVED]
+    |       |     and k* ≤ poly(i) [CL or weaker].
+    |       |     +-- G4 INV-L ⟸ PD + the §7 case analysis [all steps PROVED:
+    |       |     |     (E),(P),(C),(Ch),(D),(L) one-liners/identities]
+    |       |     +-- G5 PD: t ≥ j at every chain — measured 0 violations;
+    |       |           level fires: trivial by K; sub-chains: p ≥ k+3 [CL];
+    |       |           D-fires: j_D ≤ J−2 [EX].
+    |       |
+    |       +-- G6 (M2′): s ≤ 0.893·i measured; PROVED modulo CL: the steps between
+    |             consecutive level fires = 2·dk (work_g6 Prop 1, Class-A) and steps
+    |             before the fire at ρ = 2k_ρ (Class-A), so s ≤ 2k_b(i)+e ≤
+    |             2·(k/p)·i + 16 < i² given CL (k/p bounded).
+    |
+    +-- G7 (Return/progress): pointer i → ∞ — PROVED given F-defined: each chain's
+    |       pushed material is consumed within 2j+O(1) steps and j ≤ log₂(6s+5)
+    |       [mass identities], so stalls are O(log s) and i advances forever.
+    |
+    +-- G8 (Endgame): the excursion agrees with F until the boundary read
+    |       [work_g6 D5: queue-determinism], and the endgame (boundary → singleton)
+    |       is safe for all v — [EG, agent C10 in flight; prior evidence: 41
+    |       templates v ≤ 2000, e(v) ≤ 16, all chains u ≥ 3].
+
+## Status of the three inputs (agents completed 2026-10-13)
+
+- **CL (conservation p >= k+3): PROVED** (agentA_report.md) - C = 3 optimal:
+  unconditionally for j <= 120 (run7-certified table; covers k <= 2.6e35); for
+  ALL i under the single hypothesis (H1) dk(j) <= j (dp >= 2 is already Class-A
+  by work_g6 5.4). Route: transducer on t = v2(3s+2); the naive per-cycle
+  net >= +6 FAILS at J = 19 (drop 6 > net 5 - a correction to prior belief,
+  first fires at p ~ 1.1e6); closed by an amortized counting bound
+  B(s) >= 16 + 11.27 s - 6860 >= 3 vs drop <= 5 + log2(3s+2) for s >= 682,
+  plus cycle-exact verification below (Phi_min = 3).
+- **EX (j_D <= J-2): PROVED** (agentB2_report.md) - x_D = (39/2)P + 9k_h +
+  6 K_exit + 8 for EVERY exit shape (generalizes G6 Prop 3); j_D = 1+v2(3K_exit+1);
+  11 of 12 shapes close by pure class arithmetic (j_D in {1,2,4}; = 3 = J-2 at
+  J = 5); the single tie shape closes by size under CL. Verified: 906 D-fires
+  m < 3000 and all 3171 exit D-fires of the real walk to i = 2e5.
+- **EG (endgame): CLOSED with NO endgame-specific residual** (agentC10_report.md)
+  - boundary formalized (1,780,141 lockstep-identical states, v <= 2000); the
+  "v mod 2^m" law is FALSE (log-periodic) and replaced by per-crossing 2^18-
+  cylinder closure: 65536/65536 classes symbolically closed (u >= 2U+1 >= 3 for
+  every odd U, every t >= 0), 1,096,296 random/adversarial crossings 100%
+  closure, exact threshold n - D_cross > J; e(v) <= 16 with structural law
+  e <= max_j + 1; the margin-drain lemma reduces all endgame margins to the
+  walk's own (M1')/(M2').
+
+## THE single remaining hypothesis
+
+**(H1-dk): dk(j) <= j for every j.** Status: certified j <= 120 (run7 + agentA);
+measured j <= 20000; dk ~ j/2 + O(log). Everything else in the tree is proved
+(CL conditional only on H1-dk; EX's tie shape via CL; (M1') via INV-L + PD + K;
+(M2') via Prop 1 + CL; EG via (M1')/(M2')).
+Proposed closure (coordinator): dk(J) is the k-advance of the J-fire's interlude,
+whose internal structure is the SAME universal replay one level down (self-
+similarity, blind-audited: nested replays restart the sequence, parameters
+strictly decrease - R9 audit, proved). So dk(J) <= sup(k/p)*(J-1) + C <= J for
+J >= J0 by CL applied at the sub-level (well-founded induction on J: the sub-level
+only needs dk(j') for j' < J). If this induction verifies, the theorem is
+COMPLETE. [agentD: in flight]

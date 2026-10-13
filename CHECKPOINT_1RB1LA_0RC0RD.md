@@ -229,3 +229,16 @@ UNPROVED; the conditional theorem itself is under repair.**
 - **Open:** (EL_J) for J ≥ 10^6 — tie-free symbolic exit with ≤ ⌊J/2−1⌋² exit chains; plus Return
   and endgame for the real machine. #1 non-halting remains UNPROVED.
 - R10 (GLM): "A1 essentially closed" withdrawn (work_r10/PROOF.md §9); Lemma K valid for level fires.
+
+## work_el (EL Agent) — Stage 3 IN PROGRESS (2026-10-13)
+- Claims: Theorem A (exit = exact automaton on (j, θ=(3s+5) mod 2^j); b/c-steps drop j by ≥3;
+  a-steps descend iff (NT) θ_t+3k_n ≢ 2^{n−1} mod 2^n); Lemma T (tie-freeness ⇔ margin with ρ→J);
+  Theorem B (NT at all a-steps ⇒ r ≤ J−4); Theorem D + Cor. E: (EL_J) for 10^6 ≤ J < T₁=2^499998,
+  r ≤ 4 ⇒ universal walk defined / no halt for s < (2^{T₁}−4)/3.
+- Adversary (GPT Astra, reviews/astra_work_el_review.md): `2. with fixable gaps` — Theorem D and
+  Cor. E SURVIVE (no omitted case, no circularity). Patch list: (1) Theorem B must add the margin
+  argument via h_t = J−Γ_t−j_t (with (C1)); (2) Theorem A scope: "provided every a-step satisfies NT";
+  (3) §5 printed state set has 29 pairs — remove (4,3), (20,2); (4) cite V2's τ(n) ≤ n for d_4;
+  (5) Lemma T boundary case β_x ≤ 6d_t−1 < 2^{J−Γ_t}; NT is sufficient, not necessary.
+- PENDING: patch + two blind auditors. Until then work_el is NOT audited; finite horizon of record
+  remains s < (2^{10^6}−4)/3 (work_m).

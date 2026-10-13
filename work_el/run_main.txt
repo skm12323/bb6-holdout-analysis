@@ -1,0 +1,14 @@
+E1 real walk i<=1000000 (892137 steps): 302879 fires, 15850 a-steps (all descending, min drop 2), 7910 b/c-steps (min drop 5);
+   a-step formula, b/c copy rule, theta rule hold at every top-level chain; X(0..3) even-headed
+   odd type-a crossings n<40 with k_n: [(4, 1), (7, 2), (11, 4), (13, 5), (16, 6), (21, 8), (23, 9), (26, 10), (31, 13), (34, 14), (39, 16)]
+E2 automaton == verify_m.sym_exit for 2<=J<20000: mismatches 0
+E3 alpha/beta lemma: v2(alpha_x)=J-Gamma_t and 1<=beta_x<=6d-1 at all 13379 exit chains, J<20000
+E4 level 0 (fires 2<=J<10^6): ties 0, r distribution [(0, 378392), (1, 574113), (2, 47493)], exit-chain th~ values [-1, 0, 1, 2, 3]
+   a-step pairs (j,th~) of level 0 (27): [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3), (4, 1), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (21, 2)]
+E5 level 1 certificate: 29 entry families (any j<10^6 with th~ in {2,0}; 27 specific c-entries):
+   ties 0; chains after the entry chain: distribution [(0, 756803), (1, 1148292), (2, 94874), (3, 56)]  => r <= 4
+E6 level 2 (adversarial entries any-j th~ in [-1, 0, 1, 2, 3], 103 specific): ties 3
+   tie path: entry (j,th~)=(244875,-1) -> [(17, -2, 'c'), (5, 5, 'a')] -> ('TIE', 5, 5)
+   tie path: entry (j,th~)=(538715,-1) -> [(17, -2, 'c'), (5, 5, 'a')] -> ('TIE', 5, 5)
+   tie path: entry (j,th~)=(832554,-1) -> [(17, -2, 'c'), (5, 5, 'a')] -> ('TIE', 5, 5)
+E7 1.5n^2+10 < 2^(n-1) for 8<=n<=400 (and inductively beyond): True

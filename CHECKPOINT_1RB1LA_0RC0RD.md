@@ -5,7 +5,7 @@ HALT = F reading 0. Source: bbchallenge 815 holdout list (user-supplied candidat
 > **CURRENT STATUS (2026-10-13): UNDECIDED.** This file is an append-only log; earlier sections
 > (e.g. "in progress", "PENDING", "CLAIMED NON-HALTING") are superseded by later ones. Audited:
 > reduction; no halt for top steps n < 2^2001−2; conditional Theorems R (work_g6) and M (work_m);
-> universal walk F defined and non-halting for s < (2^K−4)/3, K = 2^(2^499997−2) (work_el, work_tie). Global non-halting
+> universal walk F defined and non-halting for s < (2^K′−4)/3, K′ = 2^(2^(2^499997−3)−2) (work_el, work_tie, work_tie2). Global non-halting
 > is open — see the last two sections and work_r10/ASSEMBLY.md (GLM's conditional tree).
 
 ## ACCEPTED: Reduction Theorem (Stage 3 passed)
@@ -310,3 +310,11 @@ UNPROVED; the conditional theorem itself is under repair.**
 - Trend (C): entry family grows each level (θ window widens by 2; 6 → 35,801 → 60,068 extended records);
   level 4 only conditional; level 5 needs a hidden-k symbolic state. Horizon of record stays K (work_tie)
   until review completes.
+
+## work_tie2 — ACCEPTED (2026-10-13)
+- Targeted re-review (deepseek-v4.1-flash): `1. closed in all states` (reviews/deepseek_tie2_rereview.md).
+- **Audited result (Theorem TIE2, level 3): every J < K′ = 2^(K/2−2) = 2^(2^(2^499997−3)−2) has a
+  tie-free exit with r ≤ 7; the universal walk F is defined and non-halting for s < (2^{K′} − 4)/3**
+  (supersedes work_tie's horizon K). Level 4 remains conditional and is not part of the theorem.
+- work_tie_extension (GPT Astra, same level-3 result, program adapted from work_tie2): review next.
+- #1 global non-halting remains UNPROVED.

@@ -6,12 +6,12 @@
 
 ## 结论速览
 
-在已分析的机器中，**尚无一台得到全局停机或不停机的判定**。#1 已得到最强的有限范围结论（通用轨道在 s < (2^K−4)/3、K = 2^(2^499997−2) 内不停机，已审查），全局证明归结为"任意深层 2-adic 平局控制"这一开放问题。下列每条"已审查"结论都通过了三方审查。
+在已分析的机器中，**尚无一台得到全局停机或不停机的判定**。#1 已得到最强的有限范围结论（通用轨道在 s < (2^K′−4)/3、K′ = 2^(2^(2^499997−3)−2) 内不停机，已审查），全局证明归结为"任意深层 2-adic 平局控制"这一开放问题。下列每条"已审查"结论都通过了三方审查。
 
 | 机器 | 已审查的结论 | 文档 |
 |---|---|---|
 | `1RB0LE_0RC1RB_1LC1RD_1RF0LA_0RD1LE_1RB---` 及其三台兄弟机器 | 归约到块列表映射 M；停机 ⇔ 某次左端到达值 u₀ ∈ {2ᵏ−2}；四台机器停机与否互相等价 | `REPORT_1RB0LE_0RC1RB.md`、`work_q4/`、`work_q6/`、`work_u1/` |
-| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射：停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；顶层步 n < 2²⁰⁰¹−2 内不停机；形式化对映射 F 与条件定理 R（work_g6）、定理 M（work_m）；**通用轨道 F 在 s < (2^K−4)/3（K = 2^(2^499997−2)）内有定义且不停机**（work_el、work_tie）。未证明：全局永不停机。两条独立的条件化路线——(NT) 路线（work_nt + Astra 研究，发现 NT 可能不成立）与 GLM 的 work_r10 证明树（以测量常数 EL 或未证的 PIN、以及平局深度无界的结尾阶段为前提）——归结为同一核心：任意深层 2-adic 平局控制（类 Collatz）。R9 的完整证明宣称已撤回 | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_g6/`、`work_m/`、`work_el/`、`work_nt/`、`work_r10/ASSEMBLY.md` |
+| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射：停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；顶层步 n < 2²⁰⁰¹−2 内不停机；形式化对映射 F 与条件定理 R（work_g6）、定理 M（work_m）；**通用轨道 F 在 s < (2^K′−4)/3（K′ = 2^(2^(2^499997−3)−2)）内有定义且不停机**（work_el、work_tie、work_tie2）。未证明：全局永不停机。两条独立的条件化路线——(NT) 路线（work_nt + Astra 研究，发现 NT 可能不成立）与 GLM 的 work_r10 证明树（以测量常数 EL 或未证的 PIN、以及平局深度无界的结尾阶段为前提）——归结为同一核心：任意深层 2-adic 平局控制（类 Collatz）。R9 的完整证明宣称已撤回 | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_g6/`、`work_m/`、`work_el/`、`work_nt/`、`work_r10/ASSEMBLY.md` |
 | #2 `1RB1RA_1LC0RC_---0LD_0LE0RF_1RE0RA_0LF1LB` | 归约到 Σ 栈机；定理 H | `REPORT_1RB1RA_1LC0RC.md`、`work_s1/`、`work_s3/` |
 | `1RB1LE_1LB1LC_1RD0LE_---0RB_1RF1LA_0RA0RD` | 停机 ⇔ 轨道到达 (0;10,…) | `REPORT_1RB1LE_1LB1LC.md`、`work_t1/` |
 | `1RB1LC_1RC1LB_1LD0RB_0LE1RD_---0LF_0LA1LF` | 无（各路径都没走通） | `CHECKPOINT_1RB1LC_1RC1LB.md` |
@@ -24,7 +24,7 @@
 - `work_*/`：主定理文档（`RULES.md`、`LEMMAS.md`、`PROOF.md`、`EQUIV.md`）与对应的验证脚本 `verify_*.py`
 - `work_r5/`、`work_r6/`、`work_r7/`：#1 全局不停机的三次尝试，**未经审查**
 - `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`work_r9/`：永不停机定理的宣称与锚点驱动（`THEOREM.md`、`verify_r9.py`）；`scratch/`：研究草稿与子代理报告（agentB/C/D/E/G、审查报告），部分未经审查
-- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`reviews/`：外部审查原文（GPT Astra / codex）
+- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（审查中）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`reviews/`：外部审查原文（GPT Astra / codex）
 - `data/BB6_holdouts_815.txt`：bbchallenge 2026-09-24 版 holdout 清单
 - `triage2/scan.txt`：815 台机器各跑 10⁶ 步的初筛数据
 

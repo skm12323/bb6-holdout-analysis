@@ -5,7 +5,7 @@ HALT = F reading 0. Source: bbchallenge 815 holdout list (user-supplied candidat
 > **CURRENT STATUS (2026-10-13): UNDECIDED.** This file is an append-only log; earlier sections
 > (e.g. "in progress", "PENDING", "CLAIMED NON-HALTING") are superseded by later ones. Audited:
 > reduction; no halt for top steps n < 2^2001−2; conditional Theorems R (work_g6) and M (work_m);
-> universal walk F defined and non-halting for s < (2^(2^499998)−4)/3 (work_el). Global non-halting
+> universal walk F defined and non-halting for s < (2^K−4)/3, K = 2^(2^499997−2) (work_el, work_tie). Global non-halting
 > is open — see the last two sections and work_r10/ASSEMBLY.md (GLM's conditional tree).
 
 ## ACCEPTED: Reduction Theorem (Stage 3 passed)
@@ -281,3 +281,21 @@ UNPROVED; the conditional theorem itself is under repair.**
   and position–parameter correlations of F at unbounded levels (Collatz-type), and may be false.
   #1 FINAL STATUS: non-halting UNPROVED; audited: reduction, finite horizon s < (2^{T₁}−4)/3,
   T₁ = 2^499998 (work_el), conditional theorems R and M.
+
+## work_tie (GPT Astra) — ACCEPTED (2026-10-13): one more tower level
+- Claims: (AA) two-a identity + two-step descent; rescue macro (17,σ)→(5,σ−1)→(6,σ−2)→(1,σ−4)→even
+  (21 F-steps) resolving the NT-failure tie at (5,5) via higher bits; complete finite entry
+  certificate COVER (5,000,063 entries; only NT failures (244875,−1),(538715,−1),(832554,−1), all
+  rescued); every fire J < K = 2^(2^499997−2) has a tie-free exit with r ≤ 6.
+- Stage 3: adversary (Claude) `fixable gaps` (6 items; COVER complete, no counterexample);
+  blind auditor 1 (codex) `all correct` (independent X(n) to 10^6, A0/A1 = 27/46, all 5,000,063
+  entries, histogram and the 3 failures reproduced, 300 bigint rescue instances); blind auditor 2
+  (codex) `all correct` (logic of §1/§2/§4, certificate reproduced). Patch by commandcode
+  (deepseek-v4.1-flash); targeted re-review (deepseek-v4.1-flash) `fixable gaps` (deficit constant
+  31→54, not 49; Lemma-T remark; location-lemma wording) — applied by coordinator with the reviewer's
+  prescribed content. Reviews: reviews/*work_tie*.md.
+- **Audited result: the universal walk F is defined and never halts for all s < (2^K − 4)/3,
+  K = 2^(2^499997−2)** (supersedes work_el's horizon). (M1′) holds there with Δ ≤ 65.5+2.5·log2 i.
+- Next-level obstruction (recorded in PROOF_RESCUE §4): above K, rescued chains can be copied and the
+  automaton's θ rule fails after a non-NT step (true Θ₂ ≡ 46 vs rule 62 mod 64).
+- #1 global non-halting remains UNPROVED.

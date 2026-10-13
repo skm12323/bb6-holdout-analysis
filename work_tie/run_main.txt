@@ -1,0 +1,10 @@
+LOCAL full bigint synthetic epochs: 1004; each closed in 21 steps, all margins positive.
+Finite entry certificate: 5000063
+A0: 27; A1: 46; specific entries: 68
+Further-chain distribution: {'0': 1892003, '1': 2917464, '2': 190537, '3': 56, '4': 3}
+Rescued entries: [[244875, -1], [538715, -1], [832554, -1]]
+
+Additional verification: python -B work_tie/verify_two_a.py
+Exact two-a checks: 690
+Cases with second-transition non-descent: 42
+All combined descents and minimal-sigma margins passed.

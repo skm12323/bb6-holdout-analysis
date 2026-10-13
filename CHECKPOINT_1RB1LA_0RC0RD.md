@@ -212,3 +212,20 @@ UNPROVED; the conditional theorem itself is under repair.**
   Return (another level fire / canonical re-entry) and the endgame remain open.
 - **#1 STATUS: non-halting UNPROVED.** Open obligations: (M1′), (M2′) for i > 20000; Return;
   endgame audit. Data (C): max deficit 16 vs allowance 144; s/i² ≤ 0.25.
+
+## work_m (M Agent) — ACCEPTED after local patch (2026-10-13)
+- Stage 3: adversary (Claude) `fixable gaps` (T1 wording only; T2 = R10 defects, see work_r10 §9);
+  blind auditor (Claude) `all correct` (copy lemma 6690 windows; σ-recursion; λ-certificate to i=10^8,
+  30.3M epochs, r ≤ 2; per-J exits J ≤ 19999); GPT Astra `simple errors` (reviews/astra_work_m_review.md).
+  Patched (6 items) → targeted re-review `fixable gaps` (half-open window convention; one Class-C tag),
+  applied by coordinator with the reviewer's prescribed content. ACCEPTED.
+- **Audited results:**
+  - **Unconditional finite horizon:** F is defined and the universal walk never halts for all
+    s < (2^{10^6} − 4)/3; (M1′), (M2′) hold literally there. (Class-A argument + Class-B per-J
+    certificate J < 10^6, tie-free.)
+  - **Theorem M (conditional):** if (EL) every epoch with ρ > 10^8 has ≤ ⌊log2 ρ⌋² exit chains, then F is
+    defined forever, s ≤ i², deficit ≤ (log2 i)³ ⇒ all conclusions of repaired Theorem R.
+  - Exact structure: call/return copy lemma; crossing types a/b/c; epochs; σ_{t+1}=σ_t−1−ε(j_t−1).
+- **Open:** (EL_J) for J ≥ 10^6 — tie-free symbolic exit with ≤ ⌊J/2−1⌋² exit chains; plus Return
+  and endgame for the real machine. #1 non-halting remains UNPROVED.
+- R10 (GLM): "A1 essentially closed" withdrawn (work_r10/PROOF.md §9); Lemma K valid for level fires.

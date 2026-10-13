@@ -1,0 +1,5 @@
+V4 symbolic exits for 1<=J<1000000: undecided/long: 0, r distribution [(0, 378393), (1, 574113), (2, 47493)], max Gamma 6, max exit j 21
+
+real	12m5.552s
+user	0m0.015s
+sys	0m0.046s

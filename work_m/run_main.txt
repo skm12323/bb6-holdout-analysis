@@ -1,0 +1,38 @@
+V1 ok (full pair map, i<=20000, 17841 steps): 6532 top-level chains, 6531 return states = image of X(j-1)+[D],
+    sigma recursion, crossing types/eps formula, crossings only top-level, deficit bound at 9867 states
+V2 ok (lambda certificate, i<=100000000, 89213562 steps): margin j<sigma at every top-level chain;
+    epochs=30288015, r distribution [(0, 27914754), (1, 2370538), (2, 2723)], max Gamma=2, max eps=7, max (i-sigma+j)=28, max j=26,
+    max s/i=0.8928, min (sigma-j) for i>64 = 59; exit pattern a function of J alone: True
+      J= 1  [((1,), 'a')]
+      J= 2  [((2,), 'b')]
+      J= 3  [((3,), 'a')]
+      J= 4  [((4,), 'b')]
+      J= 5  [((5, 3), 'aa')]
+      J= 6  [((6, 1), 'ba')]
+      J= 7  [((7,), 'c')]
+      J= 8  [((8, 1), 'aa')]
+      J= 9  [((9, 4), 'bb')]
+      J=10  [((10,), 'a')]
+      J=11  [((11,), 'b')]
+      J=12  [((12, 1), 'aa')]
+      J=13  [((13, 2), 'bb')]
+      J=14  [((14, 5, 1), 'aaa')]
+      J=15  [((15, 1), 'ba')]
+      J=16  [((16,), 'c')]
+      J=17  [((17, 1), 'aa')]
+      J=18  [((18, 3), 'ba')]
+      J=19  [((19,), 'c')]
+      J=20  [((20,), 'a')]
+      J=21  [((21,), 'b')]
+      J=22  [((22, 1), 'aa')]
+      J=23  [((23, 2), 'bb')]
+      J=24  [((24, 3), 'aa')]
+      J=25  [((25, 1), 'ba')]
+      J=26  [((26,), 'c')]
+V3 ok: (I1)-(I4) hold and increase along a 0.1%-geometric grid of [1000000,1e300]; values at NB: I1=995203, I2=244846, I3=1233345, I4=2721
+V4 symbolic exits for 1<=J<200000: undecided/long: 0, r distribution [(0, 75679), (1, 114821), (2, 9499)], max Gamma 6, max exit j 19
+    V4 patterns = V2 empirical patterns for all J observed in V2 (J<=26)
+
+real	1m21.143s
+user	0m0.000s
+sys	0m0.015s

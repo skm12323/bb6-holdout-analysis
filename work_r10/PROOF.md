@@ -168,3 +168,17 @@ cd work_r10 && python fast_walker.py 100000000 200000   # the 10^8 run (~40 min)
 ```
 Outputs: the record table, (M1′)/(M2′) checks, Return gap, and the prefix cross-check
 against the exact big-int walker (60575 level fires identical at i ≤ 2·10^5).
+
+## 9. Three-way review (2026-10-13) — coordinator's record
+Reviewers: adversary (Claude), blind auditor (Claude), GPT Astra (work_m only). Findings on this file:
+- **Lemma K** holds as data to i = 10^8 and its arithmetic is correct, but must be restricted to
+  **level fires** (exit chains also reach j ≥ 5, up to 15; first at i = 6132, s = 5471). The
+  "first occurrence exactly at k = (2^{j−1}−2)/3" is MEASURED (j = 6..26); only the lower bound is proved.
+- **The Corollary "j ≤ log2 k + 2" is FALSE** (fails at every first occurrence, e.g. (k,j) = (10,6)).
+  Correct: k ≥ 2^{j−3} for j ≥ 4, i.e. j ≤ log2 k + 3 (equivalently j ≤ log2(3k+2) + 1).
+- **(A1) is NOT closed.** (D) misses the case v_A − 1 < v_c (needs head slack ≤ −1, only measured);
+  the "+O(1)"/"+2" in (C) is not derived; (D4) assumes a pure interlude; "A1 ⟺ position-dominance"
+  is unproved; position-dominance rests on measured inputs (p ≥ k+3; j_D ≤ J−2); the citation of
+  "proved in the R9 audit" is void (R9 was downgraded). (L): pointer convention ambiguous.
+- Status: §2 record law and micro-laws stand as Class-C evidence; Lemma K (restricted) Class-A for its
+  lower-bound content. The §7 headline "A1 essentially closed" is withdrawn.

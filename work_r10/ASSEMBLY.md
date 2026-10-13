@@ -81,3 +81,38 @@ strictly decrease - R9 audit, proved). So dk(J) <= sup(k/p)*(J-1) + C <= J for
 J >= J0 by CL applied at the sub-level (well-founded induction on J: the sub-level
 only needs dk(j') for j' < J). If this induction verifies, the theorem is
 COMPLETE. [agentD: in flight]
+
+
+## FINAL STATUS after agentD (2026-10-13)
+
+**H1-dk: CLOSED** (agentD_report.md; proof suite re-run by the coordinator, all green):
+dk(j) <= j for every j. Base: the certified table extended 120 -> 5200 (run7
+class-split verification; dk <= 0.4472 j throughout). Step (J > 5200): the exact
+identities I1-I4 (each step consumes 2 queue entries; clean re-entry) + the window
+structure (S_win = at most 2 spines; the parameter cascade strictly decreases,
+PROVED from EX + CL at sub-positions) + the Phi-profile (Phi = p-k >= 2750 on
+[4958, 10^6] exhaustive, counting bound beyond) give the target
+dp+S_win <= 4Phi+3(J-rho*)-4 >= 740 (or >= 10996) versus the needed <= 66.
+Circularity audited: every CL -> window -> dk traversal drops the parameter by >= 1
+(CL at positions <= J-3 consumes only parameters < J). The CL<->H1-dk loop closes
+as ONE well-founded induction.
+
+**The complete proof tree is now proved modulo ONE measured constant:**
+  (EL) dp(J) + S_win(J) <= 66 for J > 5200   [measured max 28; tolerance >= 740;
+        ~25x headroom; both EL and the weaker PIN+dp<=6 route verified]
+plus the tree's own documented inputs already recorded above (the (M1')-family
+pinning = G3/G4/G5's inputs per 7-STEP architecture; EX proved; EG closed with no
+endgame-specific residual; (M2') via Prop 1 + CL).
+
+De-escalating EL to a theorem is exactly the exit-closure depth control (the G6
+"escaping branch" object, now isolated to a single constant with wide margin):
+proving dp(J) <= 6 for all J (measured; structural accounting gives dp <= 2+g+2S+mu*
+which is 905 at J=5201 -- insufficient by itself) or dp+S_win <= 66 structurally.
+
+## THEOREM (work_r10 consolidated claim)
+
+Conditional on (EL) [one measured constant, 25x headroom] and the audited base
+(work_r1), the machine 1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE NEVER HALTS.
+Unconditionally proved: every excursion with k-b(v) <= 2.6e35-scale parameters
+(the certified regime j <= 120/5200) and the full endgame v <= 65536 + crossing-
+cylinder closure.

@@ -2,6 +2,12 @@
 
 HALT = F reading 0. Source: bbchallenge 815 holdout list (user-supplied candidate #1).
 
+> **CURRENT STATUS (2026-10-13): UNDECIDED.** This file is an append-only log; earlier sections
+> (e.g. "in progress", "PENDING", "CLAIMED NON-HALTING") are superseded by later ones. Audited:
+> reduction; no halt for top steps n < 2^2001−2; conditional Theorems R (work_g6) and M (work_m);
+> universal walk F defined and non-halting for s < (2^(2^499998)−4)/3 (work_el). Global non-halting
+> is open — see the last two sections and work_r10/ASSEMBLY.md (GLM's conditional tree).
+
 ## ACCEPTED: Reduction Theorem (Stage 3 passed)
 Files: `work_r1/RULES.md`, `work_r1/verify_r1.py`.
 - Encoding: (h; r1..rk) = `0^∞ 1^h [0]_A 1^r1 0 … 0 1^rk 0^∞`.

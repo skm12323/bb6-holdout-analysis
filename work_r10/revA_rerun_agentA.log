@@ -1,0 +1,38 @@
+V0 [   0.3s] table j=1..120 certified by agentB_run7.verify (each j: robust classes, canonical re-entry, u>=3); j=1..20 == task table; min dp=2; dk<=j holds.
+V1 [   0.5s] classes: j>=5 <=> k=16s+10 (s=(k-10)/16), j=5+v2(3s+2); off-spike j determined by k mod 16 = [2, 1, 4, 1, 2, 1, 3, 1, 2, 1, 1, 2, 1, 3, 1]
+V2 [   0.5s] walk tables ok; d=[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 15, 14, 13, 12, 11]
+      g=[14, 13, 11, 11, 9, 8, 6, 5, 3, 2, 0, 22, 20, 19, 17, 16] ; g>=d+1 off rho=10;  Phi(1->10): 3->16 via j=[1, 4, 2, 1, 3, 2, 1]
+V3 [   0.6s] fire-level walk: 333167 fires, p<1100000: Phi_min=3 at i=0; 30667 spike cycles;
+      per-cycle: m=1 everywhere in range; min net=5 (J=19); min dp_total=21 (J=19)
+V4 [   7.1s] table-driven (p,k,j) stream == exact_walker level fires: 60575/333167 fires, i<=200000  [the walk IS the formal map F]
+V5 [   9.0s] cycle sim to s=10000000 (10000000 cycles): worst V=18 at (0, 6); worst slack B-3-drop=15 at (0, 6, 16);
+      identity Sum(dk+d)=16s holds; final (s,B)=(10000000, 198689856)
+V6 [   9.2s] transducer mined s<2^14: inter-spike seq = [(J,dk,dp)] + fixed walk; depends on s only via t=v2(3s+2).
+      class t -> J=5+t, (dk,dp), walk-start r0=10+dk, net, drop:
+        t= 0 J= 5 dk= 3 dp=4 r0=13  d=13 g=19  net(dp-dk+g)=20  drop(dk-dp)=-1  m=1
+        t= 1 J= 6 dk= 3 dp=5 r0=13  d=13 g=19  net(dp-dk+g)=21  drop(dk-dp)=-2  m=1
+        t= 2 J= 7 dk= 3 dp=4 r0=13  d=13 g=19  net(dp-dk+g)=20  drop(dk-dp)=-1  m=1
+        t= 3 J= 8 dk= 4 dp=6 r0=14  d=12 g=17  net(dp-dk+g)=19  drop(dk-dp)=-2  m=1
+        t= 4 J= 9 dk= 4 dp=2 r0=14  d=12 g=17  net(dp-dk+g)=15  drop(dk-dp)= 2  m=1
+        t= 5 J=10 dk= 5 dp=5 r0=15  d=11 g=16  net(dp-dk+g)=16  drop(dk-dp)= 0  m=1
+        t= 6 J=11 dk= 5 dp=4 r0=15  d=11 g=16  net(dp-dk+g)=15  drop(dk-dp)= 1  m=1
+        t= 7 J=12 dk= 6 dp=6 r0=16  d=10 g=14  net(dp-dk+g)=14  drop(dk-dp)= 0  m=1
+        t= 8 J=13 dk= 6 dp=4 r0=16  d=10 g=14  net(dp-dk+g)=12  drop(dk-dp)= 2  m=1
+        t= 9 J=14 dk= 8 dp=5 r0=18  d= 8 g=11  net(dp-dk+g)= 8  drop(dk-dp)= 3  m=1
+        t=10 J=15 dk= 7 dp=5 r0=17  d= 9 g=13  net(dp-dk+g)=11  drop(dk-dp)= 2  m=1
+        t=11 J=16 dk= 7 dp=4 r0=17  d= 9 g=13  net(dp-dk+g)=10  drop(dk-dp)= 3  m=1
+        t=12 J=17 dk= 8 dp=6 r0=18  d= 8 g=11  net(dp-dk+g)= 9  drop(dk-dp)= 2  m=1
+        t=13 J=18 dk= 8 dp=3 r0=18  d= 8 g=11  net(dp-dk+g)= 6  drop(dk-dp)= 5  m=1
+        t=14 J=19 dk= 8 dp=2 r0=18  d= 8 g=11  net(dp-dk+g)= 5  drop(dk-dp)= 6  m=1
+      (dk,dp)-collisions among t<=14: {(3, 4): [0, 2], (3, 5): [1], (4, 6): [3], (4, 2): [4], (5, 5): [5], (5, 4): [6], (6, 6): [7], (6, 4): [8], (8, 5): [9], (7, 5): [10], (7, 4): [11], (8, 6): [12], (8, 3): [13], (8, 2): [14]}
+      first table j with m>=2 (block skipper): j=[38, 39, 40, 41]
+      j with dk=0 mod 16 (direct spike landing, empty walk): [35, 36, 37, 71, 72, 73, 106, 107, 108]
+V6b parity closure: s odd <=> J=5; s < s0=2863311530 => m=1 everywhere, 2-cycle net >= +6, drop <= 14  =>  B_s >= 3+drop for all 0 <= s < s0 (B_2=57 >= 17).
+V7 [  11.9s] counting bound (scope A, table<=120, unconditional): eps=3.167277 K=3228 c=18-17eps/8=11.2695
+      B(s) >= 16 + 11.2695 s - 6859.50  >= 3+drop(J_s) for all s >= 682  (s < S1=(2^116-2)/3 ~ 2.5e34)
+      exact AP sum <= eps*s+K verified at s=1e3..1e7; bound <= simulated B on trajectory
+      conditional [H1: dk<=j, dp>=2 for all j; measured to j=20000]: threshold s*=682 => p-k>=3 for ALL i (slab-checked t<2000, i.e. s<2^2000; beyond: c>=5.25>0 majorant)
+V8 [  12.0s] CONSERVATION LAW: p_i - k_i >= 3 for every fire of the universal sequence with j <= 120 (k <= 16*((2^116-2)//3)+10 ~ 2^119); unconditionally given the run7-certified table.
+      With H1 (dk<=j, dp>=2, measured to j=20000): p_i - k_i >= 3 for ALL i.
+      C=3 is optimal (attained at i=0: p=4,k=1).
+done [  12.0s]

@@ -146,3 +146,45 @@ leaves = 1, structural spine recursion closing the rest).
 Unconditionally proved: the certified regimes (table j <= 3200/5200; k-b(v) up
 to 2.6e35-scale parameters under agentA scope A) and the endgame (v <= 65536 +
 full crossing-cylinder closure).
+
+
+## CONSOLIDATED FIVE-WAY REVIEW (2026-10-13; review_advA/advD/advC/audB2/audC10.md)
+
+Verdicts: CL STANDS (ADV-A: doc gaps G1-G4; G1's corrected consumption profile: the
+counting-bound branch consumes table constants for ALL j<=120, and params<q holds for
+every q>=11 — the circularity resolution survives). H1-dk STANDS WITH GAPS (ADV-D:
+nothing refuted; I4's "<=>" is off by 4 — the used direction is valid and conservative
+with measured margin >= 16; the spine decrease's Y/d-frontier branch needs PIN content
+[G2] — consistent with PIN being the route's stated residual; errata: true measured
+max dp+S_win = 25 (not 28); "dk <= 0.4472j throughout" false pointwise (0.4615 at
+j=195, unused by the proof)). EX CORRECT (AUD-B2: every number reproduces; CAVEAT C1:
+the "12 exit shapes" is an m<=3000 census, NOT an enumeration — the proof properly
+rests on the shape-free Lemmas 1-2 + the size input; 5 out-of-table shapes verified
+compliant to m~9.8e4). Coordinator layer SOUND (ADV-C: walker bit-exactness proved
+STRUCTURALLY via the Delta<=95 certificate, verified op-by-op to 1e8; lockstep
+extended to 3e5; ASSEMBLY topology sound, no missing edges).
+
+**EG: the "no endgame-specific residual" claim is REFUTED (AUD-C10).** Findings:
+(1) e(v) <= 16 is FALSE — exact counterexamples e(391796)=17, e(783573)=17,
+e(1567152)=20 (e grows ~ log2 v; the structural law e <= maxj+1 holds with 0
+violations to 4e6); (2) the 2^18-cylinder symbolic closure FAILS on classes occurring
+from v = 97957 (ties at depth exactly the cylinder width, lambda_A+3 = 2^18; the
+walk's max-j reaches 23 by 3.1e6 — NO FIXED K works): the all-v endgame claim
+inherits an EXTRA UNBOUNDED TIE-DEPTH residual; (3) the crossing-class set never
+closes (finite enumeration cannot cover all v). Confirmed: endgame non-halting on
+every computed v to 4e6 (60x the artifact's range), and all in-range artifact numbers
+reproduce exactly.
+
+## CORRECTED FINAL THEOREM STATUS
+
+Non-halting conditional on: (a) EL or PIN (as recorded), AND (b) the endgame all-v
+closure with GROWING tie depth (the fixed-cylinder method is insufficient; the
+needed object is a per-v closure with K(v) >= maxj(v)+margin, or a reduction of the
+endgame margins to the walk's deficit family at growing depth). Materially verified:
+endgame non-halting to v = 4e6; e <= maxj+1 (0 violations to 4e6); (M2') unaffected
+(s <= 2k_b + e << i^2 still).
+
+Documentation errata to apply (from all five reviews): K's "j <= log2 k + 2" -> +3;
+G4's "all steps PROVED" -> the (D) occurring sub-case is measured-only and (C)'s O(1)
+underived (per ADV-C); G6's "+16" -> the level-gap constant 22 / e <= maxj+1; EG
+claims per AUD-C10; agentA G1-G4; agentD G1-G2 + errata; agentB2 C1-C3.

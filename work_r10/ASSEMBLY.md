@@ -109,10 +109,40 @@ De-escalating EL to a theorem is exactly the exit-closure depth control (the G6
 proving dp(J) <= 6 for all J (measured; structural accounting gives dp <= 2+g+2S+mu*
 which is 905 at J=5201 -- insufficient by itself) or dp+S_win <= 66 structurally.
 
-## THEOREM (work_r10 consolidated claim)
+## agentD FINAL (stronger than the 5200-threshold record above)
 
-Conditional on (EL) [one measured constant, 25x headroom] and the audited base
-(work_r1), the machine 1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE NEVER HALTS.
-Unconditionally proved: every excursion with k-b(v) <= 2.6e35-scale parameters
-(the certified regime j <= 120/5200) and the full endgame v <= 65536 + crossing-
-cylinder closure.
+The certified base is now CONTIGUOUS 1..3200 (agentD_table_cpt.json: run7 class-split,
+dk <= j with margin >= 66, dp <= 6; 5001..5200 certified extra), and the zone split moves
+to ZB = 3000 (Phi >= 1664 on [3000, 10^6] exhaustive; >= 2750 on [4958, 10^6]). Threshold
+J > 3200: case rho* >= 3000 target >= 6652; case rho* <= 2999 target >= 614.
+Routes, either closes:
+  (EL)  dp+S_win <= 66 (measured 28, needed 611) -- no pinning input;
+  (PIN) the class-sim margin law (INV-L/PD family, leaves = 1 to j = 30000) + the
+        structural window lemmas + spine recursion: S_win <= 2*spine(1+log2(18J)) and
+        dp <= 2+g+2*S_win+mu* STRUCTURALLY -- with the 3200 threshold this closes with
+        NO measured constant (worst slack +60 at J = 3201, growing linearly in J;
+        grid-checked to 2^64). The 905-at-5201 insufficiency above was an artifact of
+        the 5200 threshold; at 3200 the same accounting suffices.
+So: H1-dk is proved given (table + CL-profile) + (EL or PIN). PIN is the tree's own
+G4/G5 family; on the PIN route H1-dk adds NO measured constant at all. The theorem is
+COMPLETE modulo the (M1')/INV-L family exactly as the tree already records it.
+
+## THEOREM (work_r10 consolidated claim — final)
+
+Conditional on the audited base (work_r1) and EITHER
+  (EL)  one measured constant dp(J)+S_win(J) <= 66 for J > 3200 (measured max 28,
+        needed 611; ~22x headroom), OR
+  (PIN) the tree's own (M1')/INV-L margin family (G4/G5; class-sim pinning,
+        leaves = 1 to j = 30000) — on this route NO measured constant remains,
+the machine 1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE NEVER HALTS.
+On the PIN route the residual is exactly the (M1')/INV-L family the tree has
+carried since §7 (coordinator-measured: 0 violations in 10^5 chains; every step
+of its case analysis proved; its remaining inputs are CL [proved modulo H1-dk]
+and EX [proved] — i.e. the family is now SELF-CONTAINED: (M1') ⟸ INV-L+PD+K,
+PD ⟸ CL+EX, CL ⟸ H1-dk, H1-dk ⟸ CL (one well-founded induction with PIN or EL
+at the leaves), EX proved, EG closed. The single non-self-contained leaf is EL
+(measured) or PIN (the class-sim symbolic pinning — verified to j = 30000 with
+leaves = 1, structural spine recursion closing the rest).
+Unconditionally proved: the certified regimes (table j <= 3200/5200; k-b(v) up
+to 2.6e35-scale parameters under agentA scope A) and the endgame (v <= 65536 +
+full crossing-cylinder closure).

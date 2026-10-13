@@ -38,7 +38,8 @@ def load_table():
     tab = {}
     srcs = []
     for fn in (r'D:\math_cc\work_r10\agentD_table5000.json',
-               r'D:\math_cc\work_r10\agentD_table5100.json'):
+               r'D:\math_cc\work_r10\agentD_table5100.json',
+               r'D:\math_cc\work_r10\agentD_table_cpt.json'):
         try:
             d = json.load(open(fn))
             for k_, v in d.items():
@@ -124,12 +125,12 @@ def V2(pmax_exh):
     Phi = phi_profile(pmax_exh)
     mn_all = min(Phi.values())
     mn_26 = min(v for p, v in Phi.items() if p >= 26)
-    zone = min(p for p in Phi if p >= 4958)
-    mn_zone = min(v for p, v in Phi.items() if p >= 4958)
+    zone = min(p for p in Phi if p >= 3000)
+    mn_zone = min(v for p, v in Phi.items() if p >= 3000)
     print('  exhaustive to p=%d: Phi_min=%d (only at p=4); min Phi[p>=26]=%d;'
           ' min Phi[p>=%d]=%d (first zone p=%d)'
-          % (pmax_exh, mn_all, mn_26, 4958, mn_zone, zone))
-    ok_exh = mn_all >= 3 and mn_26 >= 16 and mn_zone >= 2000
+          % (pmax_exh, mn_all, mn_26, 3000, mn_zone, zone))
+    ok_exh = mn_all >= 3 and mn_26 >= 16 and mn_zone >= 1500
     # agentA counting bound: eps from table (+ H1: dk(5+t)<=5+t beyond)
     eps = sum((TAB.get(5 + t, (5 + t,))[0]) / (1 << (t + 1)) for t in range(0, 3000))
     ok_slabs = True
@@ -153,19 +154,19 @@ def V2(pmax_exh):
     return ok_exh and ok_slabs and ok_asym and ok_scope, mn_zone
 
 # ------------------------------------------------------------- V3 -----------
-def V3(c_base, PhiZone, J_table=5200):
+def V3(c_base, PhiZone, J_table=3200, ZB=3000):
     print('== V3: the induction step (J > %d) ==' % J_table)
-    # with input EL: dp+S_win <= 66 (measured 27); need 66 <= 4Phi*+3g'-4:
-    #   (a) rho* >= 4958: >= 4*PhiZone-4 ; (b) rho* <= 4957: g' >= J_table-4957+1
+    # with input EL: dp+S_win <= 66 (measured 28); need 66 <= 4Phi*+3g'-4:
+    #   (a) rho* >= ZB: >= 4*PhiZone-4 ; (b) rho* <= ZB-1: g' >= J_table-ZB+1
     EL = 66
     tgt_a = 4 * PhiZone - 4
-    tgt_b = 3 * (J_table - 4957 + 1) + 8
-    print('  targets: case(a) rho*>=%d: %d ; case(b) rho*<=4957 (g\'>=%d): %d ; EL used: %d'
-          % (4958, tgt_a, J_table - 4957 + 1, tgt_b, EL))
+    tgt_b = 3 * (J_table - ZB + 1) + 8
+    print('  targets: case(a) rho*>=%d: %d ; case(b) rho*<=%d (g\'>=%d): %d ; EL used: %d'
+          % (ZB, tgt_a, ZB - 1, J_table - ZB + 1, tgt_b, EL))
     ok_cases = tgt_a >= EL and tgt_b >= EL
-    # micro-zone: g' < J_table-4957 & rho* <= 4957 => J <= 4957+g' < J_table (table)
-    print('  micro-zone (g\'<%d and rho*<=4957 => J<%d): covered by table'
-          % (J_table - 4957 + 1, J_table))
+    # micro-zone: g' < J_table-ZB+1 & rho* <= ZB-1 => J < J_table (table)
+    print('  micro-zone (g\'<%d and rho*<=%d => J<%d): covered by table'
+          % (J_table - ZB + 1, ZB - 1, J_table))
     # ---- de-escalation of the S-side under PIN (spine recursion) ----
     U = Univ(400)
     fps = sorted(U.kat)
@@ -199,7 +200,7 @@ def V3(c_base, PhiZone, J_table=5200):
     for J in [J_table + 1, J_table + 50, J_table + 100, 6000, 8000, 10 ** 4, 2 * 10 ** 4,
               10 ** 5, 10 ** 6, 10 ** 8, 10 ** 12, 2 ** 40, 2 ** 64]:
         # case (b) target with the S-side from spine and dp from EL's dp<=6:
-        tgt = 3 * (J - 4957) + 8
+        tgt = 3 * (J - (ZB - 1)) + 8
         sb = Sbound(J) + 6
         sl = tgt - sb
         if worst is None or sl < worst[0]: worst = (sl, J, tgt, sb)
@@ -208,15 +209,23 @@ def V3(c_base, PhiZone, J_table=5200):
     # structural-dp accounting (correct): T's are consumed (i) as c of fires
     # (<= #chains <= S_win), (ii) by even steps over mixed pairs [non-T, T]
     # (<= non-T entries: g-1 run-remainder + D + pushes <= g+1+S_win+mustar),
-    # (iii) at most ONE pure-T even pair precedes the re-entry (parity flip).
-    # So dp <= 2 + g + 2*S_win + mustar: NOT sufficient on its own (the mixed
-    # even steps bound is too lossy) -- recorded for honesty:
-    J0 = J_table + 1
-    dp_struct = 2 + (J0 - 4957) + 2 * Sbound(J0) + (1 + int(log2(18 * J0 + 283)))
-    tgt0 = 3 * (J0 - 4957) + 8
-    print('  structural-dp bound at J=%d: dp+S <= %d vs target %d: %s (=> dp<=6 stays'
-          ' a measured input of the PIN route)' % (J0, dp_struct + Sbound(J0), tgt0,
-                                                   dp_struct + Sbound(J0) <= tgt0))
+    # (iii) at most ONE pure-T even pair precedes the re-entry (parity flip:
+    # A' = A + 9*2^a*P + 3 = A+1 mod 2 over a pure-T pair).
+    # So dp <= 2 + g + 2*S_win + mustar, i.e. dp+S_win <= 2+g+3*Sbound+mustar.
+    # Case (b) needs g >= J-ZB-1 >= (3*Sbound+mustar-12)/2; check on the grid:
+    var_ok = True; worstv = None
+    for J in [J_table + 1, J_table + 50, J_table + 100, 6000, 8000, 10 ** 4, 2 * 10 ** 4,
+              10 ** 5, 10 ** 6, 10 ** 8, 10 ** 12, 2 ** 40, 2 ** 64]:
+        gmin = J - 2 - (ZB - 1)
+        S = Sbound(J)
+        mus = 1 + int(log2(18 * J + 283))
+        lhs = 2 + gmin + 3 * S + mus          # dp+S structural, worst g
+        tgt = 3 * gmin + 14                   # case (b) target with Phi >= 3
+        sl = tgt - lhs
+        if worstv is None or sl < worstv[0]: worstv = (sl, J, tgt, lhs)
+        if sl < 0: var_ok = False; print('  structural-dp FAIL J=%d' % J)
+    print('  structural-dp route (no measured dp): worst slack %d at J=%d (tgt=%d dp+S<=%d): %s'
+          % (worstv + (var_ok,)))
     # ---- the circularity audit (well-foundedness) ----
     # CL(pos<=q) needs H1 only at spike params <= 5+log2(3q/16+2); for the
     # induction at J we need CL at pos <= J-3:
@@ -225,9 +234,9 @@ def V3(c_base, PhiZone, J_table=5200):
     ok_sub = all(1 + log2(3 * (J - 6) + 2) < J for J in (12, 30, 5201, 10 ** 6))
     print('  well-foundedness: CL(pos<=J-3) needs params < J: %s ; sub-fire params < J: %s'
           % (ok_wf, ok_sub))
-    print('  => under EL: %s ; under PIN+dp<=6: %s (structural dp alone insufficient)'
-          % (ok_cases, ok_grid and worst[0] >= 0))
-    return ok_cases, (ok_grid and worst[0] >= 0 and ok_wf and ok_sub)
+    print('  => under EL: %s ; under PIN+dp<=6: %s ; under PIN alone (structural dp): %s'
+          % (ok_cases, ok_grid and worst[0] >= 0, var_ok))
+    return ok_cases, (ok_grid and worst[0] >= 0 and var_ok and ok_wf and ok_sub)
 
 # ------------------------------------------------------------- V4 -----------
 def V4():

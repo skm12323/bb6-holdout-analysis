@@ -116,7 +116,51 @@ to pointer i has k ≤ k*(i) ≤ the bound in (i)/(ii); combine with (A1). For (
   indicates the residues cancel structurally, so the induction should close by a
   transfinite-free argument on nesting depth (strictly decreasing spike parameters).
 
-## 6. Reproduction
+## 7. The lineage-invariant proof architecture (second pass: A1 essentially closed)
+
+The naive decomposition δ = J_enc − 2k + R is FALSE (R reaches 10; small-j chains
+inherit, not reset, the deficit). The correct object is the **lineage invariant**:
+
+**(INV-L).** For every live value v: δ(v) ≤ J_lin(v) + 2, where J_lin(v) = the maximum
+chain parameter on v's producer ancestry since the last original absorbed into that
+ancestry (originals contribute 0; a chain contributes its j to everything it produces).
+**Measured: 0 violations in 100,367 chains / 300,000 indices; worst slack exactly 2**
+(at i = 6, the walk's start); post-chain slack ≤ 0 everywhere; D-construction slack
+≤ 0 everywhere; head slack at chains ≤ 0 everywhere (residue_inv.py + instrumented runs).
+
+**Proof architecture (each step proved or measured-exact):**
+- (E) Even steps: v2 of a sum ≥ min ⟹ δ(new head) ≤ max(δ inputs). [one line]
+- (P) Pointer advances only when the read consumed originals, i.e. when ≤ 1 stack
+  entry remained — so the survivors are exactly the fresh pushes. [one line, F's read rule]
+- (C) Pure interlude climb is EXACT: absorbing consecutive pairs (u·2^t, u·2^{t+1})
+  gives c_A = c_u·4^k (induction: 1 + 3·Σ_{i<k} 4^i = 4^k). So the head's deficit at
+  front-position t of the enclosing run is δ_A = J_enc − t + O(1).
+- (Ch) At a chain, v2(c_x) is min(v_A, v_b+1) (ties only lift it): δ(u) = δ_x + j
+  ≤ J_enc − t + 2 + j ≤ J_enc + 2 provided **t ≥ j**.
+- (D) Parity cancellation: if v_c = v_A − 1 then the odd parts are odd+odd = even,
+  so v2(D) ≥ min(v_c, v_A − 1) + 1: slack(D) ≤ max(slack_c, slack_A) ≤ 0. [one line]
+- (L) Level chains: the mass identity gives c_A = 2^ρ exactly, so δ_x = 0 and
+  δ(u) = j exactly (measured: δ_x = 0 at 100% of level fires). [one line + mass identity]
+
+**So A1 ⟺ position-dominance (t ≥ j) at every chain.** Measured: **0 violations in
+100,367 chains; margin t − j ≥ 2 everywhere (≥ 3 off the D-fires of J = 5 spikes).**
+Position-dominance itself reduces to:
+- level fires: t = ρ, and j ≤ log2(k) + 2 (Lemma K) with k ≤ ρ-polynomial ⟹ t ≥ j
+  trivially for ρ ≥ 16 (small ρ verified);
+- sub-chains: (t, j) are the universal sequence's (p_i, j_i), and **p_i ≥ k_i + 3**
+  (measured: min = 3 at (4,1), p < 4·10^5; follows from the conservation law
+  Δk = 16 < Δp per spike cycle) plus Lemma K ⟹ p − j ≥ k − log2 k + 1 ≥ 3;
+- D-fires: **j_D ≤ J − 2** (measured in every case: margins 2, 7, 9, 11, 16 for
+  J = 5, 8, 12, 14, 17; G6 Prop 3's applicability condition gives j_D < J − 1 exactly
+  when F is defined there), and t_D = J − 1 ≥ j_D.
+
+**Consolidated residual.** The deficit-law side and the k-growth side of (M1′) now
+share ONE input: the conservation law sup k_i/p_i < 1 (equivalently p_i ≥ k_i + C),
+[Class-B to 4·10^5], plus one class-arithmetic lemma j_D ≤ J − 2 (measured in all
+cases; the class machinery of G6 Prop 3 applies). Everything else in A1 is proved
+above. The Endgame scope (work_g6 §5.5 D5) is unchanged by this work.
+
+## 8. Reproduction
 
 ```bash
 cd work_r10 && python fast_walker.py 20000 20000    # base-range validation (~1 s)

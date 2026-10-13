@@ -17,17 +17,18 @@ before the current epoch. Wherever a statement uses them, it says so.
 |---|---|---|
 | A | **Exit automaton.** Let θ_t := (3s_t+5) mod 2^{j_t} at the top-level chain t (step s_t, parameter j_t), and n := j_t−1. Then: b/c-steps have j_{t+1} = ω(n) ≤ j_t−3 and θ_{t+1} = θ^W+θ_t−2. a-steps have j_{t+1} = 1+v2(3s_t+5+3k_n−2^{n−1}λ_{u_t}). The step **descends** (j_{t+1} < j_t) iff (NT_t): θ_t+3k_n ≢ 2^{n−1} (mod 2^n). In that case j_{t+1} is read off θ_t mod 2^n, and θ_{t+1} = 3−θ_t. | A |
 | T | **Tie-freeness is a size statement.** In the symbolic recursion of PROOF_M Lemma 6.1, v2(α_x) = J−Γ_t exactly, and 1 ≤ β_x ≤ 6d_t−1. So the exit is tie-free whenever 6d_t ≤ 2^{J−Γ_t}. | A |
-| B | **Descent ⇒ (EL_J).** If NT holds at every a-step of an epoch, then r ≤ max(1, j_1−3) ≤ max(1, J−4) ≤ ⌊J/2−1⌋². With (C1) at J−1, also r ≤ log2(6J²). | A |
+| B | **Descent ⇒ (EL_J), with (C1).** If NT holds at every a-step of an epoch, then r ≤ max(1, j_1−3) ≤ max(1, J−4) ≤ ⌊J/2−1⌋² for J ≥ 6. Inside Theorem M’s induction, with (C1) at earlier crossings (in particular J−1), the symbolic exit is tie-free and r ≤ log2(6J²); small cases are certified. | A+B |
 | C | **NT criterion.** NT_t holds whenever the integer representative θ̃_t ∈ [−10,4] (uses (C1) at n ≥ 8). NT always holds at the fire (t=0, J ≥ 10). At t=1 it holds for routes a and b, for every J. | A |
 | D | **Certificate.** For every 10^6 ≤ J < T₁ := 2^{499998}, the exit (inside Theorem M's induction) is tie-free, descends at every step, and has **r ≤ 4**. So (EL_J) holds on this range. | A+B |
 | E | **Extended unconditional horizon.** F is defined, the universal walk does not halt, and (M1′),(M2′) hold literally for all s < (2^{T₁}−4)/3 ≈ 2^{2^{499998}}. This replaces 2^{10^6} in PROOF_M Theorem 6.2. | A+B |
 | F | **Where the method stops.** One more tower level admits adversarial tie paths, of which 3 are found. Each needs three nested "fire copies", which drift θ̃ by −3. The path is (j,θ̃): (17,−2) → (5,5) → tie at n=4. | B |
-| R | **Remaining lemma (exact): (NT)** at every a-step of every epoch with J ≥ T₁. By B it implies (EL), and hence Theorem M without hypotheses. | open |
+| R | **Sufficient remaining condition: (NT)** at every a-step of every epoch with J ≥ T₁. By B, inside Theorem M’s induction with (C1), it implies (EL), and hence Theorem M without hypotheses; it is not necessary for (EL). | open |
 
 Answer to the brief: the strict decrease of j (approach 1) holds unconditionally on b/c-steps. On
 a-steps it holds exactly when the congruence NT holds. Termination by parity (approach 2) is
-automatic once j ≤ 4. Tie-freeness by size (approach 3) holds (Lemma T). So the whole of (EL_J)
-reduces to the single congruence NT. NT is proved at t=0, at t=1 for routes a and b, and everywhere
+automatic once j ≤ 4. Tie-freeness by size (approach 3) holds (Lemma T). Inside Theorem M’s
+induction with (C1), NT is sufficient for the whole of (EL_J), by Theorem B. NT is proved at t=0,
+at t=1 for routes a and b, and everywhere
 for J < 2^{499998}.
 
 ## 1. Setting
@@ -88,8 +89,10 @@ Under NT_t: Θ_{t+1} = Θ_t+3+6k_n = λ_{x_{t+1}} + 2^nλ_{u_t} + 3 − Θ_t. Bo
 
 By induction over time, θ̃_t ≡ Θ_t (mod 2^{j_t}) as long as all a-steps so far satisfy NT. Then every
 decision (parity, type, j, θ) depends only on the state (j_t, θ_t mod 2^{j_t}) and on W's crossing table.
-In particular the exit is a function of J alone. This is the conclusion of PROOF_M R5, now with no
-tie-free hypothesis.
+In particular the exit is a function of J alone, **provided every encountered a-step satisfies NT**.
+This is the conclusion of PROOF_M R5, with NT in place of the tie-free hypothesis. At an NT failure
+the automaton yields only an unresolved non-descent: the next parameter needs higher bits absent
+from (j,θ), so these rules do not determine an exact continuation.
 - [B] E1: every formula above holds at all 302,879 fires, 15,850 a-steps (all descending) and 7,910 b/c-steps of the real walk to i = 10^6.
 - [B] E2: the automaton equals `verify_m.sym_exit` for 2 ≤ J < 20000.
 - [B] E4: run from every fire state (J,1), J < 10^6, it reproduces V4's distribution {0: 378,392; 1: 574,113; 2: 47,493} exactly (J ≥ 2).
@@ -119,8 +122,10 @@ and Γ_t := Σ_{t′<t}(1+ε(n_{t′})).
    - H is odd and α_H is even, so β_H is odd ≥ 1. Hence a new D has β ≥ −1 + 1 = 0.
    - Since Σβ = 3d−3 and only D_0 is negative, β_H + β_b ≤ 3d−2. Therefore β_x ≤ 2(3d−2)+3−β_H ≤ 6d−1.
 
-Hence v2 β_x ≤ log2(6d_t) < J−Γ_t ⇒ tie-free. This is the margin inequality of Theorem M with ρ
-replaced by J. E3 confirms both identities at all 13,379 exit chains for J < 20000. ∎
+If 6d_t ≤ 2^{J−Γ_t}, then β_x ≤ 6d_t−1 < 2^{J−Γ_t}, so v2 β_x < J−Γ_t = v2 α_x: tie-free.
+In fact equality 6d_t = 2^{J−Γ_t} is impossible for positive integer d_t, since 6d_t is divisible
+by 3. This is the margin inequality of Theorem M with ρ replaced by J. E3 confirms both identities
+at all 13,379 exit chains for J < 20000. ∎
 
 ## 4. Theorem B (descent ⇒ EL) and Lemma C (NT criterion) [A]
 
@@ -130,7 +135,22 @@ j_1 > j_2 > … > j_r.
 - Hence r ≤ max(1, j_1−3). Also j_1 ≤ J−1, so r ≤ max(1, J−4) ≤ ⌊J/2−1⌋² (J ≥ 6).
 - With (C1) at J−1, we have j_1 ≤ log2(6τ(J−1)+5) ≤ log2(6J²). This follows from G6 §5.3: route a has j_1 = 1+v2(3k_{J−1}+1), and routes b/c have j_1 = ω(J−1).
 
-Together with Lemma T, this is (EL_J). ∎
+For the **symbolic tie-freeness** part, work inside Theorem M’s induction, with (C1) at all earlier
+crossings, in particular τ(J−1) ≤ (J−1)². On the valid symbolic prefix put
+**h_t := J−Γ_t−j_t**, so h_0 = 0. By the coefficient recurrence in Lemma T,
+- at an a-step (ε = 0), h_{t+1}−h_t = j_t−j_{t+1}−1 ≥ 0 under NT;
+- at a b/c-step, h_{t+1}−h_t = j_t−j_{t+1}−1−ε(n_t) ≥ 1 by the stronger bound in (A1).
+
+If the first transition is a b/c-step, this gives h_1 ≥ 1. If it is an a-step, (C1) gives
+j_1 ≤ log2(6(J−1)²+5) < J−1 for J ≥ 10, hence j_1 ≤ J−2 and h_1 = J−1−j_1 ≥ 1.
+The strict inequality starts at 6·9²+5 = 491 < 512 and persists since
+6J²+5 < 2(6(J−1)²+5) for J ≥ 10. Thus every exit chain has h_t ≥ 1: a later first a-step
+already inherits a positive margin from the preceding b/c-steps. At each next chain, Lemma T’s
+coefficient recurrence gives v2(α_{x_t}) = J−Γ_t > j_t. Since λ_{x_t} = α_{x_t}λ_u+β_{x_t}
+has valuation j_t and λ_u is odd, this forces v2(β_{x_t}) = j_t, validating the next symbolic
+division and continuing the prefix induction. The small cases J < 10 are covered by V4 of
+PROOF_M (and E2–E3 for 2 ≤ J < 10); J = 1 has no exit chain. Hence, with these inductive
+hypotheses and certified small cases, NT implies (EL_J). ∎
 
 **Lemma C.** Let chain t be followed by an a-step at n = j_t−1. If θ̃_t ∈ [−10,4], then NT_t holds.
 *Proof.* A tie means θ̃_t + 3k_n ≡ 2^{n−1} (mod 2^n). By Lemma 1 and the crossing table (printed by
@@ -162,7 +182,8 @@ certified λ-walk to i = 10^6.
 All later steps have n < 10^6 and use only Φ.
 
 **[B] E4 (level 0).** Every fire state (J,1), 2 ≤ J < 10^6, runs without a tie, with r ≤ 2.
-The a-step pairs are {(j,θ̃): j ≤ 4, θ̃ ∈ {1,2,3}} ∪ {(j,2): 5 ≤ j ≤ 21}, 27 in all (listed in the log).
+The a-step pairs are {(j,θ̃): 1 ≤ j ≤ 3, θ̃ ∈ {1,2,3}} ∪ {(4,1),(4,2)} ∪
+{(j,2): 5 ≤ j ≤ 21, j ≠ 20}, 27 in all (listed in the log).
 
 **[B] E5 (level 1).** The automaton was run from (j,2) and (j,0) for **every** 1 ≤ j < 10^6, and from
 the 27 c-entries. There is no tie, and at most 3 chains follow the entry chain. The distribution is
@@ -171,7 +192,8 @@ the 27 c-entries. There is no tie, and at most 3 chains follow the entry chain. 
 Hence every such epoch descends at every step and has **r ≤ 4**.
 
 **Tie-freeness.** Lemma T applies with Γ_t ≤ 4+ε(J−1)+3·7 ≤ 25+(J−1)/4. This uses (C2) at J−1, and
-ε ≤ 7 below 10^8 by V2. Also d_4 ≤ 4+(J−1)²+3·10^6 ≤ 2J². Then log2(12J²) < 3J/4−25. So (EL_J) holds
+ε ≤ 7 below 10^8 by V2. The first call uses (C1), and the next three use V2’s stronger bound
+τ(n) ≤ n below 10^6, giving d_4 ≤ 4+(J−1)²+3·10^6 ≤ 2J². Then log2(12J²) < 3J/4−25. So (EL_J) holds
 for 10^6 ≤ J < T₁. For J < 10^6 it was already V4. ∎
 
 **Corollary E [A+B].** F is defined and the universal walk never halts for every s < (2^{T₁}−4)/3.
@@ -200,18 +222,21 @@ of the same shape:
 For this to happen, three nested level fires must have b-type first returns, the innermost two at
 levels ≥ 10^6−2 with prescribed parameters. That is a congruence condition on F's own k-values far
 beyond any computation. It is not excluded by size. A tie means only non-descent, not
-non-termination, so this is no evidence against (EL). It does show that the descent method needs
+non-termination, so this is no evidence against (EL). These adversarial tie paths are automaton
+obstructions, not paths shown realizable in F. It does show that the descent method needs
 arithmetic information about F at astronomically large levels. Each further level of the
 tower T_{h+1} = 2^{(T_h−3)/2} adds at most one adversarial step. With real-chain values θ̃ ∈ {0,1,2},
 and exit values in [−1,3] (E4), level 1 is the most the adversarial closure can certify.
 
-## 7. The remaining lemma (exact)
+## 7. A sufficient remaining condition
 
 **(NT)** In every epoch with J ≥ T₁ = 2^{499998}, every a-step satisfies
 θ_t + 3k_{j_t−1} ≢ 2^{j_t−2} (mod 2^{j_t−1}), i.e. j_{t+1} < j_t.
 
-(NT) ⇒ (by Theorem B and Lemma T) (EL_J) for all J with r ≤ log2(6J²) ⇒ (PROOF_M §8) (EL) ⇒
-Theorem M with no hypotheses.
+Inside Theorem M’s induction, retaining (C1) at earlier crossings, (NT) for J ≥ T₁ is a
+**sufficient condition for (EL), not a necessary one**: a non-descending step may still terminate.
+By Theorem B and the certified range J < T₁, it gives (EL_J) for all J with r ≤ log2(6J²),
+hence (EL) by PROOF_M §8, and then Theorem M with no hypotheses.
 
 A sufficient condition, by Lemma C, is **(Θ)**: θ̃_t ∈ [−10,4] at every chain that is followed by
 an a-step. Data: θ̃ ∈ {0,1,2} at all real chains to i = 10^6, and θ̃ ∈ [−1,3] at all level-0 exit
@@ -219,7 +244,7 @@ chains [C]. By Remark S, θ̃ can leave this window only through nested fire-cop
 reflections θ ↦ 3−θ. That needs nesting depth ≥ 3 at levels ≥ 10^6, which is exactly the shape in §6.
 
 Proved for all J [A]:
-- Theorem A, Lemma T, Theorem B.
+- Theorem A, Lemma T, Theorem B, with their stated hypotheses (and certified small cases for B).
 - NT at t=0.
 - NT at t=1 for routes a and b.
 - Strict descent of every b/c-step by ≥ 3.

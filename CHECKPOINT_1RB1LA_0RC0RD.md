@@ -242,3 +242,17 @@ UNPROVED; the conditional theorem itself is under repair.**
   (5) Lemma T boundary case β_x ≤ 6d_t−1 < 2^{J−Γ_t}; NT is sufficient, not necessary.
 - PENDING: patch + two blind auditors. Until then work_el is NOT audited; finite horizon of record
   remains s < (2^{10^6}−4)/3 (work_m).
+
+## work_el — ACCEPTED (2026-10-13)
+- Auditor 1 (codex, blind): `simple errors` (27/29 count only) — Theorem A identities 0 mismatches on the
+  real walk i ≤ 2·10^5; automaton J < 2·10^5 no NT failure, r ≤ 2; Lemma C 908,625 checks.
+- Auditor 2 (codex, blind): `simple errors` (same count) — independent exact F to X(10^6); all (j,2),(j,0),
+  j < 10^6, plus 27 route-c states: no NT failure, ≤ 3 further chains (r ≤ 4); Lemma T 669,099 chains;
+  no circularity; Cor. E arithmetic correct.
+- Patch (codex; 6 items incl. Theorem B margin argument via h_t) → targeted re-review (codex):
+  `1. closed in all states`. Reviews: reviews/astra_work_el_review.md, reviews/codex_work_el_*.md.
+- **Audited results:** Theorem A (exit automaton, conditional on NT), Lemma T, Theorem B (NT ⇒ EL_J
+  under (C1)), Theorem D + **Corollary E: the universal walk F is defined and never halts for all
+  s < (2^{T₁} − 4)/3, T₁ = 2^499998** (supersedes work_m's 2^{10^6} horizon).
+- **Open:** (NT) for J ≥ T₁ (sufficient for (EL) ⇒ Theorem M unconditional); then Return and the
+  real-machine endgame. #1 non-halting remains UNPROVED.

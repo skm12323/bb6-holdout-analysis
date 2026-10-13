@@ -1,0 +1,9 @@
+{
+  "exact_crossing_time_checks": 2048,
+  "exact_crossing_checks": 651,
+  "concrete_lift_checks": 2860,
+  "non_descending_transitions": 12,
+  "higher_precision_entries": 294,
+  "result": "PASS",
+  "seed": 20261013
+}

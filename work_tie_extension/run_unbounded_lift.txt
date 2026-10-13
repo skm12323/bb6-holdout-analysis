@@ -1,0 +1,14 @@
+Failed to find real location of D:\anaconda3\python.exe
+{
+  "result": "PASS",
+  "cases": 508,
+  "contiguous_q": [
+    7,
+    512
+  ],
+  "extra_q": [
+    4096,
+    65536
+  ],
+  "scope": "Synthetic mass-compatible states, not claimed reachable from F start"
+}

@@ -299,3 +299,14 @@ UNPROVED; the conditional theorem itself is under repair.**
 - Next-level obstruction (recorded in PROOF_RESCUE §4): above K, rescued chains can be copied and the
   automaton's θ rule fails after a non-NT step (true Θ₂ ≡ 46 vs rule 62 mod 64).
 - #1 global non-halting remains UNPROVED.
+
+## Level-3 extension: work_tie2 (Claude TIE2) and work_tie_extension (GPT Astra) — REVIEW IN PROGRESS (2026-10-13)
+- Both claim: every J < K′ = 2^(K/2−2) has a tie-free exit with r ≤ 7 ⇒ universal walk F defined and
+  non-halting for s < (2^{K′}−4)/3 (level-3 certificate, 7,000,101 entries; all ties at (5, Θ≡5 mod 32)
+  resolved by keeping higher bits). work_tie_extension's program is adapted from work_tie2's (not independent).
+- work_tie2 Stage 3: adversary (Claude) `fixable gaps`; auditor 1 (codex) `simple errors` (NT failures 13,943,
+  not 13,949); auditor 2 (deepseek-v4.1-flash) `all correct`. Patched (9 items, commandcode/deepseek);
+  targeted re-review pending. work_tie_extension: review not started.
+- Trend (C): entry family grows each level (θ window widens by 2; 6 → 35,801 → 60,068 extended records);
+  level 4 only conditional; level 5 needs a hidden-k symbolic state. Horizon of record stays K (work_tie)
+  until review completes.

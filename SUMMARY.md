@@ -10,7 +10,7 @@ A statement is marked "audited" only if it passed a three-way review (one advers
 |---|---|---|---|
 | `1RB1LC_1RC1LB_1LD0RB_0LE1RD_---0LF_0LA1LF` | none (paths fuse-reset) | undecided | — |
 | `1RB0LE_0RC1RB_1LC1RD_1RF0LA_0RD1LE_1RB---` | Reduction v2 (block-list map M, halt ⇔ orbit hits H); refined criterion: halt ⇔ some left-edge arrival has u0 ∈ {2^k−2} (Lemma W sweep map) | undecided | likely new; **3 siblings proved equivalent (work_u1, audited)** |
-| `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | Reduction to stack top-map; halt ⇔ some step with A odd and A+2b+3 = 2^k; ΣL_n = 3n+3; **no halt for top steps n < 2^2001 − 2** (audited); R8 (reviewed): compositional + template with sum-class separation; **R9 (2026-10-13): non-halting CLAIMED** — three-way review passed on all verified ranges, then an external gap analysis (G6, confirmed) showed the write-up's "finitely many exit types" induction step is false as stated (exit-inside-exit depth uncontrolled; j_D = 1+v2(3K+4) unbounded); G6's reformulation reduces the residual to one margin inequality (M), verified to index 4·10^5 via the universal-replay route (one universal (p,k) sequence, x = 3·2^ρ·U + 6k+4, u ≥ 9 at every chain every level; queue-determinism locality; ρ-induction; ell = 2k_b + e) — see CHECKPOINT (G6 section) for the governing status (work_r9/THEOREM.md, verify_r9.py) | **non-halting UNPROVED** (repaired Theorem R audited as a CONDITIONAL theorem, work_g6/: universal walk never halts if (M1′),(M2′) hold beyond i=20000; Return lemma and endgame still open) | covered in more depth by [CyclingCycloid/bb6-holdout-research](https://github.com/CyclingCycloid/bb6-holdout-research) (as "M1"); community sheet lists it as "Cubic Mess", no notes |
+| `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | Reduction to stack top-map (halt ⇔ odd A with A+2b+3 = 2^k); no halt for top steps n < 2^2001−2; formal pair map F + conditional Theorem R (work_g6) and Theorem M (work_m); **universal walk F defined and non-halting for s < (2^(2^499998)−4)/3** (work_el) | **undecided.** Global non-halting reduces, on two independent conditional routes, to control of arbitrarily deep 2-adic ties: (NT) route (work_nt, reviews/astra_NT_research.md — NT may be false) and GLM's work_r10 tree (conditional on measured constant EL or unproved PIN, plus an endgame with unbounded tie depth). R9's full-proof claim withdrawn. | covered in more depth by [CyclingCycloid/bb6-holdout-research](https://github.com/CyclingCycloid/bb6-holdout-research) (as "M1"); community sheet lists it as "Cubic Mess", no notes |
 | `1RB1RA_1LC0RC_---0LD_0LE0RF_1RE0RA_0LF1LB` | Phase system + Σ stack machine; Theorem H (halt ⇔ an empty-stack state (p,1;∅) satisfying the stated condition) | undecided | equivalent reduction exists (Racheline, Discord 2024); also treated as "cm2" in CyclingCycloid/bb6-holdout-research |
 | `1RB1LE_1LB1LC_1RD0LE_---0RB_1RF1LA_0RA0RD` | 11-row rule table; halt ⇔ orbit visits (0;10,…) | undecided | already covered (Polygon R1–R14; simulated to 10^190,000) |
 
@@ -19,7 +19,7 @@ A statement is marked "audited" only if it passed a three-way review (one advers
 | Machine | Main theorems | Verification scripts | Arbitration record |
 |---|---|---|---|
 | `1RB0LE` | `work_q4/RULES.md`, `work_q6/LEMMAS.md` | `verify_q4.py`, `verify_q6.py` | `REPORT_1RB0LE_0RC1RB.md`, `CHECKPOINT_1RB0LE_0RC1RB.md` |
-| `1RB1LA` (#1) | `work_r1/RULES.md`, `work_r4/PROOF.md`, `work_r8/PROOF.md` | `verify_r1.py`, `verify_r4.py`, `verify_r8.py` | `CHECKPOINT_1RB1LA_0RC0RD.md` |
+| `1RB1LA` (#1) | `work_r1/RULES.md`, `work_r4/PROOF.md`, `work_g6/PROOF_G6.md`, `work_m/PROOF_M.md`, `work_el/PROOF_EL.md` (audited); `work_r10/ASSEMBLY.md`, `work_nt/PROOF_NT.md` (conditional / unaudited) | `verify_r1.py`, `verify_r4.py`, `verify_g6.py`, `verify_m.py`, `verify_el.py` | `CHECKPOINT_1RB1LA_0RC0RD.md` |
 | `1RB1RA` (#2) | `work_s1/RULES.md`, `work_s3/RULES.md` | `verify_s1.py`, `verify_s3.py` (`verify_s3` imports `verify_s1`) | `REPORT_1RB1RA_1LC0RC.md` |
 | `1RB1LE` | `work_t1/RULES.md` | `verify_t1.py` | `REPORT_1RB1LE_1LB1LC.md` |
 | `1RB1LC` | — | — | `CHECKPOINT_1RB1LC_1RC1LB.md` |
@@ -30,7 +30,7 @@ Notes:
 
 ## Open problems
 
-- **#1:** prove the margin inequality (M): v2(c_x) > log2(6s+5) at every chain of the parameter-free universal walk (G6 Theorem R: with (M), non-halting follows; currently verified to index 4·10^5 with deficit <= 14 and s ~ 0.9i). Equivalently: control the exit-inside-exit depth (the escaping branch starts at the j=14 spike, level index 6134). Suggested angle: G6's (M1) deficit <= C·log2(i) + C' — measure the deficit growth to much larger indices (walker is parameter-free and fast) and attempt a drift proof like the dive-map one.
+- **#1:** control of arbitrarily deep 2-adic ties in exits/endgames: equivalently (NT) for J ≥ 2^499998 (sufficient; may be false — see reviews/astra_NT_research.md), or GLM's EL/PIN plus a growing-tie-depth endgame closure (work_r10/ASSEMBLY.md). Not decidable by computation (relevant indices are astronomically large).
 - **`1RB0LE`:** show that the averaging-carry map never yields an all-even chain ending in a power of 2.
 
 ## Suggested next work

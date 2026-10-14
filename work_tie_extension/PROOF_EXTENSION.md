@@ -1,6 +1,10 @@
 # Copy-aware residue certificates: extending the finite F horizon once more
 
-2026-10-13. **New derivation and computational certificate; not independently audited.**
+**Status: Supplementary to the audited work_tie2 Theorem TIE2 (same horizon K′);
+contribution = exact b/c margin gain + bigint kernel checks + information-loss construction.**
+Adversary review (2026-10-14): "with fixable gaps", no structural defect; fixes applied below.
+
+2026-10-13. New derivation and computational certificate.
 Scope: the universal formal walk F. This is not a global non-halting proof,
 and it does not close the finite-excursion endgame.
 
@@ -21,19 +25,27 @@ The new certificate supports the following extension, with the proof below:
 
 The result uses the audited base and symbolic identities from
 `work_g6/PROOF_G6.md`, `work_m/PROOF_M.md`, `work_el/PROOF_EL.md`, and the
-previous two-level analysis in `work_tie/PROOF_RESCUE.md`. The new computational
+previous two-level analysis in `work_tie/PROOF_RESCUE.md`, and
+`work_tie2/PROOF_TIE2.md` (its copy rule, its coverage induction, and its
+corrected deficit inequality floor(log2 i) >= J/2-2). The new computational
 obligation is the complete third-layer certificate in `certificate_layers.json`.
 It does not use the purported all-v endgame closure or the EL/PIN proof tree.
 We assert Theorem M's quadratic time and cubic-logarithmic deficit conclusions
 on the new finite range, not an independently rederived quadratic-log bound.
 
-The verification program was adapted from the existing, untracked
-`work_tie2/verify_tie2.py`, read as a reference, without modifying that directory.
-Its snapshot hash is in the program header. Changes here include the exact
+The verification program was adapted from `work_tie2/verify_tie2.py`
+(committed in d38aa62), read as a reference, without modifying that directory.
+The snapshot hash in the program header (DA278BF3...) is stale: the current
+committed file hashes to 67bd2b9f..., because verify_tie2.py was edited after
+the snapshot was taken. The adversary review compared the two and found the
+make_ext core unchanged apart from the edits listed here. Changes here include the exact
 b/c margin increment, rejecting nonpositive margins, limiting unresolved
 searches, exporting complete output families, and stopping at an incomplete
 layer. This is not an independent implementation of that reference algorithm.
-The separate kernel checks use full bigint crossing coefficients as an oracle.
+The separate kernel checks use full bigint crossing coefficients as an oracle
+only for b/c steps. For a-steps the oracle uses the same symbolic formula as
+the engine, x = 2*theta+3*tau-u*2^(j-1); it is tied to bigint data only through
+the head identity lambda_head+lambda_Y = 3*tau+1 (lambda = 3*tau+1), checked for n < 2048.
 
 ## 2. Why copied states need additional information
 
@@ -93,14 +105,19 @@ and sigma_W=v2(c_xW). Replay gives
 
 Here sigma_W=n-epsilon(n): in type b this follows from the original pair
 coefficients, and in type c from c_A+c_Y=2^n and c_x=2^(n+1)-c_A.
+Verification status of this identity: it is checked against full bigint pair
+coefficients only for n < 2048 (`verify_kernel.py`). For 2048 <= n < 10^6 the
+certificate relies on PROOF_M Lemma 3.2 together with the internal consistency
+of the walk; the adversary review additionally checked it on all 318,728 odd
+b/c crossings with n < 10^6 against the walk's own recursion.
 Since c_uW/2^v and u are odd,
 
     u_new = u_W+2^v (mod 2^(v+1)).
 
 The program keeps at most 4096 bits. The increment **v**, rather than merely
 the lower bound 1, is used in the margin accounting. The full-pair oracle
-checks the coefficient identity and the recorded chain data at 651 small
-odd b/c crossings.
+checks the coefficient identity and the recorded chain data at the 651 odd
+b/c crossings with n < 2048.
 
 ### 3.3 Copying a previously certified a-output
 
@@ -202,7 +219,12 @@ used as an audited dependency, not rerun here.
 |---|---:|---:|---:|---:|
 | 1 | 2,000,024 | 0 | 0 | 3 |
 | 2 | 5,000,059 | 3 | 0 | 4 |
-| 3 | 7,000,101 | 13,949 | 0 | 4 |
+| 3 | 7,000,101 | 13,949 (= 13,943 + 6) | 0 | 4 |
+
+Of the 13,949 layer-3 extended runs, 13,943 are genuine NT ties (specific
+'pair' entries); the remaining 6 are the copied 'X' entries, which are NT-safe
+extended inputs run with the extended engine for their retained precision,
+not ties.
 
 The different counts from work_tie are due to canonicalizing theta modulo
 2^j and deduplicating specific pairs, not reducing the admissible residue set.
@@ -232,9 +254,13 @@ followed by an even return. The largest observed parameter immediately
 after these non-NT steps is 19. This is a statement about the certified
 families, not a universal upper bound on such steps.
 
-The kernel check compares residue predictions and exact margin increments
-against 2860 concrete lifts using full bigint crossing coefficients,
-including 12 non-descending transitions. It also checks 651 b/c crossings.
+The kernel check samples 3,012 concrete lifts (1,004 sampled starting parameters — 4 hand-picked tuples plus 1,000 random (j,T) draws, seed 20261013 — x 3
+lifts). Of these, 152 are skipped (count obtained as 3,012 − 2,860; the script has no explicit skip counter) (x <= 0 or a needed crossing beyond the
+n < 2048 data), and the remaining 2,860 are compared against the residue
+predictions and exact margin increments, including 12 non-descending
+transitions. In these comparisons b/c steps use full bigint crossing
+coefficients; a-steps use the symbolic formula of section 3.1 (see section 1).
+It also checks the 651 odd b/c crossings with n < 2048.
 These tests supplement the symbolic transfer proof; they are not an
 independent review of the full induction.
 
@@ -244,7 +270,10 @@ Apply Theorem M's induction over epochs. For rho<=10^8 use its audited
 base. At later epochs, retain (C1),(C2) at earlier crossings. The coverage
 and coefficient-separation argument above give r<=7 whenever J<T3.
 This is smaller than floor(log2 rho)^2, so the remaining time, margin,
-and progress estimates of Theorem M apply unchanged.
+and progress estimates of Theorem M apply unchanged; for the deficit bound
+we use the corrected inequality of PROOF_TIE2 (step 6),
+floor(log2 i) >= J/2-2 (from 3s+4 >= 2^J and s <= i^2), exactly as in
+work_tie2 Theorem TIE2.
 
 Before s=(2^T3-4)/3, every fire has
 
@@ -278,8 +307,19 @@ The X(4) a-return has k=1. Its next chain satisfies
     lambda_x_new=2(Theta+3-8u)=2^q,
     j_new=q, sigma_new=sigma-1=q+1>q.
 
+In the pair map, the chain at step 0 is odd with
+c_x=3*2^sigma, j=5; the new pending list is [w,2w,4w,8w,D] with
+w=(3*2^(sigma-5), 2^(q-5)+1), D=(2^(sigma+1)+2^(sigma-1), 2^(q-2)-13), and
+A=(3*2^(sigma-5), 2^(q-5)+2). The two intermediate steps are even, since
+sigma>=9 and q>=7 make both components of A even:
+
+    step 1: A <- A+w+2w+(0,3) = (3*2^(sigma-3), 2^(q-3)+8),
+    step 2: A <- A+4w+8w+(0,3) = (3*2^(sigma-1), 2^(q-1)+23).
+
+Step 3 is odd, with b=D; using the odd-step rule x = A + 2b + (0,3) of the pair map (PROOF_M/PROOF_G6 §5): c_x=13*2^(sigma-1), lambda_x=2^q, as claimed.
+These are polynomial identities in 2^q, so they hold for every q>=7.
 Both chain margins are safe, yet the parameter jump is unbounded.
-The exact full pair-map check covers q=7..512 and q=4096,65536 (508 cases).
+The exact full pair-map check additionally covers q=7..512 and q=4096,65536 (508 cases).
 This does not contradict any actual-orbit bound: these states have not been
 shown reachable, and are not claimed to satisfy all earlier-time hypotheses.
 It proves that a bounded-j continuation theorem based only on (5,5),
@@ -305,4 +345,4 @@ Reproduce:
     python -B work_tie_extension/verify_unbounded_lift.py
 
 Only this directory receives output files. Existing proofs and work_tie2
-are unchanged. No commit or remote operation is part of this work.
+are unchanged. No commit or remote operation was performed as part of this directory's work (the d38aa62 note above refers to work_tie2).

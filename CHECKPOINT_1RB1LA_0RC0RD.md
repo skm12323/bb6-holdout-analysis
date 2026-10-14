@@ -330,3 +330,14 @@ UNPROVED; the conditional theorem itself is under repair.**
   information-loss construction); same horizon K′.
 - work_global_shadow, work_global_compression: unaudited research material.
 - #1 global non-halting remains UNPROVED.
+
+## work_claude_global (Claude) — ACCEPTED (2026-10-14)
+- Audited (reviews/claude_global_descent_review.md): **"r ≤ 2" is not universal** — the fire J=50,148,477
+  has exit (J,27,6,1), r=3, tie-free (independently recomputed twice). Skeleton computation (Class B):
+  all J ≤ 4·10^8 give r ≤ 3 (three r=3 cases; the other two rest on the skeleton only).
+- Exact first-step formulas: j1=v2(3τ(J−1)+2) (type a, if < J−1), j1=v2(3τ(J−1)+4) (type b); a→a second
+  step j2=min(J(τ(m)),m), m=j1−1 (a-type first step only).
+- New target **DL (strict descent of exit parameters per epoch)**: inside Theorem M's induction DL ⇒ (EL).
+  Covered: t=0, all b/c returns, first a→a. Open: G1 (a→a POS collisions, t≥2) and G2 (a after b/c);
+  b-type canonical state unproved. Conjectured picture: r(J) grows like log* J.
+- #1 global non-halting remains UNPROVED; endgame gap unchanged.

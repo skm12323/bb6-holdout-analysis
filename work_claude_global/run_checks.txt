@@ -1,0 +1,9 @@
+== val_skel.py
+checked 3000 bad 0 missing set()
+== valid.py
+epochs 18171 mismatch 0
+== check_aa.py
+Counter({'a:j1 ok': 6053, 'b:j1 ok': 6053, 'aa ok': 316})
+== markov.py
+max tail length 3 non-deterministic transitions: 4 [(('a', 5), {1, 2, 3}), (('b', 5), {1, 2, 3}), (('a', 8), {1, 4}), (('b', 8), {1, 2})]
+non-decreasing steps: [] 0

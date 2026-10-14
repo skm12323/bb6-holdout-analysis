@@ -1,0 +1,4 @@
+V2 done 42s rdist [(0, 13998824), (1, 1188788), (2, 1366)]
+tau(n)= 44739242 eps(n)= 0 (0 => type a)
+head parity (c+lam) odd? True
+sym_exit: ((50148477, 27, 6, 1), 'aaba', 3, 4)

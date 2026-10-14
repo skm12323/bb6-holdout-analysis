@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "actual_crossing_sources": 1304,
+  "synthetic_rescue_sources": 8,
+  "copied_full_runs": 3936,
+  "exact_error_transition_checks": 363,
+  "copied_non_NT_transitions": 24,
+  "source_crossing_limit": 4096,
+  "odd_shift_first_a_terminal": 57,
+  "odd_shift_collision_sources": 8,
+  "finite_tail_shadow_runs": 1312,
+  "small_shift_dominance_checks": 65,
+  "small_shift_collision_resolutions": 8
+}

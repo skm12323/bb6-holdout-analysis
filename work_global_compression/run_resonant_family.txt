@@ -1,0 +1,17 @@
+Failed to find real location of D:\anaconda3\python.exe
+{
+  "result": "PASS",
+  "fixed_phase": "6-8/3^1022",
+  "phase_mod_2_17": 32702,
+  "u_mod_4": 3,
+  "cases": 107,
+  "contiguous_q": [
+    24,
+    128
+  ],
+  "extra_q": [
+    512,
+    4096
+  ],
+  "scope": "Synthetic states, not a refutation of an actual-orbit invariant"
+}

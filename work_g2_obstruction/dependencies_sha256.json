@@ -1,0 +1,9 @@
+{
+  "work_tie/PROOF_RESCUE.md": "37f4d5ff69a1ffe8547d1c4fe4c9b45e76d57618c66ecfae448dd61ed47d6775",
+  "work_m/PROOF_M.md": "ea1c3999dbbfca52691b724c7342ca2285cad1aa339ec7e00e80c6ae40515ee4",
+  "work_m/verify_m.py": "ddae77f268ac3c901b8d81ca1f074b5495d9f4137e13d8779a5314884c4f022b",
+  "work_el/verify_el.py": "5e215d614bd447aae3c027c45202b084ea000546f7491dd15b4310f98922a191",
+  "work_g2_obstruction/verify_obstruction.py": "8e75fa9ecdf3c2dd2c0a43b1495f444f728d9ee7ba50894cacf79a947b9cdd1c",
+  "work_g2_obstruction/verify_finite_witness.py": "2b23954cc5e7cca9c4e4a3e5b38113dc675ee843ffbab72a1377c66dc26b11fb",
+  "work_g2_obstruction/verify_short_b_family.py": "c629c9c2b0f0dd8b89bec60d5c5f3022ee9f5b87a4b1a7ad11ac35717c5c5910"
+}

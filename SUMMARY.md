@@ -30,7 +30,7 @@ Notes:
 
 ## Open problems
 
-- **#1:** control of arbitrarily deep 2-adic ties in exits/endgames: equivalently (NT) for J ≥ 2^499998 (sufficient; may be false — see reviews/astra_NT_research.md), or GLM's EL/PIN plus a growing-tie-depth endgame closure (work_r10/ASSEMBLY.md). New narrower target (work_claude_global, audited reformulation): the strict-descent lemma DL for exit parameters implies (EL) within Theorem M; open cases G1/G2. Note: exits are not bounded by 2 (r=3 at J=50,148,477). Not decidable by computation (relevant indices are astronomically large).
+- **#1:** control of arbitrarily deep 2-adic ties in exits/endgames: equivalently (NT) for J ≥ 2^499998 (sufficient; may be false — see reviews/astra_NT_research.md), or GLM's EL/PIN plus a growing-tie-depth endgame closure (work_r10/ASSEMBLY.md). The strict-descent target DL (work_claude_global) is **refuted** (work_g2_obstruction, audited): an actual epoch (p3,p2,244875,17,5,6,1) with r=6 has the non-descent 5→6; remaining targets are exit-length bounds, correlated core-visit bounds and the endgame. Note: exits are not bounded by 2 (r=3 at J=50,148,477). Not decidable by computation (relevant indices are astronomically large).
 - **`1RB0LE`:** show that the averaging-carry map never yields an all-even chain ending in a power of 2.
 
 ## Suggested next work

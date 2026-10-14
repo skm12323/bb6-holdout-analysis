@@ -352,3 +352,11 @@ UNPROVED; the conditional theorem itself is under repair.**
   prefixes ∅, a, b, a,a (non-tie), b,a.
 - Open: collisions after a b/c prefix (t ≥ 1) and after c-type first steps; offset control after ≥ 3
   returns; G1; endgame. #1 global non-halting remains UNPROVED.
+
+## work_g2_obstruction — DL REFUTED (ACCEPTED, 2026-10-14)
+Three-way review: adversary fixable gaps (patched), auditors all correct ×2 (reviews/g2_obstruction_review_record.md).
+- Fire-spectrum GAP + BARRIER: every J with J+4<B occurs as an actual fire parameter at time 2T_J.
+- Actual epoch (p3,p2,244875,17,5,6,1), r=6 (r≤6 bound sharp), ends safely; 5→6 refutes global DL (G1-type). G2 not unconditionally refuted (12-ancestry 65→5→5 only beyond B).
+- Offset invariant {0,±1,−2} fails for one b-copy (δ=−20); proved short-prefix table unaffected.
+- Positive: pure-b depths m=1..123 into the parameter-5 source close safely.
+- Consequence: DL route to (EL) abandoned; targets are exit-length bounds, correlated core-visit bounds, endgame.

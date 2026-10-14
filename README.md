@@ -24,7 +24,7 @@
 - `work_*/`：主定理文档（`RULES.md`、`LEMMAS.md`、`PROOF.md`、`EQUIV.md`）与对应的验证脚本 `verify_*.py`
 - `work_r5/`、`work_r6/`、`work_r7/`：#1 全局不停机的三次尝试，**未经审查**
 - `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`work_r9/`：永不停机定理的宣称与锚点驱动（`THEOREM.md`、`verify_r9.py`）；`scratch/`：研究草稿与子代理报告（agentB/C/D/E/G、审查报告），部分未经审查
-- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（审查中）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`reviews/`：外部审查原文（GPT Astra / codex）
+- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（补充）；`work_g2/`：G2 部分结果（已审查）；`work_g2_obstruction/`：fire 谱与 DL 反驳（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`reviews/`：外部审查原文（GPT Astra / codex）
 - `data/BB6_holdouts_815.txt`：bbchallenge 2026-09-24 版 holdout 清单
 - `triage2/scan.txt`：815 台机器各跑 10⁶ 步的初筛数据
 

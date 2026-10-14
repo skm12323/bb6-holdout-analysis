@@ -318,3 +318,15 @@ UNPROVED; the conditional theorem itself is under repair.**
   (supersedes work_tie's horizon K). Level 4 remains conditional and is not part of the theorem.
 - work_tie_extension (GPT Astra, same level-3 result, program adapted from work_tie2): review next.
 - #1 global non-halting remains UNPROVED.
+
+## work_global_core (GPT Astra) — ACCEPTED (2026-10-14); work_tie_extension recorded as supplementary
+- Audited (reviews/claude_global_core_review.md): exact two-a identity x(t+2)=(x(t)+x(t+1))/2+6(k+l+1);
+  **chains with parameter > K(g)=⌈log2(6g²+6)⌉ occur at most two in a row** (no per-step descent needed);
+  exit chains ≤ 3m+1 with m = core (low-parameter) visits; **conditional theorem: CORE2 (no
+  bootstrap-justified prefix reaches b+1 core visits, b=⌊g²⌋) ⇒ F globally defined and non-halting.**
+- CORE2 is equivalent, up to a factor ~3 in the budget, to the old exit-length lemma — a restatement,
+  not a reduction in difficulty. Unproved. The real-machine endgame remains a separate open obligation.
+- work_tie_extension: patched; supplementary to TIE2 (exact b/c margin gain, bigint kernel checks,
+  information-loss construction); same horizon K′.
+- work_global_shadow, work_global_compression: unaudited research material.
+- #1 global non-halting remains UNPROVED.

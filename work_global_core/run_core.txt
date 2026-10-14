@@ -1,0 +1,71 @@
+Failed to find real location of D:\anaconda3\python.exe
+{
+  "result": "PASS",
+  "actual_F_steps": 7308,
+  "actual_F_epochs": 2479,
+  "stats": {
+    "epochs": 2589,
+    "synthetic_epochs": 110,
+    "two_a_checks": 148,
+    "resonant_two_a_checks": 116,
+    "same_k_parity_terminations": 14,
+    "max_high_run": 2,
+    "max_resonant_output": 4096,
+    "max_epoch_chains": 6,
+    "core_return_maps": 298,
+    "max_core_return_length": 3
+  },
+  "examples": [
+    {
+      "g": 24,
+      "B": 12,
+      "parameters": [
+        17,
+        5,
+        24,
+        1
+      ],
+      "core_visits": 2
+    },
+    {
+      "g": 128,
+      "B": 17,
+      "parameters": [
+        17,
+        5,
+        128
+      ],
+      "core_visits": 2
+    },
+    {
+      "g": 4096,
+      "B": 27,
+      "parameters": [
+        17,
+        5,
+        4096,
+        2
+      ],
+      "core_visits": 3
+    },
+    {
+      "g": 17,
+      "B": 11,
+      "parameters": [
+        17,
+        5,
+        17,
+        17,
+        1
+      ],
+      "core_visits": 2
+    }
+  ],
+  "no_two_cycle_example": [
+    17,
+    5,
+    17,
+    19
+  ],
+  "scope": "Synthetic examples are not claimed reachable on the actual orbit"
+}

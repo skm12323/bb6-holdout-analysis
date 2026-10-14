@@ -341,3 +341,14 @@ UNPROVED; the conditional theorem itself is under repair.**
   Covered: t=0, all b/c returns, first a→a. Open: G1 (a→a POS collisions, t≥2) and G2 (a after b/c);
   b-type canonical state unproved. Conjectured picture: r(J) grows like log* J.
 - #1 global non-halting remains UNPROVED; endgame gap unchanged.
+
+## work_g2 — G2 (b/c→a) partial results ACCEPTED (2026-10-14)
+- Audited (reviews/g2_review_record.md): **Lemma A** — after a b-type first step, an a-type second return
+  strictly descends: j₂ = 1+v2(k) ≤ q−2 < q, all parameters, no tie assumption (resolves the earlier 38/317
+  misapplication). **Lemma B1** — after an a first step every chain-1 b/c return is an exact θ=2 copy;
+  **Theorem B** — the tail after such a copy is the suffix of an earlier finished epoch (REDUCTION: needs DL
+  or a tail bound for the source; for ρ ≤ 10^8 only the tail-length arm r ≤ 2 is certified).
+  **Lemmas C1/C2** — small-offset copies end the epoch except at a collision r = h; offsets δ proved for
+  prefixes ∅, a, b, a,a (non-tie), b,a.
+- Open: collisions after a b/c prefix (t ≥ 1) and after c-type first steps; offset control after ≥ 3
+  returns; G1; endgame. #1 global non-halting remains UNPROVED.

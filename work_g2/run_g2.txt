@@ -1,0 +1,76 @@
+small b-type J (J, s', q): [(6, 2, 1), (9, 4, 4)]  crossings q-1 needed: [(0, 'a', 0), (3, 'b', 0)]
+NOTES s6 reconciliation: {'cases': 317, 'old a->a formula fails': 38}
+b/c-return classes (kind, type of following return):
+   ('first-step-b', 'next=a') 951
+   ('first-step-b', 'next=b') 474
+   ('first-step-b', 'next=e') 16740
+   ('first-step-c', 'next=a') 3
+   ('first-step-c', 'next=e') 951
+   ('other offset (b)', 'next=e') 474
+   ('theta=2 exact copy (b)', 'next=e') 477
+epochs with a non-descent: 0 []
+
+SUMMARY
+   A-small: q<=1 or crossing q-1 even or q<=J-3 ok 2
+   A-small: tau(q-1)<2^(q-1) ok 1
+   A1 Theta1-x1=2^(J-2)u ok 24220
+   A1 q=v2(6K+4)<=J-3 ok 24220
+   A1 x1=3*2^(J-2)u+6K+4 ok 24220
+   A2 j2=1+v2(k)<=q-2 ok 1268
+   A2 whole tail strictly descends ok 1268
+   A2 x2=13*2^(J-3)u+9K+6+6k ok 1268
+   B copy: outer tail = source tail ok 477
+   F0 tau(n)<=n ok 19999
+   F1 b-crossing: cX=3*2^(n-1), lamX=3tau+4, tau even>=1 ok 6055
+   F2 a/b odd head => tau even >=1 ok 12111
+   F3 c-crossing: v2(cX)=n-eps, 0<=eps<=7 ok 318
+ALL OK
+
+Part C: offsets delta = (Theta_parent - 2) mod 2^j_parent (signed), per pattern
+   ('ab', 0) 159
+   ('b', -1) 6055
+   ('bb', -2) 158
+   ('c', -1) 318
+   delta=0: tail equal ok 159
+   first ref a-return: outer j=min(r,v2(2delta)) ok 279
+   no ref a-return: tail equal ok 6213
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 101) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 10430) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 11003) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 11577) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 12152) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 1250) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 12726) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 13300) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 13874) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 14449) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 15023) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 15594) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 16168) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 16743) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 17317) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 17891) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 1823) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 18465) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 19040) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 19614) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 2397) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 2972) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 3546) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 4120) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 4694) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 5269) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 5843) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 6410) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 676) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 6984) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 7559) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 8133) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 8707) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 9281) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 2, 'parent j', 9856) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 3, 'parent j', 10719) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 3, 'parent j', 1539) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 3, 'parent j', 19903) 1
+   ('collision r=v2(2delta)', -1, 'outer j', 3, 'parent j', 6133) 1
+Part C ALL OK

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .commandcode/
 aud*/
+reviews/_obs_auditor_prompt.txt
+*_opus_aborted*/
+*_opus_aborted*.log

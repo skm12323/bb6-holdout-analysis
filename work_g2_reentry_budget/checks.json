@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "exact_identity_cases": 49152,
+  "equal_entry_obstructions": 512,
+  "envelope_checks": 120,
+  "certified_cap": "2^127",
+  "source_lower_parameter": 257,
+  "scope": "Guarded-pattern algebra and conditional constants; not actual trajectory simulation"
+}

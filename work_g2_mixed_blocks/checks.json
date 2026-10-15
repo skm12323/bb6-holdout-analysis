@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "formal_mixed_identities": 243,
+  "actual_table_corridors": 3072,
+  "end_types": {
+    "even": 2093,
+    "odd_a": 979
+  },
+  "max_observed_bc_steps": 2,
+  "scope": "Formal two-block identities; real finite corridor bounds, not a global orbit proof"
+}

@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "actual_small_source": {
+    "parameter": 24480,
+    "source_crossing": 24479,
+    "half_time": 10916
+  },
+  "formal_checks": [
+    {
+      "formal_Q": 24483,
+      "output_parameter": 24491,
+      "initial_time_bits": 24489,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24483,
+      "output_parameter": 24503,
+      "initial_time_bits": 24501,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24483,
+      "output_parameter": 24583,
+      "initial_time_bits": 24581,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24491,
+      "output_parameter": 24499,
+      "initial_time_bits": 24497,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24491,
+      "output_parameter": 24511,
+      "initial_time_bits": 24509,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24491,
+      "output_parameter": 24591,
+      "initial_time_bits": 24589,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24581,
+      "output_parameter": 24589,
+      "initial_time_bits": 24587,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24581,
+      "output_parameter": 24601,
+      "initial_time_bits": 24599,
+      "satisfies_local_mass_time_and_margin": true
+    },
+    {
+      "formal_Q": 24581,
+      "output_parameter": 24681,
+      "initial_time_bits": 24679,
+      "satisfies_local_mass_time_and_margin": true
+    }
+  ],
+  "real_fire_mass": "2^24480",
+  "actual_parent": "Q=rho_p+2; rho_p is the pointer of the certified barrier fire",
+  "caveat": "Numerical Q values test algebra, not actual parent pointers. The actual-Q construction is symbolic; outer reachability is unproved."
+}

@@ -1,0 +1,9295 @@
+{
+  "counts": {
+    "collision": 57,
+    "even_before_a": 1220,
+    "terminal_shortcut": 8
+  },
+  "records": [
+    {
+      "q": 65,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 62,
+      "source_x_out": 248,
+      "center": 336
+    },
+    {
+      "q": 66,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 69,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 72,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 77,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 79,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 82,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 86,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 88,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 91,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 96,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 98,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 101,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 98,
+      "source_x_out": 398,
+      "center": 486
+    },
+    {
+      "q": 102,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 107,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 112,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 114,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 117,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 121,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 123,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 126,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 131,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 133,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 136,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 133,
+      "source_x_out": 536,
+      "center": 624
+    },
+    {
+      "q": 137,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 140,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 143,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 148,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 150,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 153,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 157,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 159,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 162,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 167,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 169,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 172,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 177,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 180,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 185,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 187,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 190,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 194,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 196,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 199,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 204,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 206,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 209,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 206,
+      "source_x_out": 824,
+      "center": 912
+    },
+    {
+      "q": 210,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 213,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 216,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 221,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 223,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 226,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 230,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 232,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 235,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 240,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 242,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 245,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 249,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 252,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 257,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 259,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 262,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 266,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 268,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 271,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 276,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 278,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 281,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 278,
+      "source_x_out": 1112,
+      "center": 1200
+    },
+    {
+      "q": 282,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 285,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 288,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 293,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 295,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 298,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 302,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 304,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 307,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 312,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 314,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 317,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 322,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 325,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 330,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 332,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 335,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 339,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 341,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 344,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 349,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 351,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 354,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 351,
+      "source_x_out": 1400,
+      "center": 1488
+    },
+    {
+      "q": 355,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 358,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 361,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 366,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 368,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 371,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 375,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 377,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 380,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 385,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 387,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 390,
+      "result": "even_before_a",
+      "prefix": [
+        10
+      ]
+    },
+    {
+      "q": 395,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 398,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 400,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 403,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 407,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 409,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 412,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 417,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 419,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 422,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 419,
+      "source_x_out": 1688,
+      "center": 1776
+    },
+    {
+      "q": 423,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 426,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 429,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 434,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 436,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 439,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 443,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 445,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 448,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 453,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 455,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 458,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 463,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 466,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 471,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 473,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 476,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 480,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 482,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 485,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 490,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 492,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 495,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 492,
+      "source_x_out": 1976,
+      "center": 2064
+    },
+    {
+      "q": 496,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 499,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 502,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 507,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 509,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 512,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 516,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 518,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 521,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 526,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 528,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 531,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 535,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 538,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 543,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 545,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 548,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 552,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 554,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 557,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 562,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 564,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 567,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 564,
+      "source_x_out": 2264,
+      "center": 2352
+    },
+    {
+      "q": 568,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 571,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 574,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 579,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 581,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 584,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 588,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 590,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 593,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 598,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 600,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 603,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 608,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 611,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 616,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 618,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 621,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 625,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 627,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 630,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 635,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 637,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 640,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 637,
+      "source_x_out": 2552,
+      "center": 2640
+    },
+    {
+      "q": 641,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 644,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 647,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 652,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 654,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 657,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 661,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 663,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 666,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 671,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 673,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 676,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 673,
+      "source_x_out": 2702,
+      "center": 2790
+    },
+    {
+      "q": 677,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 682,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 687,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 689,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 692,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 696,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 698,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 701,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 706,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 708,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 711,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 708,
+      "source_x_out": 2840,
+      "center": 2928
+    },
+    {
+      "q": 712,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 715,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 718,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 723,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 725,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 728,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 732,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 734,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 737,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 742,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 744,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 747,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 752,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 755,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 760,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 762,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 765,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 769,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 771,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 774,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 779,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 781,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 784,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 781,
+      "source_x_out": 3128,
+      "center": 3216
+    },
+    {
+      "q": 785,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 788,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 791,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 796,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 798,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 801,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 805,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 807,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 810,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 815,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 817,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 820,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 824,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 827,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 832,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 834,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 837,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 841,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 843,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 846,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 851,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 853,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 856,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 853,
+      "source_x_out": 3416,
+      "center": 3504
+    },
+    {
+      "q": 857,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 860,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 863,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 868,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 870,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 873,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 877,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 879,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 882,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 887,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 889,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 892,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 897,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 900,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 905,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 907,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 910,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 914,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 916,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 919,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 924,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 926,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 929,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 926,
+      "source_x_out": 3704,
+      "center": 3792
+    },
+    {
+      "q": 930,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 933,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 936,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 941,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 943,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 946,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 950,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 952,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 955,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 960,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 962,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 965,
+      "result": "even_before_a",
+      "prefix": [
+        9,
+        4
+      ]
+    },
+    {
+      "q": 967,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 972,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 974,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 977,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 981,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 983,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 986,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 991,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 993,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 996,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 993,
+      "source_x_out": 3992,
+      "center": 4080
+    },
+    {
+      "q": 997,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1000,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1003,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1008,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1010,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1013,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1017,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1019,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1022,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1027,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1029,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1032,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1037,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1040,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1045,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1047,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1050,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1054,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1056,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1059,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1064,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1066,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1069,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1066,
+      "source_x_out": 4280,
+      "center": 4368
+    },
+    {
+      "q": 1070,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1073,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1076,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1081,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1083,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1086,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1090,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1092,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1095,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1100,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1102,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1105,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 1109,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1112,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1117,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1119,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1122,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1126,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1128,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1131,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1136,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1138,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1141,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1138,
+      "source_x_out": 4568,
+      "center": 4656
+    },
+    {
+      "q": 1142,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1145,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1148,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1153,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1155,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1158,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1162,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1164,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1167,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1172,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1174,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1177,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1182,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1185,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1190,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1192,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1195,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1199,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1201,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1204,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1209,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1211,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1214,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1211,
+      "source_x_out": 4856,
+      "center": 4944
+    },
+    {
+      "q": 1215,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1218,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1221,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1226,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1228,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1231,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1235,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1237,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1240,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1245,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1247,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1250,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 1247,
+      "source_x_out": 5006,
+      "center": 5094
+    },
+    {
+      "q": 1251,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1256,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1261,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1263,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1266,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1270,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1272,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1275,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1280,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1282,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1285,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1282,
+      "source_x_out": 5144,
+      "center": 5232
+    },
+    {
+      "q": 1286,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1289,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1292,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1297,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1299,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1302,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1306,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1308,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1311,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1316,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1318,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1321,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1326,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1329,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1334,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1336,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1339,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1343,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1345,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1348,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1353,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1355,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1358,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1355,
+      "source_x_out": 5432,
+      "center": 5520
+    },
+    {
+      "q": 1359,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1362,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1365,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1370,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1372,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1375,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1379,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1381,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1384,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1389,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1391,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1394,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 1398,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1401,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1406,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1408,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1411,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1415,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1417,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1420,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1425,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1427,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1430,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1427,
+      "source_x_out": 5720,
+      "center": 5808
+    },
+    {
+      "q": 1431,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1434,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1437,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1442,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1444,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1447,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1451,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1453,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1456,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1461,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1463,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1466,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1471,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1474,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1479,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1481,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1484,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1488,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1490,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1493,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1498,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1500,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1503,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1500,
+      "source_x_out": 6008,
+      "center": 6096
+    },
+    {
+      "q": 1504,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1507,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1510,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1515,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1517,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1520,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1524,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1526,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1529,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1534,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1536,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1539,
+      "result": "terminal_shortcut",
+      "prefix": [
+        12
+      ],
+      "r": 1,
+      "S": 1536,
+      "source_x_out": 6170,
+      "center": 6258
+    },
+    {
+      "q": 1540,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1545,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1547,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1550,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1554,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1556,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1559,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1564,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1566,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1569,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1566,
+      "source_x_out": 6296,
+      "center": 6384
+    },
+    {
+      "q": 1570,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1573,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1576,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1581,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1583,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1586,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1590,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1592,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1595,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1600,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1602,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1605,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1610,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1613,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1618,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1620,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1623,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1627,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1629,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1632,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1637,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1639,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1642,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1639,
+      "source_x_out": 6584,
+      "center": 6672
+    },
+    {
+      "q": 1643,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1646,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1649,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1654,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1656,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1659,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1663,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1665,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1668,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1673,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1675,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1678,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 1682,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1685,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1690,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1692,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1695,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1699,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1701,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1704,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1709,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1711,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1714,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1711,
+      "source_x_out": 6872,
+      "center": 6960
+    },
+    {
+      "q": 1715,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1718,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1721,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1726,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1728,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1731,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1735,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1737,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1740,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1745,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1747,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1750,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1755,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1758,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1763,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1765,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1768,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1772,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1774,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1777,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1782,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1784,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1787,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1784,
+      "source_x_out": 7160,
+      "center": 7248
+    },
+    {
+      "q": 1788,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1791,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1794,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1799,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1801,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1804,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1808,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1810,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1813,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1818,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1820,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1823,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 1820,
+      "source_x_out": 7310,
+      "center": 7398
+    },
+    {
+      "q": 1824,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1829,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1834,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1836,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1839,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1843,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1845,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1848,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1853,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1855,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1858,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1855,
+      "source_x_out": 7448,
+      "center": 7536
+    },
+    {
+      "q": 1859,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1862,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1865,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1870,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1872,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1875,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1879,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1881,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1884,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1889,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1891,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1894,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 1899,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1902,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1907,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1909,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1912,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1916,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1918,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1921,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1926,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1928,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1931,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 1928,
+      "source_x_out": 7736,
+      "center": 7824
+    },
+    {
+      "q": 1932,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1935,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1938,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1943,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1945,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1948,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1952,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1954,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1957,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1962,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1964,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1967,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 1971,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1974,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1979,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1981,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1984,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 1988,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 1990,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 1993,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 1998,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2000,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2003,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2000,
+      "source_x_out": 8024,
+      "center": 8112
+    },
+    {
+      "q": 2004,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2007,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2010,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2015,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2017,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2020,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2024,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2026,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2029,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2034,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2036,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2039,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2044,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2047,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2052,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2054,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2057,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2061,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2063,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2066,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2071,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2073,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2076,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2073,
+      "source_x_out": 8312,
+      "center": 8400
+    },
+    {
+      "q": 2077,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2080,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2083,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2088,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2090,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2093,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2097,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2099,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2102,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2107,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2109,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2112,
+      "result": "even_before_a",
+      "prefix": [
+        9,
+        4
+      ]
+    },
+    {
+      "q": 2114,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2119,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2121,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2124,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2128,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2130,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2133,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2138,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2140,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2143,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2140,
+      "source_x_out": 8600,
+      "center": 8688
+    },
+    {
+      "q": 2144,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2147,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2150,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2155,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2157,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2160,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2164,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2166,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2169,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2174,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2176,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2179,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2184,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2187,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2192,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2194,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2197,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2201,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2203,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2206,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2211,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2213,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2216,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2213,
+      "source_x_out": 8888,
+      "center": 8976
+    },
+    {
+      "q": 2217,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2220,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2223,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2228,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2230,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2233,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2237,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2239,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2242,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2247,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2249,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2252,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 2256,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2259,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2264,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2266,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2269,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2273,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2275,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2278,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2283,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2285,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2288,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2285,
+      "source_x_out": 9176,
+      "center": 9264
+    },
+    {
+      "q": 2289,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2292,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2295,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2300,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2302,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2305,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2309,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2311,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2314,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2319,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2321,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2324,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2329,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2332,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2337,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2339,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2342,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2346,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2348,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2351,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2356,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2358,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2361,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2358,
+      "source_x_out": 9464,
+      "center": 9552
+    },
+    {
+      "q": 2362,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2365,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2368,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2373,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2375,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2378,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2382,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2384,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2387,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2392,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2394,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2397,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 2394,
+      "source_x_out": 9614,
+      "center": 9702
+    },
+    {
+      "q": 2398,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2403,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2408,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2410,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2413,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2417,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2419,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2422,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2427,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2429,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2432,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2429,
+      "source_x_out": 9752,
+      "center": 9840
+    },
+    {
+      "q": 2433,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2436,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2439,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2444,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2446,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2449,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2453,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2455,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2458,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2463,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2465,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2468,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2473,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2476,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2481,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2483,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2486,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2490,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2492,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2495,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2500,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2502,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2505,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2502,
+      "source_x_out": 10040,
+      "center": 10128
+    },
+    {
+      "q": 2506,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2509,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2512,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2517,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2519,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2522,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2526,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2528,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2531,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2536,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2538,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2541,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 2545,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2548,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2553,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2555,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2558,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2562,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2564,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2567,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2572,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2574,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2577,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2574,
+      "source_x_out": 10328,
+      "center": 10416
+    },
+    {
+      "q": 2578,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2581,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2584,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2589,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2591,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2594,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2598,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2600,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2603,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2608,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2610,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2613,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2618,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2621,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2626,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2628,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2631,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2635,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2637,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2640,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2645,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2647,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2650,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2647,
+      "source_x_out": 10616,
+      "center": 10704
+    },
+    {
+      "q": 2651,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2654,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2657,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2662,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2664,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2667,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2671,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2673,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2676,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2681,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2683,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2686,
+      "result": "even_before_a",
+      "prefix": [
+        10
+      ]
+    },
+    {
+      "q": 2691,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2694,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2696,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2699,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2703,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2705,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2708,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2713,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2715,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2718,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2715,
+      "source_x_out": 10904,
+      "center": 10992
+    },
+    {
+      "q": 2719,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2722,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2725,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2730,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2732,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2735,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2739,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2741,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2744,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2749,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2751,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2754,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2759,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2762,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2767,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2769,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2772,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2776,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2778,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2781,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2786,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2788,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2791,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2788,
+      "source_x_out": 11192,
+      "center": 11280
+    },
+    {
+      "q": 2792,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2795,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2798,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2803,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2805,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2808,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2812,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2814,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2817,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2822,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2824,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2827,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 2831,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2834,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2839,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2841,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2844,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2848,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2850,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2853,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2858,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2860,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2863,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2860,
+      "source_x_out": 11480,
+      "center": 11568
+    },
+    {
+      "q": 2864,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2867,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2870,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2875,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2877,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2880,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2884,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2886,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2889,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2894,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2896,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2899,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 2904,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2907,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2912,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2914,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2917,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2921,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2923,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2926,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2931,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2933,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2936,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 2933,
+      "source_x_out": 11768,
+      "center": 11856
+    },
+    {
+      "q": 2937,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2940,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2943,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2948,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2950,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2953,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2957,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2959,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2962,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2967,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2969,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2972,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 2969,
+      "source_x_out": 11918,
+      "center": 12006
+    },
+    {
+      "q": 2973,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2978,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 2983,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2985,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2988,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 2992,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 2994,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 2997,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3002,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3004,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3007,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3004,
+      "source_x_out": 12056,
+      "center": 12144
+    },
+    {
+      "q": 3008,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3011,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3014,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3019,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3021,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3024,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3028,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3030,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3033,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3038,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3040,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3043,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3048,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3051,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3056,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3058,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3061,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3065,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3067,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3070,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3075,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3077,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3080,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3077,
+      "source_x_out": 12344,
+      "center": 12432
+    },
+    {
+      "q": 3081,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3084,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3087,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3092,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3094,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3097,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3101,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3103,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3106,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3111,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3113,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3116,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 3120,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3123,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3128,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3130,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3133,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3137,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3139,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3142,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3147,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3149,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3152,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3149,
+      "source_x_out": 12632,
+      "center": 12720
+    },
+    {
+      "q": 3153,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3156,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3159,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3164,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3166,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3169,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3173,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3175,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3178,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3183,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3185,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3188,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3193,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3196,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3201,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3203,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3206,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3210,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3212,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3215,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3220,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3222,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3225,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3222,
+      "source_x_out": 12920,
+      "center": 13008
+    },
+    {
+      "q": 3226,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3229,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3232,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3237,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3239,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3242,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3246,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3248,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3251,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3256,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3258,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3261,
+      "result": "even_before_a",
+      "prefix": [
+        9,
+        4
+      ]
+    },
+    {
+      "q": 3263,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3268,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3270,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3273,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3277,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3279,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3282,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3287,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3289,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3292,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3289,
+      "source_x_out": 13208,
+      "center": 13296
+    },
+    {
+      "q": 3293,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3296,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3299,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3304,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3306,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3309,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3313,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3315,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3318,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3323,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3325,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3328,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3333,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3336,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3341,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3343,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3346,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3350,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3352,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3355,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3360,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3362,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3365,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3362,
+      "source_x_out": 13496,
+      "center": 13584
+    },
+    {
+      "q": 3366,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3369,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3372,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3377,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3379,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3382,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3386,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3388,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3391,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3396,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3398,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3401,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 3405,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3408,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3413,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3415,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3418,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3422,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3424,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3427,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3432,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3434,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3437,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3434,
+      "source_x_out": 13784,
+      "center": 13872
+    },
+    {
+      "q": 3438,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3441,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3444,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3449,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3451,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3454,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3458,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3460,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3463,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3468,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3470,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3473,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3478,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3481,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3486,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3488,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3491,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3495,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3497,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3500,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3505,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3507,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3510,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3507,
+      "source_x_out": 14072,
+      "center": 14160
+    },
+    {
+      "q": 3511,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3514,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3517,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3522,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3524,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3527,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3531,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3533,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3536,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3541,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3543,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3546,
+      "result": "terminal_shortcut",
+      "prefix": [
+        8
+      ],
+      "r": 1,
+      "S": 3543,
+      "source_x_out": 14222,
+      "center": 14310
+    },
+    {
+      "q": 3547,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3552,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3557,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3559,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3562,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3566,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3568,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3571,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3576,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3578,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3581,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3578,
+      "source_x_out": 14360,
+      "center": 14448
+    },
+    {
+      "q": 3582,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3585,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3588,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3593,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3595,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3598,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3602,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3604,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3607,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3612,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3614,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3617,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3622,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3625,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3630,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3632,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3635,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3639,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3641,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3644,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3649,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3651,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3654,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3651,
+      "source_x_out": 14648,
+      "center": 14736
+    },
+    {
+      "q": 3655,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3658,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3661,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3666,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3668,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3671,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3675,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3677,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3680,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3685,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3687,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3690,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 3694,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3697,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3702,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3704,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3707,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3711,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3713,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3716,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3721,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3723,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3726,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3723,
+      "source_x_out": 14936,
+      "center": 15024
+    },
+    {
+      "q": 3727,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3730,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3733,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3738,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3740,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3743,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3747,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3749,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3752,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3757,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3759,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3762,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3767,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3770,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3775,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3777,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3780,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3784,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3786,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3789,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3794,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3796,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3799,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3796,
+      "source_x_out": 15224,
+      "center": 15312
+    },
+    {
+      "q": 3800,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3803,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3806,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3811,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3813,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3816,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3820,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3822,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3825,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3830,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3832,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3835,
+      "result": "even_before_a",
+      "prefix": [
+        11
+      ]
+    },
+    {
+      "q": 3839,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3842,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3844,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3847,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3851,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3853,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3856,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3861,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3863,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3866,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3863,
+      "source_x_out": 15512,
+      "center": 15600
+    },
+    {
+      "q": 3867,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3870,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3873,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3878,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3880,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3883,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3887,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3889,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3892,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3897,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3899,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3902,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 3907,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3910,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3915,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3917,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3920,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3924,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3926,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3929,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3934,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3936,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3939,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 3936,
+      "source_x_out": 15800,
+      "center": 15888
+    },
+    {
+      "q": 3940,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3943,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3946,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3951,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3953,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3956,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3960,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3962,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3965,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3970,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3972,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3975,
+      "result": "even_before_a",
+      "prefix": [
+        7
+      ]
+    },
+    {
+      "q": 3979,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3982,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 3987,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3989,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 3992,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 3996,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 3998,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4001,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4006,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4008,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4011,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 4008,
+      "source_x_out": 16088,
+      "center": 16176
+    },
+    {
+      "q": 4012,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4015,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4018,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4023,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4025,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4028,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 4032,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4034,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4037,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4042,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4044,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4047,
+      "result": "even_before_a",
+      "prefix": [
+        6,
+        1
+      ]
+    },
+    {
+      "q": 4052,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4055,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4060,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4062,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4065,
+      "result": "even_before_a",
+      "prefix": [
+        4
+      ]
+    },
+    {
+      "q": 4069,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4071,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4074,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4079,
+      "result": "even_before_a",
+      "prefix": [
+        2
+      ]
+    },
+    {
+      "q": 4081,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4084,
+      "result": "collision",
+      "prefix": [
+        5
+      ],
+      "r": 3,
+      "S": 4081,
+      "source_x_out": 16376,
+      "center": 16464
+    },
+    {
+      "q": 4085,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    },
+    {
+      "q": 4088,
+      "result": "even_before_a",
+      "prefix": [
+        1
+      ]
+    },
+    {
+      "q": 4091,
+      "result": "even_before_a",
+      "prefix": [
+        3
+      ]
+    }
+  ]
+}

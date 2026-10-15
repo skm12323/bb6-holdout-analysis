@@ -1,0 +1,12 @@
+{
+  "result": "COMPLETED",
+  "crossing_limit": 100000,
+  "tested_families": 63094,
+  "counts": {
+    "R_closed": 31547,
+    "E_closed": 31547
+  },
+  "max_path": 4,
+  "failures": [],
+  "scope": "Actual source records; local families are not asserted orbit-reachable"
+}

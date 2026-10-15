@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "block_identity_cases": 360,
+  "formal_rebounds": [
+    {
+      "input_parameter": 89,
+      "output_parameter": 101,
+      "source_count": 9,
+      "old_base_bits": 87,
+      "new_base_bits": 93
+    },
+    {
+      "input_parameter": 89,
+      "output_parameter": 201,
+      "source_count": 9,
+      "old_base_bits": 87,
+      "new_base_bits": 193
+    },
+    {
+      "input_parameter": 89,
+      "output_parameter": 501,
+      "source_count": 9,
+      "old_base_bits": 87,
+      "new_base_bits": 493
+    }
+  ],
+  "caveat": "Synthetic algebra sources; not orbit reachability or counterexamples to actual termination"
+}

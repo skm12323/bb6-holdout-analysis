@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "formal_identity_checks": 150,
+  "conditional_bound_checks": 300,
+  "doubling_base_checks": [
+    65,
+    4096
+  ],
+  "scope": "Formal coefficient identities and bound constants; not deep-orbit simulation"
+}

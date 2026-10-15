@@ -1,0 +1,361 @@
+{
+  "result": "PASS",
+  "cap": 1023,
+  "escape_nodes": 165,
+  "unordered_pairs": 33,
+  "families_by_small_parameter": {
+    "5": 29,
+    "8": 4
+  },
+  "templates": [
+    "p,r",
+    "r,p",
+    "p,r,p",
+    "r,p,r",
+    "p,r,p,r"
+  ],
+  "half_time_conditions": {
+    "5": "k_r = 6 mod 16",
+    "8": "k_r = 61 mod 128"
+  },
+  "two_a_identity": "Theta2 = X2 - X0/4 - 3*k0",
+  "boundary_phase_table": [
+    {
+      "small": 5,
+      "orientation": "small_then_large",
+      "phase": 5,
+      "modulus": 16,
+      "shift_valuation": 0,
+      "a_exception": 9,
+      "bc_collision": 1
+    },
+    {
+      "small": 5,
+      "orientation": "large_then_small",
+      "phase": 14,
+      "modulus": 16,
+      "shift_valuation": 2,
+      "a_exception": 6,
+      "bc_collision": 3
+    },
+    {
+      "small": 8,
+      "orientation": "small_then_large",
+      "phase": 58,
+      "modulus": 128,
+      "shift_valuation": 3,
+      "a_exception": 2,
+      "bc_collision": 4
+    },
+    {
+      "small": 8,
+      "orientation": "large_then_small",
+      "phase": 73,
+      "modulus": 128,
+      "shift_valuation": 0,
+      "a_exception": 13,
+      "bc_collision": 1
+    }
+  ],
+  "phase_identity_checks": 2970,
+  "families": [
+    {
+      "small": 5,
+      "large": 17,
+      "k_small": 1,
+      "k_large": 6,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 54,
+      "k_small": 1,
+      "k_large": 22,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 90,
+      "k_small": 1,
+      "k_large": 38,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 125,
+      "k_small": 1,
+      "k_large": 54,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 161,
+      "k_small": 1,
+      "k_large": 70,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 198,
+      "k_small": 1,
+      "k_large": 86,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 234,
+      "k_small": 1,
+      "k_large": 102,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 270,
+      "k_small": 1,
+      "k_large": 118,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 306,
+      "k_small": 1,
+      "k_large": 134,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 343,
+      "k_small": 1,
+      "k_large": 150,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 379,
+      "k_small": 1,
+      "k_large": 166,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 411,
+      "k_small": 1,
+      "k_large": 182,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 447,
+      "k_small": 1,
+      "k_large": 198,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 484,
+      "k_small": 1,
+      "k_large": 214,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 520,
+      "k_small": 1,
+      "k_large": 230,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 556,
+      "k_small": 1,
+      "k_large": 246,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 592,
+      "k_small": 1,
+      "k_large": 262,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 629,
+      "k_small": 1,
+      "k_large": 278,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 665,
+      "k_small": 1,
+      "k_large": 294,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 700,
+      "k_small": 1,
+      "k_large": 310,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 736,
+      "k_small": 1,
+      "k_large": 326,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 773,
+      "k_small": 1,
+      "k_large": 342,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 809,
+      "k_small": 1,
+      "k_large": 358,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 845,
+      "k_small": 1,
+      "k_large": 374,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 881,
+      "k_small": 1,
+      "k_large": 390,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 918,
+      "k_small": 1,
+      "k_large": 406,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 954,
+      "k_small": 1,
+      "k_large": 422,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 985,
+      "k_small": 1,
+      "k_large": 438,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 5,
+      "large": 1021,
+      "k_small": 1,
+      "k_large": 454,
+      "modulus": 16,
+      "residue": 6,
+      "source_fire_parameter": 3
+    },
+    {
+      "small": 8,
+      "large": 139,
+      "k_small": 2,
+      "k_large": 61,
+      "modulus": 128,
+      "residue": 61,
+      "source_fire_parameter": 1
+    },
+    {
+      "small": 8,
+      "large": 425,
+      "k_small": 2,
+      "k_large": 189,
+      "modulus": 128,
+      "residue": 61,
+      "source_fire_parameter": 1
+    },
+    {
+      "small": 8,
+      "large": 714,
+      "k_small": 2,
+      "k_large": 317,
+      "modulus": 128,
+      "residue": 61,
+      "source_fire_parameter": 1
+    },
+    {
+      "small": 8,
+      "large": 999,
+      "k_small": 2,
+      "k_large": 445,
+      "modulus": 128,
+      "residue": 61,
+      "source_fire_parameter": 1
+    }
+  ],
+  "caveat": "Finite necessary arithmetic boundary; neither reachability nor an all-scale classification"
+}

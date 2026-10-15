@@ -1,0 +1,16 @@
+Failed to find real location of D:\anaconda3\python.exe
+{
+  "result": "PASS",
+  "J_range": [
+    1,
+    4095
+  ],
+  "small_base_J": [
+    1,
+    1023
+  ],
+  "first_a_cases": 1304,
+  "even_end_cases": 2791,
+  "min_symbolic_margin": 1,
+  "max_bc_copies": 2
+}

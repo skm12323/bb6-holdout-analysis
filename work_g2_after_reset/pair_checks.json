@@ -1,0 +1,6 @@
+{
+  "result": "PASS",
+  "full_pair_cases": 396,
+  "max_observed_steps": 3651,
+  "scope": "Compatible local reset states, not orbit reachability"
+}

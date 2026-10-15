@@ -360,3 +360,31 @@ Three-way review: adversary fixable gaps (patched), auditors all correct ×2 (re
 - Offset invariant {0,±1,−2} fails for one b-copy (δ=−20); proved short-prefix table unaffected.
 - Positive: pure-b depths m=1..123 into the parameter-5 source close safely.
 - Consequence: DL route to (EL) abandoned; targets are exit-length bounds, correlated core-visit bounds, endgame.
+
+## work_g2_bc_frontier, work_g2_two_blocks, work_g2_mixed_blocks (GPT Astra) — ACCEPTED (2026-10-16)
+Review: reviews/g2_frontier_review_record.md (adversary fixable→patched→closed; deepseek and gemini blind auditors all correct).
+- Two-block positive identity X2=(alpha/2)X0+(1-beta/2)X1+C for arbitrary b/c mixed prefixes and odd a endpoints;
+  0<C<10Q²+18 (pure b) / 0<C<24Q²+6 (mixed) under C1,C2,M2'; two safe entries above the log threshold ⇒ next
+  entry safe and back in the core (no three consecutive entries outside it). No core-visit bound.
+- Local obstruction: real crossing p=24480 (tau(p-1)=21832) + real fire of parameter p give a compatible (not
+  proven reachable) state with arbitrarily high b/a re-ascent. Scope: only epochs with J>=B (excluded below B by
+  PROOF_RESCUE §4 and Theorem D). Shows the listed local constraints are insufficient; does not refute COVER-type
+  tracking; conflicts with no accepted result.
+- Other 10 work_g2_* directories: audited the same day, see next section.
+- #1 global non-halting remains UNPROVED.
+
+## Ten work_g2_* notes (GPT Astra, 2026-10-15) — ACCEPTED as conditional/local results (2026-10-16)
+Review: reviews/g2_rest_review_record.md (adversary fixable→patched→closed; two blind gemini auditors all correct).
+- resonance: parameter-5 source tails closed for all depths except m≡124+2^61 (mod 2^62); pure-b ancestry
+  first a-rebound safe with O(log m) retained ancestors (under C1, S1); first odd a-rebound after b/c prefix
+  safe with parameter <3log2J+2 (J>=1024; smaller J by certificate).
+- after_reset / shift44 / return_block: post-reset tails closed except two k classes mod 2^60 (absent for
+  q<=2^29 under C1); depth rule 1+v2(9-m) for m≢9 (mod 16); unresolved block needs q>=16640.
+- core_repeats / core_words: equal-parameter repeats end; within core <=1023 no seven consecutive productive
+  entries; escapes only from 33 pairs (p=5,8).
+- escape_5_17 / reentry_budget / escape_two_phase: (5,17) escape closed except k≡32761 (mod 65536); repetition
+  bound for the R21→17 pattern (g<=2^127); two-phase closure for R/E/D families (entries 1024..2^500, first
+  resonant output's safety assumed). b/c branch at R21 remains open (= bc_frontier obstruction).
+- paths: roadmap; general-d shifted-copy rule stated as an unproved lemma.
+- Open: core-visit / escape–re-entry bound, high b/c branches (reachability invariant or cross-boundary
+  termination needed), G1, endgame. #1 global non-halting remains UNPROVED.

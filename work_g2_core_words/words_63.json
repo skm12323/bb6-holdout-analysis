@@ -1,0 +1,657 @@
+{
+  "cap": 63,
+  "depth_limit": 16,
+  "productive_parameters": 18,
+  "alphabet": [
+    5,
+    8,
+    12,
+    14,
+    17,
+    22,
+    24,
+    27,
+    32,
+    35,
+    40,
+    42,
+    45,
+    49,
+    51,
+    54,
+    59,
+    61
+  ],
+  "counts": {
+    "2": 324,
+    "3": 80,
+    "4": 59,
+    "5": 21,
+    "6": 2,
+    "7": 0
+  },
+  "exhausted": true,
+  "max_feasible_length": 6,
+  "samples": {
+    "3": [
+      [
+        5,
+        17,
+        5
+      ],
+      [
+        5,
+        17,
+        8
+      ],
+      [
+        5,
+        17,
+        12
+      ],
+      [
+        5,
+        17,
+        14
+      ],
+      [
+        5,
+        17,
+        17
+      ]
+    ],
+    "4": [
+      [
+        5,
+        17,
+        5,
+        5
+      ],
+      [
+        5,
+        17,
+        5,
+        8
+      ],
+      [
+        5,
+        17,
+        5,
+        12
+      ],
+      [
+        5,
+        17,
+        5,
+        14
+      ],
+      [
+        5,
+        17,
+        5,
+        17
+      ]
+    ],
+    "5": [
+      [
+        5,
+        17,
+        5,
+        17,
+        17
+      ],
+      [
+        5,
+        17,
+        5,
+        17,
+        22
+      ],
+      [
+        5,
+        17,
+        5,
+        17,
+        24
+      ],
+      [
+        5,
+        17,
+        5,
+        17,
+        27
+      ],
+      [
+        5,
+        17,
+        5,
+        17,
+        32
+      ]
+    ],
+    "6": [
+      [
+        5,
+        17,
+        5,
+        17,
+        24,
+        5
+      ],
+      [
+        5,
+        54,
+        5,
+        54,
+        61,
+        5
+      ]
+    ]
+  },
+  "escape_nodes": 10,
+  "escape_depths": {
+    "2": 4,
+    "3": 4,
+    "4": 2
+  },
+  "processed_nodes": 486,
+  "omitted_terminal_nodes": 456,
+  "unpruned_crosschecks": 486,
+  "max_block_steps": 51,
+  "max_block_loss": 1,
+  "max_terminal_steps": 53,
+  "max_terminal_loss": 4,
+  "caveat": "Necessary arithmetic constraints only; exits above cap are not ruled out",
+  "edges": [
+    {
+      "word": [
+        5,
+        17
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        5,
+        54
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        8,
+        32
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        14,
+        27
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        17,
+        5
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        17,
+        24
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        24,
+        17
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        27,
+        14
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        32,
+        8
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        54,
+        5
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        54,
+        61
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        61,
+        54
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        17,
+        5
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        5,
+        17,
+        24
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        54,
+        5
+      ],
+      "children": [
+        5,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        5,
+        54,
+        61
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        17,
+        5,
+        17
+      ],
+      "children": [
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        17,
+        5,
+        54
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        24,
+        17,
+        5
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        54,
+        5,
+        17
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        54,
+        5,
+        54
+      ],
+      "children": [
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        61,
+        54,
+        5
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        17,
+        5,
+        17
+      ],
+      "children": [
+        17,
+        22,
+        24,
+        27,
+        32,
+        35,
+        40,
+        42,
+        45,
+        49,
+        51,
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        5,
+        17,
+        5,
+        54
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        54,
+        5,
+        17
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        54,
+        5,
+        54
+      ],
+      "children": [
+        54,
+        59,
+        61
+      ],
+      "can_escape": true,
+      "escape_minimum": 64
+    },
+    {
+      "word": [
+        17,
+        5,
+        17,
+        24
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        54,
+        5,
+        54,
+        61
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        17,
+        5,
+        17,
+        24
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    },
+    {
+      "word": [
+        5,
+        54,
+        5,
+        54,
+        61
+      ],
+      "children": [
+        5
+      ],
+      "can_escape": false,
+      "escape_minimum": null
+    }
+  ]
+}

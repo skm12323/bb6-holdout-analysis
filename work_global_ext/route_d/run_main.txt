@@ -1,0 +1,62 @@
+$ python3 -B exp1.py 40 300
+classes of S*_e(J), 3<=J<=40, 1<=e<=300: {'END': 11348, 'END+over': 32, 'EXACT': 20}
+real runs compared: 2303025  violations: 0  halts without exact tie: 0  halts with exact tie: {'at t*': 51}
+first over-tie-only cases: [(5, 5), (5, 21), (5, 37), (5, 53), (5, 69), (5, 85), (5, 101), (5, 117), (5, 133), (5, 149), (5, 165), (5, 181)]
+first exact cases: [(5, 13), (5, 29), (5, 45), (5, 61), (5, 77), (5, 93), (5, 109), (5, 125), (5, 141), (5, 157), (5, 173), (5, 189)]
+
+$ python3 -B exp2.py 15
+J=6  n=257  (status,#over):{('END', 0): 257}
+      tie chain index: {}  return type: {}
+J=7  n=513  (status,#over):{('END', 0): 513}
+      tie chain index: {}  return type: {}
+J=8  n=1025  (status,#over):{('END', 0): 1009, ('END', 1): 8, ('EXACT', 0): 8}
+      tie chain index: {('EXACT', 1): 8, ('over', 1): 8}  return type: {('over', 'a'): 8, ('EXACT', 'a'): 8}
+J=9  n=2049  (status,#over):{('END', 0): 2049}
+      tie chain index: {}  return type: {}
+J=10  n=4097  (status,#over):{('END', 0): 4097}
+      tie chain index: {}  return type: {}
+J=11  n=8193  (status,#over):{('END', 0): 8193}
+      tie chain index: {}  return type: {}
+J=12  n=16385  (status,#over):{('END', 0): 16369, ('END', 1): 8, ('EXACT', 0): 8}
+      tie chain index: {('EXACT', 1): 8, ('over', 1): 8}  return type: {('over', 'a'): 8, ('EXACT', 'a'): 8}
+J=13  n=32769  (status,#over):{('END', 0): 32769}
+      tie chain index: {}  return type: {}
+J=14  n=65537  (status,#over):{('END', 0): 65521, ('END', 1): 8, ('EXACT', 0): 8}
+      tie chain index: {('EXACT', 1): 8, ('over', 1): 8}  return type: {('over', 'a'): 8, ('EXACT', 'a'): 8}
+J=15  n=131073  (status,#over):{('END', 0): 131073}
+      tie chain index: {}  return type: {}
+
+$ python3 -B exp3.py 1 200000
+state classes (status, had over-tie): {('END', False): 198748, ('END', True): 590, ('EXACT', False): 662}
+real-vs-S* comparisons: 494374 violations: 0 | brute-force top-map checks: 32740 mismatches: 0
+exact-tie states analysed: 150  tree leaves: 3150  unresolved classes (B=22): 150  leaf status: {'END': 3150, 'LONG': 0, 'NODATA': 0}  max chains on a leaf: 4
+brute-force halting set (odd U<2^13) == tree prediction: mismatches 0
+halting reps per state (all odd U / U=3w) found below 2^22: [((0, 0), 150)]
+leaf depth B distribution: [(2, 150), (3, 150), (4, 150), (5, 150), (6, 150), (7, 150), (8, 150), (9, 150), (10, 150), (11, 150), (12, 150), (13, 150), (14, 150), (15, 150), (16, 150), (17, 150), (18, 150), (19, 150), (20, 150), (21, 150), (22, 150)]
+
+$ python3 -B exp4.py 3000000
+top steps: 3000000  odd-A steps by list length (1 / 2 / >=3): {1: 1018505, 2: 53295, 3: 53201}  2-list identity violations: 0
+first 2-list odd states (N,H,D,X,v2X,u): [(33, 55, 47, 152, 3, 19), (97, 151, 143, 440, 3, 55), (161, 247, 239, 728, 3, 91), (225, 343, 335, 1016, 3, 127), (259, 397, 383, 1166, 1, 583), (289, 439, 431, 1304, 3, 163)]
+min odd part u of X: 2-lists (19, 33, 2)  lists>=3 (73, 515, 3)
+
+$ python3 -B exp5.py
+first exact ties analysed: 300 -> {'mu not in <2> mod 3gamma: no halting w': 144, '3|mu: no halting w': 103, 'solvable': 33, 'gcd(mu,gamma)>1: no halting w': 20}
+solvable cases: bit-length of minimal halting w vs bit-length of gamma (J, |gamma|, |w_min|), first 25: [(21, 13, 155), (28, 24, 4581523), (26, 21, 985011), (20, 12, 280), (23, 16, 35702), (24, 20, 135856), (22, 17, 91189), (21, 13, 5504), (25, 21, 1283102), (26, 22, 2423070), (27, 23, 4253004), (20, 13, 3127), (23, 19, 140127), (20, 16, 267), (30, 26, 25654648), (20, 16, 42671), (22, 14, 3172), (20, 12, 377), (30, 25, 232180), (20, 16, 13350), (21, 17, 93142), (20, 16, 8800), (21, 17, 78626), (30, 26, 33721141), (21, 17, 59412)]
+median |w_min| = 35702 bits, min = 155 bits, max = 33721141 bits
+DENS transfer check: 8000 (U, U*=U+2^400 V, 3|U*) pairs, mismatching chain sequences: 0
+
+$ python3 -B exp6.py 7 400 30
+exact-tie states: 400  tree shape: {'spine only': 400}  halting reps < 2^30: 0
+chains after the tie chain on side-branch leaves (distribution): {0: 4807, 1: 6042, 2: 592, 3: 159}  max total chains 4
+$ python3 -B exp6.py 8 400 30
+exact-tie states: 400  tree shape: {'spine only': 400}  halting reps < 2^30: 0
+chains after the tie chain on side-branch leaves (distribution): {0: 4808, 1: 6034, 2: 596, 3: 162}  max total chains 4
+
+$ python3 -B example.py
+state: J=17 jt=5 u=(7706, 15) D=(7776, 1043) d=429
+S* chains: [(1, 'a', (138848, 2336), 'EXACT')]
+exact tie: m=5 gamma=4339 mu=73 ; 3w*gamma+mu=2^54 with w=1383913229583 (41 bits)
+brute-force integer top map on the list (length 6): HALT after 2 top steps; halting list = [511892896663996951, 32283927819713267]
+halting list is a 2-list: True  H+2D+3 = 2^59 True
+U=3(w+2): END   U=3(w-2): END
+synthetic defects: runs 22826825  halting chains by (return type, chain index): {('a', 1): 126}

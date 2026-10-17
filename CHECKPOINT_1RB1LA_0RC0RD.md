@@ -423,3 +423,39 @@ Review: §7 of work_global_endgame/LEMMAS_E.md (adversary fixable→patched twic
   termination is not needed. With E5 + PROOF_CLOCK this reduces to **EG-LEN**: Σj over any endgame prefix < 3(v−1)/4
   (≈ v/log v chains). Rigorous assembly (constants, 4·10^6<v<=10^8 base gap) still to be written.
 - #1 global non-halting remains UNPROVED: open = SQRT-EXIT, EG-LEN (+ rigorous assembly).
+
+## work_global_egx (Claude) — EGX ACCEPTED; real-machine horizon 2^{K′}; open list reduced to EXT (2026-10-17)
+Review: §9 of work_global_egx/PROOF_EGX.md; reviews/claude_egx_{adversary,auditor1,auditor2}.md (adversary fixable→patched→closed in all states; two blind auditors simple errors, patched).
+- **Theorem EGX [A]:** for every v ≥ 3 the endgame of E(w,v) is, at top level and pair for pair, the symbolic exit S(J) of
+  PROOF_M Lemma 6.1 with J = v ((c,λ) ↔ (α,β), U ↔ λ_u; the defect (2^{v−1},−1) is D_0, the zero fill is the outer originals).
+  Endgame safe ⇔ S(v) tie-free; endgame reaches the singleton ⇔ S(v) ends at an even return; endgame margin = h_t = J−Γ_t−j_t.
+  Data: identical for 3 ≤ v ≤ 400,000 (auditor 1, own code); ~29,000 perturbed start states: identity structural.
+- **Lemma TR [A]:** the tower proofs' identities hold for S(J) for every integer J (Θ_t := 2^Jλ_u+3d_t+1), not only for fire parameters.
+- **Corollary H [A + imported A+B]: the TM does not halt during the first 2^{K′}−2 top steps**, K′ = 2^(2^(2^499997−3)−2)
+  (supersedes R4's 2^2001−2 for the real machine; uses V4, EL Theorem D, PROOF_RESCUE §4, TIE2, HORIZON-3).
+- **Lemma C2-log [A]:** ε(i) ≤ max(3, 2J_W−1) < 2log2(3i²+4)−1 when the containing epoch is tie-free in S(J_W).
+- **Theorem U [A, cond.]:** (EXT) "S(J) tie-free for every J ≥ K′" ⇒ F defined forever and #1 never halts. No SQRT-EXIT, EG-LEN, EL or C2.
+  EG-LEN (any V₀ ≤ K′) ⇒ EXT; EXT ⇒ SQRT-EXIT on actual fires. The 4·10^6<v≤10^8 base gap disappears; Theorem U is the rigorous assembly.
+- **Theorem L [A]:** LIN-EXIT (≤ ⌊J/(3log2 J)⌋ exit chains in any tie-free prefix of S(J), J ≥ K′) ⇒ EXT; unconditionally, given EXT below J,
+  the first ⌊J/(3log2 J)⌋+1 exit chains of S(J) are tie-free.
+- #1 global non-halting remains UNPROVED: the single open proposition is **EXT** (same arithmetic core as NT / EL_J; unbounded nesting of fire copies).
+
+## work_global_ext (Claude) — EXT partial results ACCEPTED; EXT below K″; open core = exact ties at deep b/c entries (2026-10-17)
+Review: §8 of work_global_ext/PROOF_EXT.md; reviews/claude_ext_{adversary,auditor1,auditor2}.md (no claim refuted; minor fixes applied; adversary re-review closed in all states).
+Four routes (reports + scripts in work_global_ext/route_{a,b,c,d}):
+- **Theorem U\* [A, cond.] (route d):** over-ties (v2 β_x > v2 α_x) are harmless (Prop 2.1: EGX, E1–E4, Lemma 6.1, T(1)/(2), F margin all
+  hold with j := v2 α_x). (EXT\*) "S\*(J) has no *exact* tie for J ≥ K′" ⇒ #1 never halts. Exact ties are genuine obstructions: at a solvable
+  first exact tie x = 2^m(γ,μ), infinitely many odd w make E(w,J) halt there (3wγ+μ = 2^k).
+- **Theorem RA [A] (route c):** if X(J−1) is odd type a, S(J) is tie-free with no NT/EXT hypothesis (Lemma K classification, HP shadowing,
+  AB absorption: a phase-2 state copies a real epoch to its end). EXT reduces to J with X(J−1) of type b/c; Prop RB: those are exact shifted
+  copies V(C,−1) of real epochs up to the first real a-step.
+- **Theorem L′ [A] (route b):** only non-descents (j_{t+1} ≥ j_t) cost budget: ND-EXIT (≤ ⌊J/(3log2 J)⌋ non-descents per tie-free prefix)
+  ⇒ EXT (also EXT\* form). L″: chain budget ≈ J/(4 log2 log2 J). Lemma BR: exact β-only walk.
+- **Theorem S + Corollary 4 [A+B] (route a):** level-4 generator redone with exact Ψ-families Ψ(j;P,Q): Θ ≡ P + Q·2^jλ_u (0 failures;
+  reproduced by an independent generator). Shallow first return ⇒ S(J) tie-free, ≤ 9 chains, no EXT hypothesis.
+  **EXT holds for all J < K″ = 2^{K′/2−2}; the TM does not halt during the first 2^{K″}−2 top steps** (Corollary H″).
+- **Theorem O [A, about the method]:** no generator-type finite certificate closes the tower (integer drift + 3-adic orbit
+  c_m = −3+8·3^{−m}); level 5 has one failure ('pair',5,5).
+- Data [B]: all J ≤ 10^8: no tie, no non-descent, r ≤ 3; deep tails from every (m,θ), m < 10^8: real entries r ≤ 4.
+- #1 global non-halting remains UNPROVED. Open: for J ≥ K″ with X(J−1) odd of type b/c and ω(J−1) ≥ K′ (b) or J_W ≥ K′ (c),
+  S\*(J) has no exact tie (equivalently: bound climbs inside nested shifted copies of real epochs).

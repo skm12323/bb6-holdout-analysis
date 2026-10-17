@@ -6,12 +6,12 @@
 
 ## 结论速览
 
-在已分析的机器中，**尚无一台得到全局停机或不停机的判定**。#1 已得到最强的有限范围结论（通用轨道在 s < (2^K′−4)/3、K′ = 2^(2^(2^499997−3)−2) 内不停机，已审查），全局证明归结为"任意深层 2-adic 平局控制"这一开放问题。下列每条"已审查"结论都通过了三方审查。
+在已分析的机器中，**尚无一台得到全局停机或不停机的判定**。#1 已得到最强的有限范围结论（原机器在前 2^K′−2 个顶层步内不停机，通用轨道在 s < (2^K′−4)/3、K′ = 2^(2^(2^499997−3)−2) 内不停机，已审查），全局证明归结为"任意深层 2-adic 平局控制"这一开放问题。截至 2026-10-17，经已审查的时钟界（work_global_clock）与终局引理 E1–E5（work_global_endgame），#1 的全局不停机曾归约为两个开放命题 SQRT-EXIT 与 EG-LEN；同日的 work_global_egx（已审查）证明 endgame 就是 J=v 的符号 exit，于是**原机器在前 2^K′−2 个顶层步内不停机**，且全局不停机只剩**一个开放命题 EXT**（对所有 J ≥ K′，符号 exit S(J) 无 tie），SQRT-EXIT 与总装配的基础缺口不再需要。同日的 work_global_ext（已审查）把 EXT 的成立范围推进到 J < K″ = 2^{K′/2−2}（**原机器在前 2^{K″}−2 个顶层步内不停机**），证明 a 型入口无条件无 tie、过度 tie 无害（EXT 可弱化为 EXT\*，只需排除精确 tie），剩余开放命题收缩为：J ≥ K″ 且 X(J−1) 为深层 b/c 型时 S\*(J) 无精确 tie。下列每条"已审查"结论都通过了三方审查。
 
 | 机器 | 已审查的结论 | 文档 |
 |---|---|---|
 | `1RB0LE_0RC1RB_1LC1RD_1RF0LA_0RD1LE_1RB---` 及其三台兄弟机器 | 归约到块列表映射 M；停机 ⇔ 某次左端到达值 u₀ ∈ {2ᵏ−2}；四台机器停机与否互相等价 | `REPORT_1RB0LE_0RC1RB.md`、`work_q4/`、`work_q6/`、`work_u1/` |
-| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射：停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；顶层步 n < 2²⁰⁰¹−2 内不停机；形式化对映射 F 与条件定理 R（work_g6）、定理 M（work_m）；**通用轨道 F 在 s < (2^K′−4)/3（K′ = 2^(2^(2^499997−3)−2)）内有定义且不停机**（work_el、work_tie、work_tie2）。未证明：全局永不停机。两条独立的条件化路线——(NT) 路线（work_nt + Astra 研究，发现 NT 可能不成立）与 GLM 的 work_r10 证明树（以测量常数 EL 或未证的 PIN、以及平局深度无界的结尾阶段为前提）——归结为同一核心：任意深层 2-adic 平局控制（类 Collatz）。R9 的完整证明宣称已撤回 | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_g6/`、`work_m/`、`work_el/`、`work_nt/`、`work_r10/ASSEMBLY.md` |
+| #1 `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE` | 归约到栈映射：停机 ⇔ 某步 A 为奇数且 A+2b+3 是 2 的幂；顶层步 n < 2²⁰⁰¹−2 内不停机；形式化对映射 F 与条件定理 R（work_g6）、定理 M（work_m）；**通用轨道 F 在 s < (2^K′−4)/3（K′ = 2^(2^(2^499997−3)−2)）内有定义且不停机**（work_el、work_tie、work_tie2）。未证明：全局永不停机。两条独立的条件化路线——(NT) 路线（work_nt + Astra 研究，发现 NT 可能不成立）与 GLM 的 work_r10 证明树（以测量常数 EL 或未证的 PIN、以及平局深度无界的结尾阶段为前提）——归结为同一核心：任意深层 2-adic 平局控制（类 Collatz）。R9 的完整证明宣称已撤回。严格下降目标 DL 已被反驳（work_g2_obstruction：实际 r=6 epoch）。**2026-10-17 新增（已审查）：** 无条件时钟界 τ(n) ≤ n·P(n) = O(n log² n)，使"F 永远有定义" ⇐ SQRT-EXIT（每个 epoch 在 ⌊√ρ⌋+1 条退出链内结束）；精确规范日历（可查询到约 2^4096）；终局引理 E1–E5，把终局归约为 EG-LEN（任意终局前缀 Σj < 3(v−1)/4）。**work_global_egx（已审查）：** endgame(v) 等于 J=v 的符号 exit S(v)，原机器在前 2^K′−2 个顶层步内不停机；EXT（S(J) 对 J ≥ K′ 无 tie）⇒ #1 永不停机。**work_global_ext（已审查）：** EXT 对 J < K″ 成立（原机器 2^{K″} 有限范围）；a 型入口无条件闭合（定理 RA）；EXT 可弱化为 EXT\*（定理 U\*）；只有非下降步消耗预算（定理 L′）；有限塔证书无法闭合所有层（定理 O）。当前唯一开放：J ≥ K″ 的深层 b/c 型入口无精确 tie | `CHECKPOINT_1RB1LA_0RC0RD.md`、`work_r1/`、`work_r4/`、`work_g6/`、`work_m/`、`work_el/`、`work_nt/`、`work_r10/ASSEMBLY.md` |
 | #2 `1RB1RA_1LC0RC_---0LD_0LE0RF_1RE0RA_0LF1LB` | 归约到 Σ 栈机；定理 H | `REPORT_1RB1RA_1LC0RC.md`、`work_s1/`、`work_s3/` |
 | `1RB1LE_1LB1LC_1RD0LE_---0RB_1RF1LA_0RA0RD` | 停机 ⇔ 轨道到达 (0;10,…) | `REPORT_1RB1LE_1LB1LC.md`、`work_t1/` |
 | `1RB1LC_1RC1LB_1LD0RB_0LE1RD_---0LF_0LA1LF` | 无（各路径都没走通） | `CHECKPOINT_1RB1LC_1RC1LB.md` |
@@ -24,7 +24,7 @@
 - `work_*/`：主定理文档（`RULES.md`、`LEMMAS.md`、`PROOF.md`、`EQUIV.md`）与对应的验证脚本 `verify_*.py`
 - `work_r5/`、`work_r6/`、`work_r7/`：#1 全局不停机的三次尝试，**未经审查**
 - `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`work_r9/`：永不停机定理的宣称与锚点驱动（`THEOREM.md`、`verify_r9.py`）；`scratch/`：研究草稿与子代理报告（agentB/C/D/E/G、审查报告），部分未经审查
-- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（补充）；`work_g2/`：G2 部分结果（已审查）；`work_g2_obstruction/`：fire 谱与 DL 反驳（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`reviews/`：外部审查原文（GPT Astra / codex）
+- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（补充）；`work_g2/`：G2 部分结果（已审查）；`work_g2_obstruction/`：fire 谱与 DL 反驳（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`work_g2_*/`（13 份，GPT Astra）：两块返回恒等式、b/a 局部障碍等 G2 分支结果（已审查）；`work_global_*/`：全局路线笔记，其中 `work_global_core` 与 11 份 GPT Astra 笔记（clock、calendar、root_phase、rescue_ladder、period 等）已审查，`work_global_shadow`、`work_global_compression` 未审查；`work_claude_global/`：J=50148477 处的 r=3 退出与严格下降目标 DL（已审查，DL 后被反驳）；`work_global_clock/`：无条件时钟界与 SQRT-EXIT 归约（已审查）；`work_global_calendar_survey/`：深层退出的规范日历普查，r=4 首现于 m=6131（已审查，B 级证据）；`work_global_endgame/`：终局引理 E1–E5 与 EG-LEN 问题陈述（已审查）；`work_global_egx/`：endgame = 符号 exit、原机器 2^K′ 有限范围、单一归约 EXT（已审查）；`work_global_ext/`：EXT 四路攻关（Ψ 族第 4 层证书与 K″、定理 RA、EXT\*、ND-EXIT、定理 O），已审查；`reviews/`：外部审查原文（GPT Astra / codex）
 - `data/BB6_holdouts_815.txt`：bbchallenge 2026-09-24 版 holdout 清单
 - `triage2/scan.txt`：815 台机器各跑 10⁶ 步的初筛数据
 

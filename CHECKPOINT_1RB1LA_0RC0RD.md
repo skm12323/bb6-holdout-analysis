@@ -413,3 +413,13 @@ Review: §6 of work_global_calendar_survey/NOTES.md (adversary fixable→patched
   r=3 first at m=27, **r=4 first at a-type m=6131**; canonical instance J (6130 bits) with exit (J,6131,14,5,1).
   No r≥5 in that range. (Not a record: work_g2_obstruction has an actual r=6 epoch.)
 - Finite evidence only; no bearing on SQRT-EXIT as a proof. #1 global non-halting remains UNPROVED.
+
+## work_global_endgame — endgame lemmas E1–E5 ACCEPTED (revised), problem statement (2026-10-17)
+Review: §7 of work_global_endgame/LEMMAS_E.md (adversary fixable→patched twice→closed; gemini and deepseek blind auditors simple errors, patched).
+- LEMMAS_E.md restates work_r10/agentC10_report.md §1 (original unchanged): E1 boundary simulation (defined-prefix form),
+  E2 signs (c_A≥1, defect only read as b/c), E3 no halt under S1, E4 mass identities (termination NOT claimed;
+  j<=log2(6s+5)), **E5 prefix form: S1∧S2 hold at endgame chain k whenever n−ε(n) > Σ_{i<=k} j_i** (n=v−1).
+- PROBLEM_ENDGAME.md: non-halting of #1 needs (i) F safe (⇐ SQRT-EXIT, PROOF_CLOCK) and (ii) EG-SAFE; endgame
+  termination is not needed. With E5 + PROOF_CLOCK this reduces to **EG-LEN**: Σj over any endgame prefix < 3(v−1)/4
+  (≈ v/log v chains). Rigorous assembly (constants, 4·10^6<v<=10^8 base gap) still to be written.
+- #1 global non-halting remains UNPROVED: open = SQRT-EXIT, EG-LEN (+ rigorous assembly).

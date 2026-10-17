@@ -1,0 +1,93 @@
+{
+  "result": "PASS",
+  "kernel_cutoff": 4096,
+  "max_kernel_loss": 4,
+  "direct_crossing_comparisons": 8192,
+  "finite_fire_comparisons": 6789,
+  "boundary_time_bits": 4097,
+  "boundary_pointer_bits": 4097,
+  "large_queries": [
+    {
+      "pointer_power": 64,
+      "pointer_offset": 123,
+      "kind": "a",
+      "epsilon": 0,
+      "omega": 2,
+      "time_bits": 64,
+      "time_sha256": "6205c4d9d6ac079ff050f33257419488d62f3d8744e0bcd989a5f9a2dd11c0ed",
+      "enclosing_fire_parameter": 2,
+      "navigation_jumps": 895
+    },
+    {
+      "pointer_power": 256,
+      "pointer_offset": 12345,
+      "kind": "c",
+      "epsilon": 3,
+      "omega": null,
+      "time_bits": 256,
+      "time_sha256": "38e270c1255a35756ed777e0d6cdce3cf034ca5759bee40ca5633edbd8b82421",
+      "enclosing_fire_parameter": 1,
+      "navigation_jumps": 14070
+    },
+    {
+      "pointer_power": 1024,
+      "pointer_offset": 54321,
+      "kind": "a",
+      "epsilon": 0,
+      "omega": 5,
+      "time_bits": 1024,
+      "time_sha256": "5253438b732991c9071a06f963cded690a766de300960d00d4981b83f4145fb8",
+      "enclosing_fire_parameter": 5,
+      "navigation_jumps": 253808
+    },
+    {
+      "pointer_power": 4094,
+      "pointer_offset": 98765,
+      "kind": "a",
+      "epsilon": 0,
+      "omega": 1,
+      "time_bits": 4094,
+      "time_sha256": "ab2c95e3c0d8a83b0d4a0e55c9d882f309cc522bf468ff1785f8085759f4a01e",
+      "enclosing_fire_parameter": 1,
+      "navigation_jumps": 4160758
+    }
+  ],
+  "known_large_source_checks": 2,
+  "minimal_parameter17_fire": {
+    "time": 218452,
+    "pointer": 244873
+  },
+  "kernel_crosschecks": 256,
+  "kernel_epochs_checked": 4096,
+  "isolated_large_kernels": [
+    {
+      "parameter_power": 64,
+      "parameter_offset": 124,
+      "later_parameters": [
+        1
+      ],
+      "types": "aa",
+      "total_loss": 1,
+      "half_duration_bits": 63
+    },
+    {
+      "parameter_power": 256,
+      "parameter_offset": 12346,
+      "later_parameters": [],
+      "types": "c",
+      "total_loss": 0,
+      "half_duration_bits": 255
+    },
+    {
+      "parameter_power": 1024,
+      "parameter_offset": 54322,
+      "later_parameters": [
+        1
+      ],
+      "types": "aa",
+      "total_loss": 1,
+      "half_duration_bits": 1023
+    }
+  ],
+  "scope": "Exact canonical data only before the first fire above the certified kernel cutoff; no global extension"
+}

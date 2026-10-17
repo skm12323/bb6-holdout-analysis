@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "crossing_gap_checks": 8191,
+  "case_counts": {
+    "even_step": 2316,
+    "same_step": 3264,
+    "a_crossing": 1662,
+    "even_bc_then_crossing": 949
+  },
+  "max_observed_gap": 11,
+  "max_corridor_chains": 2,
+  "inequality_instances": 135,
+  "at_base": {
+    "rho": 100000000,
+    "P": 7617,
+    "H": 44,
+    "safe_exit_budget": 2272726,
+    "square_root_budget": 10000
+  },
+  "strengthened_source_pointer_lower_exponent": 24445,
+  "scope": "Finite identities and constant checks; all-scale arguments are analytic in PROOF_CLOCK.md"
+}

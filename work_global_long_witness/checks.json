@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "sources": [
+    {
+      "parameter": 5,
+      "type": "a",
+      "half_time": 1,
+      "epsilon": 0
+    },
+    {
+      "parameter": 17,
+      "type": "a",
+      "half_time": 6,
+      "epsilon": 0
+    },
+    {
+      "parameter": 122436,
+      "type": "a",
+      "half_time": 54614,
+      "epsilon": 0
+    },
+    {
+      "parameter": 367354,
+      "type": "a",
+      "half_time": 163862,
+      "epsilon": 0
+    }
+  ],
+  "path": [
+    367354,
+    5,
+    17,
+    5,
+    122436,
+    5,
+    17,
+    5,
+    6,
+    1
+  ],
+  "seven_productive_entries": [
+    5,
+    17,
+    5,
+    122436,
+    5,
+    17,
+    5
+  ],
+  "pair_macro_checks": 8,
+  "initial_parameter": 367354,
+  "initial_sigma": 367370,
+  "initial_pointer": 1102079,
+  "clock_bits": 122439,
+  "initial_time_bit_length": 367354,
+  "minimum_checked_margin": 16,
+  "witness_recipe": {
+    "x0": "3*2^367354",
+    "theta0": "9*2^367352 + 5*2^122438 - 1081554",
+    "clock": "s0=(theta0-5)/3",
+    "coefficient_gap": 734709,
+    "initial_time_sha256": "07c0433be2b65285400c0078f05f61610c02704061241022cb3a0394b9c8b5b7",
+    "initial_theta_sha256": "686272834445d344f6d408fbc2252e369ddf3d4005c64e81a2b8d55b5b3cbcad"
+  },
+  "symbolic_lift_checks": "sigma=s0 satisfies numeric clock, pointer-speed, deficit and margin bounds",
+  "scope": "Positive safe local continuation using actual sources; outer canonical reachability unproved"
+}

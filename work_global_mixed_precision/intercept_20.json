@@ -1,0 +1,232 @@
+{
+  "summary": {
+    "limit": 20,
+    "closed": 20,
+    "unresolved": [
+      {
+        "r": 582542,
+        "L": 20,
+        "status": "collision",
+        "path": []
+      }
+    ],
+    "max_chains": 2,
+    "max_loss": 2,
+    "max_steps": 21
+  },
+  "closed": [
+    {
+      "r": 1,
+      "L": 1,
+      "status": "closed",
+      "path": [
+        5,
+        1
+      ],
+      "cost": 5,
+      "loss": 1
+    },
+    {
+      "r": 30,
+      "L": 5,
+      "status": "closed",
+      "path": [
+        9,
+        4
+      ],
+      "cost": 8,
+      "loss": 2
+    },
+    {
+      "r": 46,
+      "L": 6,
+      "status": "closed",
+      "path": [
+        10
+      ],
+      "cost": 9,
+      "loss": 0
+    },
+    {
+      "r": 78,
+      "L": 7,
+      "status": "closed",
+      "path": [
+        11
+      ],
+      "cost": 9,
+      "loss": 0
+    },
+    {
+      "r": 1934,
+      "L": 11,
+      "status": "closed",
+      "path": [
+        15,
+        1
+      ],
+      "cost": 13,
+      "loss": 2
+    },
+    {
+      "r": 2958,
+      "L": 12,
+      "status": "closed",
+      "path": [
+        16
+      ],
+      "cost": 13,
+      "loss": 0
+    },
+    {
+      "r": 5006,
+      "L": 13,
+      "status": "closed",
+      "path": [
+        17,
+        7
+      ],
+      "cost": 18,
+      "loss": 1
+    },
+    {
+      "r": 123790,
+      "L": 17,
+      "status": "closed",
+      "path": [
+        21
+      ],
+      "cost": 17,
+      "loss": 0
+    },
+    {
+      "r": 189326,
+      "L": 18,
+      "status": "closed",
+      "path": [
+        22,
+        2
+      ],
+      "cost": 19,
+      "loss": 1
+    },
+    {
+      "r": 320398,
+      "L": 19,
+      "status": "closed",
+      "path": [
+        23,
+        2
+      ],
+      "cost": 19,
+      "loss": 2
+    },
+    {
+      "r": 58254,
+      "L": 20,
+      "status": "closed",
+      "path": [
+        24,
+        1
+      ],
+      "cost": 21,
+      "loss": 1
+    },
+    {
+      "r": 25486,
+      "L": 16,
+      "status": "closed",
+      "path": [
+        20
+      ],
+      "cost": 17,
+      "loss": 0
+    },
+    {
+      "r": 9102,
+      "L": 15,
+      "status": "closed",
+      "path": [
+        19
+      ],
+      "cost": 16,
+      "loss": 0
+    },
+    {
+      "r": 910,
+      "L": 14,
+      "status": "closed",
+      "path": [
+        18,
+        3
+      ],
+      "cost": 16,
+      "loss": 2
+    },
+    {
+      "r": 398,
+      "L": 10,
+      "status": "closed",
+      "path": [
+        14,
+        1
+      ],
+      "cost": 13,
+      "loss": 1
+    },
+    {
+      "r": 142,
+      "L": 9,
+      "status": "closed",
+      "path": [
+        13,
+        2
+      ],
+      "cost": 11,
+      "loss": 2
+    },
+    {
+      "r": 14,
+      "L": 8,
+      "status": "closed",
+      "path": [
+        12,
+        2
+      ],
+      "cost": 11,
+      "loss": 1
+    },
+    {
+      "r": 6,
+      "L": 4,
+      "status": "closed",
+      "path": [
+        8,
+        3
+      ],
+      "cost": 8,
+      "loss": 1
+    },
+    {
+      "r": 2,
+      "L": 3,
+      "status": "closed",
+      "path": [
+        7
+      ],
+      "cost": 5,
+      "loss": 0
+    },
+    {
+      "r": 0,
+      "L": 2,
+      "status": "closed",
+      "path": [
+        6,
+        1
+      ],
+      "cost": 5,
+      "loss": 2
+    }
+  ]
+}

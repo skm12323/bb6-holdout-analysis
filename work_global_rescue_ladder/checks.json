@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "root_identity_checks": 880,
+  "max_formal_depth": 512,
+  "rational_phase_checks": 256,
+  "phase_only_collision": [
+    {
+      "n": 1022,
+      "parent": 17,
+      "output": 41
+    },
+    {
+      "n": 1022,
+      "parent": 17,
+      "output": 101
+    },
+    {
+      "n": 1022,
+      "parent": 17,
+      "output": 201
+    }
+  ],
+  "scope": "Exact algebra and bound checks; formal long ladders and phase collisions are not claimed canonical-reachable"
+}

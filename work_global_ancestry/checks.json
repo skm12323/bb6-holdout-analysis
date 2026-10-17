@@ -1,0 +1,34 @@
+{
+  "result": "PASS",
+  "actual_source_affine_records": 6830,
+  "observed_max_loss": 4,
+  "witness_required_loss": 244913,
+  "witness_coarse_required_loss": 244912,
+  "witness_prior_returns_if_base_eps7": 30615,
+  "witness_root_parameter_cap": 367355,
+  "existing_V4_total_loss_cap": 6,
+  "fixed_witness_canonical_reachability": "excluded by the existing V4 certificate",
+  "odd_U_family": [
+    {
+      "odd_U_bits": 1,
+      "clock_bits": 367356,
+      "required_loss": 244913
+    },
+    {
+      "odd_U_bits": 2,
+      "clock_bits": 367357,
+      "required_loss": 244915
+    },
+    {
+      "odd_U_bits": 1025,
+      "clock_bits": 368380,
+      "required_loss": 245937
+    },
+    {
+      "odd_U_bits": 1000001,
+      "clock_bits": 1367356,
+      "required_loss": 1244913
+    }
+  ],
+  "scope": "General conditional ancestry inequality; concrete fixed-clock witness excluded. Unbounded-clock word reachability remains open."
+}

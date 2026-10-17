@@ -1,0 +1,94 @@
+{
+  "result": "PASS",
+  "parameter_cap": 63,
+  "word_counts": {
+    "2": 324,
+    "3": 80,
+    "4": 59,
+    "5": 21,
+    "6": 2,
+    "7": 0
+  },
+  "independent_projection_comparisons": 9072,
+  "lift_checks": 1458,
+  "maximum_clock_bits": 60,
+  "examples": [
+    {
+      "word": [
+        5,
+        17
+      ],
+      "projection": {
+        "theta_residue": 5,
+        "theta_bits": 4,
+        "anchor_slope": 4,
+        "anchor_offset": 262156,
+        "anchor_bits": 19,
+        "elapsed": 3,
+        "step_residue": 0
+      },
+      "fire_projection": null,
+      "entry_lifts_through_100000": 1699,
+      "first_mass_compatible_step": 29136
+    },
+    {
+      "word": [
+        17,
+        5,
+        17
+      ],
+      "projection": {
+        "theta_residue": 32702,
+        "theta_bits": 16,
+        "anchor_slope": 1048572,
+        "anchor_offset": 524024,
+        "anchor_bits": 20,
+        "elapsed": 16,
+        "step_residue": 10899
+      },
+      "fire_projection": null,
+      "entry_lifts_through_100000": 0,
+      "first_mass_compatible_step": 207507
+    },
+    {
+      "word": [
+        5,
+        17,
+        5,
+        17
+      ],
+      "projection": {
+        "theta_residue": 32693,
+        "theta_bits": 16,
+        "anchor_slope": 12,
+        "anchor_offset": 1049188,
+        "anchor_bits": 21,
+        "elapsed": 19,
+        "step_residue": 10896
+      },
+      "fire_projection": null,
+      "entry_lifts_through_100000": 0,
+      "first_mass_compatible_step": 731792
+    },
+    {
+      "word": [
+        8,
+        5,
+        17
+      ],
+      "projection": null,
+      "fire_projection": null,
+      "entry_lifts_through_100000": 0,
+      "first_mass_compatible_step": null
+    }
+  ],
+  "floor_sum_checks": 540,
+  "height_count_checks": 4,
+  "fire_projection_checks": 144,
+  "necessary_failure_candidates": [],
+  "synthetic_nonempty_filter_check": "Invented k(7)=21, not canonical; interval [10,10], fire step 84",
+  "complete_last_prefix_checks": 504,
+  "maximum_unsafe_last_parameter_bound": 11,
+  "complete_last_candidates": [],
+  "scope": "Exact integer affine-word projection; no positivity or canonical reachability claim"
+}

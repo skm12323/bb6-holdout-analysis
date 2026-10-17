@@ -1,0 +1,43 @@
+{
+  "result": "PASS",
+  "rooted_words": 4094,
+  "positive_lift_checks": 8188,
+  "maximum_sufficient_theta_threshold": 5,
+  "arbitrary_formal_cone_checks": 4096,
+  "full_pair_microstep_lifts": [
+    {
+      "J": 5,
+      "word": [
+        5,
+        3
+      ],
+      "microsteps": 6
+    },
+    {
+      "J": 14,
+      "word": [
+        14,
+        5,
+        1
+      ],
+      "microsteps": 16
+    },
+    {
+      "J": 28,
+      "word": [
+        28
+      ],
+      "microsteps": 26
+    },
+    {
+      "J": 65,
+      "word": [
+        65,
+        1
+      ],
+      "microsteps": 58
+    }
+  ],
+  "larger_clock_test": "minimum starting step 2^8192",
+  "scope": "All-prefix lambda positivity and exact word congruences; constructed lifts are not asserted canonical"
+}

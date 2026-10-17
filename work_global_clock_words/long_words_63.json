@@ -1,0 +1,29 @@
+{
+  "cap": 63,
+  "target_length": 8,
+  "productive": 18,
+  "counts": {
+    "2": 324,
+    "3": 80,
+    "4": 59,
+    "5": 21,
+    "6": 2
+  },
+  "processed": {
+    "2": 324,
+    "3": 80,
+    "4": 59,
+    "5": 21,
+    "6": 2
+  },
+  "escape_depths": {
+    "2": 4,
+    "3": 4,
+    "4": 2
+  },
+  "initial_pairs_pruned": 312,
+  "target_witnesses": [],
+  "exhausted_below_cap": true,
+  "seconds": 0.0,
+  "scope": "All ordered initial pairs, exact necessary lattices; escapes and canonical reachability unresolved"
+}

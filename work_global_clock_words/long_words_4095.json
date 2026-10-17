@@ -1,0 +1,150 @@
+{
+  "cap": 4095,
+  "target_length": 8,
+  "productive": 1304,
+  "counts": {
+    "2": 1700416,
+    "3": 399194,
+    "4": 273115,
+    "5": 99870,
+    "6": 7987
+  },
+  "processed": {
+    "2": 1700416,
+    "3": 399194,
+    "4": 273115,
+    "5": 99870,
+    "6": 7987
+  },
+  "escape_depths": {
+    "2": 256,
+    "3": 256,
+    "4": 128
+  },
+  "initial_pairs_pruned": 1634762,
+  "target_witnesses": [],
+  "long_shapes": [
+    {
+      "length": 5,
+      "starts_small_large_small_large": false,
+      "count": 15997
+    },
+    {
+      "length": 5,
+      "starts_small_large_small_large": true,
+      "count": 83873
+    },
+    {
+      "length": 6,
+      "starts_small_large_small_large": false,
+      "count": 3733
+    },
+    {
+      "length": 6,
+      "starts_small_large_small_large": true,
+      "count": 4254
+    }
+  ],
+  "nonalternating_samples": [
+    [
+      5,
+      17,
+      5,
+      54,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      125,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      125,
+      5,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      198,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      198,
+      5,
+      8
+    ],
+    [
+      5,
+      17,
+      5,
+      270,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      270,
+      5,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      306,
+      8
+    ],
+    [
+      5,
+      17,
+      5,
+      343,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      411,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      411,
+      5,
+      5
+    ],
+    [
+      5,
+      17,
+      5,
+      484,
+      5
+    ]
+  ],
+  "sixth_entry_first_parameters": {
+    "5": 7468,
+    "8": 519
+  },
+  "outputs_after_six_entries": {
+    "1": 6670,
+    "3": 1217,
+    "2": 100
+  },
+  "exhausted_below_cap": true,
+  "seconds": 46.01,
+  "scope": "All ordered initial pairs, exact necessary lattices; escapes and canonical reachability unresolved"
+}

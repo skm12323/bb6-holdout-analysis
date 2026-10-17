@@ -388,3 +388,19 @@ Review: reviews/g2_rest_review_record.md (adversary fixable→patched→closed; 
 - paths: roadmap; general-d shifted-copy rule stated as an unproved lemma.
 - Open: core-visit / escape–re-entry bound, high b/c branches (reachability invariant or cross-boundary
   termination needed), G1, endgame. #1 global non-halting remains UNPROVED.
+
+## Eleven work_global_* notes (GPT Astra) — ACCEPTED (2026-10-17)
+Review: reviews/global_astra11_review_record.md (two adversaries fixable→patched→closed; gemini and deepseek blind auditors all correct).
+- **work_global_clock (key):** on the maximal defined canonical prefix of F (incl. a first-failure inspection),
+  τ(n) <= n·P(n), P(n)=2g(n)²+1345, g(n)=⌈log2(6n²+5)⌉, with NO exit-length, C2 or termination hypothesis.
+  Consequently **F is defined forever (universal walk never halts) ⇐ SQRT-EXIT**: every epoch at pointer ρ>10^8 ends
+  before ⌊√ρ⌋+1 exit chains. This replaces (EL)/CORE2 by a much weaker target. Endgame still separate.
+- failure_budget: exponential-in-J coefficient-loss safety budgets; first-failure candidates finitely bounded.
+- root_phase / rescue_ladder / mixed_precision / weight16 / transfer: rooted phase grammar (ε=W+1), rescue ladder
+  δ_n=6−8/3^n, mixed-path root-precision budget, conditional safety through weight 18. No all-weight result.
+- period / clock_words: repeated mixed-block words need clock divisibility; six-entry alternation excluded at every
+  scale; arbitrary-word clock projection and spacing.
+- long_witness / ancestry: local word 5,17,5,122436,5,17,5 exists, but its fixed-clock state needs loss ≥244913 and is
+  excluded canonically; unbounded clocks open.
+- calendar: exact canonical crossing queries (time, type, ε) up to ~2^4096 from certified kernels J<=4096.
+- Open: SQRT-EXIT (exit termination within ~√ρ chains), high b/c branches, endgame. #1 global non-halting UNPROVED.

@@ -1,0 +1,4987 @@
+{
+ "B": 256,
+ "MMAX": 250,
+ "seconds": 1.3,
+ "status": {
+  "('b', 'closed')": 249,
+  "('a', 'no canonical fire in first 64 lifts')": 1,
+  "('a', 'closed')": 248
+ },
+ "r_dist": {
+  "1": 193,
+  "2": 281,
+  "3": 23
+ },
+ "records": [
+  {
+   "m": 2,
+   "first": "b",
+   "k_bits": 3,
+   "J_bits": 4,
+   "status": "closed",
+   "word": "[13, 2]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 3,
+   "first": "b",
+   "k_bits": 3,
+   "J_bits": 5,
+   "status": "closed",
+   "word": "[18, 3]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 3,
+   "first": "a",
+   "k_bits": 1,
+   "J_bits": 3,
+   "status": "closed",
+   "word": "[5, 3]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 4,
+   "first": "b",
+   "k_bits": 2,
+   "J_bits": 4,
+   "status": "closed",
+   "word": "[9, 4]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 4,
+   "first": "a",
+   "k_bits": 4,
+   "J_bits": 6,
+   "status": "closed",
+   "word": "[32, 4]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 5,
+   "first": "b",
+   "k_bits": 5,
+   "J_bits": 7,
+   "status": "closed",
+   "word": "[65, 5, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 5,
+   "first": "a",
+   "k_bits": 3,
+   "J_bits": 4,
+   "status": "closed",
+   "word": "[14, 5, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 6,
+   "first": "b",
+   "k_bits": 4,
+   "J_bits": 5,
+   "status": "closed",
+   "word": "[28, 6, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 6,
+   "first": "a",
+   "k_bits": 6,
+   "J_bits": 7,
+   "status": "closed",
+   "word": "[122, 6, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 7,
+   "first": "b",
+   "k_bits": 7,
+   "J_bits": 8,
+   "status": "closed",
+   "word": "[245, 7]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 7,
+   "first": "a",
+   "k_bits": 5,
+   "J_bits": 6,
+   "status": "closed",
+   "word": "[51, 7]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 8,
+   "first": "b",
+   "k_bits": 6,
+   "J_bits": 7,
+   "status": "closed",
+   "word": "[101, 8, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 8,
+   "first": "a",
+   "k_bits": 8,
+   "J_bits": 9,
+   "status": "closed",
+   "word": "[481, 8, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 9,
+   "first": "b",
+   "k_bits": 9,
+   "J_bits": 10,
+   "status": "closed",
+   "word": "[965, 9, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 9,
+   "first": "a",
+   "k_bits": 7,
+   "J_bits": 8,
+   "status": "closed",
+   "word": "[195, 9, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 10,
+   "first": "b",
+   "k_bits": 8,
+   "J_bits": 9,
+   "status": "closed",
+   "word": "[390, 10]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 10,
+   "first": "a",
+   "k_bits": 10,
+   "J_bits": 11,
+   "status": "closed",
+   "word": "[1917, 10]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 11,
+   "first": "b",
+   "k_bits": 11,
+   "J_bits": 12,
+   "status": "closed",
+   "word": "[3835, 11]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 11,
+   "first": "a",
+   "k_bits": 9,
+   "J_bits": 10,
+   "status": "closed",
+   "word": "[770, 11]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 12,
+   "first": "b",
+   "k_bits": 10,
+   "J_bits": 11,
+   "status": "closed",
+   "word": "[1539, 12, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 12,
+   "first": "a",
+   "k_bits": 12,
+   "J_bits": 13,
+   "status": "closed",
+   "word": "[7653, 12, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 13,
+   "first": "b",
+   "k_bits": 13,
+   "J_bits": 14,
+   "status": "closed",
+   "word": "[15312, 13, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 13,
+   "first": "a",
+   "k_bits": 11,
+   "J_bits": 12,
+   "status": "closed",
+   "word": "[3066, 13, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 14,
+   "first": "b",
+   "k_bits": 12,
+   "J_bits": 13,
+   "status": "closed",
+   "word": "[6132, 14, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 14,
+   "first": "a",
+   "k_bits": 14,
+   "J_bits": 15,
+   "status": "closed",
+   "word": "[30612, 14, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 15,
+   "first": "b",
+   "k_bits": 15,
+   "J_bits": 16,
+   "status": "closed",
+   "word": "[61226, 15, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 15,
+   "first": "a",
+   "k_bits": 13,
+   "J_bits": 14,
+   "status": "closed",
+   "word": "[12246, 15, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 16,
+   "first": "b",
+   "k_bits": 14,
+   "J_bits": 15,
+   "status": "closed",
+   "word": "[24496, 16]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 16,
+   "first": "a",
+   "k_bits": 16,
+   "J_bits": 17,
+   "status": "closed",
+   "word": "[122433, 16]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 17,
+   "first": "b",
+   "k_bits": 17,
+   "J_bits": 18,
+   "status": "closed",
+   "word": "[244875, 17, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 17,
+   "first": "a",
+   "k_bits": 15,
+   "J_bits": 16,
+   "status": "closed",
+   "word": "[48976, 17, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 18,
+   "first": "b",
+   "k_bits": 16,
+   "J_bits": 17,
+   "status": "closed",
+   "word": "[97957, 18, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 18,
+   "first": "a",
+   "k_bits": 18,
+   "J_bits": 19,
+   "status": "closed",
+   "word": "[489734, 18, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 19,
+   "first": "b",
+   "k_bits": 19,
+   "J_bits": 20,
+   "status": "closed",
+   "word": "[979475, 19]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 19,
+   "first": "a",
+   "k_bits": 17,
+   "J_bits": 18,
+   "status": "closed",
+   "word": "[195894, 19]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 20,
+   "first": "b",
+   "k_bits": 18,
+   "J_bits": 19,
+   "status": "closed",
+   "word": "[391796, 20]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 20,
+   "first": "a",
+   "k_bits": 20,
+   "J_bits": 21,
+   "status": "closed",
+   "word": "[1958927, 20]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 21,
+   "first": "b",
+   "k_bits": 21,
+   "J_bits": 22,
+   "status": "closed",
+   "word": "[3917862, 21]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 21,
+   "first": "a",
+   "k_bits": 19,
+   "J_bits": 20,
+   "status": "closed",
+   "word": "[783573, 21]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 22,
+   "first": "b",
+   "k_bits": 20,
+   "J_bits": 21,
+   "status": "closed",
+   "word": "[1567152, 22, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 22,
+   "first": "a",
+   "k_bits": 22,
+   "J_bits": 23,
+   "status": "closed",
+   "word": "[7835700, 22, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 23,
+   "first": "b",
+   "k_bits": 23,
+   "J_bits": 24,
+   "status": "closed",
+   "word": "[15671411, 23, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 23,
+   "first": "a",
+   "k_bits": 21,
+   "J_bits": 22,
+   "status": "closed",
+   "word": "[3134283, 23, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 24,
+   "first": "b",
+   "k_bits": 22,
+   "J_bits": 23,
+   "status": "closed",
+   "word": "[6268573, 24, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 24,
+   "first": "a",
+   "k_bits": 24,
+   "J_bits": 25,
+   "status": "closed",
+   "word": "[31342799, 24, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 25,
+   "first": "b",
+   "k_bits": 25,
+   "J_bits": 26,
+   "status": "closed",
+   "word": "[62685607, 25, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 25,
+   "first": "a",
+   "k_bits": 23,
+   "J_bits": 24,
+   "status": "closed",
+   "word": "[12537121, 25, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 26,
+   "first": "b",
+   "k_bits": 24,
+   "J_bits": 25,
+   "status": "closed",
+   "word": "[25074251, 26]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 26,
+   "first": "a",
+   "k_bits": 26,
+   "J_bits": 27,
+   "status": "closed",
+   "word": "[125371184, 26]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 27,
+   "first": "b",
+   "k_bits": 27,
+   "J_bits": 28,
+   "status": "closed",
+   "word": "[250742384, 27, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 27,
+   "first": "a",
+   "k_bits": 25,
+   "J_bits": 26,
+   "status": "closed",
+   "word": "[50148477, 27, 6, 1]",
+   "types": "aaba",
+   "loss": 4
+  },
+  {
+   "m": 28,
+   "first": "b",
+   "k_bits": 26,
+   "J_bits": 27,
+   "status": "closed",
+   "word": "[100296964, 28, 6, 1]",
+   "types": "bbba",
+   "loss": 6
+  },
+  {
+   "m": 28,
+   "first": "a",
+   "k_bits": 28,
+   "J_bits": 29,
+   "status": "closed",
+   "word": "[501484741, 28, 6, 1]",
+   "types": "abba",
+   "loss": 5
+  },
+  {
+   "m": 29,
+   "first": "b",
+   "k_bits": 29,
+   "J_bits": 30,
+   "status": "closed",
+   "word": "[1002969498, 29]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 29,
+   "first": "a",
+   "k_bits": 27,
+   "J_bits": 28,
+   "status": "closed",
+   "word": "[200593897, 29]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 30,
+   "first": "b",
+   "k_bits": 28,
+   "J_bits": 29,
+   "status": "closed",
+   "word": "[401187809, 30]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 30,
+   "first": "a",
+   "k_bits": 30,
+   "J_bits": 31,
+   "status": "closed",
+   "word": "[2005938960, 30]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 31,
+   "first": "b",
+   "k_bits": 31,
+   "J_bits": 32,
+   "status": "closed",
+   "word": "[4011877939, 31]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 31,
+   "first": "a",
+   "k_bits": 29,
+   "J_bits": 30,
+   "status": "closed",
+   "word": "[802375586, 31]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 32,
+   "first": "b",
+   "k_bits": 30,
+   "J_bits": 31,
+   "status": "closed",
+   "word": "[1604751187, 32, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 32,
+   "first": "a",
+   "k_bits": 32,
+   "J_bits": 33,
+   "status": "closed",
+   "word": "[8023755846, 32, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 33,
+   "first": "b",
+   "k_bits": 33,
+   "J_bits": 34,
+   "status": "closed",
+   "word": "[16047511709, 33, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 33,
+   "first": "a",
+   "k_bits": 31,
+   "J_bits": 32,
+   "status": "closed",
+   "word": "[3209502338, 33, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 34,
+   "first": "b",
+   "k_bits": 32,
+   "J_bits": 33,
+   "status": "closed",
+   "word": "[6419004694, 34]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 34,
+   "first": "a",
+   "k_bits": 34,
+   "J_bits": 35,
+   "status": "closed",
+   "word": "[32095023380, 34]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 35,
+   "first": "b",
+   "k_bits": 35,
+   "J_bits": 36,
+   "status": "closed",
+   "word": "[64190046783, 35, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 35,
+   "first": "a",
+   "k_bits": 33,
+   "J_bits": 34,
+   "status": "closed",
+   "word": "[12838009353, 35, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 36,
+   "first": "b",
+   "k_bits": 34,
+   "J_bits": 35,
+   "status": "closed",
+   "word": "[25676018725, 36, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 36,
+   "first": "a",
+   "k_bits": 36,
+   "J_bits": 37,
+   "status": "closed",
+   "word": "[128380093533, 36, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 37,
+   "first": "b",
+   "k_bits": 37,
+   "J_bits": 38,
+   "status": "closed",
+   "word": "[256760187085, 37]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 37,
+   "first": "a",
+   "k_bits": 35,
+   "J_bits": 36,
+   "status": "closed",
+   "word": "[51352037411, 37]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 38,
+   "first": "b",
+   "k_bits": 36,
+   "J_bits": 37,
+   "status": "closed",
+   "word": "[102704074844, 38]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 38,
+   "first": "a",
+   "k_bits": 38,
+   "J_bits": 39,
+   "status": "closed",
+   "word": "[513520374128, 38]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 39,
+   "first": "b",
+   "k_bits": 39,
+   "J_bits": 40,
+   "status": "closed",
+   "word": "[1027040748276, 39]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 39,
+   "first": "a",
+   "k_bits": 37,
+   "J_bits": 38,
+   "status": "closed",
+   "word": "[205408149652, 39]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 40,
+   "first": "b",
+   "k_bits": 38,
+   "J_bits": 39,
+   "status": "closed",
+   "word": "[410816299322, 40, 5, 2]",
+   "types": "baab",
+   "loss": 4
+  },
+  {
+   "m": 40,
+   "first": "a",
+   "k_bits": 40,
+   "J_bits": 41,
+   "status": "closed",
+   "word": "[2054081496511, 40, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 41,
+   "first": "b",
+   "k_bits": 41,
+   "J_bits": 42,
+   "status": "closed",
+   "word": "[4108162993045, 41, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 41,
+   "first": "a",
+   "k_bits": 39,
+   "J_bits": 40,
+   "status": "closed",
+   "word": "[821632598606, 41, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 42,
+   "first": "b",
+   "k_bits": 40,
+   "J_bits": 41,
+   "status": "closed",
+   "word": "[1643265197231, 42, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 42,
+   "first": "a",
+   "k_bits": 42,
+   "J_bits": 43,
+   "status": "closed",
+   "word": "[8216325986050, 42, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 43,
+   "first": "b",
+   "k_bits": 43,
+   "J_bits": 44,
+   "status": "closed",
+   "word": "[16432651972121, 43, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 43,
+   "first": "a",
+   "k_bits": 41,
+   "J_bits": 42,
+   "status": "closed",
+   "word": "[3286530394420, 43, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 44,
+   "first": "b",
+   "k_bits": 42,
+   "J_bits": 43,
+   "status": "closed",
+   "word": "[6573060788861, 44]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 44,
+   "first": "a",
+   "k_bits": 44,
+   "J_bits": 45,
+   "status": "closed",
+   "word": "[32865303944196, 44]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 45,
+   "first": "b",
+   "k_bits": 45,
+   "J_bits": 46,
+   "status": "closed",
+   "word": "[65730607888419, 45, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 45,
+   "first": "a",
+   "k_bits": 43,
+   "J_bits": 44,
+   "status": "closed",
+   "word": "[13146121577680, 45, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 46,
+   "first": "b",
+   "k_bits": 44,
+   "J_bits": 45,
+   "status": "closed",
+   "word": "[26292243155382, 46, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 46,
+   "first": "a",
+   "k_bits": 46,
+   "J_bits": 47,
+   "status": "closed",
+   "word": "[131461215776795, 46, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 47,
+   "first": "b",
+   "k_bits": 47,
+   "J_bits": 48,
+   "status": "closed",
+   "word": "[262922431553616, 47]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 47,
+   "first": "a",
+   "k_bits": 45,
+   "J_bits": 46,
+   "status": "closed",
+   "word": "[52584486310717, 47]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 48,
+   "first": "b",
+   "k_bits": 46,
+   "J_bits": 47,
+   "status": "closed",
+   "word": "[105168972621460, 48]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 48,
+   "first": "a",
+   "k_bits": 48,
+   "J_bits": 49,
+   "status": "closed",
+   "word": "[525844863107183, 48]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 49,
+   "first": "b",
+   "k_bits": 49,
+   "J_bits": 50,
+   "status": "closed",
+   "word": "[1051689726214396, 49, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 49,
+   "first": "a",
+   "k_bits": 47,
+   "J_bits": 48,
+   "status": "closed",
+   "word": "[210337945242873, 49, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 50,
+   "first": "b",
+   "k_bits": 48,
+   "J_bits": 49,
+   "status": "closed",
+   "word": "[420675890485773, 50, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 50,
+   "first": "a",
+   "k_bits": 50,
+   "J_bits": 51,
+   "status": "closed",
+   "word": "[2103379452428743, 50, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 51,
+   "first": "b",
+   "k_bits": 51,
+   "J_bits": 52,
+   "status": "closed",
+   "word": "[4206758904857516, 51, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 51,
+   "first": "a",
+   "k_bits": 49,
+   "J_bits": 50,
+   "status": "closed",
+   "word": "[841351780971496, 51, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 52,
+   "first": "b",
+   "k_bits": 50,
+   "J_bits": 51,
+   "status": "closed",
+   "word": "[1682703561943021, 52, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 52,
+   "first": "a",
+   "k_bits": 52,
+   "J_bits": 53,
+   "status": "closed",
+   "word": "[8413517809714974, 52, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 53,
+   "first": "b",
+   "k_bits": 53,
+   "J_bits": 54,
+   "status": "closed",
+   "word": "[16827035619429974, 53]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 53,
+   "first": "a",
+   "k_bits": 51,
+   "J_bits": 52,
+   "status": "closed",
+   "word": "[3365407123885991, 53]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 54,
+   "first": "b",
+   "k_bits": 52,
+   "J_bits": 53,
+   "status": "closed",
+   "word": "[6730814247772006, 54, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 54,
+   "first": "a",
+   "k_bits": 54,
+   "J_bits": 55,
+   "status": "closed",
+   "word": "[33654071238859892, 54, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 55,
+   "first": "b",
+   "k_bits": 55,
+   "J_bits": 56,
+   "status": "closed",
+   "word": "[67308142477719813, 55, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 55,
+   "first": "a",
+   "k_bits": 53,
+   "J_bits": 54,
+   "status": "closed",
+   "word": "[13461628495543959, 55, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 56,
+   "first": "b",
+   "k_bits": 54,
+   "J_bits": 55,
+   "status": "closed",
+   "word": "[26923256991087943, 56]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 56,
+   "first": "a",
+   "k_bits": 56,
+   "J_bits": 57,
+   "status": "closed",
+   "word": "[134616284955439571, 56]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 57,
+   "first": "b",
+   "k_bits": 57,
+   "J_bits": 58,
+   "status": "closed",
+   "word": "[269232569910879167, 57]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 57,
+   "first": "a",
+   "k_bits": 55,
+   "J_bits": 56,
+   "status": "closed",
+   "word": "[53846513982175829, 57]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 58,
+   "first": "b",
+   "k_bits": 56,
+   "J_bits": 57,
+   "status": "closed",
+   "word": "[107693027964351684, 58]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 58,
+   "first": "a",
+   "k_bits": 58,
+   "J_bits": 59,
+   "status": "closed",
+   "word": "[538465139821758276, 58]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 59,
+   "first": "b",
+   "k_bits": 59,
+   "J_bits": 60,
+   "status": "closed",
+   "word": "[1076930279643516582, 59, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 59,
+   "first": "a",
+   "k_bits": 57,
+   "J_bits": 58,
+   "status": "closed",
+   "word": "[215386055928703312, 59, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 60,
+   "first": "b",
+   "k_bits": 58,
+   "J_bits": 59,
+   "status": "closed",
+   "word": "[430772111857406651, 60, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 60,
+   "first": "a",
+   "k_bits": 60,
+   "J_bits": 61,
+   "status": "closed",
+   "word": "[2153860559287033106, 60, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 61,
+   "first": "b",
+   "k_bits": 61,
+   "J_bits": 62,
+   "status": "closed",
+   "word": "[4307721118574066242, 61, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 61,
+   "first": "a",
+   "k_bits": 59,
+   "J_bits": 60,
+   "status": "closed",
+   "word": "[861544223714813243, 61, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 62,
+   "first": "b",
+   "k_bits": 60,
+   "J_bits": 61,
+   "status": "closed",
+   "word": "[1723088447429626515, 62, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 62,
+   "first": "a",
+   "k_bits": 62,
+   "J_bits": 63,
+   "status": "closed",
+   "word": "[8615442237148132421, 62, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 63,
+   "first": "b",
+   "k_bits": 63,
+   "J_bits": 64,
+   "status": "closed",
+   "word": "[17230884474296264872, 63]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 63,
+   "first": "a",
+   "k_bits": 61,
+   "J_bits": 62,
+   "status": "closed",
+   "word": "[3446176894859252970, 63]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 64,
+   "first": "b",
+   "k_bits": 62,
+   "J_bits": 63,
+   "status": "closed",
+   "word": "[6892353789718505968, 64, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 64,
+   "first": "a",
+   "k_bits": 64,
+   "J_bits": 65,
+   "status": "closed",
+   "word": "[34461768948592529677, 64, 5, 3]",
+   "types": "aaaa",
+   "loss": 3
+  },
+  {
+   "m": 65,
+   "first": "b",
+   "k_bits": 65,
+   "J_bits": 66,
+   "status": "closed",
+   "word": "[68923537897185059389, 65, 5, 2]",
+   "types": "bbab",
+   "loss": 5
+  },
+  {
+   "m": 65,
+   "first": "a",
+   "k_bits": 63,
+   "J_bits": 64,
+   "status": "closed",
+   "word": "[13784707579437011874, 65, 5, 3]",
+   "types": "abaa",
+   "loss": 4
+  },
+  {
+   "m": 66,
+   "first": "b",
+   "k_bits": 64,
+   "J_bits": 65,
+   "status": "closed",
+   "word": "[27569415158874023777, 66, 3]",
+   "types": "bca",
+   "loss": 6
+  },
+  {
+   "m": 66,
+   "first": "a",
+   "k_bits": 66,
+   "J_bits": 67,
+   "status": "closed",
+   "word": "[137847075794370118708, 66, 3]",
+   "types": "aca",
+   "loss": 5
+  },
+  {
+   "m": 67,
+   "first": "b",
+   "k_bits": 67,
+   "J_bits": 68,
+   "status": "closed",
+   "word": "[275694151588740237451, 67]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 67,
+   "first": "a",
+   "k_bits": 65,
+   "J_bits": 66,
+   "status": "closed",
+   "word": "[55138830317748047486, 67]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 68,
+   "first": "b",
+   "k_bits": 66,
+   "J_bits": 67,
+   "status": "closed",
+   "word": "[110277660635496095003, 68, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 68,
+   "first": "a",
+   "k_bits": 68,
+   "J_bits": 69,
+   "status": "closed",
+   "word": "[551388303177480474834, 68, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 69,
+   "first": "b",
+   "k_bits": 69,
+   "J_bits": 70,
+   "status": "closed",
+   "word": "[1102776606354960949701, 69, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 69,
+   "first": "a",
+   "k_bits": 67,
+   "J_bits": 68,
+   "status": "closed",
+   "word": "[220555321270992189934, 69, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 70,
+   "first": "b",
+   "k_bits": 68,
+   "J_bits": 69,
+   "status": "closed",
+   "word": "[441110642541984379902, 70]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 70,
+   "first": "a",
+   "k_bits": 70,
+   "J_bits": 71,
+   "status": "closed",
+   "word": "[2205553212709921899328, 70]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 71,
+   "first": "b",
+   "k_bits": 71,
+   "J_bits": 72,
+   "status": "closed",
+   "word": "[4411106425419843798695, 71, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 71,
+   "first": "a",
+   "k_bits": 69,
+   "J_bits": 70,
+   "status": "closed",
+   "word": "[882221285083968759733, 71, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 72,
+   "first": "b",
+   "k_bits": 70,
+   "J_bits": 71,
+   "status": "closed",
+   "word": "[1764442570167937519501, 72, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 72,
+   "first": "a",
+   "k_bits": 72,
+   "J_bits": 73,
+   "status": "closed",
+   "word": "[8822212850839687597320, 72, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 73,
+   "first": "b",
+   "k_bits": 73,
+   "J_bits": 74,
+   "status": "closed",
+   "word": "[17644425701679375194676, 73]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 73,
+   "first": "a",
+   "k_bits": 71,
+   "J_bits": 72,
+   "status": "closed",
+   "word": "[3528885140335875038927, 73]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 74,
+   "first": "b",
+   "k_bits": 72,
+   "J_bits": 73,
+   "status": "closed",
+   "word": "[7057770280671750077892, 74]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 74,
+   "first": "a",
+   "k_bits": 74,
+   "J_bits": 75,
+   "status": "closed",
+   "word": "[35288851403358750389274, 74]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 75,
+   "first": "b",
+   "k_bits": 75,
+   "J_bits": 76,
+   "status": "closed",
+   "word": "[70577702806717500778585, 75]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 75,
+   "first": "a",
+   "k_bits": 73,
+   "J_bits": 74,
+   "status": "closed",
+   "word": "[14115540561343500155711, 75]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 76,
+   "first": "b",
+   "k_bits": 74,
+   "J_bits": 75,
+   "status": "closed",
+   "word": "[28231081122687000311457, 76, 6, 1]",
+   "types": "baba",
+   "loss": 5
+  },
+  {
+   "m": 76,
+   "first": "a",
+   "k_bits": 76,
+   "J_bits": 77,
+   "status": "closed",
+   "word": "[141155405613435001557092, 76, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 77,
+   "first": "b",
+   "k_bits": 77,
+   "J_bits": 78,
+   "status": "closed",
+   "word": "[282310811226870003114224, 77, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 77,
+   "first": "a",
+   "k_bits": 75,
+   "J_bits": 76,
+   "status": "closed",
+   "word": "[56462162245374000622839, 77, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 78,
+   "first": "b",
+   "k_bits": 76,
+   "J_bits": 77,
+   "status": "closed",
+   "word": "[112924324490748001245714, 78, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 78,
+   "first": "a",
+   "k_bits": 78,
+   "J_bits": 79,
+   "status": "closed",
+   "word": "[564621622453740006228371, 78, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 79,
+   "first": "b",
+   "k_bits": 79,
+   "J_bits": 80,
+   "status": "closed",
+   "word": "[1129243244907480012456780, 79, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 79,
+   "first": "a",
+   "k_bits": 77,
+   "J_bits": 78,
+   "status": "closed",
+   "word": "[225848648981496002491349, 79, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 80,
+   "first": "b",
+   "k_bits": 78,
+   "J_bits": 79,
+   "status": "closed",
+   "word": "[451697297962992004982736, 80]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 80,
+   "first": "a",
+   "k_bits": 80,
+   "J_bits": 81,
+   "status": "closed",
+   "word": "[2258486489814960024913477, 80]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 81,
+   "first": "b",
+   "k_bits": 81,
+   "J_bits": 82,
+   "status": "closed",
+   "word": "[4516972979629920049826998, 81, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 81,
+   "first": "a",
+   "k_bits": 79,
+   "J_bits": 80,
+   "status": "closed",
+   "word": "[903394595925984009965393, 81, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 82,
+   "first": "b",
+   "k_bits": 80,
+   "J_bits": 81,
+   "status": "closed",
+   "word": "[1806789191851968019930825, 82, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 82,
+   "first": "a",
+   "k_bits": 82,
+   "J_bits": 83,
+   "status": "closed",
+   "word": "[9033945959259840099653916, 82, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 83,
+   "first": "b",
+   "k_bits": 83,
+   "J_bits": 84,
+   "status": "closed",
+   "word": "[18067891918519680199307875, 83]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 83,
+   "first": "a",
+   "k_bits": 81,
+   "J_bits": 82,
+   "status": "closed",
+   "word": "[3613578383703936039861566, 83]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 84,
+   "first": "b",
+   "k_bits": 82,
+   "J_bits": 83,
+   "status": "closed",
+   "word": "[7227156767407872079723175, 84]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 84,
+   "first": "a",
+   "k_bits": 84,
+   "J_bits": 85,
+   "status": "closed",
+   "word": "[36135783837039360398615664, 84]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 85,
+   "first": "b",
+   "k_bits": 85,
+   "J_bits": 86,
+   "status": "closed",
+   "word": "[72271567674078720797231375, 85, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 85,
+   "first": "a",
+   "k_bits": 83,
+   "J_bits": 84,
+   "status": "closed",
+   "word": "[14454313534815744159446266, 85, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 86,
+   "first": "b",
+   "k_bits": 84,
+   "J_bits": 85,
+   "status": "closed",
+   "word": "[28908627069631488318892576, 86, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 86,
+   "first": "a",
+   "k_bits": 86,
+   "J_bits": 87,
+   "status": "closed",
+   "word": "[144543135348157441594462664, 86, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 87,
+   "first": "b",
+   "k_bits": 87,
+   "J_bits": 88,
+   "status": "closed",
+   "word": "[289086270696314883188925375, 87, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 87,
+   "first": "a",
+   "k_bits": 85,
+   "J_bits": 86,
+   "status": "closed",
+   "word": "[57817254139262976637785065, 87, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 88,
+   "first": "b",
+   "k_bits": 86,
+   "J_bits": 87,
+   "status": "closed",
+   "word": "[115634508278525953275570176, 88, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 88,
+   "first": "a",
+   "k_bits": 88,
+   "J_bits": 89,
+   "status": "closed",
+   "word": "[578172541392629766377850657, 88, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 89,
+   "first": "b",
+   "k_bits": 89,
+   "J_bits": 90,
+   "status": "closed",
+   "word": "[1156345082785259532755701359, 89]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 89,
+   "first": "a",
+   "k_bits": 87,
+   "J_bits": 88,
+   "status": "closed",
+   "word": "[231269016557051906551140264, 89]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 90,
+   "first": "b",
+   "k_bits": 88,
+   "J_bits": 89,
+   "status": "closed",
+   "word": "[462538033114103813102280571, 90, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 90,
+   "first": "a",
+   "k_bits": 90,
+   "J_bits": 91,
+   "status": "closed",
+   "word": "[2312690165570519065511402625, 90, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 91,
+   "first": "b",
+   "k_bits": 91,
+   "J_bits": 92,
+   "status": "closed",
+   "word": "[4625380331141038131022805298, 91, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 91,
+   "first": "a",
+   "k_bits": 89,
+   "J_bits": 90,
+   "status": "closed",
+   "word": "[925076066228207626204561052, 91, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 92,
+   "first": "b",
+   "k_bits": 90,
+   "J_bits": 91,
+   "status": "closed",
+   "word": "[1850152132456415252409122148, 92]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 92,
+   "first": "a",
+   "k_bits": 92,
+   "J_bits": 93,
+   "status": "closed",
+   "word": "[9250760662282076262045610504, 92]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 93,
+   "first": "b",
+   "k_bits": 93,
+   "J_bits": 94,
+   "status": "closed",
+   "word": "[18501521324564152524091221052, 93]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 93,
+   "first": "a",
+   "k_bits": 91,
+   "J_bits": 92,
+   "status": "closed",
+   "word": "[3700304264912830504818244202, 93]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 94,
+   "first": "b",
+   "k_bits": 92,
+   "J_bits": 93,
+   "status": "closed",
+   "word": "[7400608529825661009636488449, 94]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 94,
+   "first": "a",
+   "k_bits": 94,
+   "J_bits": 95,
+   "status": "closed",
+   "word": "[37003042649128305048182442009, 94]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 95,
+   "first": "b",
+   "k_bits": 95,
+   "J_bits": 96,
+   "status": "closed",
+   "word": "[74006085298256610096364884067, 95, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 95,
+   "first": "a",
+   "k_bits": 93,
+   "J_bits": 94,
+   "status": "closed",
+   "word": "[14801217059651322019272976805, 95, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 96,
+   "first": "b",
+   "k_bits": 94,
+   "J_bits": 95,
+   "status": "closed",
+   "word": "[29602434119302644038545953656, 96, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 96,
+   "first": "a",
+   "k_bits": 96,
+   "J_bits": 97,
+   "status": "closed",
+   "word": "[148012170596513220192729768039, 96, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 97,
+   "first": "b",
+   "k_bits": 97,
+   "J_bits": 98,
+   "status": "closed",
+   "word": "[296024341193026440385459536127, 97, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 97,
+   "first": "a",
+   "k_bits": 95,
+   "J_bits": 96,
+   "status": "closed",
+   "word": "[59204868238605288077091907216, 97, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 98,
+   "first": "b",
+   "k_bits": 96,
+   "J_bits": 97,
+   "status": "closed",
+   "word": "[118409736477210576154183814480, 98, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 98,
+   "first": "a",
+   "k_bits": 98,
+   "J_bits": 99,
+   "status": "closed",
+   "word": "[592048682386052880770919072154, 98, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 99,
+   "first": "b",
+   "k_bits": 99,
+   "J_bits": 100,
+   "status": "closed",
+   "word": "[1184097364772105761541838144357, 99]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 99,
+   "first": "a",
+   "k_bits": 97,
+   "J_bits": 98,
+   "status": "closed",
+   "word": "[236819472954421152308367628863, 99]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 100,
+   "first": "b",
+   "k_bits": 98,
+   "J_bits": 99,
+   "status": "closed",
+   "word": "[473638945908842304616735257773, 100, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 100,
+   "first": "a",
+   "k_bits": 100,
+   "J_bits": 101,
+   "status": "closed",
+   "word": "[2368194729544211523083676288608, 100, 8, 1]",
+   "types": "aaaa",
+   "loss": 3
+  },
+  {
+   "m": 101,
+   "first": "b",
+   "k_bits": 101,
+   "J_bits": 102,
+   "status": "closed",
+   "word": "[4736389459088423046167352577272, 101, 8, 1]",
+   "types": "bbaa",
+   "loss": 5
+  },
+  {
+   "m": 101,
+   "first": "a",
+   "k_bits": 99,
+   "J_bits": 100,
+   "status": "closed",
+   "word": "[947277891817684609233470515447, 101, 8, 1]",
+   "types": "abaa",
+   "loss": 4
+  },
+  {
+   "m": 102,
+   "first": "b",
+   "k_bits": 100,
+   "J_bits": 101,
+   "status": "closed",
+   "word": "[1894555783635369218466941030942, 102, 1]",
+   "types": "bca",
+   "loss": 6
+  },
+  {
+   "m": 102,
+   "first": "a",
+   "k_bits": 102,
+   "J_bits": 103,
+   "status": "closed",
+   "word": "[9472778918176846092334705154437, 102, 1]",
+   "types": "aca",
+   "loss": 5
+  },
+  {
+   "m": 103,
+   "first": "b",
+   "k_bits": 103,
+   "J_bits": 104,
+   "status": "closed",
+   "word": "[18945557836353692184669410308922, 103]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 103,
+   "first": "a",
+   "k_bits": 101,
+   "J_bits": 102,
+   "status": "closed",
+   "word": "[3789111567270738436933882061777, 103]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 104,
+   "first": "b",
+   "k_bits": 102,
+   "J_bits": 103,
+   "status": "closed",
+   "word": "[7578223134541476873867764123602, 104]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 104,
+   "first": "a",
+   "k_bits": 104,
+   "J_bits": 105,
+   "status": "closed",
+   "word": "[37891115672707384369338820617734, 104]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 105,
+   "first": "b",
+   "k_bits": 105,
+   "J_bits": 106,
+   "status": "closed",
+   "word": "[75782231345414768738677641235517, 105]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 105,
+   "first": "a",
+   "k_bits": 103,
+   "J_bits": 104,
+   "status": "closed",
+   "word": "[15156446269082953747735528247097, 105]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 106,
+   "first": "b",
+   "k_bits": 104,
+   "J_bits": 105,
+   "status": "closed",
+   "word": "[30312892538165907495471056494241, 106, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 106,
+   "first": "a",
+   "k_bits": 106,
+   "J_bits": 107,
+   "status": "closed",
+   "word": "[151564462690829537477355282470922, 106, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 107,
+   "first": "b",
+   "k_bits": 107,
+   "J_bits": 108,
+   "status": "closed",
+   "word": "[303128925381659074954710564941896, 107, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 107,
+   "first": "a",
+   "k_bits": 105,
+   "J_bits": 106,
+   "status": "closed",
+   "word": "[60625785076331814990942112988373, 107, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 108,
+   "first": "b",
+   "k_bits": 106,
+   "J_bits": 107,
+   "status": "closed",
+   "word": "[121251570152663629981884225976794, 108]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 108,
+   "first": "a",
+   "k_bits": 108,
+   "J_bits": 109,
+   "status": "closed",
+   "word": "[606257850763318149909421129883683, 108]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 109,
+   "first": "b",
+   "k_bits": 109,
+   "J_bits": 110,
+   "status": "closed",
+   "word": "[1212515701526636299818842259767412, 109]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 109,
+   "first": "a",
+   "k_bits": 107,
+   "J_bits": 108,
+   "status": "closed",
+   "word": "[242503140305327259963768451953475, 109]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 110,
+   "first": "b",
+   "k_bits": 108,
+   "J_bits": 109,
+   "status": "closed",
+   "word": "[485006280610654519927536903906999, 110]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 110,
+   "first": "a",
+   "k_bits": 110,
+   "J_bits": 111,
+   "status": "closed",
+   "word": "[2425031403053272599637684519534712, 110]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 111,
+   "first": "b",
+   "k_bits": 111,
+   "J_bits": 112,
+   "status": "closed",
+   "word": "[4850062806106545199275369039069477, 111, 5, 2]",
+   "types": "baab",
+   "loss": 4
+  },
+  {
+   "m": 111,
+   "first": "a",
+   "k_bits": 109,
+   "J_bits": 110,
+   "status": "closed",
+   "word": "[970012561221309039855073807813888, 111, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 112,
+   "first": "b",
+   "k_bits": 110,
+   "J_bits": 111,
+   "status": "closed",
+   "word": "[1940025122442618079710147615627826, 112, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 112,
+   "first": "a",
+   "k_bits": 112,
+   "J_bits": 113,
+   "status": "closed",
+   "word": "[9700125612213090398550738078138842, 112, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 113,
+   "first": "b",
+   "k_bits": 113,
+   "J_bits": 114,
+   "status": "closed",
+   "word": "[19400251224426180797101476156277737, 113, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 113,
+   "first": "a",
+   "k_bits": 111,
+   "J_bits": 112,
+   "status": "closed",
+   "word": "[3880050244885236159420295231255539, 113, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 114,
+   "first": "b",
+   "k_bits": 112,
+   "J_bits": 113,
+   "status": "closed",
+   "word": "[7760100489770472318840590462511130, 114, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 114,
+   "first": "a",
+   "k_bits": 114,
+   "J_bits": 115,
+   "status": "closed",
+   "word": "[38800502448852361594202952312555357, 114, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 115,
+   "first": "b",
+   "k_bits": 115,
+   "J_bits": 116,
+   "status": "closed",
+   "word": "[77601004897704723188405904625110767, 115]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 115,
+   "first": "a",
+   "k_bits": 113,
+   "J_bits": 114,
+   "status": "closed",
+   "word": "[15520200979540944637681180925022146, 115]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 116,
+   "first": "b",
+   "k_bits": 114,
+   "J_bits": 115,
+   "status": "closed",
+   "word": "[31040401959081889275362361850044343, 116, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 116,
+   "first": "a",
+   "k_bits": 116,
+   "J_bits": 117,
+   "status": "closed",
+   "word": "[155202009795409446376811809250221416, 116, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 117,
+   "first": "b",
+   "k_bits": 117,
+   "J_bits": 118,
+   "status": "closed",
+   "word": "[310404019590818892753623618500442887, 117, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 117,
+   "first": "a",
+   "k_bits": 115,
+   "J_bits": 116,
+   "status": "closed",
+   "word": "[62080803918163778550724723700088570, 117, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 118,
+   "first": "b",
+   "k_bits": 116,
+   "J_bits": 117,
+   "status": "closed",
+   "word": "[124161607836327557101449447400177192, 118]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 118,
+   "first": "a",
+   "k_bits": 118,
+   "J_bits": 119,
+   "status": "closed",
+   "word": "[620808039181637785507247237000885652, 118]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 119,
+   "first": "b",
+   "k_bits": 119,
+   "J_bits": 120,
+   "status": "closed",
+   "word": "[1241616078363275571014494474001771357, 119]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 119,
+   "first": "a",
+   "k_bits": 117,
+   "J_bits": 118,
+   "status": "closed",
+   "word": "[248323215672655114202898894800354265, 119]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 120,
+   "first": "b",
+   "k_bits": 118,
+   "J_bits": 119,
+   "status": "closed",
+   "word": "[496646431345310228405797789600708581, 120, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 120,
+   "first": "a",
+   "k_bits": 120,
+   "J_bits": 121,
+   "status": "closed",
+   "word": "[2483232156726551142028988948003542587, 120, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 121,
+   "first": "b",
+   "k_bits": 121,
+   "J_bits": 122,
+   "status": "closed",
+   "word": "[4966464313453102284057977896007085233, 121, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 121,
+   "first": "a",
+   "k_bits": 119,
+   "J_bits": 120,
+   "status": "closed",
+   "word": "[993292862690620456811595579201417041, 121, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 122,
+   "first": "b",
+   "k_bits": 120,
+   "J_bits": 121,
+   "status": "closed",
+   "word": "[1986585725381240913623191158402834134, 122, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 122,
+   "first": "a",
+   "k_bits": 122,
+   "J_bits": 123,
+   "status": "closed",
+   "word": "[9932928626906204568115955792014170346, 122, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 123,
+   "first": "b",
+   "k_bits": 123,
+   "J_bits": 124,
+   "status": "closed",
+   "word": "[19865857253812409136231911584028340746, 123, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 123,
+   "first": "a",
+   "k_bits": 121,
+   "J_bits": 122,
+   "status": "closed",
+   "word": "[3973171450762481827246382316805668140, 123, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 124,
+   "first": "b",
+   "k_bits": 122,
+   "J_bits": 123,
+   "status": "closed",
+   "word": "[7946342901524963654492764633611336337, 124]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 124,
+   "first": "a",
+   "k_bits": 124,
+   "J_bits": 125,
+   "status": "closed",
+   "word": "[39731714507624818272463823168056681364, 124]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 125,
+   "first": "b",
+   "k_bits": 125,
+   "J_bits": 126,
+   "status": "closed",
+   "word": "[79463429015249636544927646336113362790, 125, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 125,
+   "first": "a",
+   "k_bits": 123,
+   "J_bits": 124,
+   "status": "closed",
+   "word": "[15892685803049927308985529267222672549, 125, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 126,
+   "first": "b",
+   "k_bits": 124,
+   "J_bits": 125,
+   "status": "closed",
+   "word": "[31785371606099854617971058534445345156, 126, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 126,
+   "first": "a",
+   "k_bits": 126,
+   "J_bits": 127,
+   "status": "closed",
+   "word": "[158926858030499273089855292672226725455, 126, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 127,
+   "first": "b",
+   "k_bits": 127,
+   "J_bits": 128,
+   "status": "closed",
+   "word": "[317853716060998546179710585344453450970, 127]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 127,
+   "first": "a",
+   "k_bits": 125,
+   "J_bits": 126,
+   "status": "closed",
+   "word": "[63570743212199709235942117068890690183, 127]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 128,
+   "first": "b",
+   "k_bits": 126,
+   "J_bits": 127,
+   "status": "closed",
+   "word": "[127141486424399418471884234137781380427, 128]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 128,
+   "first": "a",
+   "k_bits": 128,
+   "J_bits": 129,
+   "status": "closed",
+   "word": "[635707432121997092359421170688906901808, 128]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 129,
+   "first": "b",
+   "k_bits": 129,
+   "J_bits": 130,
+   "status": "closed",
+   "word": "[1271414864243994184718842341377813803677, 129]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 129,
+   "first": "a",
+   "k_bits": 127,
+   "J_bits": 128,
+   "status": "closed",
+   "word": "[254282972848798836943768468275562760726, 129]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 130,
+   "first": "b",
+   "k_bits": 128,
+   "J_bits": 129,
+   "status": "closed",
+   "word": "[508565945697597673887536936551125521511, 130, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 130,
+   "first": "a",
+   "k_bits": 130,
+   "J_bits": 131,
+   "status": "closed",
+   "word": "[2542829728487988369437684682755627607221, 130, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 131,
+   "first": "b",
+   "k_bits": 131,
+   "J_bits": 132,
+   "status": "closed",
+   "word": "[5085659456975976738875369365511255214506, 131, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 131,
+   "first": "a",
+   "k_bits": 129,
+   "J_bits": 130,
+   "status": "closed",
+   "word": "[1017131891395195347775073873102251042892, 131, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 132,
+   "first": "b",
+   "k_bits": 130,
+   "J_bits": 131,
+   "status": "closed",
+   "word": "[2034263782790390695550147746204502085844, 132, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 132,
+   "first": "a",
+   "k_bits": 132,
+   "J_bits": 133,
+   "status": "closed",
+   "word": "[10171318913951953477750738731022510428880, 132, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 133,
+   "first": "b",
+   "k_bits": 133,
+   "J_bits": 134,
+   "status": "closed",
+   "word": "[20342637827903906955501477462045020857822, 133, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 133,
+   "first": "a",
+   "k_bits": 131,
+   "J_bits": 132,
+   "status": "closed",
+   "word": "[4068527565580781391100295492409004171554, 133, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 134,
+   "first": "b",
+   "k_bits": 132,
+   "J_bits": 133,
+   "status": "closed",
+   "word": "[8137055131161562782200590984818008343170, 134]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 134,
+   "first": "a",
+   "k_bits": 134,
+   "J_bits": 135,
+   "status": "closed",
+   "word": "[40685275655807813911002954924090041715506, 134]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 135,
+   "first": "b",
+   "k_bits": 135,
+   "J_bits": 136,
+   "status": "closed",
+   "word": "[81370551311615627822005909848180083431080, 135, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 135,
+   "first": "a",
+   "k_bits": 133,
+   "J_bits": 134,
+   "status": "closed",
+   "word": "[16274110262323125564401181969636016686206, 135, 5, 3]",
+   "types": "aaaa",
+   "loss": 3
+  },
+  {
+   "m": 136,
+   "first": "b",
+   "k_bits": 134,
+   "J_bits": 135,
+   "status": "closed",
+   "word": "[32548220524646251128802363939272033372475, 136, 5, 2]",
+   "types": "bbab",
+   "loss": 5
+  },
+  {
+   "m": 136,
+   "first": "a",
+   "k_bits": 136,
+   "J_bits": 137,
+   "status": "closed",
+   "word": "[162741102623231255644011819696360166862022, 136, 5, 3]",
+   "types": "abaa",
+   "loss": 4
+  },
+  {
+   "m": 137,
+   "first": "b",
+   "k_bits": 137,
+   "J_bits": 138,
+   "status": "closed",
+   "word": "[325482205246462511288023639392720333724114, 137, 3]",
+   "types": "bca",
+   "loss": 6
+  },
+  {
+   "m": 137,
+   "first": "a",
+   "k_bits": 135,
+   "J_bits": 136,
+   "status": "closed",
+   "word": "[65096441049292502257604727878544066744811, 137, 3]",
+   "types": "aca",
+   "loss": 5
+  },
+  {
+   "m": 138,
+   "first": "b",
+   "k_bits": 136,
+   "J_bits": 137,
+   "status": "closed",
+   "word": "[130192882098585004515209455757088133489689, 138]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 138,
+   "first": "a",
+   "k_bits": 138,
+   "J_bits": 139,
+   "status": "closed",
+   "word": "[650964410492925022576047278785440667448086, 138]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 139,
+   "first": "b",
+   "k_bits": 139,
+   "J_bits": 140,
+   "status": "closed",
+   "word": "[1301928820985850045152094557570881334896241, 139, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 139,
+   "first": "a",
+   "k_bits": 137,
+   "J_bits": 138,
+   "status": "closed",
+   "word": "[260385764197170009030418911514176266979236, 139, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 140,
+   "first": "b",
+   "k_bits": 138,
+   "J_bits": 139,
+   "status": "closed",
+   "word": "[520771528394340018060837823028352533958540, 140, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 140,
+   "first": "a",
+   "k_bits": 140,
+   "J_bits": 141,
+   "status": "closed",
+   "word": "[2603857641971700090304189115141762669792335, 140, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 141,
+   "first": "b",
+   "k_bits": 141,
+   "J_bits": 142,
+   "status": "closed",
+   "word": "[5207715283943400180608378230283525339584738, 141]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 141,
+   "first": "a",
+   "k_bits": 139,
+   "J_bits": 140,
+   "status": "closed",
+   "word": "[1041543056788680036121675646056705067916937, 141]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 142,
+   "first": "b",
+   "k_bits": 140,
+   "J_bits": 141,
+   "status": "closed",
+   "word": "[2083086113577360072243351292113410135833940, 142, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 142,
+   "first": "a",
+   "k_bits": 142,
+   "J_bits": 143,
+   "status": "closed",
+   "word": "[10415430567886800361216756460567050679169328, 142, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 143,
+   "first": "b",
+   "k_bits": 143,
+   "J_bits": 144,
+   "status": "closed",
+   "word": "[20830861135773600722433512921134101358338727, 143, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 143,
+   "first": "a",
+   "k_bits": 141,
+   "J_bits": 142,
+   "status": "closed",
+   "word": "[4166172227154720144486702584226820271667735, 143, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 144,
+   "first": "b",
+   "k_bits": 142,
+   "J_bits": 143,
+   "status": "closed",
+   "word": "[8332344454309440288973405168453640543335537, 144]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 144,
+   "first": "a",
+   "k_bits": 144,
+   "J_bits": 145,
+   "status": "closed",
+   "word": "[41661722271547201444867025842268202716677309, 144]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 145,
+   "first": "b",
+   "k_bits": 145,
+   "J_bits": 146,
+   "status": "closed",
+   "word": "[83323444543094402889734051684536405433354683, 145]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 145,
+   "first": "a",
+   "k_bits": 143,
+   "J_bits": 144,
+   "status": "closed",
+   "word": "[16664688908618880577946810336907281086670925, 145]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 146,
+   "first": "b",
+   "k_bits": 144,
+   "J_bits": 145,
+   "status": "closed",
+   "word": "[33329377817237761155893620673814562173341918, 146]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 146,
+   "first": "a",
+   "k_bits": 146,
+   "J_bits": 147,
+   "status": "closed",
+   "word": "[166646889086188805779468103369072810866709218, 146]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 147,
+   "first": "b",
+   "k_bits": 147,
+   "J_bits": 148,
+   "status": "closed",
+   "word": "[333293778172377611558936206738145621733418508, 147, 7]",
+   "types": "bac",
+   "loss": 3
+  },
+  {
+   "m": 147,
+   "first": "a",
+   "k_bits": 145,
+   "J_bits": 146,
+   "status": "closed",
+   "word": "[66658755634475522311787241347629124346683690, 147, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 148,
+   "first": "b",
+   "k_bits": 146,
+   "J_bits": 147,
+   "status": "closed",
+   "word": "[133317511268951044623574482695258248693367449, 148, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 148,
+   "first": "a",
+   "k_bits": 148,
+   "J_bits": 149,
+   "status": "closed",
+   "word": "[666587556344755223117872413476291243466836868, 148, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 149,
+   "first": "b",
+   "k_bits": 149,
+   "J_bits": 150,
+   "status": "closed",
+   "word": "[1333175112689510446235744826952582486933673808, 149, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 149,
+   "first": "a",
+   "k_bits": 147,
+   "J_bits": 148,
+   "status": "closed",
+   "word": "[266635022537902089247148965390516497386734749, 149, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 150,
+   "first": "b",
+   "k_bits": 148,
+   "J_bits": 149,
+   "status": "closed",
+   "word": "[533270045075804178494297930781032994773469569, 150, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 150,
+   "first": "a",
+   "k_bits": 150,
+   "J_bits": 151,
+   "status": "closed",
+   "word": "[2666350225379020892471489653905164973867347463, 150, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 151,
+   "first": "b",
+   "k_bits": 151,
+   "J_bits": 152,
+   "status": "closed",
+   "word": "[5332700450758041784942979307810329947734694998, 151]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 151,
+   "first": "a",
+   "k_bits": 149,
+   "J_bits": 150,
+   "status": "closed",
+   "word": "[1066540090151608356988595861562065989546938988, 151]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 152,
+   "first": "b",
+   "k_bits": 150,
+   "J_bits": 151,
+   "status": "closed",
+   "word": "[2133080180303216713977191723124131979093878046, 152, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 152,
+   "first": "a",
+   "k_bits": 152,
+   "J_bits": 153,
+   "status": "closed",
+   "word": "[10665400901516083569885958615620659895469389842, 152, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 153,
+   "first": "b",
+   "k_bits": 153,
+   "J_bits": 154,
+   "status": "closed",
+   "word": "[21330801803032167139771917231241319790938779758, 153, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 153,
+   "first": "a",
+   "k_bits": 151,
+   "J_bits": 152,
+   "status": "closed",
+   "word": "[4266160360606433427954383446248263958187755940, 153, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 154,
+   "first": "b",
+   "k_bits": 152,
+   "J_bits": 153,
+   "status": "closed",
+   "word": "[8532320721212866855908766892496527916375511951, 154]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 154,
+   "first": "a",
+   "k_bits": 154,
+   "J_bits": 155,
+   "status": "closed",
+   "word": "[42661603606064334279543834462482639581877559358, 154]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 155,
+   "first": "b",
+   "k_bits": 155,
+   "J_bits": 156,
+   "status": "closed",
+   "word": "[85323207212128668559087668924965279163755118788, 155]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 155,
+   "first": "a",
+   "k_bits": 153,
+   "J_bits": 154,
+   "status": "closed",
+   "word": "[17064641442425733711817533784993055832751023747, 155]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 156,
+   "first": "b",
+   "k_bits": 154,
+   "J_bits": 155,
+   "status": "closed",
+   "word": "[34129282884851467423635067569986111665502047564, 156, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 156,
+   "first": "a",
+   "k_bits": 156,
+   "J_bits": 157,
+   "status": "closed",
+   "word": "[170646414424257337118175337849930558327510237414, 156, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 157,
+   "first": "b",
+   "k_bits": 157,
+   "J_bits": 158,
+   "status": "closed",
+   "word": "[341292828848514674236350675699861116655020474905, 157, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 157,
+   "first": "a",
+   "k_bits": 155,
+   "J_bits": 156,
+   "status": "closed",
+   "word": "[68258565769702934847270135139972223331004094971, 157, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 158,
+   "first": "b",
+   "k_bits": 156,
+   "J_bits": 157,
+   "status": "closed",
+   "word": "[136517131539405869694540270279944446662008190013, 158, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 158,
+   "first": "a",
+   "k_bits": 158,
+   "J_bits": 159,
+   "status": "closed",
+   "word": "[682585657697029348472701351399722233310040949653, 158, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 159,
+   "first": "b",
+   "k_bits": 159,
+   "J_bits": 160,
+   "status": "closed",
+   "word": "[1365171315394058696945402702799444466620081899379, 159, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 159,
+   "first": "a",
+   "k_bits": 157,
+   "J_bits": 158,
+   "status": "closed",
+   "word": "[273034263078811739389080540559888893324016379863, 159, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 160,
+   "first": "b",
+   "k_bits": 158,
+   "J_bits": 159,
+   "status": "closed",
+   "word": "[546068526157623478778161081119777786648032759801, 160]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 160,
+   "first": "a",
+   "k_bits": 160,
+   "J_bits": 161,
+   "status": "closed",
+   "word": "[2730342630788117393890805405598888933240163798594, 160]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 161,
+   "first": "b",
+   "k_bits": 161,
+   "J_bits": 162,
+   "status": "closed",
+   "word": "[5460685261576234787781610811197777866480327597268, 161, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 161,
+   "first": "a",
+   "k_bits": 159,
+   "J_bits": 160,
+   "status": "closed",
+   "word": "[1092137052315246957556322162239555573296065519441, 161, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 162,
+   "first": "b",
+   "k_bits": 160,
+   "J_bits": 161,
+   "status": "closed",
+   "word": "[2184274104630493915112644324479111146592131038958, 162, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 162,
+   "first": "a",
+   "k_bits": 162,
+   "J_bits": 163,
+   "status": "closed",
+   "word": "[10921370523152469575563221622395555732960655194375, 162, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 163,
+   "first": "b",
+   "k_bits": 163,
+   "J_bits": 164,
+   "status": "closed",
+   "word": "[21842741046304939151126443244791111465921310388828, 163]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 163,
+   "first": "a",
+   "k_bits": 161,
+   "J_bits": 162,
+   "status": "closed",
+   "word": "[4368548209260987830225288648958222293184262077751, 163]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 164,
+   "first": "b",
+   "k_bits": 162,
+   "J_bits": 163,
+   "status": "closed",
+   "word": "[8737096418521975660450577297916444586368524155581, 164]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 164,
+   "first": "a",
+   "k_bits": 164,
+   "J_bits": 165,
+   "status": "closed",
+   "word": "[43685482092609878302252886489582222931842620777488, 164]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 165,
+   "first": "b",
+   "k_bits": 165,
+   "J_bits": 166,
+   "status": "closed",
+   "word": "[87370964185219756604505772979164445863685241555055, 165]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 165,
+   "first": "a",
+   "k_bits": 163,
+   "J_bits": 164,
+   "status": "closed",
+   "word": "[17474192837043951320901154595832889172737048310998, 165]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 166,
+   "first": "b",
+   "k_bits": 164,
+   "J_bits": 165,
+   "status": "closed",
+   "word": "[34948385674087902641802309191665778345474096622073, 166, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 166,
+   "first": "a",
+   "k_bits": 166,
+   "J_bits": 167,
+   "status": "closed",
+   "word": "[174741928370439513209011545958328891727370483109941, 166, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 167,
+   "first": "b",
+   "k_bits": 167,
+   "J_bits": 168,
+   "status": "closed",
+   "word": "[349483856740879026418023091916657783454740966219964, 167, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 167,
+   "first": "a",
+   "k_bits": 165,
+   "J_bits": 166,
+   "status": "closed",
+   "word": "[69896771348175805283604618383331556690948193243980, 167, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 168,
+   "first": "b",
+   "k_bits": 166,
+   "J_bits": 167,
+   "status": "closed",
+   "word": "[139793542696351610567209236766663113381896386488038, 168, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 168,
+   "first": "a",
+   "k_bits": 168,
+   "J_bits": 169,
+   "status": "closed",
+   "word": "[698967713481758052836046183833315566909481932439760, 168, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 169,
+   "first": "b",
+   "k_bits": 169,
+   "J_bits": 170,
+   "status": "closed",
+   "word": "[1397935426963516105672092367666631133818963864879600, 169, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 169,
+   "first": "a",
+   "k_bits": 167,
+   "J_bits": 168,
+   "status": "closed",
+   "word": "[279587085392703221134418473533326226763792772975906, 169, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 170,
+   "first": "b",
+   "k_bits": 168,
+   "J_bits": 169,
+   "status": "closed",
+   "word": "[559174170785406442268836947066652453527585545951892, 170]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 170,
+   "first": "a",
+   "k_bits": 170,
+   "J_bits": 171,
+   "status": "closed",
+   "word": "[2795870853927032211344184735333262267637927729759025, 170]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 171,
+   "first": "b",
+   "k_bits": 171,
+   "J_bits": 172,
+   "status": "closed",
+   "word": "[5591741707854064422688369470666524535275855459518137, 171, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 171,
+   "first": "a",
+   "k_bits": 169,
+   "J_bits": 170,
+   "status": "closed",
+   "word": "[1118348341570812884537673894133304907055171091903614, 171, 6, 1]",
+   "types": "aaba",
+   "loss": 4
+  },
+  {
+   "m": 172,
+   "first": "b",
+   "k_bits": 170,
+   "J_bits": 171,
+   "status": "closed",
+   "word": "[2236696683141625769075347788266609814110342183807309, 172, 6, 1]",
+   "types": "bbba",
+   "loss": 6
+  },
+  {
+   "m": 172,
+   "first": "a",
+   "k_bits": 172,
+   "J_bits": 173,
+   "status": "closed",
+   "word": "[11183483415708128845376738941333049070551710919036102, 172, 6, 1]",
+   "types": "abba",
+   "loss": 5
+  },
+  {
+   "m": 173,
+   "first": "b",
+   "k_bits": 173,
+   "J_bits": 174,
+   "status": "closed",
+   "word": "[22366966831416257690753477882666098141103421838072291, 173]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 173,
+   "first": "a",
+   "k_bits": 171,
+   "J_bits": 172,
+   "status": "closed",
+   "word": "[4473393366283251538150695576533219628220684367614442, 173]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 174,
+   "first": "b",
+   "k_bits": 172,
+   "J_bits": 173,
+   "status": "closed",
+   "word": "[8946786732566503076301391153066439256441368735228970, 174]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 174,
+   "first": "a",
+   "k_bits": 174,
+   "J_bits": 175,
+   "status": "closed",
+   "word": "[44733933662832515381506955765332196282206843676144401, 174]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 175,
+   "first": "b",
+   "k_bits": 175,
+   "J_bits": 176,
+   "status": "closed",
+   "word": "[89467867325665030763013911530664392564413687352288892, 175]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 175,
+   "first": "a",
+   "k_bits": 173,
+   "J_bits": 174,
+   "status": "closed",
+   "word": "[17893573465133006152602782306132878512882737470457763, 175]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 176,
+   "first": "b",
+   "k_bits": 174,
+   "J_bits": 175,
+   "status": "closed",
+   "word": "[35787146930266012305205564612265757025765474940915612, 176, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 176,
+   "first": "a",
+   "k_bits": 176,
+   "J_bits": 177,
+   "status": "closed",
+   "word": "[178935734651330061526027823061328785128827374704577607, 176, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 177,
+   "first": "b",
+   "k_bits": 177,
+   "J_bits": 178,
+   "status": "closed",
+   "word": "[357871469302660123052055646122657570257654749409155302, 177, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 177,
+   "first": "a",
+   "k_bits": 175,
+   "J_bits": 176,
+   "status": "closed",
+   "word": "[71574293860532024610411129224531514051530949881831043, 177, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 178,
+   "first": "b",
+   "k_bits": 176,
+   "J_bits": 177,
+   "status": "closed",
+   "word": "[143148587721064049220822258449063028103061899763662175, 178]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 178,
+   "first": "a",
+   "k_bits": 178,
+   "J_bits": 179,
+   "status": "closed",
+   "word": "[715742938605320246104111292245315140515309498818310421, 178]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 179,
+   "first": "b",
+   "k_bits": 179,
+   "J_bits": 180,
+   "status": "closed",
+   "word": "[1431485877210640492208222584490630281030618997636620936, 179, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 179,
+   "first": "a",
+   "k_bits": 177,
+   "J_bits": 178,
+   "status": "closed",
+   "word": "[286297175442128098441644516898126056206123799527324170, 179, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 180,
+   "first": "b",
+   "k_bits": 178,
+   "J_bits": 179,
+   "status": "closed",
+   "word": "[572594350884256196883289033796252112412247599054648430, 180, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 180,
+   "first": "a",
+   "k_bits": 180,
+   "J_bits": 181,
+   "status": "closed",
+   "word": "[2862971754421280984416445168981260562061237995273241694, 180, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 181,
+   "first": "b",
+   "k_bits": 181,
+   "J_bits": 182,
+   "status": "closed",
+   "word": "[5725943508842561968832890337962521124122475990546483478, 181]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 181,
+   "first": "a",
+   "k_bits": 179,
+   "J_bits": 180,
+   "status": "closed",
+   "word": "[1145188701768512393766578067592504224824495198109296676, 181]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 182,
+   "first": "b",
+   "k_bits": 180,
+   "J_bits": 181,
+   "status": "closed",
+   "word": "[2290377403537024787533156135185008449648990396218593445, 182]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 182,
+   "first": "a",
+   "k_bits": 182,
+   "J_bits": 183,
+   "status": "closed",
+   "word": "[11451887017685123937665780675925042248244951981092966769, 182]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 183,
+   "first": "b",
+   "k_bits": 183,
+   "J_bits": 184,
+   "status": "closed",
+   "word": "[22903774035370247875331561351850084496489903962185933629, 183]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 183,
+   "first": "a",
+   "k_bits": 181,
+   "J_bits": 182,
+   "status": "closed",
+   "word": "[4580754807074049575066312270370016899297980792437186709, 183]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 184,
+   "first": "b",
+   "k_bits": 182,
+   "J_bits": 183,
+   "status": "closed",
+   "word": "[9161509614148099150132624540740033798595961584874373507, 184, 5, 2]",
+   "types": "baab",
+   "loss": 4
+  },
+  {
+   "m": 184,
+   "first": "a",
+   "k_bits": 184,
+   "J_bits": 185,
+   "status": "closed",
+   "word": "[45807548070740495750663122703700168992979807924371867072, 184, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 185,
+   "first": "b",
+   "k_bits": 185,
+   "J_bits": 186,
+   "status": "closed",
+   "word": "[91615096141480991501326245407400337985959615848743734238, 185, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 185,
+   "first": "a",
+   "k_bits": 183,
+   "J_bits": 184,
+   "status": "closed",
+   "word": "[18323019228296198300265249081480067597191923169748746831, 185, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 186,
+   "first": "b",
+   "k_bits": 184,
+   "J_bits": 185,
+   "status": "closed",
+   "word": "[36646038456592396600530498162960135194383846339497493752, 186, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 186,
+   "first": "a",
+   "k_bits": 186,
+   "J_bits": 187,
+   "status": "closed",
+   "word": "[183230192282961983002652490814800675971919231697487468291, 186, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 187,
+   "first": "b",
+   "k_bits": 187,
+   "J_bits": 188,
+   "status": "closed",
+   "word": "[366460384565923966005304981629601351943838463394974936674, 187, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 187,
+   "first": "a",
+   "k_bits": 185,
+   "J_bits": 186,
+   "status": "closed",
+   "word": "[73292076913184793201060996325920270388767692678994987317, 187, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 188,
+   "first": "b",
+   "k_bits": 186,
+   "J_bits": 187,
+   "status": "closed",
+   "word": "[146584153826369586402121992651840540777535385357989974726, 188]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 188,
+   "first": "a",
+   "k_bits": 188,
+   "J_bits": 189,
+   "status": "closed",
+   "word": "[732920769131847932010609963259202703887676926789949873157, 188]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 189,
+   "first": "b",
+   "k_bits": 189,
+   "J_bits": 190,
+   "status": "closed",
+   "word": "[1465841538263695864021219926518405407775353853579899746412, 189, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 189,
+   "first": "a",
+   "k_bits": 187,
+   "J_bits": 188,
+   "status": "closed",
+   "word": "[293168307652739172804243985303681081555070770715979949265, 189, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 190,
+   "first": "b",
+   "k_bits": 188,
+   "J_bits": 189,
+   "status": "closed",
+   "word": "[586336615305478345608487970607362163110141541431959898623, 190, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 190,
+   "first": "a",
+   "k_bits": 190,
+   "J_bits": 191,
+   "status": "closed",
+   "word": "[2931683076527391728042439853036810815550707707159799492636, 190, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 191,
+   "first": "b",
+   "k_bits": 191,
+   "J_bits": 192,
+   "status": "closed",
+   "word": "[5863366153054783456084879706073621631101415414319598985369, 191]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 191,
+   "first": "a",
+   "k_bits": 189,
+   "J_bits": 190,
+   "status": "closed",
+   "word": "[1172673230610956691216975941214724326220283082863919797054, 191]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 192,
+   "first": "b",
+   "k_bits": 190,
+   "J_bits": 191,
+   "status": "closed",
+   "word": "[2345346461221913382433951882429448652440566165727839594205, 192]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 192,
+   "first": "a",
+   "k_bits": 192,
+   "J_bits": 193,
+   "status": "closed",
+   "word": "[11726732306109566912169759412147243262202830828639197970544, 192]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 193,
+   "first": "b",
+   "k_bits": 193,
+   "J_bits": 194,
+   "status": "closed",
+   "word": "[23453464612219133824339518824294486524405661657278395941189, 193, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 193,
+   "first": "a",
+   "k_bits": 191,
+   "J_bits": 192,
+   "status": "closed",
+   "word": "[4690692922443826764867903764858897304881132331455679188218, 193, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 194,
+   "first": "b",
+   "k_bits": 192,
+   "J_bits": 193,
+   "status": "closed",
+   "word": "[9381385844887653529735807529717794609762264662911358376534, 194, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 194,
+   "first": "a",
+   "k_bits": 194,
+   "J_bits": 195,
+   "status": "closed",
+   "word": "[46906929224438267648679037648588973048811323314556791882184, 194, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 195,
+   "first": "b",
+   "k_bits": 195,
+   "J_bits": 196,
+   "status": "closed",
+   "word": "[93813858448876535297358075297177946097622646629113583764469, 195, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 195,
+   "first": "a",
+   "k_bits": 193,
+   "J_bits": 194,
+   "status": "closed",
+   "word": "[18762771689775307059471615059435589219524529325822716752873, 195, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 196,
+   "first": "b",
+   "k_bits": 194,
+   "J_bits": 195,
+   "status": "closed",
+   "word": "[37525543379550614118943230118871178439049058651645433505846, 196, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 196,
+   "first": "a",
+   "k_bits": 196,
+   "J_bits": 197,
+   "status": "closed",
+   "word": "[187627716897753070594716150594355892195245293258227167528733, 196, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 197,
+   "first": "b",
+   "k_bits": 197,
+   "J_bits": 198,
+   "status": "closed",
+   "word": "[375255433795506141189432301188711784390490586516454335057561, 197]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 197,
+   "first": "a",
+   "k_bits": 195,
+   "J_bits": 196,
+   "status": "closed",
+   "word": "[75051086759101228237886460237742356878098117303290867011496, 197]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 198,
+   "first": "b",
+   "k_bits": 196,
+   "J_bits": 197,
+   "status": "closed",
+   "word": "[150102173518202456475772920475484713756196234606581734023085, 198, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 198,
+   "first": "a",
+   "k_bits": 198,
+   "J_bits": 199,
+   "status": "closed",
+   "word": "[750510867591012282378864602377423568780981173032908670114921, 198, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 199,
+   "first": "b",
+   "k_bits": 199,
+   "J_bits": 200,
+   "status": "closed",
+   "word": "[1501021735182024564757729204754847137561962346065817340229940, 199, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 199,
+   "first": "a",
+   "k_bits": 197,
+   "J_bits": 198,
+   "status": "closed",
+   "word": "[300204347036404912951545840950969427512392469213163468045972, 199, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 200,
+   "first": "b",
+   "k_bits": 198,
+   "J_bits": 199,
+   "status": "closed",
+   "word": "[600408694072809825903091681901938855024784938426326936092038, 200]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 200,
+   "first": "a",
+   "k_bits": 200,
+   "J_bits": 201,
+   "status": "closed",
+   "word": "[3002043470364049129515458409509694275123924692131634680459680, 200]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 201,
+   "first": "b",
+   "k_bits": 201,
+   "J_bits": 202,
+   "status": "closed",
+   "word": "[6004086940728098259030916819019388550247849384263269360919454, 201]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 201,
+   "first": "a",
+   "k_bits": 199,
+   "J_bits": 200,
+   "status": "closed",
+   "word": "[1200817388145619651806183363803877710049569876852653872183874, 201]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 202,
+   "first": "b",
+   "k_bits": 200,
+   "J_bits": 201,
+   "status": "closed",
+   "word": "[2401634776291239303612366727607755420099139753705307744367843, 202]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 202,
+   "first": "a",
+   "k_bits": 202,
+   "J_bits": 203,
+   "status": "closed",
+   "word": "[12008173881456196518061833638038777100495698768526538721838705, 202]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 203,
+   "first": "b",
+   "k_bits": 203,
+   "J_bits": 204,
+   "status": "closed",
+   "word": "[24016347762912393036123667276077554200991397537053077443677509, 203, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 203,
+   "first": "a",
+   "k_bits": 201,
+   "J_bits": 202,
+   "status": "closed",
+   "word": "[4803269552582478607224733455215510840198279507410615488735485, 203, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 204,
+   "first": "b",
+   "k_bits": 202,
+   "J_bits": 203,
+   "status": "closed",
+   "word": "[9606539105164957214449466910431021680396559014821230977471066, 204, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 204,
+   "first": "a",
+   "k_bits": 204,
+   "J_bits": 205,
+   "status": "closed",
+   "word": "[48032695525824786072247334552155108401982795074106154887354815, 204, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 205,
+   "first": "b",
+   "k_bits": 205,
+   "J_bits": 206,
+   "status": "closed",
+   "word": "[96065391051649572144494669104310216803965590148212309774709729, 205, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 205,
+   "first": "a",
+   "k_bits": 203,
+   "J_bits": 204,
+   "status": "closed",
+   "word": "[19213078210329914428898933820862043360793118029642461954941928, 205, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 206,
+   "first": "b",
+   "k_bits": 204,
+   "J_bits": 205,
+   "status": "closed",
+   "word": "[38426156420659828857797867641724086721586236059284923909883954, 206, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 206,
+   "first": "a",
+   "k_bits": 206,
+   "J_bits": 207,
+   "status": "closed",
+   "word": "[192130782103299144288989338208620433607931180296424619549419250, 206, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 207,
+   "first": "b",
+   "k_bits": 207,
+   "J_bits": 208,
+   "status": "closed",
+   "word": "[384261564206598288577978676417240867215862360592849239098838599, 207]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 207,
+   "first": "a",
+   "k_bits": 205,
+   "J_bits": 206,
+   "status": "closed",
+   "word": "[76852312841319657715595735283448173443172472118569847819767703, 207]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 208,
+   "first": "b",
+   "k_bits": 206,
+   "J_bits": 207,
+   "status": "closed",
+   "word": "[153704625682639315431191470566896346886344944237139695639535503, 208, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 208,
+   "first": "a",
+   "k_bits": 208,
+   "J_bits": 209,
+   "status": "closed",
+   "word": "[768523128413196577155957352834481734431724721185698478197676986, 208, 5, 3]",
+   "types": "aaaa",
+   "loss": 3
+  },
+  {
+   "m": 209,
+   "first": "b",
+   "k_bits": 209,
+   "J_bits": 210,
+   "status": "closed",
+   "word": "[1537046256826393154311914705668963468863449442371396956395354076, 209, 5, 2]",
+   "types": "bbab",
+   "loss": 5
+  },
+  {
+   "m": 209,
+   "first": "a",
+   "k_bits": 207,
+   "J_bits": 208,
+   "status": "closed",
+   "word": "[307409251365278630862382941133792693772689888474279391279070799, 209, 5, 3]",
+   "types": "abaa",
+   "loss": 4
+  },
+  {
+   "m": 210,
+   "first": "b",
+   "k_bits": 208,
+   "J_bits": 209,
+   "status": "closed",
+   "word": "[614818502730557261724765882267585387545379776948558782558141696, 210, 3]",
+   "types": "bca",
+   "loss": 6
+  },
+  {
+   "m": 210,
+   "first": "a",
+   "k_bits": 210,
+   "J_bits": 211,
+   "status": "closed",
+   "word": "[3074092513652786308623829411337926937726898884742793912790707937, 210, 3]",
+   "types": "aca",
+   "loss": 5
+  },
+  {
+   "m": 211,
+   "first": "b",
+   "k_bits": 211,
+   "J_bits": 212,
+   "status": "closed",
+   "word": "[6148185027305572617247658822675853875453797769485587825581415978, 211]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 211,
+   "first": "a",
+   "k_bits": 209,
+   "J_bits": 210,
+   "status": "closed",
+   "word": "[1229637005461114523449531764535170775090759553897117565116283179, 211]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 212,
+   "first": "b",
+   "k_bits": 210,
+   "J_bits": 211,
+   "status": "closed",
+   "word": "[2459274010922229046899063529070341550181519107794235130232566458, 212, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 212,
+   "first": "a",
+   "k_bits": 212,
+   "J_bits": 213,
+   "status": "closed",
+   "word": "[12296370054611145234495317645351707750907595538971175651162831743, 212, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 213,
+   "first": "b",
+   "k_bits": 213,
+   "J_bits": 214,
+   "status": "closed",
+   "word": "[24592740109222290468990635290703415501815191077942351302325663588, 213, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 213,
+   "first": "a",
+   "k_bits": 211,
+   "J_bits": 212,
+   "status": "closed",
+   "word": "[4918548021844458093798127058140683100363038215588470260465132699, 213, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 214,
+   "first": "b",
+   "k_bits": 212,
+   "J_bits": 213,
+   "status": "closed",
+   "word": "[9837096043688916187596254116281366200726076431176940520930265501, 214]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 214,
+   "first": "a",
+   "k_bits": 214,
+   "J_bits": 215,
+   "status": "closed",
+   "word": "[49185480218444580937981270581406831003630382155884702604651326957, 214]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 215,
+   "first": "b",
+   "k_bits": 215,
+   "J_bits": 216,
+   "status": "closed",
+   "word": "[98370960436889161875962541162813662007260764311769405209302654022, 215, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 215,
+   "first": "a",
+   "k_bits": 213,
+   "J_bits": 214,
+   "status": "closed",
+   "word": "[19674192087377832375192508232562732401452152862353881041860530786, 215, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 216,
+   "first": "b",
+   "k_bits": 214,
+   "J_bits": 215,
+   "status": "closed",
+   "word": "[39348384174755664750385016465125464802904305724707762083721061676, 216, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 216,
+   "first": "a",
+   "k_bits": 216,
+   "J_bits": 217,
+   "status": "closed",
+   "word": "[196741920873778323751925082325627324014521528623538810418605307829, 216, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 217,
+   "first": "b",
+   "k_bits": 217,
+   "J_bits": 218,
+   "status": "closed",
+   "word": "[393483841747556647503850164651254648029043057247077620837210615763, 217]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 217,
+   "first": "a",
+   "k_bits": 215,
+   "J_bits": 216,
+   "status": "closed",
+   "word": "[78696768349511329500770032930250929605808611449415524167442123132, 217]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 218,
+   "first": "b",
+   "k_bits": 216,
+   "J_bits": 217,
+   "status": "closed",
+   "word": "[157393536699022659001540065860501859211617222898831048334884246371, 218]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 218,
+   "first": "a",
+   "k_bits": 218,
+   "J_bits": 219,
+   "status": "closed",
+   "word": "[786967683495113295007700329302509296058086114494155241674421231303, 218]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 219,
+   "first": "b",
+   "k_bits": 219,
+   "J_bits": 220,
+   "status": "closed",
+   "word": "[1573935366990226590015400658605018592116172228988310483348842462712, 219]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 219,
+   "first": "a",
+   "k_bits": 217,
+   "J_bits": 218,
+   "status": "closed",
+   "word": "[314787073398045318003080131721003718423234445797662096669768492524, 219]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 220,
+   "first": "b",
+   "k_bits": 218,
+   "J_bits": 219,
+   "status": "closed",
+   "word": "[629574146796090636006160263442007436846468891595324193339536985152, 220, 6, 1]",
+   "types": "baba",
+   "loss": 5
+  },
+  {
+   "m": 220,
+   "first": "a",
+   "k_bits": 220,
+   "J_bits": 221,
+   "status": "closed",
+   "word": "[3147870733980453180030801317210037184232344457976620966697684925201, 220, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 221,
+   "first": "b",
+   "k_bits": 221,
+   "J_bits": 222,
+   "status": "closed",
+   "word": "[6295741467960906360061602634420074368464688915953241933395369850511, 221, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 221,
+   "first": "a",
+   "k_bits": 219,
+   "J_bits": 220,
+   "status": "closed",
+   "word": "[1259148293592181272012320526884014873692937783190648386679073970084, 221, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 222,
+   "first": "b",
+   "k_bits": 220,
+   "J_bits": 221,
+   "status": "closed",
+   "word": "[2518296587184362544024641053768029747385875566381296773358147940273, 222, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 222,
+   "first": "a",
+   "k_bits": 222,
+   "J_bits": 223,
+   "status": "closed",
+   "word": "[12591482935921812720123205268840148736929377831906483866790739700800, 222, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 223,
+   "first": "b",
+   "k_bits": 223,
+   "J_bits": 224,
+   "status": "closed",
+   "word": "[25182965871843625440246410537680297473858755663812967733581479401707, 223, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 223,
+   "first": "a",
+   "k_bits": 221,
+   "J_bits": 222,
+   "status": "closed",
+   "word": "[5036593174368725088049282107536059494771751132762593546716295880322, 223, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 224,
+   "first": "b",
+   "k_bits": 222,
+   "J_bits": 223,
+   "status": "closed",
+   "word": "[10073186348737450176098564215072118989543502265525187093432591760751, 224]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 224,
+   "first": "a",
+   "k_bits": 224,
+   "J_bits": 225,
+   "status": "closed",
+   "word": "[50365931743687250880492821075360594947717511327625935467162958803186, 224]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 225,
+   "first": "b",
+   "k_bits": 225,
+   "J_bits": 226,
+   "status": "closed",
+   "word": "[100731863487374501760985642150721189895435022655251870934325917606485, 225, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 225,
+   "first": "a",
+   "k_bits": 223,
+   "J_bits": 224,
+   "status": "closed",
+   "word": "[20146372697474900352197128430144237979087004531050374186865183521278, 225, 4]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 226,
+   "first": "b",
+   "k_bits": 224,
+   "J_bits": 225,
+   "status": "closed",
+   "word": "[40292745394949800704394256860288475958174009062100748373730367042664, 226, 4]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 226,
+   "first": "a",
+   "k_bits": 226,
+   "J_bits": 227,
+   "status": "closed",
+   "word": "[201463726974749003521971284301442379790870045310503741868651835212745, 226, 4]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 227,
+   "first": "b",
+   "k_bits": 227,
+   "J_bits": 228,
+   "status": "closed",
+   "word": "[402927453949498007043942568602884759581740090621007483737303670425602, 227]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 227,
+   "first": "a",
+   "k_bits": 225,
+   "J_bits": 226,
+   "status": "closed",
+   "word": "[80585490789899601408788513720576951916348018124201496747460734085099, 227]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 228,
+   "first": "b",
+   "k_bits": 226,
+   "J_bits": 227,
+   "status": "closed",
+   "word": "[161170981579799202817577027441153903832696036248402993494921468170310, 228]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 228,
+   "first": "a",
+   "k_bits": 228,
+   "J_bits": 229,
+   "status": "closed",
+   "word": "[805854907898996014087885137205769519163480181242014967474607340850973, 228]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 229,
+   "first": "b",
+   "k_bits": 229,
+   "J_bits": 230,
+   "status": "closed",
+   "word": "[1611709815797992028175770274411539038326960362484029934949214681702062, 229, 3]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 229,
+   "first": "a",
+   "k_bits": 227,
+   "J_bits": 228,
+   "status": "closed",
+   "word": "[322341963159598405635154054882307807665392072496805986989842936340391, 229, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 230,
+   "first": "b",
+   "k_bits": 228,
+   "J_bits": 229,
+   "status": "closed",
+   "word": "[644683926319196811270308109764615615330784144993611973979685872680895, 230, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 230,
+   "first": "a",
+   "k_bits": 230,
+   "J_bits": 231,
+   "status": "closed",
+   "word": "[3223419631595984056351540548823078076653920724968059869898429363403893, 230, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 231,
+   "first": "b",
+   "k_bits": 231,
+   "J_bits": 232,
+   "status": "closed",
+   "word": "[6446839263191968112703081097646156153307841449936119739796858726807902, 231, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 231,
+   "first": "a",
+   "k_bits": 229,
+   "J_bits": 230,
+   "status": "closed",
+   "word": "[1289367852638393622540616219529231230661568289987223947959371745361558, 231, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 232,
+   "first": "b",
+   "k_bits": 230,
+   "J_bits": 231,
+   "status": "closed",
+   "word": "[2578735705276787245081232439058462461323136579974447895918743490723231, 232, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 232,
+   "first": "a",
+   "k_bits": 232,
+   "J_bits": 233,
+   "status": "closed",
+   "word": "[12893678526383936225406162195292312306615682899872239479593717453615566, 232, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 233,
+   "first": "b",
+   "k_bits": 233,
+   "J_bits": 234,
+   "status": "closed",
+   "word": "[25787357052767872450812324390584624613231365799744478959187434907231246, 233]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 233,
+   "first": "a",
+   "k_bits": 231,
+   "J_bits": 232,
+   "status": "closed",
+   "word": "[5157471410553574490162464878116924922646273159948895791837486981446229, 233]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 234,
+   "first": "b",
+   "k_bits": 232,
+   "J_bits": 233,
+   "status": "closed",
+   "word": "[10314942821107148980324929756233849845292546319897791583674973962892570, 234, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 234,
+   "first": "a",
+   "k_bits": 234,
+   "J_bits": 235,
+   "status": "closed",
+   "word": "[51574714105535744901624648781169249226462731599488957918374869814462254, 234, 3]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 235,
+   "first": "b",
+   "k_bits": 235,
+   "J_bits": 236,
+   "status": "closed",
+   "word": "[103149428211071489803249297562338498452925463198977915836749739628924625, 235, 3]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 235,
+   "first": "a",
+   "k_bits": 233,
+   "J_bits": 234,
+   "status": "closed",
+   "word": "[20629885642214297960649859512467699690585092639795583167349947925784905, 235, 3]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 236,
+   "first": "b",
+   "k_bits": 234,
+   "J_bits": 235,
+   "status": "closed",
+   "word": "[41259771284428595921299719024935399381170185279591166334699895851569923, 236]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 236,
+   "first": "a",
+   "k_bits": 236,
+   "J_bits": 237,
+   "status": "closed",
+   "word": "[206298856422142979606498595124676996905850926397955831673499479257849013, 236]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 237,
+   "first": "b",
+   "k_bits": 237,
+   "J_bits": 238,
+   "status": "closed",
+   "word": "[412597712844285959212997190249353993811701852795911663346998958515698139, 237]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 237,
+   "first": "a",
+   "k_bits": 235,
+   "J_bits": 236,
+   "status": "closed",
+   "word": "[82519542568857191842599438049870798762340370559182332669399791703139607, 237]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 238,
+   "first": "b",
+   "k_bits": 236,
+   "J_bits": 237,
+   "status": "closed",
+   "word": "[165039085137714383685198876099741597524680741118364665338799583406279328, 238]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 238,
+   "first": "a",
+   "k_bits": 238,
+   "J_bits": 239,
+   "status": "closed",
+   "word": "[825195425688571918425994380498707987623403705591823326693997917031396038, 238]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 239,
+   "first": "b",
+   "k_bits": 239,
+   "J_bits": 240,
+   "status": "closed",
+   "word": "[1650390851377143836851988760997415975246807411183646653387995834062792194, 239, 4]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 239,
+   "first": "a",
+   "k_bits": 237,
+   "J_bits": 238,
+   "status": "closed",
+   "word": "[330078170275428767370397752199483195049361482236729330677599166812558418, 239, 2]",
+   "types": "aab",
+   "loss": 2
+  },
+  {
+   "m": 240,
+   "first": "b",
+   "k_bits": 238,
+   "J_bits": 239,
+   "status": "closed",
+   "word": "[660156340550857534740795504398966390098722964473458661355198333625116951, 240, 2]",
+   "types": "bbb",
+   "loss": 4
+  },
+  {
+   "m": 240,
+   "first": "a",
+   "k_bits": 240,
+   "J_bits": 241,
+   "status": "closed",
+   "word": "[3300781702754287673703977521994831950493614822367293306775991668125584148, 240, 2]",
+   "types": "abb",
+   "loss": 3
+  },
+  {
+   "m": 241,
+   "first": "b",
+   "k_bits": 241,
+   "J_bits": 242,
+   "status": "closed",
+   "word": "[6601563405508575347407955043989663900987229644734586613551983336251168414, 241, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 241,
+   "first": "a",
+   "k_bits": 239,
+   "J_bits": 240,
+   "status": "closed",
+   "word": "[1320312681101715069481591008797932780197445928946917322710396667250233661, 241, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 242,
+   "first": "b",
+   "k_bits": 240,
+   "J_bits": 241,
+   "status": "closed",
+   "word": "[2640625362203430138963182017595865560394891857893834645420793334500467439, 242, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 242,
+   "first": "a",
+   "k_bits": 242,
+   "J_bits": 243,
+   "status": "closed",
+   "word": "[13203126811017150694815910087979327801974459289469173227103966672502336583, 242, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 243,
+   "first": "b",
+   "k_bits": 243,
+   "J_bits": 244,
+   "status": "closed",
+   "word": "[26406253622034301389631820175958655603948918578938346454207933345004673284, 243]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 243,
+   "first": "a",
+   "k_bits": 241,
+   "J_bits": 242,
+   "status": "closed",
+   "word": "[5281250724406860277926364035191731120789783715787669290841586669000934636, 243]",
+   "types": "ac",
+   "loss": 1
+  },
+  {
+   "m": 244,
+   "first": "b",
+   "k_bits": 242,
+   "J_bits": 243,
+   "status": "closed",
+   "word": "[10562501448813720555852728070383462241579567431575338581683173338001869388, 244, 2]",
+   "types": "bab",
+   "loss": 3
+  },
+  {
+   "m": 244,
+   "first": "a",
+   "k_bits": 244,
+   "J_bits": 245,
+   "status": "closed",
+   "word": "[52812507244068602779263640351917311207897837157876692908415866690009346319, 244, 7]",
+   "types": "aac",
+   "loss": 2
+  },
+  {
+   "m": 245,
+   "first": "b",
+   "k_bits": 245,
+   "J_bits": 246,
+   "status": "closed",
+   "word": "[105625014488137205558527280703834622415795674315753385816831733380018692761, 245, 7]",
+   "types": "bbc",
+   "loss": 4
+  },
+  {
+   "m": 245,
+   "first": "a",
+   "k_bits": 243,
+   "J_bits": 244,
+   "status": "closed",
+   "word": "[21125002897627441111705456140766924483159134863150677163366346676003738532, 245, 7]",
+   "types": "abc",
+   "loss": 3
+  },
+  {
+   "m": 246,
+   "first": "b",
+   "k_bits": 244,
+   "J_bits": 245,
+   "status": "closed",
+   "word": "[42250005795254882223410912281533848966318269726301354326732693352007477181, 246]",
+   "types": "ba",
+   "loss": 2
+  },
+  {
+   "m": 246,
+   "first": "a",
+   "k_bits": 246,
+   "J_bits": 247,
+   "status": "closed",
+   "word": "[211250028976274411117054561407669244831591348631506771633663466760037385268, 246]",
+   "types": "aa",
+   "loss": 1
+  },
+  {
+   "m": 247,
+   "first": "b",
+   "k_bits": 247,
+   "J_bits": 248,
+   "status": "closed",
+   "word": "[422500057952548822234109122815338489663182697263013543267326933520074770657, 247]",
+   "types": "bb",
+   "loss": 2
+  },
+  {
+   "m": 247,
+   "first": "a",
+   "k_bits": 245,
+   "J_bits": 246,
+   "status": "closed",
+   "word": "[84500011590509764446821824563067697932636539452602708653465386704014954112, 247]",
+   "types": "ab",
+   "loss": 1
+  },
+  {
+   "m": 248,
+   "first": "b",
+   "k_bits": 246,
+   "J_bits": 247,
+   "status": "closed",
+   "word": "[169000023181019528893643649126135395865273078905205417306930773408029908341, 248, 1]",
+   "types": "baa",
+   "loss": 3
+  },
+  {
+   "m": 248,
+   "first": "a",
+   "k_bits": 248,
+   "J_bits": 249,
+   "status": "closed",
+   "word": "[845000115905097644468218245630676979326365394526027086534653867040149541064, 248, 1]",
+   "types": "aaa",
+   "loss": 2
+  },
+  {
+   "m": 249,
+   "first": "b",
+   "k_bits": 249,
+   "J_bits": 250,
+   "status": "closed",
+   "word": "[1690000231810195288936436491261353958652730789052054173069307734080299082247, 249, 1]",
+   "types": "bba",
+   "loss": 4
+  },
+  {
+   "m": 249,
+   "first": "a",
+   "k_bits": 247,
+   "J_bits": 248,
+   "status": "closed",
+   "word": "[338000046362039057787287298252270791730546157810410834613861546816059816428, 249, 1]",
+   "types": "aba",
+   "loss": 3
+  },
+  {
+   "m": 250,
+   "first": "b",
+   "k_bits": 248,
+   "J_bits": 249,
+   "status": "closed",
+   "word": "[676000092724078115574574596504541583461092315620821669227723093632119632976, 250]",
+   "types": "bc",
+   "loss": 2
+  },
+  {
+   "m": 250,
+   "first": "a",
+   "k_bits": 250,
+   "J_bits": 251,
+   "status": "closed",
+   "word": "[3380000463620390577872872982522707917305461578104108346138615468160598164238, 250]",
+   "types": "ac",
+   "loss": 1
+  }
+ ]
+}

@@ -404,3 +404,12 @@ Review: reviews/global_astra11_review_record.md (two adversaries fixable→patch
   excluded canonically; unbounded clocks open.
 - calendar: exact canonical crossing queries (time, type, ε) up to ~2^4096 from certified kernels J<=4096.
 - Open: SQRT-EXIT (exit termination within ~√ρ chains), high b/c branches, endgame. #1 global non-halting UNPROVED.
+
+## work_global_calendar_survey (Claude) — ACCEPTED as Class-B evidence (2026-10-17)
+Review: §6 of work_global_calendar_survey/NOTES.md (adversary fixable→patched→closed; gemini all correct; deepseek simple errors, patched).
+- Canonical projected exits via the accepted calendar: 40000 random J<2^257 and deep targets (first exit parameter
+  exactly m, J≈2^m) for m≤4000: all closed, no NT tie, no non-descent.
+- Deep-target tails depend only on (type, m) (state after first step is (m,θ=2) for a, (m,0) for b). Scan m≤60000:
+  r=3 first at m=27, **r=4 first at a-type m=6131**; canonical instance J (6130 bits) with exit (J,6131,14,5,1).
+  No r≥5 in that range. (Not a record: work_g2_obstruction has an actual r=6 epoch.)
+- Finite evidence only; no bearing on SQRT-EXIT as a proof. #1 global non-halting remains UNPROVED.

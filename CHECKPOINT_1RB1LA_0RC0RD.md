@@ -459,3 +459,45 @@ Four routes (reports + scripts in work_global_ext/route_{a,b,c,d}):
 - Data [B]: all J ≤ 10^8: no tie, no non-descent, r ≤ 3; deep tails from every (m,θ), m < 10^8: real entries r ≤ 4.
 - #1 global non-halting remains UNPROVED. Open: for J ≥ K″ with X(J−1) odd of type b/c and ω(J−1) ≥ K′ (b) or J_W ≥ K′ (c),
   S\*(J) has no exact tie (equivalently: bound climbs inside nested shifted copies of real epochs).
+
+## work_global_clock_horizon — stronger finite cutoff ACCEPTED (2026-10-18; review: reviews/global_clock_horizon_closure_review_record.md)
+
+- New argument in `work_global_clock_horizon/PROOF_CLOCK_HORIZON.md`: combine accepted CLOCK with RA and Theorem S.
+  At n=J−1, the exact sufficient filter is `3nP(n)+4 < 2^K′`. For type b it bounds omega; for type c it bounds
+  the parameter of the enclosing fire, not merely the current chain. Type a uses RA directly.
+- Explicit new cutoff: `K_clock = floor(2^K′ / (64(K′)^2)) > K″` (32 → 64 after review). For T>=64, n<=floor(2^T/(64T²)) implies
+  `P(n)<=9T²` and `3nP(n)+4<2^T`; Lemma MASS (added after review) keeps the at most nine chains certified by Theorem S below K′
+  (induction along the certificate), the range hypothesis behind Theorem S's level-4 certificate. Proposed consequence: EXT below K_clock; the original machine does not halt
+  during the first `2^K_clock−2` top steps, using the accepted finite-prefix EGX/U/H″ assembly.
+- Verification: 4,035 exponent cases, 20,175 clock endpoint checks, 8,188 finite real crossings, 2,611 b/c source
+  checks, and 4,081 horizon-transfer inequalities; all PASS. All-scale constants have analytic proofs.
+- Status: **ACCEPTED after three-way review**; the accepted horizon is now K_clock (was K″). Does not certify level 5,
+  change Theorem S's source cutoff K′, or prove global non-halting. The improved horizon cannot be iterated by
+  simply substituting K_clock for K′ in Theorem S.
+
+## work_global_closure_attempt — all-scale target sharpened, ACCEPTED as conditional/local results; global proof still OPEN (2026-10-18)
+
+- CAP (accepted): for l=ceil(log2 J)>=64, the first at most J valid symbolic-exit chains have parameters
+  <=g=l+2ceil(log2 l)+7, using CLOCK, C1, and the beta mass bound.
+- Conditional closure: if every congruence-feasible productive mixed-block word over available canonical sources
+  with parameters <=Q has length <=2^ceil(Q/2), for all Q>=64, then CAP and Theorem L's safe-prefix budget imply
+  global EXT and non-halting. **The required all-Q word bound is unproved.**
+- Targeted exact-lattice search over eight actual pure-A sources found the nine-entry word
+  (5,367354,5,17,5,122436,5,17,5). A positive safe pair lift passes nine macro checks (minimum margin 12);
+  its last eight entries are a-outputs. The exact fire projection is empty. It is a local continuation,
+  not a canonical-orbit witness. Omitted parameter branches are explicitly retained as open.
+- 12,105 integer parameter checks and 9,991 finite symbolic exits pass. No global proof, level-5 closure,
+  or new accepted horizon is claimed. Details: `work_global_closure_attempt/PROOF_CLOSURE_TARGET.md`.
+
+### Continuation: exact phase-origin filter and 64-source pure-A search (2026-10-18, accepted with the above)
+
+- For a clock cylinder Theta=t mod 2^H, x=pTheta+r mod 2^K (p even, K>=H), an exact initial defect
+  c=Theta-x is congruence-feasible iff c=(1-p)t-r mod 2^H. A shifted real fire requires c=1+delta.
+- The prior nine-entry word requires |delta|>=2^122438-3244676. This excludes small shifted-fire origins,
+  not arbitrary later canonical ancestry or shifted non-fire c sources.
+- A 64-source search exhausts 1,050,560 candidate extensions: free maximum 11, fire-compatible maximum 2.
+  Other parameters and mixed b/c transitions are outside this finite certificate.
+- A longest word (5,17,5,17,661128,17,661128,857036,5,17,5) has a positive safe local pair lift:
+  eleven a returns, ten a-output entries, minimum margin 8, next parameter 6. Its true-fire projection is empty.
+- 308 general-solver comparisons, 64 independent calendar source checks and 26,832 phase-filter tests pass.
+  Global EXT, W(Q), and canonical ancestry of the local example remain open. See `PROOF_ORIGIN_FILTER.md`.

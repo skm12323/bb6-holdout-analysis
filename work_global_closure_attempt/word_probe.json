@@ -1,0 +1,77 @@
+{
+  "result": "PASS",
+  "alphabet": [
+    5,
+    8,
+    14,
+    17,
+    27,
+    48979,
+    122436,
+    367354
+  ],
+  "high_sources": [
+    {
+      "q": 48979,
+      "k": 21846
+    },
+    {
+      "q": 122436,
+      "k": 54614
+    },
+    {
+      "q": 367354,
+      "k": 163862
+    }
+  ],
+  "independent_calendar_source_checks": 8,
+  "depth_cap": 12,
+  "feasible_counts": {
+    "2": 64,
+    "3": 66,
+    "4": 49,
+    "5": 27,
+    "6": 21,
+    "7": 12,
+    "8": 2,
+    "9": 1
+  },
+  "omitted_parameter_branches": {
+    "2": 8,
+    "3": 14,
+    "4": 16,
+    "5": 10,
+    "6": 7,
+    "7": 3,
+    "8": 1,
+    "9": 1
+  },
+  "depth_cap_reached": false,
+  "max_length": 9,
+  "longest_samples": [
+    {
+      "word": [
+        5,
+        367354,
+        5,
+        17,
+        5,
+        122436,
+        5,
+        17,
+        5
+      ],
+      "clock_bits": 122439,
+      "root_bits": 367356,
+      "fire_compatible": false,
+      "positive_pair_macro_checks": 9,
+      "minimum_margin": 12,
+      "following_parameter": 6,
+      "initial_clock_bits": 367358,
+      "initial_x_sha256": "65d3173b28911f296545f98d64e6add57a55a65c4681823c8338b5286893ba76",
+      "initial_theta_sha256": "910426e2a645c285e10c5ccd46ed201bcd5c35247c71085e50b1050ba42d266d"
+    }
+  ],
+  "seconds": 4.29,
+  "scope": "Exact congruence search in a selected pure-A alphabet only; omitted parameters and canonical ancestry remain open."
+}

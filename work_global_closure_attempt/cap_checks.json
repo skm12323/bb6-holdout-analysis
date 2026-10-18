@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "integer_parameter_checks": 12105,
+  "actual_symbolic_exits": 9991,
+  "actual_exit_chains": 6685,
+  "scope": "CAP constants and finite beta runs only; the required all-Q word bound W is unproved."
+}

@@ -1,0 +1,55 @@
+{
+  "result": "PASS",
+  "phase_projection_comparisons": 26832,
+  "old_word_minimum_abs_shift": "2^122438 - 3244676",
+  "records": [
+    {
+      "word": [
+        5,
+        367354,
+        5,
+        17,
+        5,
+        122436,
+        5,
+        17,
+        5
+      ],
+      "clock_bits": 122439,
+      "root_bits": 367356,
+      "minimum_abs_shift_bit_length": 122438,
+      "minimum_abs_shift_sha256": "7c885e54d9fcd7143d79076c1c80a3c4efba4703eb84dbfec04b41f1efc53fa2",
+      "fire_compatible": false,
+      "positive_pair_macro_checks": 9,
+      "productive_a_output_entries": 8,
+      "minimum_margin": 12,
+      "following_parameter": 6
+    },
+    {
+      "word": [
+        5,
+        17,
+        5,
+        17,
+        661128,
+        17,
+        661128,
+        857036,
+        5,
+        17,
+        5
+      ],
+      "clock_bits": 661127,
+      "root_bits": 857044,
+      "minimum_abs_shift_bit_length": 661126,
+      "minimum_abs_shift_sha256": "3edd4d391fa4078360ef98be88df9a950415eecddeb86f323803869c5aa39cc7",
+      "fire_compatible": false,
+      "positive_pair_macro_checks": 11,
+      "productive_a_output_entries": 10,
+      "minimum_margin": 8,
+      "following_parameter": 6
+    }
+  ],
+  "review_status": "unreviewed",
+  "scope": "Exact local phase congruences and safe pair lifts; no canonical reachability or global word bound proved."
+}

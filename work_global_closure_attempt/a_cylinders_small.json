@@ -1,0 +1,51 @@
+{
+  "result": "EXHAUSTED_SELECTED_ALPHABET",
+  "mode": "small",
+  "alphabet": [
+    5,
+    8,
+    14,
+    17,
+    27,
+    48979,
+    122436,
+    367354
+  ],
+  "source_calendar_checks": 8,
+  "depth_limit": 14,
+  "attempts": 2008,
+  "reference_comparisons": 308,
+  "free_counts": {
+    "1": 8,
+    "2": 64,
+    "3": 66,
+    "4": 49,
+    "5": 27,
+    "6": 21,
+    "7": 12,
+    "8": 2,
+    "9": 1
+  },
+  "fire_counts": {
+    "1": 8,
+    "2": 1
+  },
+  "longest_free": [
+    5,
+    367354,
+    5,
+    17,
+    5,
+    122436,
+    5,
+    17,
+    5
+  ],
+  "longest_fire": [
+    14,
+    5
+  ],
+  "unresolved_stack_nodes": 0,
+  "seconds": 6.53,
+  "scope": "Pure-A words in the selected alphabet only; other parameters and mixed b/c returns remain open. Fire-compatible does not mean canonically reachable."
+}

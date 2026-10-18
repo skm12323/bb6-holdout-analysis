@@ -18,6 +18,14 @@
 
 总报告见 [SUMMARY.md](SUMMARY.md)，里面有文件索引、开放问题和与社区结果的对比。
 
+### 最新进展（2026-10-18，已通过三方审查）
+
+[work_global_clock_horizon](work_global_clock_horizon/README.md) 将已审查的近线性时钟界与浅层入口定理组合，推导出更大的有限截止值 `K_clock = floor(2^K′ / (64(K′)^2))`（审查后由 32 改为 64，并补充保证后续链参数 < K′ 的 Lemma MASS），对应原机器前 `2^K_clock−2` 个顶层步不停机。整数界及有限真实轨道来源检查通过；**已通过三方审查（见 reviews/global_clock_horizon_closure_review_record.md），已接受的有限范围由 K″ 提高到 K_clock**。全局不停机与第 5 层证书仍未完成。
+
+后续 [work_global_closure_attempt](work_global_closure_attempt/README.md) 将最小反例的相关参数上界压到约 `log2 J + 2log2log2 J`，并推导出一个全局闭合的充分条件：全尺度生产性返回词长度不超过 `2^ceil(Q/2)`。**该长度界尚未证明**（其余部分作为条件性/局部结果已接受）。另构造了含 8 个连续生产性 a-output 入口的安全局部路径，其起始 fire 约束不成立（相对于精确 true-fire 投影；非规范祖先未排除）；它不构成原轨道反例。
+
+同日继续：扩大到 64 个来源参数的精确搜索发现长度 11 的安全局部纯 a 路径，而满足 fire 起点约束的纯 a 词最多长 2（仅限该参数集合）。[相位起点过滤引理](work_global_closure_attempt/PROOF_ORIGIN_FILTER.md) 给出所有词的精确初始相位同余；原九项词需要至少 `2^122438-3244676` 的实 fire 平移量。尚无任意混合历史的平移量或总长度上界，全局证明仍开放。
+
 ## 目录结构
 
 - `REPORT_*.md`、`CHECKPOINT_*.md`：每台机器的仲裁记录与阶段性检查点

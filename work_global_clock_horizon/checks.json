@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "constant_exponents_checked": 4035,
+  "clock_endpoint_checks": 20175,
+  "real_crossing_indices_checked": 8188,
+  "odd_crossing_counts": {
+    "a": 2479,
+    "b": 2479,
+    "c": 132
+  },
+  "bc_source_checks": 2611,
+  "successful_source_predicate_checks": 20747,
+  "horizon_transfer_inequality_checks": 4081,
+  "examples": [
+    {
+      "T": 64,
+      "old_cutoff_log2": 30,
+      "explicit_cutoff_floor_log2": 46,
+      "inverse_cutoff_floor_log2": 48
+    },
+    {
+      "T": 128,
+      "old_cutoff_log2": 62,
+      "explicit_cutoff_floor_log2": 108,
+      "inverse_cutoff_floor_log2": 109
+    },
+    {
+      "T": 256,
+      "old_cutoff_log2": 126,
+      "explicit_cutoff_floor_log2": 234,
+      "inverse_cutoff_floor_log2": 235
+    },
+    {
+      "T": 1024,
+      "old_cutoff_log2": 510,
+      "explicit_cutoff_floor_log2": 998,
+      "inverse_cutoff_floor_log2": 999
+    },
+    {
+      "T": 4096,
+      "old_cutoff_log2": 2046,
+      "explicit_cutoff_floor_log2": 4066,
+      "inverse_cutoff_floor_log2": 4067
+    }
+  ],
+  "scope": "Finite checks supporting PROOF_CLOCK_HORIZON.md; no global theorem, no new level-5 certificate."
+}

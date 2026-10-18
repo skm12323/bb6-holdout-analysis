@@ -501,3 +501,76 @@ Four routes (reports + scripts in work_global_ext/route_{a,b,c,d}):
   eleven a returns, ten a-output entries, minimum margin 8, next parameter 6. Its true-fire projection is empty.
 - 308 general-solver comparisons, 64 independent calendar source checks and 26,832 phase-filter tests pass.
   Global EXT, W(Q), and canonical ancestry of the local example remain open. See `PROOF_ORIGIN_FILTER.md`.
+
+## work_ext_roots — direct EXT entry constraints (2026-10-18; ACCEPTED 2026-10-19, review: reviews/ext_roots_review_record.md)
+
+- ENTRY: at an odd b/c source X(J−1), chain 1 of S(J) has Theta=3tau+4 and x=3tau+4+lambda_Y.
+  Thus b has exact defect zero (not the real-fire defect one), while c has defect −lambda_Y from the actual source.
+- A word cylinder imposes Theta=t mod 2^H and (1−p)(3tau+4)+lambda_Y=r mod 2^K on canonical source data.
+  A one-variable exact solver retains a fixed defect through arbitrary productive mixed b/c corridors and a endpoints.
+- Finite selection: all parameters <=8191 plus 35 larger parameters, 2621 productive kernels. At defect zero,
+  productive words have length at most two and no branches escape this source selection. Other defects and all
+  larger initial parameters are not covered by that statement; no outer physical-margin theorem is inferred.
+- For a fixed first-tie word let E be accumulated block loss, q its final parameter, M=E+q and R the previous
+  maximum of E_i+q_i. Necessarily M>R. Type b gives R+3<=J<=M+2. Type c at a least EXT counterexample J>=128
+  gives J<=2M, using accepted C2-log under EXT below J. Exact source correlation remains to be checked.
+- Checks: 2479 b and 132 c full-pair entry identities; 112112 integer endpoint inequalities; 170 comparisons
+  with the general word projector. All PASS. Global exclusion of the unbounded candidate-word family is OPEN.
+- Details: `work_ext_roots/PROOF_EXT_ROOTS.md`. Accepted K_clock (constant 64) is unchanged.
+
+### Complete last-step filter for a fixed EXT prefix (2026-10-18, accepted)
+
+- For prefix loss E and duration T, a first-tie final valuation is bounded by
+  min(max(14,bit_length(48E²+6T+5)), max(19,floor(log2(203E³)))) for a least counterexample J>=128.
+  Combined with J<=2(E+q), both final valuation and outer source are finite for each fixed prefix.
+- Implemented exact record/cylinder/source/margin/mass filtering. All 504 feasible productive prefixes over
+  the 18 kernels in 5..63 were checked; 8064 final-parameter diagnostic checks, no canonical candidates (sources
+  were only inspected in the already certified J<128 diagnostic range; for J>=128 no source index is reachable here).
+  J<128 diagnostics use a separate mass endpoint rather than misapplying the asymptotic bound.
+- Positive control: an invented c source X(9), time 27, H=(64,7), Y=(448,75), passes local mass/C1/safety
+  constraints and makes the next S(10) chain (1568,96), an exact tie. It is NOT the canonical source X(9).
+  The filter retains this control, establishing that canonical source correlation is essential.
+- Fixed-prefix completeness does not bound all prefixes or their loss. Global EXT remains open; no horizon
+  change. Details: `work_ext_roots/PROOF_LAST_TIE.md`; verifier `verify_last_tie.py`, all checks PASS.
+
+### Low-deficit c-source reductions (2026-10-18, accepted)
+
+- C3: epsilon=3 forces a source history A. Its outer shifted chain differs from a virtual fire of parameter
+  q=v2(6k+2)<P−1 by precision P−1. Assuming EXT(q), HP and the outer coefficient margin imply termination
+  and strict safety. Since q<J, this excludes the branch at a least EXT counterexample if the proof is accepted.
+- C5-BA: epsilon=5 permits AA or BA. For BA, the exact outer state has phase difference from Theta=x+2
+  equal to −5x0/8−y/2, with valuation p−1>q. Earlier real-epoch absorption plus HP closes this whole tail.
+  The AA case is NOT covered here (superseded: handled by A-SOURCE below); a zero phase residue alone is insufficient to replace it by an earlier b source.
+- Checks: 76 actual A-source and four actual BA-source calendar crossings, 86 shadow states; 18 explicitly
+  noncanonical outer algebra lifts with nonterminal references, 36 states; 4087 size inequalities. All PASS.
+- Proposed remaining c frontier: epsilon=5 with AA, or epsilon>=7 (superseded below: AA handled by A-SOURCE); b sources remain open. No global EXT claim,
+  no accepted-horizon change. See `work_ext_roots/PROOF_LOW_DEFICIT.md`.
+
+### A-initial source ancestry descent (2026-10-18, accepted)
+
+- AA is now reduced to an actual earlier b source: if the first A yields parameter p, the shifted second
+  A-output shadows chain 1 of S(p+1) to precision p−1. The two exact scalar differences have valuations p−1,p.
+  EXT(p+1), with p+1<J, closes this branch in least-counterexample induction.
+- Proposed A-SOURCE theorem (induction on strict EXT): any later c source in an epoch whose first odd return is a shadows a chain in an
+  already completed earlier real epoch. AB/HP preserve that chain's coefficient precision. Its b/c crossing
+  supplies J'<J; both clocks shifted by −1 still agree, and EXT(J') transfers termination/safety to the outer exit.
+- If accepted, this excludes all c deficits 3 and 5, and all A-initial source epochs at arbitrary deficit.
+  Remaining c frontier: epsilon>=7, first source return b/c. Outer b entries remain open. This supersedes the
+  previous AA-open statement but does not close EXT or change the accepted horizon.
+- Four canonical AA comparisons pass in the finite calendar selection; mixed histories are untested. The general mixed-history
+  claim depends on the written AB/HP precision proof, not those samples. `PROOF_A_SOURCE_DESCENT.md` (accepted).
+
+### Deficit-seven source frontier (2026-10-18, accepted; MINUS/PLUS families unproved)
+
+- Weight grammar gives exactly AAA, ABA, BAA, BBA, CA. A-SOURCE covers AAA/ABA. New CA descent uses the
+  copied deficit-three source's actual A history and shadows a virtual fire of smaller parameter q; EXT(q)
+  closes it in least-counterexample induction. A canonical outer source with root parameter 6133 and a
+  6134-bit EXT index was verified exactly (inner parameter 14, intermediate 5, reduced 3).
+- BAA and BBA reduce to correlated reference families MINUS(m): (x,Theta)=(6k_m+6,6k_m+5) and PLUS(m):
+  (6k_m−2,6k_m+1), where k_m=tau(m−1)/2 at an actual odd a crossing. Their required bound is
+  j+relative loss<m−1 through termination. This all-scale family property is NOT proved.
+- Each family passes 302878 sources below 10^6 and 3024 deeper canonical calendar cases; 240 additional
+  explicitly noncanonical outer algebra lifts verify the normal forms. Deep cases disprove the naive
+  extrapolation that PLUS always ends immediately. No actual tie or global closure was obtained.
+- See `work_ext_roots/PROOF_DEFICIT_SEVEN.md`. Outer b entries and higher c deficits remain open;
+  the reductions are accepted (review record above); the accepted horizon is unchanged.

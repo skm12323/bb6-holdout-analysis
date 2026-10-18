@@ -28,11 +28,13 @@
 
 ## 目录结构
 
+2026-10-18（2026-10-19 已通过三方审查）：[work_ext_roots](work_ext_roots/README.md) 直接保留 EXT 的真实入口条件（b 型 `Theta=x`，c 型 `Theta-x=-lambda_Y`），并给出固定首个 tie 候选词的有限外层指标界：若 M 为累计块损失加末参数，则 b 型 `J<=M+2`，最小反例归纳下 c 型 `J<=2M`。所选混合来源的零相位差搜索与入口检查通过；**候选词族仍无全局界，EXT 未闭合**。最小反例归纳下已排除 ε=3、5 的 c 源及全部 A 起始源 epoch（A-SOURCE）；剩余前沿为 b/c 起始源 epoch 中 ε≥7 的 c 源（含 MINUS/PLUS 族）与全部外层 b 型入口。
+
 - `REPORT_*.md`、`CHECKPOINT_*.md`：每台机器的仲裁记录与阶段性检查点
 - `work_*/`：主定理文档（`RULES.md`、`LEMMAS.md`、`PROOF.md`、`EQUIV.md`）与对应的验证脚本 `verify_*.py`
 - `work_r5/`、`work_r6/`、`work_r7/`：#1 全局不停机的三次尝试，**未经审查**
 - `work_r8/`：#1 的组合式闭合尝试（模板检查 + 谱系封闭）；`work_r9/`：永不停机定理的宣称与锚点驱动（`THEOREM.md`、`verify_r9.py`）；`scratch/`：研究草稿与子代理报告（agentB/C/D/E/G、审查报告），部分未经审查
-- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（补充）；`work_g2/`：G2 部分结果（已审查）；`work_g2_obstruction/`：fire 谱与 DL 反驳（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`work_g2_*/`（13 份，GPT Astra）：两块返回恒等式、b/a 局部障碍等 G2 分支结果（已审查）；`work_global_*/`：全局路线笔记，其中 `work_global_core` 与 11 份 GPT Astra 笔记（clock、calendar、root_phase、rescue_ladder、period 等）已审查，`work_global_shadow`、`work_global_compression` 未审查；`work_claude_global/`：J=50148477 处的 r=3 退出与严格下降目标 DL（已审查，DL 后被反驳）；`work_global_clock/`：无条件时钟界与 SQRT-EXIT 归约（已审查）；`work_global_calendar_survey/`：深层退出的规范日历普查，r=4 首现于 m=6131（已审查，B 级证据）；`work_global_endgame/`：终局引理 E1–E5 与 EG-LEN 问题陈述（已审查）；`work_global_egx/`：endgame = 符号 exit、原机器 2^K′ 有限范围、单一归约 EXT（已审查）；`work_global_ext/`：EXT 四路攻关（Ψ 族第 4 层证书与 K″、定理 RA、EXT\*、ND-EXIT、定理 O），已审查；`reviews/`：外部审查原文（GPT Astra / codex）
+- `work_g6/`、`work_m/`、`work_el/`：#1 的条件定理 R、定理 M、退出自动机与有限范围定理（已审查）；`work_nt/`：(NT) 攻关（未审查）；`work_tie/`：救援宏与再推一层的有限范围（已审查）；`work_tie2/`：扩展自动机与第 3 层定理（已审查）；`work_tie_extension/`：Astra 的同层扩展（补充）；`work_g2/`：G2 部分结果（已审查）；`work_g2_obstruction/`：fire 谱与 DL 反驳（已审查）；`work_r10/`：GLM 的条件证明树与五方审查（`ASSEMBLY.md`）；`work_g2_*/`（13 份，GPT Astra）：两块返回恒等式、b/a 局部障碍等 G2 分支结果（已审查）；`work_global_*/`：全局路线笔记，其中 `work_global_core` 与 11 份 GPT Astra 笔记（clock、calendar、root_phase、rescue_ladder、period 等）已审查，`work_global_shadow`、`work_global_compression` 未审查；`work_claude_global/`：J=50148477 处的 r=3 退出与严格下降目标 DL（已审查，DL 后被反驳）；`work_global_clock/`：无条件时钟界与 SQRT-EXIT 归约（已审查）；`work_global_calendar_survey/`：深层退出的规范日历普查，r=4 首现于 m=6131（已审查，B 级证据）；`work_global_endgame/`：终局引理 E1–E5 与 EG-LEN 问题陈述（已审查）；`work_global_egx/`：endgame = 符号 exit、原机器 2^K′ 有限范围、单一归约 EXT（已审查）；`work_global_ext/`：EXT 四路攻关（Ψ 族第 4 层证书与 K″、定理 RA、EXT\*、ND-EXIT、定理 O），已审查；`work_global_clock_horizon/`：K_clock 有限范围（已审查）；`work_global_closure_attempt/`：条件闭合目标（已审查）；`work_ext_roots/`：最小 EXT 反例归纳、A-SOURCE（已审查）；`reviews/`：外部审查原文（GPT Astra / codex）
 - `data/BB6_holdouts_815.txt`：bbchallenge 2026-09-24 版 holdout 清单
 - `triage2/scan.txt`：815 台机器各跑 10⁶ 步的初筛数据
 

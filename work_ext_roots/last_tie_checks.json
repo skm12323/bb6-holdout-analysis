@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "productive_source_parameters": 18,
+  "prefixes": 504,
+  "prefix_lengths": {
+    "1": 18,
+    "2": 324,
+    "3": 80,
+    "4": 59,
+    "5": 21,
+    "6": 2
+  },
+  "largest_last_parameter_bound": 14,
+  "filter_counts": {
+    "final_parameters": 8064,
+    "record_rejected": 7920,
+    "source_indices": 3906,
+    "bc_sources": 1209,
+    "margin_survivors": 48,
+    "word_rejected": 113
+  },
+  "largest_diagnostic_parameter_bound": 16,
+  "canonical_candidates": [],
+  "inequality_checks": 18156,
+  "noncanonical_positive_control": [
+    {
+      "J": 10,
+      "kind": "c",
+      "prefix": [
+        5
+      ],
+      "final_parameter": 5,
+      "loss": 1,
+      "gamma": 4,
+      "final_coefficient_valuation": 5,
+      "final_beta": 96
+    }
+  ],
+  "scope": "Exhaustive final valuations for these finite prefixes only; source control is deliberately noncanonical, not a machine counterexample."
+}

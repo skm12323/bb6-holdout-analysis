@@ -1,0 +1,201 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "canonical_source_histories": {
+    "A": 76,
+    "BA": 4
+  },
+  "shadow_state_checks": 86,
+  "inequality_checks": 4087,
+  "small_productive_a_cases": [
+    [
+      5,
+      1
+    ],
+    [
+      8,
+      2
+    ]
+  ],
+  "canonical_AA_reductions": 4,
+  "later_A_initial_c_ancestry_reductions": 4,
+  "noncanonical_outer_algebra_cases": 18,
+  "noncanonical_outer_shadow_states": 36,
+  "noncanonical_outer_examples": [
+    {
+      "p": 40,
+      "q": 5,
+      "tail": [
+        5,
+        1
+      ]
+    },
+    {
+      "p": 40,
+      "q": 5,
+      "tail": [
+        5,
+        1
+      ]
+    },
+    {
+      "p": 40,
+      "q": 5,
+      "tail": [
+        5,
+        1
+      ]
+    },
+    {
+      "p": 76,
+      "q": 6,
+      "tail": [
+        6,
+        1
+      ]
+    },
+    {
+      "p": 76,
+      "q": 6,
+      "tail": [
+        6,
+        1
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "history": "A",
+      "P": 5,
+      "p": 5,
+      "q": 3,
+      "outer_index_bits": 7,
+      "tail": [
+        3
+      ]
+    },
+    {
+      "history": "A",
+      "P": 8,
+      "p": 8,
+      "q": 1,
+      "outer_index_bits": 7,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 12,
+      "p": 12,
+      "q": 1,
+      "outer_index_bits": 11,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 14,
+      "p": 14,
+      "q": 5,
+      "outer_index_bits": 13,
+      "tail": [
+        5,
+        3
+      ]
+    },
+    {
+      "history": "A",
+      "P": 17,
+      "p": 17,
+      "q": 1,
+      "outer_index_bits": 18,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 22,
+      "p": 22,
+      "q": 1,
+      "outer_index_bits": 21,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 24,
+      "p": 24,
+      "q": 3,
+      "outer_index_bits": 23,
+      "tail": [
+        3
+      ]
+    },
+    {
+      "history": "A",
+      "P": 27,
+      "p": 27,
+      "q": 1,
+      "outer_index_bits": 28,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 32,
+      "p": 32,
+      "q": 4,
+      "outer_index_bits": 31,
+      "tail": [
+        4
+      ]
+    },
+    {
+      "history": "A",
+      "P": 35,
+      "p": 35,
+      "q": 1,
+      "outer_index_bits": 36,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 40,
+      "p": 40,
+      "q": 1,
+      "outer_index_bits": 39,
+      "tail": [
+        1
+      ]
+    },
+    {
+      "history": "A",
+      "P": 42,
+      "p": 42,
+      "q": 3,
+      "outer_index_bits": 41,
+      "tail": [
+        3
+      ]
+    },
+    {
+      "history": "BA",
+      "P": 65,
+      "p": 5,
+      "q": 1,
+      "outer_index_bits": 66,
+      "tail": [
+        1
+      ]
+    }
+  ],
+  "fake_epsilon3_source_excluded": true,
+  "scope": "Canonical low-deficit examples and exact identities; proposed all-scale reductions require review."
+}

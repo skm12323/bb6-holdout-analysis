@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "full_pair_entry_checks": {
+    "b": 2479,
+    "c": 132
+  },
+  "endpoint_inequality_checks": 112112,
+  "root_projection_comparisons": 170,
+  "scope": "Exact entry identities and finite endpoint/root checks; no global EXT proof."
+}

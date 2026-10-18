@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "outer_source_fire_parameter": 6133,
+  "inner_fire_parameter": 14,
+  "middle_parameter": 5,
+  "reduced_parameter": 3,
+  "outer_EXT_index_bits": 6134,
+  "source_deficit": 7,
+  "tail": [
+    3
+  ],
+  "shadow_states": 1,
+  "seconds": 0.09,
+  "scope": "One canonical CA source and its exact shadow; all-scale argument is separate and unreviewed."
+}

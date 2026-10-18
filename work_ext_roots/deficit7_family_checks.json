@@ -1,0 +1,151 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "parameter_exclusive_max": 1000000,
+  "families": {
+    "BAA_minus": {
+      "cases": 302878,
+      "status_counts": {
+        "end": 302878
+      },
+      "longest": [
+        5,
+        2
+      ],
+      "nonterminal_cases": 653,
+      "minimum_margin": 2,
+      "failures": [],
+      "failure_count": 0
+    },
+    "BBA_plus": {
+      "cases": 302878,
+      "status_counts": {
+        "end": 302878
+      },
+      "longest": [
+        2
+      ],
+      "nonterminal_cases": 0,
+      "minimum_margin": 2,
+      "failures": [],
+      "failure_count": 0
+    }
+  },
+  "deep_canonical_families": {
+    "BAA_minus": {
+      "cases": 3024,
+      "nonterminal": 12,
+      "longest": [
+        5,
+        2
+      ],
+      "examples": [
+        {
+          "start_fire_parameter": 10,
+          "offset": 1,
+          "input_parameter_bits": 9,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 11,
+          "offset": 1,
+          "input_parameter_bits": 12,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 83,
+          "offset": 1,
+          "input_parameter_bits": 84,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 84,
+          "offset": 1,
+          "input_parameter_bits": 83,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 118,
+          "offset": 1,
+          "input_parameter_bits": 117,
+          "word": [
+            6,
+            1
+          ]
+        }
+      ]
+    },
+    "BBA_plus": {
+      "cases": 3024,
+      "nonterminal": 12,
+      "longest": [
+        5,
+        2
+      ],
+      "examples": [
+        {
+          "start_fire_parameter": 38,
+          "offset": 1,
+          "input_parameter_bits": 37,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 39,
+          "offset": 1,
+          "input_parameter_bits": 40,
+          "word": [
+            5,
+            2
+          ]
+        },
+        {
+          "start_fire_parameter": 74,
+          "offset": 1,
+          "input_parameter_bits": 73,
+          "word": [
+            6,
+            1
+          ]
+        },
+        {
+          "start_fire_parameter": 75,
+          "offset": 1,
+          "input_parameter_bits": 76,
+          "word": [
+            6,
+            1
+          ]
+        },
+        {
+          "start_fire_parameter": 109,
+          "offset": 1,
+          "input_parameter_bits": 110,
+          "word": [
+            5,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  "noncanonical_outer_normal_form_checks": {
+    "BBA": 228,
+    "BAA": 12
+  },
+  "scope": "Finite correlated reference-family checks only; arbitrary p and all higher deficits remain open."
+}

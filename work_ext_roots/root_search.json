@@ -1,0 +1,119 @@
+{
+  "source_cutoff": 64,
+  "consecutive_parameter_max": 8191,
+  "additional_parameters": [
+    48977,
+    48978,
+    48979,
+    48980,
+    48981,
+    122434,
+    122435,
+    122436,
+    122437,
+    122438,
+    244873,
+    244874,
+    244875,
+    244876,
+    244877,
+    367352,
+    367353,
+    367354,
+    367355,
+    367356,
+    661126,
+    661127,
+    661128,
+    661129,
+    661130,
+    857034,
+    857035,
+    857036,
+    857037,
+    857038,
+    954965,
+    954966,
+    954967,
+    954968,
+    954969
+  ],
+  "productive_parameters": 2621,
+  "results": [
+    {
+      "defect": 0,
+      "counts": {
+        "1": 2621,
+        "2": 128
+      },
+      "longest": [
+        8143,
+        5
+      ],
+      "escape_count": 0,
+      "escapes": [],
+      "projection_comparisons": 42
+    },
+    {
+      "defect": 1,
+      "counts": {
+        "1": 2621,
+        "2": 130
+      },
+      "longest": [
+        8190,
+        5
+      ],
+      "escape_count": 0,
+      "escapes": [],
+      "projection_comparisons": 42
+    },
+    {
+      "defect": 2,
+      "counts": {
+        "1": 2621,
+        "2": 133,
+        "3": 1
+      },
+      "longest": [
+        6131,
+        14,
+        5
+      ],
+      "escape_count": 0,
+      "escapes": [],
+      "projection_comparisons": 42
+    },
+    {
+      "defect": -1,
+      "counts": {
+        "1": 2621,
+        "2": 1
+      },
+      "longest": [
+        244875,
+        5
+      ],
+      "escape_count": 0,
+      "escapes": [],
+      "projection_comparisons": 1
+    },
+    {
+      "defect": -2,
+      "counts": {
+        "1": 2621,
+        "2": 130,
+        "3": 65
+      },
+      "longest": [
+        8122,
+        5,
+        5
+      ],
+      "escape_count": 0,
+      "escapes": [],
+      "projection_comparisons": 43
+    }
+  ],
+  "scope": "All root-clock lifts with fixed defect, selected actual mixed-block kernels; escapes and canonical source correlation unresolved."
+}

@@ -574,3 +574,39 @@ Four routes (reports + scripts in work_global_ext/route_{a,b,c,d}):
   extrapolation that PLUS always ends immediately. No actual tie or global closure was obtained.
 - See `work_ext_roots/PROOF_DEFICIT_SEVEN.md`. Outer b entries and higher c deficits remain open;
   the reductions are accepted (review record above); the accepted horizon is unchanged.
+
+## Duration normalization of MINUS/PLUS (2026-10-19; ACCEPTED, review: reviews/ext_roots_duration_review_record.md)
+
+- New predecessor lemma: a MINUS/PLUS entry of parameter >=5 immediately follows an actual epoch H>=5.
+  All 15 small-kernel residues exclude these landings. Delta_H=5 mod16 for MINUS, or 1 mod16 for PLUS.
+- Subtracting the predecessor fire numerator 2^H U from both x and Theta gives exact precision H.
+  References: D_MINUS=(6Delta_H+2,6Delta_H+1), D_PLUS=(6Delta_H−6,6Delta_H−3), with initial parameter <H.
+- Smaller EXT(H) supplies Delta_H<=H^3. HP transfers termination if the new reference satisfies
+  j+loss<H throughout. This all-scale property is OPEN: D_ROOT is not S(H), so no closed induction is claimed.
+- Checks: 15 residue transitions; 653 direct and 28 deep predecessor cases; 458 MINUS and 461 PLUS
+  duration cases for H<=8192. All PASS. No global EXT closure or accepted-horizon change.
+- Details: `work_ext_roots/PROOF_DURATION_NORMALIZATION.md` and `verify_duration_reduction.py`.
+
+### Duration-reference branch closure (2026-10-19, accepted)
+
+- Generic PLUS state Theta=x+3 with initial parameter q and ceiling C>q: an odd b return lands within
+  precision q−2 of an exact-phase-two reference. AB and HP close the entire branch, with all records <=q.
+- Generic MINUS Theta=x−1: b copies of fire parameter 5 or 8 have exact words (q,5,1)/(q,8,3); every record j+Λ<C
+  for any ceiling C>q. Sections 1–2 apply directly to the original PLUS(m)/MINUS(m) states (C=m−1), not only to D-ROOT.
+- PLUS a returns reduce to Z(q)=(6k_q+6,6k_q+6) at precision q−1. Z's all-scale margin/termination remains
+  open; equal defect zero is not enough to identify it with an actual b entry. PLUS c and other MINUS cases remain.
+- Genuine S(H) duration kernels at H=13784707579437011870 (MINUS) and H=41354122738311035613 (PLUS) give
+  word (65,5,1) (the corresponding MINUS/PLUS entries are hypothetical). They refute a universal two-parameter shortcut, not safety. Both are analytically covered above.
+- Checks: 7437 PLUS b lifts, 387 selected MINUS b lifts, 7437 finite PLUS a-to-Z lifts, 508 beta-evaluator
+  cross-checks (same oracle), two exact large-index duration witnesses; all PASS. See `PROOF_DURATION_BRANCHES.md`.
+
+### Open next steps proposed after the work_ext_roots review (Claude, 2026-10-19) — not yet done
+Proposed after commit 5119184: (1) outer type-b entries, (2) all-scale MINUS/PLUS, (3) ε>=9 grammar convergence.
+The duration work above (GPT Astra, accepted 2026-10-19) addresses (2) only partially. Still undone:
+1. **Outer type-b entries** of a least strict-EXT counterexample: not touched by any note. Natural attempt: the
+   same shadowing/ancestry framework as A-SOURCE, starting from ENTRY (b defect 0, Θ=x=3τ+4) and Lemma K(b).
+2. **MINUS/PLUS remainder**: Z(q)=(6k_q+6,6k_q+6) all-scale margin/termination; PLUS c returns; MINUS b copies of
+   fire parameters other than 5, 8, and MINUS a/c returns; the D_ROOT references' all-scale property j+loss<H.
+3. **Convergence check for c deficits ε>=9**: enumerate the weight grammar at ε=9,11,… and test whether every new
+   word reduces (A-SOURCE / CA-type descent) or new reference families keep appearing; i.e. whether this route
+   can close at all, or needs a uniform argument instead of deficit-by-deficit casework.

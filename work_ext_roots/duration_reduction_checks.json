@@ -1,0 +1,203 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "small_kernel_residue_transitions": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      2,
+      4,
+      4
+    ],
+    [
+      3,
+      1,
+      4
+    ],
+    [
+      4,
+      2,
+      5
+    ],
+    [
+      5,
+      1,
+      6
+    ],
+    [
+      6,
+      3,
+      8
+    ],
+    [
+      7,
+      1,
+      8
+    ],
+    [
+      8,
+      2,
+      9
+    ],
+    [
+      9,
+      1,
+      10
+    ],
+    [
+      11,
+      1,
+      12
+    ],
+    [
+      12,
+      2,
+      13
+    ],
+    [
+      13,
+      1,
+      14
+    ],
+    [
+      14,
+      3,
+      0
+    ],
+    [
+      15,
+      1,
+      0
+    ]
+  ],
+  "predecessor_shadow_cases": {
+    "direct_minus": 653,
+    "deep_minus": 14,
+    "deep_plus": 14
+  },
+  "examples": [
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 9
+    },
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 12
+    },
+    {
+      "family": "minus",
+      "H": 11,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 12
+    },
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 13
+    },
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 13
+    },
+    {
+      "family": "minus",
+      "H": 11,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 14
+    },
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 14
+    },
+    {
+      "family": "minus",
+      "H": 10,
+      "delta": 5,
+      "reduced_x": 32,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 14
+    },
+    {
+      "family": "plus",
+      "H": 38,
+      "delta": 17,
+      "reduced_x": 96,
+      "word": [
+        5,
+        2
+      ],
+      "input_pointer_bits": 37
+    }
+  ],
+  "finite_duration_cases": {
+    "minus": 458,
+    "plus": 461
+  },
+  "longest_duration_words": {
+    "minus": [
+      5,
+      2
+    ],
+    "plus": [
+      5,
+      2
+    ]
+  },
+  "duration_parameter_max": 8192,
+  "scope": "All-scale predecessor/normal-form argument is separate; duration-family termination is checked only in this finite range."
+}

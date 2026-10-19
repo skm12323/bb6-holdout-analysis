@@ -1,0 +1,37 @@
+{
+  "result": "PASS",
+  "review_status": "unreviewed",
+  "branch_checks": {
+    "PLUS_a_to_Z_finite_lifts": 7437,
+    "PLUS_b_all_lifts": 7437,
+    "MINUS_b_5_8_lifts": 387
+  },
+  "independent_kernel_comparisons": 508,
+  "genuine_duration_witnesses": [
+    {
+      "family": "minus",
+      "H": 13784707579437011870,
+      "delta": 6148914691236517205,
+      "initial_parameter": 65,
+      "word": [
+        65,
+        5,
+        1
+      ],
+      "max_loss_parameter_record": 65
+    },
+    {
+      "family": "plus",
+      "H": 41354122738311035613,
+      "delta": 18446744073709551617,
+      "initial_parameter": 65,
+      "word": [
+        65,
+        5,
+        1
+      ],
+      "max_loss_parameter_record": 65
+    }
+  ],
+  "scope": "PLUS b and selected MINUS b branch proofs are algebraic; PLUS a-to-Z closure only checked finitely. No global EXT claim."
+}

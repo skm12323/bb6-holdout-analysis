@@ -1,0 +1,739 @@
+{
+ "N": 20000000,
+ "M_FAM": 1000000,
+ "N_SJ": 20000000,
+ "window": [
+  -12,
+  15
+ ],
+ "V0_small_odd_a_(j,k)": [
+  [
+   5,
+   1
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   12,
+   4
+  ],
+  [
+   14,
+   5
+  ],
+  [
+   17,
+   6
+  ],
+  [
+   22,
+   8
+  ],
+  [
+   24,
+   9
+  ],
+  [
+   27,
+   10
+  ],
+  [
+   32,
+   13
+  ],
+  [
+   35,
+   14
+  ],
+  [
+   40,
+   16
+  ],
+  [
+   42,
+   17
+  ]
+ ],
+ "V0_tie_residue_r_j=2^(j-2)-3k_j": {
+  "5": 5,
+  "8": 58,
+  "12": 1012,
+  "14": 4081,
+  "17": 32750,
+  "22": 1048552,
+  "24": 4194277,
+  "27": 33554402
+ },
+ "V1_SC_random_states": {
+  "end": 199555,
+  "ND_next>=j": 445,
+  "ND": 445
+ },
+ "V2_SJ": {
+  "J": 12432184
+ },
+ "V2_theta_at_a_steps": {
+  "0": 316435,
+  "1": 6058147,
+  "2": 316434
+ },
+ "V3_families_odd_a_m<M_FAM": {
+  "G_-12": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_-11": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 288938,
+   "certified": 13905,
+   "NT-fail, closes": 13939
+  },
+  "G_-10": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "G_-9": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "G_-8": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_-7": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 24394
+  },
+  "G_-6": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_-5": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 1
+  },
+  "G_-4": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27008
+  },
+  "G_-3": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 302877,
+   "certified": 27879
+  },
+  "G_-2": {
+   "NT-good, closes, rec<=j0": 302874,
+   "certified": 27879,
+   "NT-fail, closes": 4
+  },
+  "G_-1": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 653
+  },
+  "G_0": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_1": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_2": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27824
+  },
+  "G_3": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "G_4": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_5": {
+   "z=0": 1,
+   "NT-good, closes, rec<=j0": 288972,
+   "NT-fail, closes": 13905,
+   "certified": 13939
+  },
+  "G_6": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "G_7": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "G_8": {
+   "NT-good, closes, rec<=j0": 302877,
+   "z=0": 1,
+   "certified": 27878
+  },
+  "G_9": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 24394
+  },
+  "G_10": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "G_11": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 1
+  },
+  "G_12": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27008
+  },
+  "G_13": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 302877,
+   "certified": 27879
+  },
+  "G_14": {
+   "NT-good, closes, rec<=j0": 302877,
+   "z=0": 1,
+   "certified": 27878
+  },
+  "G_15": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 653
+  },
+  "H_-12": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_-11": {
+   "NT-good, closes, rec<=j0": 288939,
+   "certified": 13940,
+   "NT-fail, closes": 13939
+  },
+  "H_-10": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 302877,
+   "certified": 27844
+  },
+  "H_-9": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_-8": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_-7": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_-6": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 24394
+  },
+  "H_-5": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_-4": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 1
+  },
+  "H_-3": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27008
+  },
+  "H_-2": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 302874,
+   "certified": 27879,
+   "NT-fail, closes": 3
+  },
+  "H_-1": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_0": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 653
+  },
+  "H_1": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_2": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_3": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27824
+  },
+  "H_4": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_5": {
+   "NT-good, closes, rec<=j0": 288938,
+   "NT-fail, closes": 13940,
+   "certified": 13939
+  },
+  "H_6": {
+   "z=0": 1,
+   "NT-good, closes, rec<=j0": 302877,
+   "certified": 27844
+  },
+  "H_7": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_8": {
+   "NT-good, closes, rec<=j0": 302878
+  },
+  "H_9": {
+   "NT-good, closes, rec<=j0": 302877,
+   "z=0": 1,
+   "certified": 27878
+  },
+  "H_10": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 24394
+  },
+  "H_11": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27879
+  },
+  "H_12": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 1
+  },
+  "H_13": {
+   "NT-good, closes, rec<=j0": 302878,
+   "certified": 27008
+  },
+  "H_14": {
+   "j0>=m-1 (no reduction)": 1,
+   "NT-good, closes, rec<=j0": 302877,
+   "certified": 27879
+  },
+  "H_15": {
+   "NT-good, closes, rec<=j0": 302877,
+   "z=0": 1,
+   "certified": 27878
+  }
+ },
+ "V4_bad_count_by_delta": {
+  "-11": 546,
+  "-10": 278792,
+  "-2": 278793,
+  "-1": 68,
+  "5": 614,
+  "6": 278792,
+  "14": 278792
+ },
+ "V4_bad_first_js": {
+  "-11": [
+   5,
+   6133,
+   42863,
+   79594,
+   116320,
+   153051,
+   189781,
+   226512,
+   263241,
+   299972
+  ],
+  "-10": [
+   65,
+   136,
+   209,
+   281,
+   354,
+   422,
+   495,
+   567,
+   640,
+   711
+  ],
+  "-2": [
+   17,
+   90,
+   161,
+   234,
+   306,
+   379,
+   447,
+   520,
+   592,
+   665
+  ],
+  "-1": [
+   244875,
+   538715,
+   832554,
+   1126392,
+   1420231,
+   1714069,
+   2007908,
+   2301746,
+   2595585,
+   2889425
+  ],
+  "5": [
+   5,
+   6133,
+   42863,
+   79594,
+   116320,
+   153051,
+   189781,
+   226512,
+   244871,
+   263241
+  ],
+  "6": [
+   65,
+   136,
+   209,
+   281,
+   354,
+   422,
+   495,
+   567,
+   640,
+   711
+  ],
+  "14": [
+   54,
+   125,
+   198,
+   270,
+   343,
+   411,
+   484,
+   556,
+   629,
+   700
+  ]
+ },
+ "V4_certificate_of_bad_pairs": {
+  "-11_False": 1,
+  "-11_True": 545,
+  "-10_True": 278792,
+  "-2_True": 278793,
+  "-1_True": 68,
+  "5_False": 1,
+  "5_True": 613,
+  "6_True": 278792,
+  "14_True": 278792
+ },
+ "V4_uncertified": [
+  [
+   5,
+   -11,
+   "ceiling",
+   [
+    5,
+    5
+   ]
+  ],
+  [
+   5,
+   5,
+   "ceiling",
+   [
+    5,
+    6
+   ]
+  ]
+ ],
+ "V4_direct_certificate_j<3000": {
+  "true": 83858,
+  "false": 2
+ },
+ "V5_all_residues_mod_2^(j+1)": {
+  "5": {
+   "residues": 64,
+   "uncertified": 4,
+   "examples": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ],
+    [
+     21,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ],
+    [
+     -27,
+     "zero",
+     [
+      5
+     ]
+    ],
+    [
+     -11,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ]
+  },
+  "6": {
+   "residues": 128,
+   "uncertified": 0,
+   "examples": []
+  },
+  "7": {
+   "residues": 256,
+   "uncertified": 0,
+   "examples": []
+  },
+  "8": {
+   "residues": 512,
+   "uncertified": 4,
+   "examples": [
+    [
+     58,
+     "ceiling",
+     [
+      8,
+      9
+     ]
+    ],
+    [
+     186,
+     "ceiling",
+     [
+      8,
+      8
+     ]
+    ],
+    [
+     -198,
+     "zero",
+     [
+      8
+     ]
+    ],
+    [
+     -70,
+     "ceiling",
+     [
+      8,
+      8
+     ]
+    ]
+   ]
+  },
+  "9": {
+   "residues": 1024,
+   "uncertified": 0,
+   "examples": []
+  },
+  "10": {
+   "residues": 2048,
+   "uncertified": 0,
+   "examples": []
+  },
+  "11": {
+   "residues": 4096,
+   "uncertified": 0,
+   "examples": []
+  },
+  "12": {
+   "residues": 8192,
+   "uncertified": 4,
+   "examples": [
+    [
+     1012,
+     "ceiling",
+     [
+      12,
+      13
+     ]
+    ],
+    [
+     3060,
+     "ceiling",
+     [
+      12,
+      12
+     ]
+    ],
+    [
+     -3084,
+     "zero",
+     [
+      12
+     ]
+    ],
+    [
+     -1036,
+     "ceiling",
+     [
+      12,
+      12
+     ]
+    ]
+   ]
+  },
+  "13": {
+   "residues": 16384,
+   "uncertified": 0,
+   "examples": []
+  },
+  "14": {
+   "residues": 32768,
+   "uncertified": 4,
+   "examples": [
+    [
+     4081,
+     "ceiling",
+     [
+      14,
+      15
+     ]
+    ],
+    [
+     12273,
+     "ceiling",
+     [
+      14,
+      14
+     ]
+    ],
+    [
+     -12303,
+     "zero",
+     [
+      14
+     ]
+    ],
+    [
+     -4111,
+     "ceiling",
+     [
+      14,
+      14
+     ]
+    ]
+   ]
+  },
+  "15": {
+   "residues": 65536,
+   "uncertified": 0,
+   "examples": []
+  },
+  "16": {
+   "residues": 131072,
+   "uncertified": 0,
+   "examples": []
+  },
+  "17": {
+   "residues": 262144,
+   "uncertified": 8,
+   "examples": [
+    [
+     32702,
+     "ceiling",
+     [
+      17,
+      5,
+      16
+     ]
+    ],
+    [
+     32750,
+     "ceiling",
+     [
+      17,
+      18
+     ]
+    ],
+    [
+     98238,
+     "ceiling",
+     [
+      17,
+      5,
+      18
+     ]
+    ],
+    [
+     98286,
+     "ceiling",
+     [
+      17,
+      17
+     ]
+    ],
+    [
+     -98370,
+     "ceiling",
+     [
+      17,
+      5,
+      16
+     ]
+    ],
+    [
+     -98322,
+     "zero",
+     [
+      17
+     ]
+    ],
+    [
+     -32834,
+     "ceiling",
+     [
+      17,
+      5,
+      17
+     ]
+    ],
+    [
+     -32786,
+     "ceiling",
+     [
+      17,
+      17
+     ]
+    ]
+   ]
+  },
+  "18": {
+   "residues": 524288,
+   "uncertified": 0,
+   "examples": []
+  }
+ },
+ "V6_witness": {
+  "theta_walk": [
+   [
+    17,
+    -2
+   ],
+   [
+    5,
+    5
+   ]
+  ],
+  "status": "ND at (5,5)",
+  "certified_word": [
+   17,
+   5,
+   6,
+   1
+  ],
+  "record": 17,
+  "DH_at_(5,5)": "v2(6k+2d)=4=j-1 (fails)",
+  "G_-3(5)_z": 16
+ },
+ "seconds": 355.4,
+ "result": "PASS",
+ "review_status": "UNREVIEWED",
+ "scope": "Finite exact computations (tables from the certified lambda walk to index N). They certify the stated (j,delta) pairs for all scales of the outer index but say nothing about parameters >= N or defects outside the window; EXT is not claimed."
+}

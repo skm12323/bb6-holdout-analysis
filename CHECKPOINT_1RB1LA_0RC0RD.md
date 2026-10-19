@@ -623,3 +623,17 @@ Review: reviews/claude_ext_next_review_record.md (adversary fixable→patched→
   residue is when that exit ends at its first a-step, giving H_{4−d}(m) (main case H_3, same class as PLUS).
 - **Remaining target (replaces the casework):** a uniform theorem that shifted real chains (δ∉{1,2}, G_δ/H_δ) end with
   record below their precision, plus DH at all scales. #1 global non-halting remains UNPROVED; K_clock unchanged.
+
+## work_claude_shifted — shifted chains are θ̃-walks (Claude subagent) — ACCEPTED (2026-10-20)
+Review: reviews/claude_shifted_review_record.md (adversary fixable→patched→closed; gemini all correct; deepseek simple errors, patched).
+- The defect calculus is PROOF_EL's θ̃ automaton; DH weakens to PROOF_EL's NT (Lemma 1.3: a resonant one-step descent
+  keeps the record), except at DR's final letter and OB's DH_out.
+- The previous target "no non-descent in shifted copies" is FALSE: the accepted WITNESS epoch yields H_5(17) with a real
+  5→6 non-descent (records stay below precision). Correct target: records below precision, ties resolved.
+- Theorem SC; gateway-tie lemma (b/c extension of PROOF_RESCUE's two-a lemma); finite certificate to index 2·10^7,
+  defect window [−12,15], only (5,5),(5,−11) uncertified [B]; Theorem W: X(J−1) odd c, ω(J−1)<2·10^7, −λ_Y certified
+  ⇒ S(J) tie-free (no EXT below J, J_W or DH needed).
+- **Remaining sufficient condition DEEP:** on the deep segment of S(J) (parameters >= 2·10^7; ~log* J chains when
+  θ̃≠−3k_j) the θ̃ drift stays bounded and the first chain below 2·10^7 lands in the certified set. Suggested routes:
+  a uniform gateway-tie lemma for deep predecessors with avoidance of the sparse uncertified classes; a calendar-arithmetic
+  bound on consecutive deep b/c copies. EXT open; K_clock unchanged.

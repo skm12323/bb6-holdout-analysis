@@ -1,0 +1,28 @@
+0.82 V0 table 20000000 cache D:/math_cc_astra/deep1
+0.82 V0 ok [(5, 1), (8, 2), (12, 4), (14, 5), (17, 6), (22, 8)]
+0.82 V1/V2 5 bad 4 ties 4
+0.82 V1/V2 6 bad 0 ties 0
+0.82 V1/V2 7 bad 0 ties 0
+0.82 V1/V2 8 bad 4 ties 4
+0.82 V1/V2 9 bad 0 ties 0
+0.83 V1/V2 10 bad 0 ties 0
+0.83 V1/V2 11 bad 0 ties 0
+0.85 V1/V2 12 bad 4 ties 4
+0.9 V1/V2 13 bad 0 ties 0
+1.0 V1/V2 14 bad 4 ties 4
+1.15 V1/V2 15 bad 0 ties 0
+1.31 V1/V2 16 bad 0 ties 0
+2.06 V1/V2 17 bad 8 ties 8196
+3.34 V1/V2 18 bad 0 ties 0
+4.67 V1/V2 19 bad 0 ties 0
+6.34 V1/V2 20 bad 0 ties 0
+9.64 V1/V2 21 bad 0 ties 0
+22.6 V1/V2 22 bad 4 ties 4
+56.09 V1/V2 23 bad 0 ties 0
+107.37 V1/V2 24 bad 4 ties 260
+121.87 V3 0 0
+133.87 V3 1 0
+144.96 V3 2 0
+157.6 V3 3 0
+162.2 V4 done
+163.14 PASS 163.1

@@ -1,0 +1,10 @@
+census {'a': 24230413, 'b': 24230413, 'c': 1267918} 20.6
+A a {'steps': 4800, 'landings': 4800, 'first_tie': 11, 'cert_bad': 11, 'jmax': 12, 'jmin': 1, 'resonances': 0, 'size_violations': 0} 52.4
+A b {'steps': 4800, 'landings': 4800, 'first_tie': 17, 'cert_bad': 17, 'jmax': 11, 'jmin': 1, 'resonances': 0, 'size_violations': 0} 78.1
+A c {'steps': 4800, 'landings': 4800, 'first_tie': 0, 'cert_bad': 0, 'jmax': 5, 'jmin': 1, 'resonances': 0, 'size_violations': 0} 92.2
+C {'n': 400, 'isolated': 288, 'landing': 112, 'cert_ok': 112, 'cert_bad': 0, 'j2max': 9} 111.0
+D {'checked': 24230413, 'violations': 0, 'worst_bits_of_3k': 27, 'worst_j': 50148480, 'min_slack': 19999973} 126.9
+E hits 4 [(5, False, True), (8, False, True), (14, False, True), (17, False, True)] 128.3
+F [None, None, None, (40, True, False), None, (100, True, False), None, None, None] 128.3
+G [(20000000, 'small', True, True), (20000000, 'generic', True, True), (20000000, 'resonance', True, True), (20000005, 'small', True, True), (20000005, 'generic', True, True), (20000005, 'resonance', True, True), (20000008, 'small', True, True), (20000008, 'generic', True, True), (20000008, 'resonance', True, True), (20000013, 'small', True, True), (20000013, 'generic', True, True), (20000013, 'resonance', True, True)] 129.2
+PASS 129.2

@@ -637,3 +637,14 @@ Review: reviews/claude_shifted_review_record.md (adversary fixable→patched→c
   θ̃≠−3k_j) the θ̃ drift stays bounded and the first chain below 2·10^7 lands in the certified set. Suggested routes:
   a uniform gateway-tie lemma for deep predecessors with avoidance of the sparse uncertified classes; a calendar-arithmetic
   bound on consecutive deep b/c copies. EXT open; K_clock unchanged.
+
+## work_deep — structure of the deep segment, sharper remainder for DEEP (external ZCode agent) — ACCEPTED (2026-10-20)
+Review: reviews/deep_review_record.md (Claude adversary fixable→patched→closed; two agy gemini auditors simple errors, patched).
+- Deep-segment trichotomy (no NT failure when j>=N₀=2·10^7 and |θ|<=B=2^{10^7}); resonance isolation (deep segment
+  <= 2Λ+1 chains); landing defect class known mod 2^{j+1}; Λ(K_clock)=4 (tower bound Λ(J)<=h for J<T_h).
+- For every J < T_{⌊(B−4)/6⌋} (covers the K_clock scale): EXT(J) ⟸ R1 ∧ R2, R1 = no deep→deep c-step (a c-step at a
+  deep chain with ω(j_t−1)>=N₀, needs τ(j_t−1)>=(2^{N₀}−5)/6), R2 = landing class certified. Above that range DEEP(i)
+  stays a hypothesis.
+- Next concrete lead (Remark 2.8 [C]): with Λ small, resonance is impossible under R1 and a/b landings have δ in the
+  certified window [−12,15] except the bare ties (5,5),(5,−11) — R2 may be automatic for a/b landings.
+- Open: R1, R2 (c landings; bare ties), J beyond T_{⌊(B−4)/6⌋}. EXT open; K_clock unchanged.

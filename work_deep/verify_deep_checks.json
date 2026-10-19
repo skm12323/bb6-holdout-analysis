@@ -1,0 +1,612 @@
+{
+ "N": 20000000,
+ "JMAX": 24,
+ "N0": 20000000,
+ "B_bits": 10000000,
+ "stage_seconds": {
+  "V0": 0.8,
+  "V1V2": 107.4,
+  "V3": 157.6,
+  "V4": 162.2,
+  "V5": 163.1
+ },
+ "V0_odd_a_jk_first12": [
+  [
+   5,
+   1
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   12,
+   4
+  ],
+  [
+   14,
+   5
+  ],
+  [
+   17,
+   6
+  ],
+  [
+   22,
+   8
+  ],
+  [
+   24,
+   9
+  ],
+  [
+   27,
+   10
+  ],
+  [
+   32,
+   13
+  ],
+  [
+   35,
+   14
+  ],
+  [
+   40,
+   16
+  ],
+  [
+   42,
+   17
+  ]
+ ],
+ "V1_bad_sets": {
+  "5": {
+   "M": 64,
+   "nbad": 4,
+   "bad_first12": [
+    5,
+    21,
+    -27,
+    -11
+   ],
+   "tie_classes": [
+    -27,
+    -11,
+    5,
+    21
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  },
+  "6": {
+   "M": 128,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "7": {
+   "M": 256,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "8": {
+   "M": 512,
+   "nbad": 4,
+   "bad_first12": [
+    58,
+    186,
+    -198,
+    -70
+   ],
+   "tie_classes": [
+    -198,
+    -70,
+    58,
+    186
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  },
+  "9": {
+   "M": 1024,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "10": {
+   "M": 2048,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "11": {
+   "M": 4096,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "12": {
+   "M": 8192,
+   "nbad": 4,
+   "bad_first12": [
+    1012,
+    3060,
+    -3084,
+    -1036
+   ],
+   "tie_classes": [
+    -3084,
+    -1036,
+    1012,
+    3060
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  },
+  "13": {
+   "M": 16384,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "14": {
+   "M": 32768,
+   "nbad": 4,
+   "bad_first12": [
+    4081,
+    12273,
+    -12303,
+    -4111
+   ],
+   "tie_classes": [
+    -12303,
+    -4111,
+    4081,
+    12273
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  },
+  "15": {
+   "M": 65536,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "16": {
+   "M": 131072,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "17": {
+   "M": 262144,
+   "nbad": 8,
+   "bad_first12": [
+    32702,
+    32750,
+    98238,
+    98286,
+    -98370,
+    -98322,
+    -32834,
+    -32786
+   ],
+   "tie_classes": [
+    -98322,
+    -32786,
+    32750,
+    98286
+   ],
+   "kind": "a",
+   "bad_equals_ties": false
+  },
+  "18": {
+   "M": 524288,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "19": {
+   "M": 1048576,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "20": {
+   "M": 2097152,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "21": {
+   "M": 4194304,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "e",
+   "bad_equals_ties": true
+  },
+  "22": {
+   "M": 8388608,
+   "nbad": 4,
+   "bad_first12": [
+    1048552,
+    3145704,
+    -3145752,
+    -1048600
+   ],
+   "tie_classes": [
+    -3145752,
+    -1048600,
+    1048552,
+    3145704
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  },
+  "23": {
+   "M": 16777216,
+   "nbad": 0,
+   "bad_first12": [],
+   "tie_classes": [],
+   "kind": "b",
+   "bad_equals_ties": true
+  },
+  "24": {
+   "M": 33554432,
+   "nbad": 4,
+   "bad_first12": [
+    4194277,
+    12582885,
+    -12582939,
+    -4194331
+   ],
+   "tie_classes": [
+    -12582939,
+    -4194331,
+    4194277,
+    12582885
+   ],
+   "kind": "a",
+   "bad_equals_ties": true
+  }
+ },
+ "V2_tie_sets": {
+  "5": {
+   "M": 64,
+   "n_tie": 4,
+   "tie_first12": [
+    -27,
+    -11,
+    5,
+    21
+   ],
+   "bad_subset_ties": true
+  },
+  "6": {
+   "M": 128,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "7": {
+   "M": 256,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "8": {
+   "M": 512,
+   "n_tie": 4,
+   "tie_first12": [
+    -198,
+    -70,
+    58,
+    186
+   ],
+   "bad_subset_ties": true
+  },
+  "9": {
+   "M": 1024,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "10": {
+   "M": 2048,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "11": {
+   "M": 4096,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "12": {
+   "M": 8192,
+   "n_tie": 4,
+   "tie_first12": [
+    -3084,
+    -1036,
+    1012,
+    3060
+   ],
+   "bad_subset_ties": true
+  },
+  "13": {
+   "M": 16384,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "14": {
+   "M": 32768,
+   "n_tie": 4,
+   "tie_first12": [
+    -12303,
+    -4111,
+    4081,
+    12273
+   ],
+   "bad_subset_ties": true
+  },
+  "15": {
+   "M": 65536,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "16": {
+   "M": 131072,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "17": {
+   "M": 262144,
+   "n_tie": 8196,
+   "tie_first12": [
+    -131042,
+    -131010,
+    -130978,
+    -130946,
+    -130914,
+    -130882,
+    -130850,
+    -130818,
+    -130786,
+    -130754,
+    -130722,
+    -130690
+   ],
+   "bad_subset_ties": true
+  },
+  "18": {
+   "M": 524288,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "19": {
+   "M": 1048576,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "20": {
+   "M": 2097152,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "21": {
+   "M": 4194304,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "22": {
+   "M": 8388608,
+   "n_tie": 4,
+   "tie_first12": [
+    -3145752,
+    -1048600,
+    1048552,
+    3145704
+   ],
+   "bad_subset_ties": true
+  },
+  "23": {
+   "M": 16777216,
+   "n_tie": 0,
+   "tie_first12": [],
+   "bad_subset_ties": true
+  },
+  "24": {
+   "M": 33554432,
+   "n_tie": 260,
+   "tie_first12": [
+    -16711707,
+    -16580635,
+    -16449563,
+    -16318491,
+    -16187419,
+    -16056347,
+    -15925275,
+    -15794203,
+    -15663131,
+    -15532059,
+    -15400987,
+    -15269915
+   ],
+   "bad_subset_ties": true
+  }
+ },
+ "V1_summary": {
+  "5": {
+   "nbad": 4,
+   "ties": 4
+  },
+  "6": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "7": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "8": {
+   "nbad": 4,
+   "ties": 4
+  },
+  "9": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "10": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "11": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "12": {
+   "nbad": 4,
+   "ties": 4
+  },
+  "13": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "14": {
+   "nbad": 4,
+   "ties": 4
+  },
+  "15": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "16": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "17": {
+   "nbad": 8,
+   "ties": 4
+  },
+  "18": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "19": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "20": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "21": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "22": {
+   "nbad": 4,
+   "ties": 4
+  },
+  "23": {
+   "nbad": 0,
+   "ties": 0
+  },
+  "24": {
+   "nbad": 4,
+   "ties": 4
+  }
+ },
+ "V3_certify_delta_0_3_all_j": {
+  "0": {
+   "nbad": 0,
+   "examples": []
+  },
+  "1": {
+   "nbad": 0,
+   "examples": []
+  },
+  "2": {
+   "nbad": 0,
+   "examples": []
+  },
+  "3": {
+   "nbad": 0,
+   "examples": []
+  }
+ },
+ "V4_deep_boundary": {
+  "applicable": true,
+  "j0": 20000000,
+  "crossing": {
+   "kind": "a",
+   "tau": 17842708,
+   "k": 8921354
+  },
+  "size_ineq": {
+   "lhs_bits": 10000001,
+   "j_minus_2": 19999998,
+   "holds": true
+  },
+  "random_deep_steps": {
+   "n": 4000,
+   "first_tie": 0,
+   "cert_bad": 0,
+   "jmax": 11,
+   "resonance": 0
+  },
+  "constructed_tied_landings": {
+   "nhits": 0,
+   "hits": []
+  },
+  "resonance": {
+   "d": -26764062,
+   "d_abs_lt_B": true,
+   "next": {
+    "kind": "e"
+   }
+  }
+ },
+ "V5_shiftlib_crosscheck": {
+  "checked": 2000,
+  "mismatches": 0
+ },
+ "seconds": 163.1,
+ "result": "PASS",
+ "review_status": "UNREVIEWED",
+ "scope": "Finite exact computations and consistency checks for the structural lemmas of work_deep/NOTES.md. They do not prove EXT or DEEP; ranges are stated in the json."
+}

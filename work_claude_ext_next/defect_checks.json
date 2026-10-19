@@ -1,0 +1,782 @@
+{
+ "grammar": {
+  "3": {
+   "words": 1,
+   "A_initial": 1,
+   "classes": {
+    "F1": 1
+   },
+   "open_deltas": {},
+   "new_deltas": [],
+   "bc_first_words": {}
+  },
+  "5": {
+   "words": 2,
+   "A_initial": 1,
+   "classes": {
+    "P2": 1,
+    "AB2": 1
+   },
+   "open_deltas": {},
+   "new_deltas": [],
+   "bc_first_words": {
+    "BA": "AB2"
+   }
+  },
+  "7": {
+   "words": 5,
+   "A_initial": 2,
+   "classes": {
+    "P2": 2,
+    "open": 2,
+    "F1": 1
+   },
+   "open_deltas": {
+    "-1": 1,
+    "3": 1
+   },
+   "new_deltas": [
+    -1,
+    3
+   ],
+   "bc_first_words": {
+    "BAA": "open G_-1",
+    "BBA": "open G_3",
+    "C(A)A": "F1"
+   }
+  },
+  "9": {
+   "words": 14,
+   "A_initial": 5,
+   "classes": {
+    "P2": 8,
+    "AB2": 4,
+    "open": 2
+   },
+   "open_deltas": {
+    "-2": 1,
+    "4": 1
+   },
+   "new_deltas": [
+    -2,
+    4
+   ],
+   "bc_first_words": {
+    "BAAA": "AB2",
+    "BABA": "P2",
+    "BBAA": "open G_-2",
+    "BBBA": "open G_4",
+    "C(A)AA": "P2",
+    "C(A)BA": "AB2",
+    "BC(A)A": "AB2",
+    "C(AA)A": "AB2",
+    "C(BA)A": "P2"
+   }
+  },
+  "11": {
+   "words": 42,
+   "A_initial": 14,
+   "classes": {
+    "P2": 20,
+    "open": 17,
+    "F1": 5
+   },
+   "open_deltas": {
+    "-3": 1,
+    "-1": 7,
+    "3": 8,
+    "5": 1
+   },
+   "new_deltas": [
+    -3,
+    5
+   ],
+   "bc_first_words": {
+    "BAAAA": "open G_-1",
+    "BAABA": "open G_3",
+    "BABAA": "P2",
+    "BABBA": "P2",
+    "BBAAA": "open G_3",
+    "BBABA": "open G_-1",
+    "BBBAA": "open G_-3",
+    "BBBBA": "open G_5",
+    "C(A)AAA": "P2",
+    "C(A)ABA": "P2",
+    "C(A)BAA": "open G_-1",
+    "C(A)BBA": "open G_3",
+    "BC(A)AA": "open G_-1",
+    "BC(A)BA": "open G_3",
+    "C(AA)AA": "open G_-1",
+    "C(AA)BA": "open G_3",
+    "C(BA)AA": "P2",
+    "C(BA)BA": "P2",
+    "BAC(A)A": "open G_-1",
+    "BBC(A)A": "open G_3",
+    "C(A)C(A)A": "F1",
+    "BC(AA)A": "open G_3",
+    "BC(BA)A": "F1",
+    "C(AAA)A": "F1",
+    "C(ABA)A": "F1",
+    "C(BAA)A": "open G_3",
+    "C(BBA)A": "open G_-1",
+    "C(C(A)A)A": "F1"
+   }
+  },
+  "13": {
+   "words": 132,
+   "A_initial": 42,
+   "classes": {
+    "P2": 78,
+    "AB2": 27,
+    "open": 27
+   },
+   "open_deltas": {
+    "-4": 1,
+    "-2": 12,
+    "4": 13,
+    "6": 1
+   },
+   "new_deltas": [
+    -4,
+    6
+   ],
+   "bc_first_words": null
+  },
+  "15": {
+   "words": 429,
+   "A_initial": 132,
+   "classes": {
+    "P2": 216,
+    "open": 173,
+    "F1": 40
+   },
+   "open_deltas": {
+    "-5": 1,
+    "-3": 18,
+    "-1": 62,
+    "3": 72,
+    "5": 19,
+    "7": 1
+   },
+   "new_deltas": [
+    -5,
+    7
+   ],
+   "bc_first_words": null
+  }
+ },
+ "one_step_shift_checks": 190200,
+ "canonical": {
+  "B": 8192,
+  "range_max": 20000,
+  "c_classes": {
+   "eps=3 F1": 2796,
+   "eps=5 P2 (A-SOURCE)": 131,
+   "eps=5 AB2": 131,
+   "eps=7 F1": 1
+  },
+  "c_histories": {
+   "A": 2796,
+   "AA": 131,
+   "BA": 131,
+   "C(A)A": 1
+  },
+  "c_examples": {
+   "A": {
+    "n_bits": 7,
+    "J_source": 5,
+    "p": 5,
+    "delta": 1,
+    "tail": [
+     3
+    ]
+   },
+   "AA": {
+    "n_bits": 13,
+    "J_source": 14,
+    "p": 5,
+    "delta": 0,
+    "tail": [
+     1
+    ]
+   },
+   "BA": {
+    "n_bits": 66,
+    "J_source": 65,
+    "p": 5,
+    "delta": 2,
+    "tail": [
+     1
+    ]
+   },
+   "C(A)A": {
+    "n_bits": 6134,
+    "J_source": 6133,
+    "p": 5,
+    "delta": 1,
+    "tail": [
+     3
+    ]
+   }
+  },
+  "b_cases": {
+   "omega<5 (ends)": 5498,
+   "E_F has no a-step: exact copy to end": 5817,
+   "dies (j=1) at first a-step": 1185,
+   "climbs: E_F ends at its first a-step": 1743
+  },
+  "b_residual": {
+   "H_delta delta=3 (d=1)": 1628,
+   "H_delta delta=4 (d=0)": 115
+  },
+  "b_examples": [
+   {
+    "n_bits": 7,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 10,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 11,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 11,
+    "omega": 12,
+    "E_F_word": [
+     12,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     12,
+     3
+    ],
+    "delta": 3,
+    "ref_tail": [
+     3
+    ]
+   },
+   {
+    "n_bits": 11,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 12,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 12,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   },
+   {
+    "n_bits": 12,
+    "omega": 8,
+    "E_F_word": [
+     8,
+     1
+    ],
+    "E_F_types": "aa",
+    "outer_word": [
+     8,
+     2
+    ],
+    "delta": 3,
+    "ref_tail": [
+     2
+    ]
+   }
+  ]
+ },
+ "family_scans_m_lt_1e6": {
+  "G_-7=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    3
+   ],
+   "min_margin": 1,
+   "non_end_examples": []
+  },
+  "G_-6=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "G_-5=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "G_-4=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    1
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "G_-3=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "ceiling": 1,
+    "end": 302877
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "ceiling",
+     "word": [
+      4
+     ]
+    }
+   ]
+  },
+  "G_-2=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    17,
+    5,
+    6,
+    1
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "G_-1=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    2
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "G_3=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    2
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "G_4=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    12,
+    5,
+    2
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "G_5=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    5,
+    5,
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "G_6=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    2
+   ],
+   "min_margin": 5,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "G_7=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "G_8=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "nonpositive": 2,
+    "end": 302876
+   },
+   "longest": [
+    5,
+    1
+   ],
+   "min_margin": 9,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    },
+    {
+     "m": 8,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "G_9=(6k+4-2d,6k+4-d)": {
+   "status": {
+    "nonpositive": 2,
+    "end": 302876
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 9,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    },
+    {
+     "m": 8,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "H_-6=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    1
+   ],
+   "min_margin": 1,
+   "non_end_examples": []
+  },
+  "H_-5=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "H_-4=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    6,
+    1
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "H_-3=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    4
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "H_-2=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "ceiling": 1,
+    "end": 302877
+   },
+   "longest": [
+    17,
+    5,
+    6,
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "ceiling",
+     "word": [
+      4
+     ]
+    }
+   ]
+  },
+  "H_-1=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    2
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "H_0=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    1
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "H_3=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    2
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "H_4=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    2
+   ],
+   "min_margin": 2,
+   "non_end_examples": []
+  },
+  "H_5=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "end": 302878
+   },
+   "longest": [
+    5,
+    6,
+    1
+   ],
+   "min_margin": 3,
+   "non_end_examples": []
+  },
+  "H_6=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    5,
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "H_7=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    2
+   ],
+   "min_margin": 5,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "H_8=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "nonpositive": 1,
+    "end": 302877
+   },
+   "longest": [
+    1
+   ],
+   "min_margin": 6,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  },
+  "H_9=(6k+6-2d,6k+6-d)": {
+   "status": {
+    "nonpositive": 2,
+    "end": 302876
+   },
+   "longest": [
+    5,
+    3
+   ],
+   "min_margin": 9,
+   "non_end_examples": [
+    {
+     "m": 5,
+     "status": "nonpositive",
+     "word": []
+    },
+    {
+     "m": 8,
+     "status": "nonpositive",
+     "word": []
+    }
+   ]
+  }
+ },
+ "seconds": 409.3,
+ "result": "PASS",
+ "review_status": "UNREVIEWED",
+ "scope": "Finite checks of exact identities and of reference families; no all-scale family property or EXT is claimed."
+}

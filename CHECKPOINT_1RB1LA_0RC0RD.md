@@ -610,3 +610,16 @@ The duration work above (GPT Astra, accepted 2026-10-19) addresses (2) only part
 3. **Convergence check for c deficits ε>=9**: enumerate the weight grammar at ε=9,11,… and test whether every new
    word reduces (A-SOURCE / CA-type descent) or new reference families keep appearing; i.e. whether this route
    can close at all, or needs a uniform argument instead of deficit-by-deficit casework.
+
+## work_claude_ext_next — defect calculus (Claude subagent) — ACCEPTED (2026-10-19)
+Review: reviews/claude_ext_next_review_record.md (adversary fixable→patched→closed; gemini and deepseek simple errors, patched).
+- Defect d=Θ−x; SHIFT lemma and automaton (fire d=1; A: d→3−d; B: d→d−1; C(w): d→d+Φ(w)−2). Under the descent
+  hypothesis DH: every c-source history reduces to one family G_δ(p)=(6k_p+4−2δ,6k_p+4−δ), δ=Φ(w)−1, closed for
+  δ∈{0,1,2}; P2 (an intermediate chain with d=2 excludes the source) generalizes A-SOURCE (= P2 at i=1, unconditional).
+  C3, BA, AA, CA, MINUS (G_{−1}), PLUS (G_3) are special cases.
+- Item 3 answered: the deficit-by-deficit route does NOT converge (Catalan word counts; two new open δ per deficit,
+  [A-sketch]); all open families merge into G_δ/H_δ, H_e=(6k+6−2e,6k+6−e).
+- Item 1 (outer type-b entries): EXT(ω) transfers through the copied fire's b/c returns; under DH, DH_out the only
+  residue is when that exit ends at its first a-step, giving H_{4−d}(m) (main case H_3, same class as PLUS).
+- **Remaining target (replaces the casework):** a uniform theorem that shifted real chains (δ∉{1,2}, G_δ/H_δ) end with
+  record below their precision, plus DH at all scales. #1 global non-halting remains UNPROVED; K_clock unchanged.

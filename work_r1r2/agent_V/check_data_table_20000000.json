@@ -1,0 +1,20 @@
+{
+ "path": "table_20000000.pkl",
+ "N": 20000000,
+ "t_load": 0.6,
+ "bad_size": [],
+ "size_margin_min": 10999996,
+ "n_odd": 12432185,
+ "n_a": 6057603,
+ "n_bc": 6374582,
+ "n_c": 316980,
+ "min3k": 3,
+ "maxbitlen3k": 25,
+ "min_margin_a": 1,
+ "bad_tau_lower": 0,
+ "bad_clock": 0,
+ "bad_lambda": 0,
+ "bad_omega": 0,
+ "first_bad": {},
+ "t": 9.6
+}

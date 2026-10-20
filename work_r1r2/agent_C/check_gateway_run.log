@@ -1,0 +1,18 @@
+{
+ "cases": 198,
+ "ok": 198,
+ "bad": 0,
+ "resolved": 198,
+ "unresolved": 0,
+ "records_ok": 198,
+ "j2_distribution": {
+  "3": 36,
+  "1": 54,
+  "2": 54,
+  "4": 18,
+  "6": 18,
+  "5": 18
+ },
+ "note": "ok requires: exact identity, j_{u+1}=v2(Q), coarse class mod 2^j2, fine class mod 2^(j2+1), certify(j2, fine class), record bound"
+}
+cases: [{'n': 6132, 'jT': 61, 'theta': 1, 'u': 1, 'j2': 3, 'v2Q': 3, 'sigma': 6129, 'gap': 62, 'ident': True, 'class_ok': True, 'rec_ok': True, 'certify': True}, {'n': 6132, 'jT': 61, 'theta': 1, 'u': 3, 'j2': 3, 'v2Q': 3, 'sigma': 6129, 'gap': 62, 'ident': True, 'class_ok': True, 'rec_ok': True, 'certify': True}, {'n': 6132, 'jT': 61, 'theta': 1, 'u': 5, 'j2': 3, 'v2Q': 3, 'sigma': 6129, 'gap': 62, 'ident': True, 'class_ok': True, 'rec_ok': True, 'certify': True}]

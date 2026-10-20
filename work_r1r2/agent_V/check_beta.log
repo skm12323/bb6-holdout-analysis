@@ -1,0 +1,16 @@
+beta scan {'nwalks': 19999995, 'bad_tie': [], 'bad_r1': [], 'bad_inc': [], 'maxlen': 3}
+{
+ "M": 20000000,
+ "nwalks": 19999995,
+ "bad_tie": 0,
+ "bad_r1": 0,
+ "bad_inc": 0,
+ "maxlen": 3,
+ "t1": 19.9,
+ "drift_walks": 8,
+ "drift_steps": 6,
+ "bad_drift": 5,
+ "bad_first_chain_ineq": 0,
+ "bad_A5_a_size": 0,
+ "t": 19.9
+}

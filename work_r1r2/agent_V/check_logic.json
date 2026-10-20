@@ -1,0 +1,81 @@
+{
+ "drift_seq_bad": 0,
+ "drift_sequences": 131071,
+ "badL": [],
+ "bad_kappa": [],
+ "bad_P": [],
+ "bad_G": [],
+ "bad_mono": [],
+ "L_N0": 10000001,
+ "L_G_N0": 10000002,
+ "kappa_N0": 202589989870,
+ "log2B": 10000000,
+ "bad_crude": [],
+ "3k_min_floor": 14999998,
+ "exact_3k_over_4": [
+  59999994,
+  4
+ ],
+ "Lambda_crude_max": 7499998,
+ "Lambda_sharp_max": 14999997,
+ "brief_claim_2Lambda_plus_1_lt_3_34e6": false,
+ "B_bits": 10000001,
+ "B_minus_4_over_6_bits": 9999998,
+ "B_minus_4_over_6_decimal_digits_approx": 3010300,
+ "window": [
+  [
+   1,
+   0,
+   2,
+   2,
+   0,
+   0,
+   true
+  ],
+  [
+   2,
+   1,
+   1,
+   3,
+   -1,
+   1,
+   true
+  ],
+  [
+   4,
+   3,
+   -1,
+   5,
+   -3,
+   3,
+   true
+  ],
+  [
+   13,
+   12,
+   -10,
+   14,
+   -12,
+   12,
+   true
+  ]
+ ],
+ "bare_tie_theta": {
+  "a (5,5) theta=-2": true,
+  "a (5,-11) theta=14": true,
+  "b (5,5) theta=6": true,
+  "b (5,-11) theta=-10": true,
+  "all within drift bound 13": false
+ },
+ "Kclock_log2_about": "K' - 2 log2 K' - 6, log2 K' = 2^(2^(2^499997-3)-2)",
+ "T3_log2": "2^(2^(10^7-5/2)-5/2)-3/2",
+ "log2T3_vs_log2Kclock_exponents": {
+  "exp(log2Kclock) = 2^(2^499997-3)-2": "huge",
+  "exp(log2T3) = 2^(10^7-5/2)-5/2": "2^(10^7) only",
+  "T3 < Kclock": true,
+  "log2Kclock < log2T4 (since T4/2 ~ 2^(T3/2))": true
+ },
+ "check_Kclock_gt_T3_exponent": true,
+ "check_Kclock_lt_T4_exponent": true,
+ "6L4_le_B_at_Lmax": true
+}

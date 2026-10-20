@@ -1,0 +1,21 @@
+{
+ "M": 20000000,
+ "K": 192,
+ "counts": {
+  "even": 15135576,
+  "a_term": 11000002,
+  "a_sc": 557583,
+  "a_tie5": 557583,
+  "bc": 12749128,
+  "bc_ceiling": 0,
+  "bc_end": 12749128,
+  "small": 118
+ },
+ "fails": [],
+ "nfail": 0,
+ "maxrec_bc": 24,
+ "maxj_bc": 24,
+ "minP": 62,
+ "t": 34.2,
+ "good_all_6_59": true
+}

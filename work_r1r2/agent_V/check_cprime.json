@@ -1,0 +1,41 @@
+{
+ "NS": 4096,
+ "X4": {
+  "typ": "a",
+  "tau": 2,
+  "odd": 1
+ },
+ "bad_b": [],
+ "bad_c": [],
+ "n_odd_b": 1239,
+ "n_odd_c": 65,
+ "real_crossings": [
+  {
+   "n": 16,
+   "typ": "a",
+   "tau": 12,
+   "odd": 1,
+   "x": null,
+   "omega": null
+  },
+  {
+   "n": 53,
+   "typ": "a",
+   "tau": 44,
+   "odd": 1,
+   "x": null,
+   "omega": null
+  },
+  {
+   "n": 64,
+   "typ": "b",
+   "tau": 52,
+   "odd": 1,
+   "x": [
+    27670116110564327424,
+    160
+   ],
+   "omega": 5
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "t_shift_tables": 0.2,
+ "theta_walk_mismatch": 0,
+ "theta_first": [],
+ "exact_walk_mismatch": 0,
+ "exact_first": [],
+ "cert_fast_vs_shiftlib": 0,
+ "cert_first": [],
+ "cert_fast_vs_slow": 6,
+ "cert_slow_first": [
+  [
+   1029,
+   -732402,
+   [
+    true,
+    "end"
+   ],
+   [
+    false,
+    "nodata"
+   ]
+  ],
+  [
+   1155,
+   -877062,
+   [
+    true,
+    "end"
+   ],
+   [
+    false,
+    "nodata"
+   ]
+  ]
+ ],
+ "beta_walk_mismatch": 0,
+ "beta_first": [],
+ "cert_vs_deep_lib": 0,
+ "deep_lib_first": [],
+ "t_total": 0.6
+}

@@ -1,0 +1,14 @@
+{
+ "K": 20000001,
+ "k0_mod_64": 8198552921648689606,
+ "k0_mod_32": 6,
+ "three_k_minus_2_mod_64": 16,
+ "v2_3k_minus_2": 4,
+ "existence": "gcd(9,2^K)=1: unique k0 with 9k0 = -10 (mod 2^K); k0 mod 64 as above",
+ "m_lower_bound": 20000001,
+ "a_landing_param": 5,
+ "theta_u_bare_tie": 5,
+ "theta_after_gateway": -2,
+ "reentry_note": "chain u+1 has theta=-2 and j=m>=2e7+1 (deep again); after l deep a/b steps |theta| <= 2+3l, so a later landing delta=3-theta can be as low as 1-3l, outside [-12,15] already for l>=5",
+ "a_landing_is_5": true
+}

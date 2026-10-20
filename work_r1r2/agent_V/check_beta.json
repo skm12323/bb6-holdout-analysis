@@ -1,0 +1,15 @@
+{
+ "M": 20000000,
+ "nwalks": 19999995,
+ "bad_tie": [],
+ "bad_r1": [],
+ "bad_inc": [],
+ "maxlen": 3,
+ "t1": 19.8,
+ "drift_walks": 3000,
+ "drift_steps": 1841,
+ "bad_drift": [],
+ "bad_first_chain_ineq": [],
+ "bad_A5_a_size": [],
+ "t": 19.8
+}

@@ -1,0 +1,22 @@
+{
+ "NS": 4096,
+ "t_my_small": 0.01,
+ "t_fdata_small": 0.02,
+ "pair_walk_mismatches": 0,
+ "pair_walk_first_mismatches": [],
+ "cached_vs_mine_mismatches": 0,
+ "cached_vs_mine_first": [],
+ "n_odd": 12432185,
+ "bad_typea_eps_or_odd_tau": 0,
+ "bad_b_tau_odd": 0,
+ "bad_bc_lambda": 0,
+ "bad_bc_eps": 0,
+ "bad_bc_omega_ge_v2c": 0,
+ "first_bad": {
+  "a": [],
+  "tau": [],
+  "lam": [],
+  "eps": [],
+  "om": []
+ }
+}

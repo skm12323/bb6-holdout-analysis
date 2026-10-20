@@ -648,3 +648,15 @@ Review: reviews/deep_review_record.md (Claude adversary fixable→patched→clos
 - Next concrete lead (Remark 2.8 [C]): with Λ small, resonance is impossible under R1 and a/b landings have δ in the
   certified window [−12,15] except the bare ties (5,5),(5,−11) — R2 may be automatic for a/b landings.
 - Open: R1, R2 (c landings; bare ties), J beyond T_{⌊(B−4)/6⌋}. EXT open; K_clock unchanged.
+
+## work_r1r2 — R2 for a/b landings, sharper R1 and c-landing R2 (external ZCode agent) — ACCEPTED (2026-10-20)
+Review: reviews/r1r2_review_record.md (Claude adversary fixable→patched→closed; two agy gemini auditors simple errors, patched).
+- Under R1 the initial deep segment has exact drift θ_t=2i−t+1, no resonance, <=Λ deep chains. For Λ<=13, R2 holds
+  automatically for a/b landings except the bare ties (5,5),(5,−11); these reduce by a two-step gateway to classes
+  (10−2^m)/3, (26−2^m)/3 mod 2^{m+1}, certified for all 5<=m<10⁸ [B] and closed for j_T<2^{10⁸}/(4.5P).
+- **Current reduction:** J < T₄ (Λ<=4, includes K_clock): EXT(J) ⟸ R1 ∧ R2_c. T₄<=J<T₁₃: EXT(J) ⟸ R1 ∧ R2_c ∧ RES
+  (RES = no a/b bare-tie landing with m>=10⁸). Above T₁₃: work_deep's reduction only.
+- R1 ⟸ CAL-C: no n>=N₀−1 with X(n) odd type c and 2^{N₀} | 3τ(n)+4+λ_Y(n). R2_c: the c-landing class
+  δ ≡ θ_T+3τ+3−2^{j_u} (mod 2^{j_u+1}) depends only on (θ_T, τ mod 2^{j_u+1}, j_u), i.e. τ(n_T) must avoid an
+  explicit congruence; Lemma 5.3 bypasses bad classes in two steps when its hypothesis holds.
+- Open: CAL-C (or R1), R2_c, RES above T₄. These are deep calendar-arithmetic statements. EXT open; K_clock unchanged.

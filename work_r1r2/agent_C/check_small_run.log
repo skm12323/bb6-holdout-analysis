@@ -1,0 +1,7 @@
+0.2 table loaded, N = 1000000
+0.21 V5 {'odd_c_count': 318, 'omega_dist': {'1': 39, '3': 278, '5': 1}, 'tau_even_at_odd_a': 6056}
+0.28 V1 class formula: tested 20988 mismatches 0
+52.24 V2 Bad_j computed {5: 4, 6: 0, 7: 0, 8: 4, 9: 0, 10: 0, 11: 0, 12: 4, 13: 0, 14: 4, 15: 0, 16: 0, 17: 8, 18: 0, 19: 0, 20: 0, 21: 0, 22: 4, 23: 0, 24: 4} in 52.0 s
+52.24 V3 structure: odd-a j in range with Bad nonempty: [5, 8, 12, 14, 17, 22, 24]
+52.25 V4 gateway identity: 96 cases, 96 with v2(Q)<gap, 96 with |Q|<2^(sigma-1)
+52.25 written check_small.json, total 52.2 s

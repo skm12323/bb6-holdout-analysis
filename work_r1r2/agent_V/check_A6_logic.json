@@ -1,0 +1,16 @@
+{
+ "bad_d1": [],
+ "bad_sc": [],
+ "bad_tie5": [],
+ "bad_slow": [],
+ "counts": {
+  "slow": 4992,
+  "bc": 1590,
+  "sc": 70,
+  "tie5": 70,
+  "slow_big": 87,
+  "slow_big_skip_bc": 33
+ },
+ "t_small": 0.0,
+ "t_big": 1.8
+}

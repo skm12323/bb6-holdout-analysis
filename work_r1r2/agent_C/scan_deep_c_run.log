@@ -1,0 +1,18 @@
+0.0 loading D:\math_cc_astra\deep1\table_100000000.pkl
+1.71 loaded, N = 100000000
+4.18 odd type-c crossings in [N0, N): 1267918 in 2.5 s
+5.17 columns 1.0 s
+5.51 omega dist {'1': 150569, '3': 1115171, '5': 2178}
+5.51 omega all odd: True  min(sigma-omega): 20000032  tau odd fraction: 0.9982822232983521
+5.92 tau mod powers {'2^8': (11, 278793), '2^16': (1167, 1090), '2^20': (18630, 69)} in 0.4 s
+5.93 Bad sets {'1': None, '3': None, '5': 4} in 0.0 s
+6.04 scan done 0.1 s
+6.04 bad counts {'window': 8712, 'drift_L4': 0, 'drift_L13': 4356, 'theta1': 0} of pairs {'window': 132858, 'drift_L4': 17424, 'drift_L13': 56628, 'theta1': 2178}
+6.04 density {'window': 0.06557377049180328, 'drift_L4': 0.0, 'drift_L13': 0.07692307692307693, 'theta1': 0.0}
+6.04 hits (first 5): [{'n': 20023896, 'omega': 5, 'theta': -11, 'delta': 53, 'tau': 17864031}, {'n': 20023896, 'omega': 5, 'theta': 21, 'delta': 21, 'tau': 17864031}, {'n': 20023896, 'omega': 5, 'theta': -27, 'delta': 37, 'tau': 17864031}, {'n': 20023896, 'omega': 5, 'theta': 5, 'delta': 5, 'tau': 17864031}, {'n': 20060627, 'omega': 5, 'theta': -11, 'delta': 53, 'tau': 17896799}]
+6.04 congruence {'5': [2178, 2178]}
+6.11 omega=5 crossings 2178 gateway size ok 2000 / 2000
+6.3 gateway resolution {'cases': 8712, 'unresolved': 0, 'resolved': 8712, 'cert_ok': 8712, 'cert_fail': 0, 'rec_ok': 8712, 'j2_dist': {'12': 2178, '5': 4356, '6': 2178}}
+6.3 class formula spot 198 True
+6.32 certify vs Bad membership 10 10
+6.33 written D:/math_cc/work_r1r2/agent_C/scan_deep_c.json total 6.3 s

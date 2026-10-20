@@ -1,0 +1,9 @@
+{
+ "table": "D:/math_cc_astra/deep1/table_20000000.pkl",
+ "NS": 20000000,
+ "sample": 0,
+ "count": 19999995,
+ "fails": [],
+ "n_fails": 0,
+ "seconds": 68.2
+}

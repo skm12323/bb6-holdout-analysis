@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "cases": 14,
+  "largest_target_p": 359137,
+  "records": [
+    {
+      "m": 5,
+      "p": 90,
+      "k": 38,
+      "source_pointer": 89,
+      "known_suffix": [
+        90,
+        5,
+        5,
+        1
+      ],
+      "beta_at_five": {
+        "1": "224",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "352",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 13
+    },
+    {
+      "m": 6,
+      "p": 17,
+      "k": 6,
+      "source_pointer": 16,
+      "known_suffix": [
+        17,
+        5,
+        6,
+        1
+      ],
+      "beta_at_five": {
+        "1": "32",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "64",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 14
+    },
+    {
+      "m": 7,
+      "p": 161,
+      "k": 70,
+      "source_pointer": 160,
+      "known_suffix": [
+        161,
+        5,
+        7
+      ],
+      "beta_at_five": {
+        "1": "416",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "640",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 15
+    },
+    {
+      "m": 8,
+      "p": 447,
+      "k": 198,
+      "source_pointer": 446,
+      "known_suffix": [
+        447,
+        5,
+        8,
+        3
+      ],
+      "beta_at_five": {
+        "1": "1184",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "1792",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 16
+    },
+    {
+      "m": 9,
+      "p": 2168,
+      "k": 966,
+      "source_pointer": 2167,
+      "known_suffix": [
+        2168,
+        5,
+        9,
+        4
+      ],
+      "beta_at_five": {
+        "1": "5792",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "8704",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 17
+    },
+    {
+      "m": 10,
+      "p": 3317,
+      "k": 1478,
+      "source_pointer": 3316,
+      "known_suffix": [
+        3317,
+        5,
+        10
+      ],
+      "beta_at_five": {
+        "1": "8864",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "13312",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 18
+    },
+    {
+      "m": 11,
+      "p": 5614,
+      "k": 2502,
+      "source_pointer": 5613,
+      "known_suffix": [
+        5614,
+        5,
+        11
+      ],
+      "beta_at_five": {
+        "1": "15008",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "22528",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 19
+    },
+    {
+      "m": 12,
+      "p": 1021,
+      "k": 454,
+      "source_pointer": 1020,
+      "known_suffix": [
+        1021,
+        5,
+        12,
+        2
+      ],
+      "beta_at_five": {
+        "1": "2720",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "4096",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 20
+    },
+    {
+      "m": 13,
+      "p": 10201,
+      "k": 4550,
+      "source_pointer": 10200,
+      "known_suffix": [
+        10201,
+        5,
+        13,
+        2
+      ],
+      "beta_at_five": {
+        "1": "27296",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "40960",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 21
+    },
+    {
+      "m": 14,
+      "p": 28567,
+      "k": 12742,
+      "source_pointer": 28566,
+      "known_suffix": [
+        28567,
+        5,
+        14,
+        1
+      ],
+      "beta_at_five": {
+        "1": "76448",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "114688",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 22
+    },
+    {
+      "m": 15,
+      "p": 138755,
+      "k": 61894,
+      "source_pointer": 138754,
+      "known_suffix": [
+        138755,
+        5,
+        15,
+        1
+      ],
+      "beta_at_five": {
+        "1": "371360",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "557056",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 23
+    },
+    {
+      "m": 16,
+      "p": 212216,
+      "k": 94662,
+      "source_pointer": 212215,
+      "known_suffix": [
+        212216,
+        5,
+        16
+      ],
+      "beta_at_five": {
+        "1": "567968",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "851968",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 24
+    },
+    {
+      "m": 17,
+      "p": 359137,
+      "k": 160198,
+      "source_pointer": 359136,
+      "known_suffix": [
+        359137,
+        5,
+        17,
+        7
+      ],
+      "beta_at_five": {
+        "1": "961184",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "1441792",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 25
+    },
+    {
+      "m": 18,
+      "p": 65298,
+      "k": 29126,
+      "source_pointer": 65297,
+      "known_suffix": [
+        65298,
+        5,
+        18,
+        3
+      ],
+      "beta_at_five": {
+        "1": "174752",
+        "L0": "3/2",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "beta_after_gateway": {
+        "1": "262144",
+        "L0": "5/4",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "suffix_record_bound": 26
+    }
+  ],
+  "scope": "Actual-source reachability is an existence proof using accepted spectrum/horizon imports. Huge lifted fires are not simulated."
+}

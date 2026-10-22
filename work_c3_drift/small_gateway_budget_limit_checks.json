@@ -1,0 +1,1481 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "negative_controls": 126,
+  "records": [
+    {
+      "m": 6,
+      "initial_W": 8,
+      "next_W": 11,
+      "ceiling9_status": "end",
+      "valid_certificate_precision": 8,
+      "word": [
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 8,
+      "initial_W": 8,
+      "next_W": 13,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 10,
+      "word": [
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "m": 10,
+      "initial_W": 8,
+      "next_W": 15,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 12,
+      "word": [
+        5,
+        10
+      ]
+    },
+    {
+      "m": 12,
+      "initial_W": 8,
+      "next_W": 17,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 14,
+      "word": [
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "m": 14,
+      "initial_W": 8,
+      "next_W": 19,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 16,
+      "word": [
+        5,
+        14,
+        1
+      ]
+    },
+    {
+      "m": 16,
+      "initial_W": 8,
+      "next_W": 21,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 18,
+      "word": [
+        5,
+        16
+      ]
+    },
+    {
+      "m": 18,
+      "initial_W": 8,
+      "next_W": 23,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 20,
+      "word": [
+        5,
+        18,
+        3
+      ]
+    },
+    {
+      "m": 20,
+      "initial_W": 8,
+      "next_W": 25,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 22,
+      "word": [
+        5,
+        20
+      ]
+    },
+    {
+      "m": 22,
+      "initial_W": 8,
+      "next_W": 27,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 24,
+      "word": [
+        5,
+        22,
+        2
+      ]
+    },
+    {
+      "m": 24,
+      "initial_W": 8,
+      "next_W": 29,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 26,
+      "word": [
+        5,
+        24,
+        1
+      ]
+    },
+    {
+      "m": 26,
+      "initial_W": 8,
+      "next_W": 31,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 28,
+      "word": [
+        5,
+        26
+      ]
+    },
+    {
+      "m": 28,
+      "initial_W": 8,
+      "next_W": 33,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 30,
+      "word": [
+        5,
+        28,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 30,
+      "initial_W": 8,
+      "next_W": 35,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 32,
+      "word": [
+        5,
+        30
+      ]
+    },
+    {
+      "m": 32,
+      "initial_W": 8,
+      "next_W": 37,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 34,
+      "word": [
+        5,
+        32,
+        1
+      ]
+    },
+    {
+      "m": 34,
+      "initial_W": 8,
+      "next_W": 39,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 36,
+      "word": [
+        5,
+        34
+      ]
+    },
+    {
+      "m": 36,
+      "initial_W": 8,
+      "next_W": 41,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 38,
+      "word": [
+        5,
+        36,
+        3
+      ]
+    },
+    {
+      "m": 38,
+      "initial_W": 8,
+      "next_W": 43,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 40,
+      "word": [
+        5,
+        38
+      ]
+    },
+    {
+      "m": 40,
+      "initial_W": 8,
+      "next_W": 45,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 42,
+      "word": [
+        5,
+        40,
+        2
+      ]
+    },
+    {
+      "m": 42,
+      "initial_W": 8,
+      "next_W": 47,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 44,
+      "word": [
+        5,
+        42,
+        1
+      ]
+    },
+    {
+      "m": 44,
+      "initial_W": 8,
+      "next_W": 49,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 46,
+      "word": [
+        5,
+        44
+      ]
+    },
+    {
+      "m": 46,
+      "initial_W": 8,
+      "next_W": 51,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 48,
+      "word": [
+        5,
+        46,
+        4
+      ]
+    },
+    {
+      "m": 48,
+      "initial_W": 8,
+      "next_W": 53,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 50,
+      "word": [
+        5,
+        48
+      ]
+    },
+    {
+      "m": 50,
+      "initial_W": 8,
+      "next_W": 55,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 52,
+      "word": [
+        5,
+        50,
+        2
+      ]
+    },
+    {
+      "m": 52,
+      "initial_W": 8,
+      "next_W": 57,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 54,
+      "word": [
+        5,
+        52,
+        1
+      ]
+    },
+    {
+      "m": 54,
+      "initial_W": 8,
+      "next_W": 59,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 56,
+      "word": [
+        5,
+        54,
+        5,
+        7
+      ]
+    },
+    {
+      "m": 56,
+      "initial_W": 8,
+      "next_W": 61,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 58,
+      "word": [
+        5,
+        56
+      ]
+    },
+    {
+      "m": 58,
+      "initial_W": 8,
+      "next_W": 63,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 60,
+      "word": [
+        5,
+        58
+      ]
+    },
+    {
+      "m": 60,
+      "initial_W": 8,
+      "next_W": 65,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 62,
+      "word": [
+        5,
+        60,
+        2
+      ]
+    },
+    {
+      "m": 62,
+      "initial_W": 8,
+      "next_W": 67,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 64,
+      "word": [
+        5,
+        62,
+        1
+      ]
+    },
+    {
+      "m": 64,
+      "initial_W": 8,
+      "next_W": 69,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 66,
+      "word": [
+        5,
+        64,
+        3
+      ]
+    },
+    {
+      "m": 66,
+      "initial_W": 8,
+      "next_W": 71,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 68,
+      "word": [
+        5,
+        66,
+        3
+      ]
+    },
+    {
+      "m": 68,
+      "initial_W": 8,
+      "next_W": 73,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 70,
+      "word": [
+        5,
+        68,
+        1
+      ]
+    },
+    {
+      "m": 70,
+      "initial_W": 8,
+      "next_W": 75,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 72,
+      "word": [
+        5,
+        70
+      ]
+    },
+    {
+      "m": 72,
+      "initial_W": 8,
+      "next_W": 77,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 74,
+      "word": [
+        5,
+        72,
+        3
+      ]
+    },
+    {
+      "m": 74,
+      "initial_W": 8,
+      "next_W": 79,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 76,
+      "word": [
+        5,
+        74
+      ]
+    },
+    {
+      "m": 76,
+      "initial_W": 8,
+      "next_W": 81,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 78,
+      "word": [
+        5,
+        76,
+        2
+      ]
+    },
+    {
+      "m": 78,
+      "initial_W": 8,
+      "next_W": 83,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 80,
+      "word": [
+        5,
+        78,
+        1
+      ]
+    },
+    {
+      "m": 80,
+      "initial_W": 8,
+      "next_W": 85,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 82,
+      "word": [
+        5,
+        80
+      ]
+    },
+    {
+      "m": 82,
+      "initial_W": 8,
+      "next_W": 87,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 84,
+      "word": [
+        5,
+        82,
+        4
+      ]
+    },
+    {
+      "m": 84,
+      "initial_W": 8,
+      "next_W": 89,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 86,
+      "word": [
+        5,
+        84
+      ]
+    },
+    {
+      "m": 86,
+      "initial_W": 8,
+      "next_W": 91,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 88,
+      "word": [
+        5,
+        86,
+        2
+      ]
+    },
+    {
+      "m": 88,
+      "initial_W": 8,
+      "next_W": 93,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 90,
+      "word": [
+        5,
+        88,
+        1
+      ]
+    },
+    {
+      "m": 90,
+      "initial_W": 8,
+      "next_W": 95,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 92,
+      "word": [
+        5,
+        90,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 92,
+      "initial_W": 8,
+      "next_W": 97,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 94,
+      "word": [
+        5,
+        92
+      ]
+    },
+    {
+      "m": 94,
+      "initial_W": 8,
+      "next_W": 99,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 96,
+      "word": [
+        5,
+        94
+      ]
+    },
+    {
+      "m": 96,
+      "initial_W": 8,
+      "next_W": 101,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 98,
+      "word": [
+        5,
+        96,
+        2
+      ]
+    },
+    {
+      "m": 98,
+      "initial_W": 8,
+      "next_W": 103,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 100,
+      "word": [
+        5,
+        98,
+        1
+      ]
+    },
+    {
+      "m": 100,
+      "initial_W": 8,
+      "next_W": 105,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 102,
+      "word": [
+        5,
+        100,
+        3
+      ]
+    },
+    {
+      "m": 102,
+      "initial_W": 8,
+      "next_W": 107,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 104,
+      "word": [
+        5,
+        102,
+        1
+      ]
+    },
+    {
+      "m": 104,
+      "initial_W": 8,
+      "next_W": 109,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 106,
+      "word": [
+        5,
+        104
+      ]
+    },
+    {
+      "m": 106,
+      "initial_W": 8,
+      "next_W": 111,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 108,
+      "word": [
+        5,
+        106,
+        4
+      ]
+    },
+    {
+      "m": 108,
+      "initial_W": 8,
+      "next_W": 113,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 110,
+      "word": [
+        5,
+        108
+      ]
+    },
+    {
+      "m": 110,
+      "initial_W": 8,
+      "next_W": 115,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 112,
+      "word": [
+        5,
+        110
+      ]
+    },
+    {
+      "m": 112,
+      "initial_W": 8,
+      "next_W": 117,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 114,
+      "word": [
+        5,
+        112,
+        2
+      ]
+    },
+    {
+      "m": 114,
+      "initial_W": 8,
+      "next_W": 119,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 116,
+      "word": [
+        5,
+        114,
+        1
+      ]
+    },
+    {
+      "m": 116,
+      "initial_W": 8,
+      "next_W": 121,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 118,
+      "word": [
+        5,
+        116,
+        3
+      ]
+    },
+    {
+      "m": 118,
+      "initial_W": 8,
+      "next_W": 123,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 120,
+      "word": [
+        5,
+        118
+      ]
+    },
+    {
+      "m": 120,
+      "initial_W": 8,
+      "next_W": 125,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 122,
+      "word": [
+        5,
+        120,
+        2
+      ]
+    },
+    {
+      "m": 122,
+      "initial_W": 8,
+      "next_W": 127,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 124,
+      "word": [
+        5,
+        122,
+        1
+      ]
+    },
+    {
+      "m": 124,
+      "initial_W": 8,
+      "next_W": 129,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 126,
+      "word": [
+        5,
+        124
+      ]
+    },
+    {
+      "m": 126,
+      "initial_W": 8,
+      "next_W": 131,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 128,
+      "word": [
+        5,
+        126,
+        3
+      ]
+    },
+    {
+      "m": 128,
+      "initial_W": 8,
+      "next_W": 133,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 130,
+      "word": [
+        5,
+        128
+      ]
+    },
+    {
+      "m": 130,
+      "initial_W": 8,
+      "next_W": 135,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 132,
+      "word": [
+        5,
+        130,
+        2
+      ]
+    },
+    {
+      "m": 132,
+      "initial_W": 8,
+      "next_W": 137,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 134,
+      "word": [
+        5,
+        132,
+        1
+      ]
+    },
+    {
+      "m": 134,
+      "initial_W": 8,
+      "next_W": 139,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 136,
+      "word": [
+        5,
+        134
+      ]
+    },
+    {
+      "m": 136,
+      "initial_W": 8,
+      "next_W": 141,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 138,
+      "word": [
+        5,
+        136,
+        5,
+        4
+      ]
+    },
+    {
+      "m": 138,
+      "initial_W": 8,
+      "next_W": 143,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 140,
+      "word": [
+        5,
+        138
+      ]
+    },
+    {
+      "m": 140,
+      "initial_W": 8,
+      "next_W": 145,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 142,
+      "word": [
+        5,
+        140,
+        1
+      ]
+    },
+    {
+      "m": 142,
+      "initial_W": 8,
+      "next_W": 147,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 144,
+      "word": [
+        5,
+        142,
+        4
+      ]
+    },
+    {
+      "m": 144,
+      "initial_W": 8,
+      "next_W": 149,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 146,
+      "word": [
+        5,
+        144
+      ]
+    },
+    {
+      "m": 146,
+      "initial_W": 8,
+      "next_W": 151,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 148,
+      "word": [
+        5,
+        146
+      ]
+    },
+    {
+      "m": 148,
+      "initial_W": 8,
+      "next_W": 153,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 150,
+      "word": [
+        5,
+        148,
+        2
+      ]
+    },
+    {
+      "m": 150,
+      "initial_W": 8,
+      "next_W": 155,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 152,
+      "word": [
+        5,
+        150,
+        1
+      ]
+    },
+    {
+      "m": 152,
+      "initial_W": 8,
+      "next_W": 157,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 154,
+      "word": [
+        5,
+        152,
+        3
+      ]
+    },
+    {
+      "m": 154,
+      "initial_W": 8,
+      "next_W": 159,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 156,
+      "word": [
+        5,
+        154
+      ]
+    },
+    {
+      "m": 156,
+      "initial_W": 8,
+      "next_W": 161,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 158,
+      "word": [
+        5,
+        156,
+        2
+      ]
+    },
+    {
+      "m": 158,
+      "initial_W": 8,
+      "next_W": 163,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 160,
+      "word": [
+        5,
+        158,
+        1
+      ]
+    },
+    {
+      "m": 160,
+      "initial_W": 8,
+      "next_W": 165,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 162,
+      "word": [
+        5,
+        160
+      ]
+    },
+    {
+      "m": 162,
+      "initial_W": 8,
+      "next_W": 167,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 164,
+      "word": [
+        5,
+        162,
+        3
+      ]
+    },
+    {
+      "m": 164,
+      "initial_W": 8,
+      "next_W": 169,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 166,
+      "word": [
+        5,
+        164
+      ]
+    },
+    {
+      "m": 166,
+      "initial_W": 8,
+      "next_W": 171,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 168,
+      "word": [
+        5,
+        166,
+        2
+      ]
+    },
+    {
+      "m": 168,
+      "initial_W": 8,
+      "next_W": 173,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 170,
+      "word": [
+        5,
+        168,
+        1
+      ]
+    },
+    {
+      "m": 170,
+      "initial_W": 8,
+      "next_W": 175,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 172,
+      "word": [
+        5,
+        170
+      ]
+    },
+    {
+      "m": 172,
+      "initial_W": 8,
+      "next_W": 177,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 174,
+      "word": [
+        5,
+        172,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 174,
+      "initial_W": 8,
+      "next_W": 179,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 176,
+      "word": [
+        5,
+        174
+      ]
+    },
+    {
+      "m": 176,
+      "initial_W": 8,
+      "next_W": 181,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 178,
+      "word": [
+        5,
+        176,
+        1
+      ]
+    },
+    {
+      "m": 178,
+      "initial_W": 8,
+      "next_W": 183,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 180,
+      "word": [
+        5,
+        178
+      ]
+    },
+    {
+      "m": 180,
+      "initial_W": 8,
+      "next_W": 185,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 182,
+      "word": [
+        5,
+        180,
+        3
+      ]
+    },
+    {
+      "m": 182,
+      "initial_W": 8,
+      "next_W": 187,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 184,
+      "word": [
+        5,
+        182
+      ]
+    },
+    {
+      "m": 184,
+      "initial_W": 8,
+      "next_W": 189,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 186,
+      "word": [
+        5,
+        184,
+        2
+      ]
+    },
+    {
+      "m": 186,
+      "initial_W": 8,
+      "next_W": 191,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 188,
+      "word": [
+        5,
+        186,
+        1
+      ]
+    },
+    {
+      "m": 188,
+      "initial_W": 8,
+      "next_W": 193,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 190,
+      "word": [
+        5,
+        188
+      ]
+    },
+    {
+      "m": 190,
+      "initial_W": 8,
+      "next_W": 195,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 192,
+      "word": [
+        5,
+        190,
+        4
+      ]
+    },
+    {
+      "m": 192,
+      "initial_W": 8,
+      "next_W": 197,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 194,
+      "word": [
+        5,
+        192
+      ]
+    },
+    {
+      "m": 194,
+      "initial_W": 8,
+      "next_W": 199,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 196,
+      "word": [
+        5,
+        194,
+        2
+      ]
+    },
+    {
+      "m": 196,
+      "initial_W": 8,
+      "next_W": 201,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 198,
+      "word": [
+        5,
+        196,
+        1
+      ]
+    },
+    {
+      "m": 198,
+      "initial_W": 8,
+      "next_W": 203,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 200,
+      "word": [
+        5,
+        198,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 200,
+      "initial_W": 8,
+      "next_W": 205,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 202,
+      "word": [
+        5,
+        200
+      ]
+    },
+    {
+      "m": 202,
+      "initial_W": 8,
+      "next_W": 207,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 204,
+      "word": [
+        5,
+        202
+      ]
+    },
+    {
+      "m": 204,
+      "initial_W": 8,
+      "next_W": 209,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 206,
+      "word": [
+        5,
+        204,
+        2
+      ]
+    },
+    {
+      "m": 206,
+      "initial_W": 8,
+      "next_W": 211,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 208,
+      "word": [
+        5,
+        206,
+        1
+      ]
+    },
+    {
+      "m": 208,
+      "initial_W": 8,
+      "next_W": 213,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 210,
+      "word": [
+        5,
+        208,
+        3
+      ]
+    },
+    {
+      "m": 210,
+      "initial_W": 8,
+      "next_W": 215,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 212,
+      "word": [
+        5,
+        210,
+        3
+      ]
+    },
+    {
+      "m": 212,
+      "initial_W": 8,
+      "next_W": 217,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 214,
+      "word": [
+        5,
+        212,
+        1
+      ]
+    },
+    {
+      "m": 214,
+      "initial_W": 8,
+      "next_W": 219,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 216,
+      "word": [
+        5,
+        214
+      ]
+    },
+    {
+      "m": 216,
+      "initial_W": 8,
+      "next_W": 221,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 218,
+      "word": [
+        5,
+        216,
+        3
+      ]
+    },
+    {
+      "m": 218,
+      "initial_W": 8,
+      "next_W": 223,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 220,
+      "word": [
+        5,
+        218
+      ]
+    },
+    {
+      "m": 220,
+      "initial_W": 8,
+      "next_W": 225,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 222,
+      "word": [
+        5,
+        220,
+        2
+      ]
+    },
+    {
+      "m": 222,
+      "initial_W": 8,
+      "next_W": 227,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 224,
+      "word": [
+        5,
+        222,
+        1
+      ]
+    },
+    {
+      "m": 224,
+      "initial_W": 8,
+      "next_W": 229,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 226,
+      "word": [
+        5,
+        224
+      ]
+    },
+    {
+      "m": 226,
+      "initial_W": 8,
+      "next_W": 231,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 228,
+      "word": [
+        5,
+        226,
+        4
+      ]
+    },
+    {
+      "m": 228,
+      "initial_W": 8,
+      "next_W": 233,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 230,
+      "word": [
+        5,
+        228
+      ]
+    },
+    {
+      "m": 230,
+      "initial_W": 8,
+      "next_W": 235,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 232,
+      "word": [
+        5,
+        230,
+        2
+      ]
+    },
+    {
+      "m": 232,
+      "initial_W": 8,
+      "next_W": 237,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 234,
+      "word": [
+        5,
+        232,
+        1
+      ]
+    },
+    {
+      "m": 234,
+      "initial_W": 8,
+      "next_W": 239,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 236,
+      "word": [
+        5,
+        234,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 236,
+      "initial_W": 8,
+      "next_W": 241,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 238,
+      "word": [
+        5,
+        236
+      ]
+    },
+    {
+      "m": 238,
+      "initial_W": 8,
+      "next_W": 243,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 240,
+      "word": [
+        5,
+        238
+      ]
+    },
+    {
+      "m": 240,
+      "initial_W": 8,
+      "next_W": 245,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 242,
+      "word": [
+        5,
+        240,
+        2
+      ]
+    },
+    {
+      "m": 242,
+      "initial_W": 8,
+      "next_W": 247,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 244,
+      "word": [
+        5,
+        242,
+        1
+      ]
+    },
+    {
+      "m": 244,
+      "initial_W": 8,
+      "next_W": 249,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 246,
+      "word": [
+        5,
+        244,
+        3
+      ]
+    },
+    {
+      "m": 246,
+      "initial_W": 8,
+      "next_W": 251,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 248,
+      "word": [
+        5,
+        246
+      ]
+    },
+    {
+      "m": 248,
+      "initial_W": 8,
+      "next_W": 253,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 250,
+      "word": [
+        5,
+        248,
+        1
+      ]
+    },
+    {
+      "m": 250,
+      "initial_W": 8,
+      "next_W": 255,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 252,
+      "word": [
+        5,
+        250
+      ]
+    },
+    {
+      "m": 252,
+      "initial_W": 8,
+      "next_W": 257,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 254,
+      "word": [
+        5,
+        252,
+        3
+      ]
+    },
+    {
+      "m": 254,
+      "initial_W": 8,
+      "next_W": 259,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 256,
+      "word": [
+        5,
+        254
+      ]
+    },
+    {
+      "m": 256,
+      "initial_W": 8,
+      "next_W": 261,
+      "ceiling9_status": "ceiling",
+      "valid_certificate_precision": 258,
+      "word": [
+        5,
+        256,
+        2
+      ]
+    }
+  ],
+  "scope": "Constructed local states with canonical calls. Refutes unconditional local sufficiency of W<ceiling, not EXT or the conditional macro lemmas."
+}

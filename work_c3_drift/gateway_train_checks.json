@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "algebra_identity_checks": 144,
+  "parameter_interval": [
+    5,
+    256
+  ],
+  "odd_a_parameters": 76,
+  "vertices": 5776,
+  "edges": 1433,
+  "acyclic": false,
+  "max_catapults_if_acyclic": null,
+  "necessary_graph_longest_word": null,
+  "sample_cycle": [
+    [
+      8,
+      244
+    ],
+    [
+      244,
+      81
+    ],
+    [
+      81,
+      27
+    ],
+    [
+      27,
+      8
+    ]
+  ],
+  "sample_cycle_clock": {
+    "advance": 960,
+    "valuation": 6,
+    "required_bits": 81,
+    "repeating_same_cycle_not_excluded": false
+  },
+  "diagonal_checks": 76,
+  "scope": "Graph is a necessary-condition overapproximation. Longest word is not asserted reachable; an acyclic upper bound applies to all actual trains in the interval."
+}

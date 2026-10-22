@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "root_range": [
+    512,
+    8191
+  ],
+  "roots": 7680,
+  "certified_a_outputs": 2571,
+  "checked_copy_drops": 2571,
+  "maximum_observed_a_count": 2,
+  "observed_source_histories": {
+    "a": 2325,
+    "aa": 122,
+    "ba": 123,
+    "ca": 1
+  },
+  "scope": "Actual finite symbolic exits. Long mixed histories and the general step bound rely on the analytic proof, not extrapolation from observed histories."
+}

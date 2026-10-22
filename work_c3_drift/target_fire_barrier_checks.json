@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "small_kernel_barriers": [
+    {
+      "P": 1,
+      "gap": 1,
+      "min_distance": 1
+    },
+    {
+      "P": 2,
+      "gap": 1,
+      "min_distance": 2
+    },
+    {
+      "P": 3,
+      "gap": 2,
+      "min_distance": 4
+    },
+    {
+      "P": 4,
+      "gap": 2,
+      "min_distance": 4
+    },
+    {
+      "P": 5,
+      "gap": 3,
+      "min_distance": 12
+    },
+    {
+      "P": 6,
+      "gap": 3,
+      "min_distance": 28
+    },
+    {
+      "P": 7,
+      "gap": 3,
+      "min_distance": 28
+    },
+    {
+      "P": 8,
+      "gap": 4,
+      "min_distance": 28
+    },
+    {
+      "P": 9,
+      "gap": 4,
+      "min_distance": 28
+    },
+    {
+      "P": 10,
+      "gap": 5,
+      "min_distance": 284
+    },
+    {
+      "P": 11,
+      "gap": 5,
+      "min_distance": 796
+    },
+    {
+      "P": 12,
+      "gap": 6,
+      "min_distance": 1820
+    },
+    {
+      "P": 13,
+      "gap": 6,
+      "min_distance": 1820
+    },
+    {
+      "P": 14,
+      "gap": 8,
+      "min_distance": 1820
+    },
+    {
+      "P": 15,
+      "gap": 7,
+      "min_distance": 1820
+    }
+  ],
+  "all_integer_predecessor_checks": 283983,
+  "canonical_targets_checked": 124,
+  "scope": "Arithmetic and finite calendar checks. The all-m construction under global EXT is an analytic conditional theorem, not a computation."
+}

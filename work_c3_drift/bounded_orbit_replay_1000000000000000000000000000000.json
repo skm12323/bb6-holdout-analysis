@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "exponent_upper": "1000000000000000000000000000000",
+  "certificates": 198,
+  "covered": "1000000000000000000000000000001",
+  "period_checks": 594,
+  "max_reference_table_index": 107,
+  "scope": "Independent full-pair replay plus prefix-disjointness/count check; not an independent human proof review."
+}

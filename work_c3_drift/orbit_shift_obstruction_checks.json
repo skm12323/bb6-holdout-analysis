@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "source_parameter": 49,
+  "source_fire_k": "469124961184426",
+  "source_pointer": "1051689726214394",
+  "real_terminal_y": "4222124650659962",
+  "A": "263882790666247",
+  "A_mod8": 7,
+  "symbolic_failure_H": "1051689726214389",
+  "necessary_r_lower_bound": "657306078883964",
+  "samples": [
+    {
+      "H": 3,
+      "r": "0",
+      "r_bits": 0,
+      "output_valuation_at_least": 7,
+      "exact_output_valuation": 7
+    },
+    {
+      "H": 4,
+      "r": "2",
+      "r_bits": 2,
+      "output_valuation_at_least": 8,
+      "exact_output_valuation": 10
+    },
+    {
+      "H": 5,
+      "r": "2",
+      "r_bits": 2,
+      "output_valuation_at_least": 9,
+      "exact_output_valuation": 10
+    },
+    {
+      "H": 8,
+      "r": "18",
+      "r_bits": 5,
+      "output_valuation_at_least": 12,
+      "exact_output_valuation": 12
+    },
+    {
+      "H": 16,
+      "r": "15186",
+      "r_bits": 14,
+      "output_valuation_at_least": 20
+    },
+    {
+      "H": 32,
+      "r": "1018428242",
+      "r_bits": 30,
+      "output_valuation_at_least": 36
+    },
+    {
+      "H": 64,
+      "r": "4344898661582633810",
+      "r_bits": 62,
+      "output_valuation_at_least": 68
+    },
+    {
+      "H": 128,
+      "r": "80547344153826244553496269379587013458",
+      "r_bits": 126,
+      "output_valuation_at_least": 132
+    },
+    {
+      "H": 256,
+      "r": "16057576147386121668716731092106850725877824140215693352143832161925329058642",
+      "r_bits": 254,
+      "output_valuation_at_least": 260
+    }
+  ],
+  "scope": "Actual canonical source. Full precision failure is proved by the subgroup theorem, not simulated. No joint reachability of its orbit shift is claimed."
+}

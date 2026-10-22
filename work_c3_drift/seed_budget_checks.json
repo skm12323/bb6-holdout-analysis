@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "checks": {
+    "A": 114,
+    "BA": 114,
+    "AA": 114,
+    "parent_b": 114,
+    "parent_a": 112
+  },
+  "small_cases": [
+    {
+      "history": "A",
+      "s": 14,
+      "k": 5,
+      "d": 5,
+      "m": 6
+    },
+    {
+      "history": "A",
+      "s": 14,
+      "k": 5,
+      "d": -11,
+      "m": 5
+    }
+  ],
+  "scope": "Canonical call clocks and reference forms; AA/BA outer histories are not claimed realized for every selected s. All-scale size proof is separate."
+}

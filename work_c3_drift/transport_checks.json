@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "canonical_pairs": [
+    {
+      "P": 14,
+      "p": 5,
+      "source_index": "6133",
+      "ancestor_index": 5,
+      "precision": 4
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "source_index": "289086270696314883188925376",
+      "ancestor_index": 5,
+      "precision": 4
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "source_index": "136517131539405869694540270279944446662008190014",
+      "ancestor_index": 5,
+      "precision": 4
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "source_index": "6446839263191968112703081097646156153307841449936119739796858726807903",
+      "ancestor_index": 5,
+      "precision": 4
+    }
+  ],
+  "common_shifts": [
+    -32,
+    32
+  ],
+  "reference_status": {
+    "end": 260
+  },
+  "matched_states": 260,
+  "synthetic_lift_reference_status": {
+    "end": 4940,
+    "ceiling": 4
+  },
+  "synthetic_lift_matched_states": 5345,
+  "unresolved_controls": [
+    {
+      "p": 64,
+      "eta": 4611686018427387780,
+      "status": "ceiling",
+      "kind": "canonical reference"
+    },
+    {
+      "p": 100,
+      "eta": 316912650057057350374175801145,
+      "status": "ceiling",
+      "kind": "canonical reference"
+    },
+    {
+      "p": 135,
+      "eta": 10889035741470030830827987437816582766324,
+      "status": "ceiling",
+      "kind": "canonical reference"
+    },
+    {
+      "p": 208,
+      "eta": 102844034832575377634685573909834406561420991602098741459287652,
+      "status": "ceiling",
+      "kind": "canonical reference"
+    }
+  ],
+  "scope": "Actual AA pairs are terminal. Nontrivial tails use canonical references with synthetic congruent lifts. Mixed histories not sampled."
+}

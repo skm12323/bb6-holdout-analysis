@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "exact_copy_checks": {
+    "b": 6160,
+    "c": 440
+  },
+  "max_tested_source_rank": 3,
+  "uncertified_rank_control": {
+    "n": 5,
+    "source_parameter": 1,
+    "source_rank": 3,
+    "source_budget": 7,
+    "potential_increase": 3
+  },
+  "scope": "Real small source coefficients; synthetic matching phase representations constrained by the stated source budget. No assertion that all sources admit such a certificate."
+}

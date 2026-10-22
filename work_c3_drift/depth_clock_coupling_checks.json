@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "pair_identity_checks": 80,
+  "cross_scale_required_E": 514273,
+  "source_unit": 102409,
+  "allowed_k_mod64": [
+    6,
+    22
+  ],
+  "excluded_k_mod64": [
+    38,
+    54
+  ],
+  "samples": [
+    {
+      "modulus_bits": 3,
+      "r_residue": "1",
+      "exponent_period_bits": 1
+    },
+    {
+      "modulus_bits": 6,
+      "r_residue": "11",
+      "exponent_period_bits": 4
+    },
+    {
+      "modulus_bits": 12,
+      "r_residue": "1019",
+      "exponent_period_bits": 10
+    },
+    {
+      "modulus_bits": 16,
+      "r_residue": "11259",
+      "exponent_period_bits": 14
+    },
+    {
+      "modulus_bits": 32,
+      "r_residue": "167799803",
+      "exponent_period_bits": 30
+    },
+    {
+      "modulus_bits": 64,
+      "r_residue": "3029214300234345467",
+      "exponent_period_bits": 62
+    },
+    {
+      "modulus_bits": 128,
+      "r_residue": "55651986148185457372445567233025928187",
+      "exponent_period_bits": 126
+    },
+    {
+      "modulus_bits": 256,
+      "r_residue": "12538662001334831796442300674852150567042723370909232292825628568973700262907",
+      "exponent_period_bits": 254
+    }
+  ],
+  "pair_precision_checks": [
+    {
+      "i": 0,
+      "E": 514273,
+      "checked_modulus_bits": 128
+    },
+    {
+      "i": 1,
+      "E": 17,
+      "checked_modulus_bits": 14
+    },
+    {
+      "i": 2,
+      "E": 15,
+      "checked_modulus_bits": 12
+    }
+  ],
+  "overprecision_control_rejected": true,
+  "necessary_depth_lower_bound": "12538662001334831796442300674852150567042723370909232292825628568973700262907",
+  "scope": "Necessary coupling for a stated high-precision c_r representation. No proof that such depths or initial states are jointly reachable."
+}

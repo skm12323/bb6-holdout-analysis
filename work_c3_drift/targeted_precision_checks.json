@@ -1,0 +1,3965 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "calendar_B": 512,
+  "target_range": [
+    5,
+    256
+  ],
+  "targets": 252,
+  "misses": [],
+  "direct_bigint_examples": 8,
+  "max_required_bits": 258,
+  "scope": "Canonical input sources verified by calendar; outer root fires exist by accepted finite spectrum theorem, not simulated. Shift eta=-3 is counterfactual.",
+  "records": [
+    {
+      "m": 5,
+      "k": "38",
+      "source_pointer": "89",
+      "root_parameter": "90",
+      "lift": 1,
+      "required_bits": 7,
+      "extra_bits_over_minimal": 1,
+      "x_residue": "96",
+      "theta_residue": "101",
+      "certificate_word": [
+        5,
+        5,
+        1
+      ]
+    },
+    {
+      "m": 6,
+      "k": "6",
+      "source_pointer": "16",
+      "root_parameter": "17",
+      "lift": 0,
+      "required_bits": 8,
+      "extra_bits_over_minimal": 2,
+      "x_residue": "32",
+      "theta_residue": "37",
+      "certificate_word": [
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 7,
+      "k": "70",
+      "source_pointer": "160",
+      "root_parameter": "161",
+      "lift": 0,
+      "required_bits": 9,
+      "extra_bits_over_minimal": 3,
+      "x_residue": "416",
+      "theta_residue": "421",
+      "certificate_word": [
+        5,
+        7
+      ]
+    },
+    {
+      "m": 8,
+      "k": "198",
+      "source_pointer": "446",
+      "root_parameter": "447",
+      "lift": 0,
+      "required_bits": 10,
+      "extra_bits_over_minimal": 4,
+      "x_residue": "160",
+      "theta_residue": "165",
+      "certificate_word": [
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "m": 9,
+      "k": "966",
+      "source_pointer": "2167",
+      "root_parameter": "2168",
+      "lift": 1,
+      "required_bits": 11,
+      "extra_bits_over_minimal": 5,
+      "x_residue": "1696",
+      "theta_residue": "1701",
+      "certificate_word": [
+        5,
+        9,
+        4
+      ]
+    },
+    {
+      "m": 10,
+      "k": "1478",
+      "source_pointer": "3316",
+      "root_parameter": "3317",
+      "lift": 1,
+      "required_bits": 12,
+      "extra_bits_over_minimal": 6,
+      "x_residue": "672",
+      "theta_residue": "677",
+      "certificate_word": [
+        5,
+        10
+      ]
+    },
+    {
+      "m": 11,
+      "k": "2502",
+      "source_pointer": "5613",
+      "root_parameter": "5614",
+      "lift": 1,
+      "required_bits": 13,
+      "extra_bits_over_minimal": 7,
+      "x_residue": "6816",
+      "theta_residue": "6821",
+      "certificate_word": [
+        5,
+        11
+      ]
+    },
+    {
+      "m": 12,
+      "k": "454",
+      "source_pointer": "1020",
+      "root_parameter": "1021",
+      "lift": 0,
+      "required_bits": 14,
+      "extra_bits_over_minimal": 8,
+      "x_residue": "2720",
+      "theta_residue": "2725",
+      "certificate_word": [
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "m": 13,
+      "k": "4550",
+      "source_pointer": "10200",
+      "root_parameter": "10201",
+      "lift": 0,
+      "required_bits": 15,
+      "extra_bits_over_minimal": 9,
+      "x_residue": "27296",
+      "theta_residue": "27301",
+      "certificate_word": [
+        5,
+        13,
+        2
+      ]
+    },
+    {
+      "m": 14,
+      "k": "12742",
+      "source_pointer": "28566",
+      "root_parameter": "28567",
+      "lift": 0,
+      "required_bits": 16,
+      "extra_bits_over_minimal": 10,
+      "x_residue": "10912",
+      "theta_residue": "10917",
+      "certificate_word": [
+        5,
+        14,
+        1
+      ]
+    },
+    {
+      "m": 15,
+      "k": "61894",
+      "source_pointer": "138754",
+      "root_parameter": "138755",
+      "lift": 1,
+      "required_bits": 17,
+      "extra_bits_over_minimal": 11,
+      "x_residue": "109216",
+      "theta_residue": "109221",
+      "certificate_word": [
+        5,
+        15,
+        1
+      ]
+    },
+    {
+      "m": 16,
+      "k": "94662",
+      "source_pointer": "212215",
+      "root_parameter": "212216",
+      "lift": 1,
+      "required_bits": 18,
+      "extra_bits_over_minimal": 12,
+      "x_residue": "43680",
+      "theta_residue": "43685",
+      "certificate_word": [
+        5,
+        16
+      ]
+    },
+    {
+      "m": 17,
+      "k": "160198",
+      "source_pointer": "359136",
+      "root_parameter": "359137",
+      "lift": 1,
+      "required_bits": 19,
+      "extra_bits_over_minimal": 13,
+      "x_residue": "436896",
+      "theta_residue": "436901",
+      "certificate_word": [
+        5,
+        17,
+        7
+      ]
+    },
+    {
+      "m": 18,
+      "k": "29126",
+      "source_pointer": "65297",
+      "root_parameter": "65298",
+      "lift": 0,
+      "required_bits": 20,
+      "extra_bits_over_minimal": 14,
+      "x_residue": "174752",
+      "theta_residue": "174757",
+      "certificate_word": [
+        5,
+        18,
+        3
+      ]
+    },
+    {
+      "m": 19,
+      "k": "291270",
+      "source_pointer": "652976",
+      "root_parameter": "652977",
+      "lift": 0,
+      "required_bits": 21,
+      "extra_bits_over_minimal": 15,
+      "x_residue": "1747616",
+      "theta_residue": "1747621",
+      "certificate_word": [
+        5,
+        19
+      ]
+    },
+    {
+      "m": 20,
+      "k": "815558",
+      "source_pointer": "1828330",
+      "root_parameter": "1828331",
+      "lift": 0,
+      "required_bits": 22,
+      "extra_bits_over_minimal": 16,
+      "x_residue": "699040",
+      "theta_residue": "699045",
+      "certificate_word": [
+        5,
+        20
+      ]
+    },
+    {
+      "m": 21,
+      "k": "3961286",
+      "source_pointer": "8880458",
+      "root_parameter": "8880459",
+      "lift": 1,
+      "required_bits": 23,
+      "extra_bits_over_minimal": 17,
+      "x_residue": "6990496",
+      "theta_residue": "6990501",
+      "certificate_word": [
+        5,
+        21
+      ]
+    },
+    {
+      "m": 22,
+      "k": "6058438",
+      "source_pointer": "13581879",
+      "root_parameter": "13581880",
+      "lift": 1,
+      "required_bits": 24,
+      "extra_bits_over_minimal": 18,
+      "x_residue": "2796192",
+      "theta_residue": "2796197",
+      "certificate_word": [
+        5,
+        22,
+        2
+      ]
+    },
+    {
+      "m": 23,
+      "k": "10252742",
+      "source_pointer": "22984719",
+      "root_parameter": "22984720",
+      "lift": 1,
+      "required_bits": 25,
+      "extra_bits_over_minimal": 19,
+      "x_residue": "27962016",
+      "theta_residue": "27962021",
+      "certificate_word": [
+        5,
+        23,
+        2
+      ]
+    },
+    {
+      "m": 24,
+      "k": "1864134",
+      "source_pointer": "4179041",
+      "root_parameter": "4179042",
+      "lift": 0,
+      "required_bits": 26,
+      "extra_bits_over_minimal": 20,
+      "x_residue": "11184800",
+      "theta_residue": "11184805",
+      "certificate_word": [
+        5,
+        24,
+        1
+      ]
+    },
+    {
+      "m": 25,
+      "k": "18641350",
+      "source_pointer": "41790397",
+      "root_parameter": "41790398",
+      "lift": 0,
+      "required_bits": 27,
+      "extra_bits_over_minimal": 21,
+      "x_residue": "111848096",
+      "theta_residue": "111848101",
+      "certificate_word": [
+        5,
+        25,
+        1
+      ]
+    },
+    {
+      "m": 26,
+      "k": "52195782",
+      "source_pointer": "117013104",
+      "root_parameter": "117013105",
+      "lift": 0,
+      "required_bits": 28,
+      "extra_bits_over_minimal": 22,
+      "x_residue": "44739232",
+      "theta_residue": "44739237",
+      "certificate_word": [
+        5,
+        26
+      ]
+    },
+    {
+      "m": 27,
+      "k": "253522374",
+      "source_pointer": "568349373",
+      "root_parameter": "568349374",
+      "lift": 1,
+      "required_bits": 29,
+      "extra_bits_over_minimal": 23,
+      "x_residue": "447392416",
+      "theta_residue": "447392421",
+      "certificate_word": [
+        5,
+        27,
+        3
+      ]
+    },
+    {
+      "m": 28,
+      "k": "387740102",
+      "source_pointer": "869240218",
+      "root_parameter": "869240219",
+      "lift": 1,
+      "required_bits": 30,
+      "extra_bits_over_minimal": 24,
+      "x_residue": "178956960",
+      "theta_residue": "178956965",
+      "certificate_word": [
+        5,
+        28,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 29,
+      "k": "656175558",
+      "source_pointer": "1471021907",
+      "root_parameter": "1471021908",
+      "lift": 1,
+      "required_bits": 31,
+      "extra_bits_over_minimal": 25,
+      "x_residue": "1789569696",
+      "theta_residue": "1789569701",
+      "certificate_word": [
+        5,
+        29
+      ]
+    },
+    {
+      "m": 30,
+      "k": "119304646",
+      "source_pointer": "267458529",
+      "root_parameter": "267458530",
+      "lift": 0,
+      "required_bits": 32,
+      "extra_bits_over_minimal": 26,
+      "x_residue": "715827872",
+      "theta_residue": "715827877",
+      "certificate_word": [
+        5,
+        30
+      ]
+    },
+    {
+      "m": 31,
+      "k": "1193046470",
+      "source_pointer": "2674585281",
+      "root_parameter": "2674585282",
+      "lift": 0,
+      "required_bits": 33,
+      "extra_bits_over_minimal": 27,
+      "x_residue": "7158278816",
+      "theta_residue": "7158278821",
+      "certificate_word": [
+        5,
+        31
+      ]
+    },
+    {
+      "m": 32,
+      "k": "3340530118",
+      "source_pointer": "7488838789",
+      "root_parameter": "7488838790",
+      "lift": 0,
+      "required_bits": 34,
+      "extra_bits_over_minimal": 28,
+      "x_residue": "2863311520",
+      "theta_residue": "2863311525",
+      "certificate_word": [
+        5,
+        32,
+        1
+      ]
+    },
+    {
+      "m": 33,
+      "k": "16225432006",
+      "source_pointer": "36374359832",
+      "root_parameter": "36374359833",
+      "lift": 1,
+      "required_bits": 35,
+      "extra_bits_over_minimal": 29,
+      "x_residue": "28633115296",
+      "theta_residue": "28633115301",
+      "certificate_word": [
+        5,
+        33,
+        1
+      ]
+    },
+    {
+      "m": 34,
+      "k": "24815366598",
+      "source_pointer": "55631373863",
+      "root_parameter": "55631373864",
+      "lift": 1,
+      "required_bits": 36,
+      "extra_bits_over_minimal": 30,
+      "x_residue": "11453246112",
+      "theta_residue": "11453246117",
+      "certificate_word": [
+        5,
+        34
+      ]
+    },
+    {
+      "m": 35,
+      "k": "41995235782",
+      "source_pointer": "94145401924",
+      "root_parameter": "94145401925",
+      "lift": 1,
+      "required_bits": 37,
+      "extra_bits_over_minimal": 31,
+      "x_residue": "114532461216",
+      "theta_residue": "114532461221",
+      "certificate_word": [
+        5,
+        35,
+        4
+      ]
+    },
+    {
+      "m": 36,
+      "k": "7635497414",
+      "source_pointer": "17117345805",
+      "root_parameter": "17117345806",
+      "lift": 0,
+      "required_bits": 38,
+      "extra_bits_over_minimal": 32,
+      "x_residue": "45812984480",
+      "theta_residue": "45812984485",
+      "certificate_word": [
+        5,
+        36,
+        3
+      ]
+    },
+    {
+      "m": 37,
+      "k": "76354974150",
+      "source_pointer": "171173458046",
+      "root_parameter": "171173458047",
+      "lift": 0,
+      "required_bits": 39,
+      "extra_bits_over_minimal": 33,
+      "x_residue": "458129844896",
+      "theta_residue": "458129844901",
+      "certificate_word": [
+        5,
+        37
+      ]
+    },
+    {
+      "m": 38,
+      "k": "213793927622",
+      "source_pointer": "479285682522",
+      "root_parameter": "479285682523",
+      "lift": 0,
+      "required_bits": 40,
+      "extra_bits_over_minimal": 34,
+      "x_residue": "183251937952",
+      "theta_residue": "183251937957",
+      "certificate_word": [
+        5,
+        38
+      ]
+    },
+    {
+      "m": 39,
+      "k": "1038427648454",
+      "source_pointer": "2327959029382",
+      "root_parameter": "2327959029383",
+      "lift": 1,
+      "required_bits": 41,
+      "extra_bits_over_minimal": 35,
+      "x_residue": "1832519379616",
+      "theta_residue": "1832519379621",
+      "certificate_word": [
+        5,
+        39
+      ]
+    },
+    {
+      "m": 40,
+      "k": "1588183462342",
+      "source_pointer": "3560407927291",
+      "root_parameter": "3560407927292",
+      "lift": 1,
+      "required_bits": 42,
+      "extra_bits_over_minimal": 36,
+      "x_residue": "733007751840",
+      "theta_residue": "733007751845",
+      "certificate_word": [
+        5,
+        40,
+        2
+      ]
+    },
+    {
+      "m": 41,
+      "k": "2687695090118",
+      "source_pointer": "6025305723107",
+      "root_parameter": "6025305723108",
+      "lift": 1,
+      "required_bits": 43,
+      "extra_bits_over_minimal": 37,
+      "x_residue": "7330077518496",
+      "theta_residue": "7330077518501",
+      "certificate_word": [
+        5,
+        41,
+        2
+      ]
+    },
+    {
+      "m": 42,
+      "k": "488671834566",
+      "source_pointer": "1095510131477",
+      "root_parameter": "1095510131478",
+      "lift": 0,
+      "required_bits": 44,
+      "extra_bits_over_minimal": 38,
+      "x_residue": "2932031007392",
+      "theta_residue": "2932031007397",
+      "certificate_word": [
+        5,
+        42,
+        1
+      ]
+    },
+    {
+      "m": 43,
+      "k": "4886718345670",
+      "source_pointer": "10955101314737",
+      "root_parameter": "10955101314738",
+      "lift": 0,
+      "required_bits": 45,
+      "extra_bits_over_minimal": 39,
+      "x_residue": "29320310074016",
+      "theta_residue": "29320310074021",
+      "certificate_word": [
+        5,
+        43,
+        1
+      ]
+    },
+    {
+      "m": 44,
+      "k": "13682811367878",
+      "source_pointer": "30674283681253",
+      "root_parameter": "30674283681254",
+      "lift": 0,
+      "required_bits": 46,
+      "extra_bits_over_minimal": 40,
+      "x_residue": "11728124029600",
+      "theta_residue": "11728124029605",
+      "certificate_word": [
+        5,
+        44
+      ]
+    },
+    {
+      "m": 45,
+      "k": "66459369501126",
+      "source_pointer": "148989377880372",
+      "root_parameter": "148989377880373",
+      "lift": 1,
+      "required_bits": 47,
+      "extra_bits_over_minimal": 41,
+      "x_residue": "117281240296096",
+      "theta_residue": "117281240296101",
+      "certificate_word": [
+        5,
+        45,
+        3
+      ]
+    },
+    {
+      "m": 46,
+      "k": "101643741589958",
+      "source_pointer": "227866107346450",
+      "root_parameter": "227866107346451",
+      "lift": 1,
+      "required_bits": 48,
+      "extra_bits_over_minimal": 42,
+      "x_residue": "46912496118432",
+      "theta_residue": "46912496118437",
+      "certificate_word": [
+        5,
+        46,
+        4
+      ]
+    },
+    {
+      "m": 47,
+      "k": "172012485767622",
+      "source_pointer": "385619566278607",
+      "root_parameter": "385619566278608",
+      "lift": 1,
+      "required_bits": 49,
+      "extra_bits_over_minimal": 43,
+      "x_residue": "469124961184416",
+      "theta_residue": "469124961184421",
+      "certificate_word": [
+        5,
+        47
+      ]
+    },
+    {
+      "m": 48,
+      "k": "31274997412294",
+      "source_pointer": "70112648414294",
+      "root_parameter": "70112648414295",
+      "lift": 0,
+      "required_bits": 50,
+      "extra_bits_over_minimal": 44,
+      "x_residue": "187649984473760",
+      "theta_residue": "187649984473765",
+      "certificate_word": [
+        5,
+        48
+      ]
+    },
+    {
+      "m": 49,
+      "k": "312749974122950",
+      "source_pointer": "701126484142917",
+      "root_parameter": "701126484142918",
+      "lift": 0,
+      "required_bits": 51,
+      "extra_bits_over_minimal": 45,
+      "x_residue": "1876499844737696",
+      "theta_residue": "1876499844737701",
+      "certificate_word": [
+        5,
+        49,
+        2
+      ]
+    },
+    {
+      "m": 50,
+      "k": "875699927544262",
+      "source_pointer": "1963154155600164",
+      "root_parameter": "1963154155600165",
+      "lift": 0,
+      "required_bits": 52,
+      "extra_bits_over_minimal": 46,
+      "x_residue": "750599937895072",
+      "theta_residue": "750599937895077",
+      "certificate_word": [
+        5,
+        50,
+        2
+      ]
+    },
+    {
+      "m": 51,
+      "k": "4253399648072134",
+      "source_pointer": "9535320184343637",
+      "root_parameter": "9535320184343638",
+      "lift": 1,
+      "required_bits": 53,
+      "extra_bits_over_minimal": 47,
+      "x_residue": "7505999378950816",
+      "theta_residue": "7505999378950821",
+      "certificate_word": [
+        5,
+        51,
+        1
+      ]
+    },
+    {
+      "m": 52,
+      "k": "6505199461757382",
+      "source_pointer": "14583430870172622",
+      "root_parameter": "14583430870172623",
+      "lift": 1,
+      "required_bits": 54,
+      "extra_bits_over_minimal": 48,
+      "x_residue": "3002399751580320",
+      "theta_residue": "3002399751580325",
+      "certificate_word": [
+        5,
+        52,
+        1
+      ]
+    },
+    {
+      "m": 53,
+      "k": "11008799089127878",
+      "source_pointer": "24679652241830591",
+      "root_parameter": "24679652241830592",
+      "lift": 1,
+      "required_bits": 55,
+      "extra_bits_over_minimal": 49,
+      "x_residue": "30023997515803296",
+      "theta_residue": "30023997515803301",
+      "certificate_word": [
+        5,
+        53
+      ]
+    },
+    {
+      "m": 54,
+      "k": "2001599834386886",
+      "source_pointer": "4487209498514654",
+      "root_parameter": "4487209498514655",
+      "lift": 0,
+      "required_bits": 56,
+      "extra_bits_over_minimal": 50,
+      "x_residue": "12009599006321312",
+      "theta_residue": "12009599006321317",
+      "certificate_word": [
+        5,
+        54,
+        5,
+        7
+      ]
+    },
+    {
+      "m": 55,
+      "k": "20015998343868870",
+      "source_pointer": "44872094985146524",
+      "root_parameter": "44872094985146525",
+      "lift": 0,
+      "required_bits": 57,
+      "extra_bits_over_minimal": 51,
+      "x_residue": "120095990063213216",
+      "theta_residue": "120095990063213221",
+      "certificate_word": [
+        5,
+        55,
+        3
+      ]
+    },
+    {
+      "m": 56,
+      "k": "56044795362832838",
+      "source_pointer": "125641865958410266",
+      "root_parameter": "125641865958410267",
+      "lift": 0,
+      "required_bits": 58,
+      "extra_bits_over_minimal": 52,
+      "x_residue": "48038396025285280",
+      "theta_residue": "48038396025285285",
+      "certificate_word": [
+        5,
+        56
+      ]
+    },
+    {
+      "m": 57,
+      "k": "272217577476616646",
+      "source_pointer": "610260491797992714",
+      "root_parameter": "610260491797992715",
+      "lift": 1,
+      "required_bits": 59,
+      "extra_bits_over_minimal": 53,
+      "x_residue": "480383960252852896",
+      "theta_residue": "480383960252852901",
+      "certificate_word": [
+        5,
+        57
+      ]
+    },
+    {
+      "m": 58,
+      "k": "416332765552472518",
+      "source_pointer": "933339575691047681",
+      "root_parameter": "933339575691047682",
+      "lift": 1,
+      "required_bits": 60,
+      "extra_bits_over_minimal": 54,
+      "x_residue": "192153584101141152",
+      "theta_residue": "192153584101141157",
+      "certificate_word": [
+        5,
+        58
+      ]
+    },
+    {
+      "m": 59,
+      "k": "704563141704184262",
+      "source_pointer": "1579497743477157614",
+      "root_parameter": "1579497743477157615",
+      "lift": 1,
+      "required_bits": 61,
+      "extra_bits_over_minimal": 55,
+      "x_residue": "1921535841011411616",
+      "theta_residue": "1921535841011411621",
+      "certificate_word": [
+        5,
+        59,
+        2
+      ]
+    },
+    {
+      "m": 60,
+      "k": "128102389400760774",
+      "source_pointer": "287181407904937750",
+      "root_parameter": "287181407904937751",
+      "lift": 0,
+      "required_bits": 62,
+      "extra_bits_over_minimal": 56,
+      "x_residue": "768614336404564640",
+      "theta_residue": "768614336404564645",
+      "certificate_word": [
+        5,
+        60,
+        2
+      ]
+    },
+    {
+      "m": 61,
+      "k": "1281023894007607750",
+      "source_pointer": "2871814079049377477",
+      "root_parameter": "2871814079049377478",
+      "lift": 0,
+      "required_bits": 63,
+      "extra_bits_over_minimal": 57,
+      "x_residue": "7686143364045646496",
+      "theta_residue": "7686143364045646501",
+      "certificate_word": [
+        5,
+        61,
+        1
+      ]
+    },
+    {
+      "m": 62,
+      "k": "3586866903221301702",
+      "source_pointer": "8041079421338256928",
+      "root_parameter": "8041079421338256929",
+      "lift": 0,
+      "required_bits": 64,
+      "extra_bits_over_minimal": 58,
+      "x_residue": "3074457345618258592",
+      "theta_residue": "3074457345618258597",
+      "certificate_word": [
+        5,
+        62,
+        1
+      ]
+    },
+    {
+      "m": 63,
+      "k": "17421924958503465414",
+      "source_pointer": "39056671475071533636",
+      "root_parameter": "39056671475071533637",
+      "lift": 1,
+      "required_bits": 65,
+      "extra_bits_over_minimal": 59,
+      "x_residue": "30744573456182586016",
+      "theta_residue": "30744573456182586021",
+      "certificate_word": [
+        5,
+        63
+      ]
+    },
+    {
+      "m": 64,
+      "k": "26645296995358241222",
+      "source_pointer": "59733732844227051445",
+      "root_parameter": "59733732844227051446",
+      "lift": 1,
+      "required_bits": 66,
+      "extra_bits_over_minimal": 60,
+      "x_residue": "12297829382473034400",
+      "theta_residue": "12297829382473034405",
+      "certificate_word": [
+        5,
+        64,
+        3
+      ]
+    },
+    {
+      "m": 65,
+      "k": "45092041069067792838",
+      "source_pointer": "101087855582538087059",
+      "root_parameter": "101087855582538087060",
+      "lift": 1,
+      "required_bits": 67,
+      "extra_bits_over_minimal": 61,
+      "x_residue": "122978293824730344096",
+      "theta_residue": "122978293824730344101",
+      "certificate_word": [
+        5,
+        65,
+        5,
+        4
+      ]
+    },
+    {
+      "m": 66,
+      "k": "8198552921648689606",
+      "source_pointer": "18379610105916015833",
+      "root_parameter": "18379610105916015834",
+      "lift": 0,
+      "required_bits": 68,
+      "extra_bits_over_minimal": 62,
+      "x_residue": "49191317529892137632",
+      "theta_residue": "49191317529892137637",
+      "certificate_word": [
+        5,
+        66,
+        3
+      ]
+    },
+    {
+      "m": 67,
+      "k": "81985529216486896070",
+      "source_pointer": "183796101059160158281",
+      "root_parameter": "183796101059160158282",
+      "lift": 0,
+      "required_bits": 69,
+      "extra_bits_over_minimal": 63,
+      "x_residue": "491913175298921376416",
+      "theta_residue": "491913175298921376421",
+      "certificate_word": [
+        5,
+        67
+      ]
+    },
+    {
+      "m": 68,
+      "k": "229559481806163308998",
+      "source_pointer": "514629082965648443181",
+      "root_parameter": "514629082965648443182",
+      "lift": 0,
+      "required_bits": 70,
+      "extra_bits_over_minimal": 64,
+      "x_residue": "196765270119568550560",
+      "theta_residue": "196765270119568550565",
+      "certificate_word": [
+        5,
+        68,
+        1
+      ]
+    },
+    {
+      "m": 69,
+      "k": "1115003197344221786566",
+      "source_pointer": "2499626974404578152576",
+      "root_parameter": "2499626974404578152577",
+      "lift": 1,
+      "required_bits": 71,
+      "extra_bits_over_minimal": 65,
+      "x_residue": "1967652701195685505696",
+      "theta_residue": "1967652701195685505701",
+      "certificate_word": [
+        5,
+        69,
+        1
+      ]
+    },
+    {
+      "m": 70,
+      "k": "1705299007702927438278",
+      "source_pointer": "3822958902030531292175",
+      "root_parameter": "3822958902030531292176",
+      "lift": 1,
+      "required_bits": 72,
+      "extra_bits_over_minimal": 66,
+      "x_residue": "787061080478274202272",
+      "theta_residue": "787061080478274202277",
+      "certificate_word": [
+        5,
+        70
+      ]
+    },
+    {
+      "m": 71,
+      "k": "2885890628420338741702",
+      "source_pointer": "6469622757282437571372",
+      "root_parameter": "6469622757282437571373",
+      "lift": 1,
+      "required_bits": 73,
+      "extra_bits_over_minimal": 67,
+      "x_residue": "7870610804782742022816",
+      "theta_residue": "7870610804782742022821",
+      "certificate_word": [
+        5,
+        71,
+        4
+      ]
+    },
+    {
+      "m": 72,
+      "k": "524707386985516134854",
+      "source_pointer": "1176295046778625012981",
+      "root_parameter": "1176295046778625012982",
+      "lift": 0,
+      "required_bits": 74,
+      "extra_bits_over_minimal": 68,
+      "x_residue": "3148244321913096809120",
+      "theta_residue": "3148244321913096809125",
+      "certificate_word": [
+        5,
+        72,
+        3
+      ]
+    },
+    {
+      "m": 73,
+      "k": "5247073869855161348550",
+      "source_pointer": "11762950467786250129765",
+      "root_parameter": "11762950467786250129766",
+      "lift": 0,
+      "required_bits": 75,
+      "extra_bits_over_minimal": 69,
+      "x_residue": "31482443219130968091296",
+      "theta_residue": "31482443219130968091301",
+      "certificate_word": [
+        5,
+        73
+      ]
+    },
+    {
+      "m": 74,
+      "k": "14691806835594451775942",
+      "source_pointer": "32936261309801500363328",
+      "root_parameter": "32936261309801500363329",
+      "lift": 0,
+      "required_bits": 76,
+      "extra_bits_over_minimal": 70,
+      "x_residue": "12592977287652387236512",
+      "theta_residue": "12592977287652387236517",
+      "certificate_word": [
+        5,
+        74
+      ]
+    },
+    {
+      "m": 75,
+      "k": "71360204630030194340294",
+      "source_pointer": "159976126361893001764710",
+      "root_parameter": "159976126361893001764711",
+      "lift": 1,
+      "required_bits": 77,
+      "extra_bits_over_minimal": 71,
+      "x_residue": "125929772876523872365216",
+      "theta_residue": "125929772876523872365221",
+      "certificate_word": [
+        5,
+        75
+      ]
+    },
+    {
+      "m": 76,
+      "k": "109139136492987356049862",
+      "source_pointer": "244669369729954002698967",
+      "root_parameter": "244669369729954002698968",
+      "lift": 1,
+      "required_bits": 78,
+      "extra_bits_over_minimal": 72,
+      "x_residue": "50371909150609548946080",
+      "theta_residue": "50371909150609548946085",
+      "certificate_word": [
+        5,
+        76,
+        2
+      ]
+    },
+    {
+      "m": 77,
+      "k": "184697000218901679468998",
+      "source_pointer": "414055856466076004567479",
+      "root_parameter": "414055856466076004567480",
+      "lift": 1,
+      "required_bits": 79,
+      "extra_bits_over_minimal": 73,
+      "x_residue": "503719091506095489460896",
+      "theta_residue": "503719091506095489460901",
+      "certificate_word": [
+        5,
+        77,
+        2
+      ]
+    },
+    {
+      "m": 78,
+      "k": "33581272767073032630726",
+      "source_pointer": "75282882993832000830457",
+      "root_parameter": "75282882993832000830458",
+      "lift": 0,
+      "required_bits": 80,
+      "extra_bits_over_minimal": 74,
+      "x_residue": "201487636602438195784352",
+      "theta_residue": "201487636602438195784357",
+      "certificate_word": [
+        5,
+        78,
+        1
+      ]
+    },
+    {
+      "m": 79,
+      "k": "335812727670730326307270",
+      "source_pointer": "752828829938320008304501",
+      "root_parameter": "752828829938320008304502",
+      "lift": 0,
+      "required_bits": 81,
+      "extra_bits_over_minimal": 75,
+      "x_residue": "2014876366024381957843616",
+      "theta_residue": "2014876366024381957843621",
+      "certificate_word": [
+        5,
+        79,
+        1
+      ]
+    },
+    {
+      "m": 80,
+      "k": "940275637478044913660358",
+      "source_pointer": "2107920723827296023252585",
+      "root_parameter": "2107920723827296023252586",
+      "lift": 0,
+      "required_bits": 82,
+      "extra_bits_over_minimal": 76,
+      "x_residue": "805950546409752783137440",
+      "theta_residue": "805950546409752783137445",
+      "certificate_word": [
+        5,
+        80
+      ]
+    },
+    {
+      "m": 81,
+      "k": "4567053096321932437778886",
+      "source_pointer": "10238472087161152112941112",
+      "root_parameter": "10238472087161152112941113",
+      "lift": 1,
+      "required_bits": 83,
+      "extra_bits_over_minimal": 77,
+      "x_residue": "8059505464097527831374496",
+      "theta_residue": "8059505464097527831374501",
+      "certificate_word": [
+        5,
+        81,
+        3
+      ]
+    },
+    {
+      "m": 82,
+      "k": "6984904735551190787191238",
+      "source_pointer": "15658839662717056172733462",
+      "root_parameter": "15658839662717056172733463",
+      "lift": 1,
+      "required_bits": 84,
+      "extra_bits_over_minimal": 78,
+      "x_residue": "3223802185639011132549792",
+      "theta_residue": "3223802185639011132549797",
+      "certificate_word": [
+        5,
+        82,
+        4
+      ]
+    },
+    {
+      "m": 83,
+      "k": "11820608014009707486015942",
+      "source_pointer": "26499574813828864292318163",
+      "root_parameter": "26499574813828864292318164",
+      "lift": 1,
+      "required_bits": 85,
+      "extra_bits_over_minimal": 79,
+      "x_residue": "32238021856390111325498016",
+      "theta_residue": "32238021856390111325498021",
+      "certificate_word": [
+        5,
+        83
+      ]
+    },
+    {
+      "m": 84,
+      "k": "2149201457092674088366534",
+      "source_pointer": "4818104511605248053148762",
+      "root_parameter": "4818104511605248053148763",
+      "lift": 0,
+      "required_bits": 86,
+      "extra_bits_over_minimal": 80,
+      "x_residue": "12895208742556044530199200",
+      "theta_residue": "12895208742556044530199205",
+      "certificate_word": [
+        5,
+        84
+      ]
+    },
+    {
+      "m": 85,
+      "k": "21492014570926740883665350",
+      "source_pointer": "48181045116052480531487561",
+      "root_parameter": "48181045116052480531487562",
+      "lift": 0,
+      "required_bits": 87,
+      "extra_bits_over_minimal": 81,
+      "x_residue": "128952087425560445301992096",
+      "theta_residue": "128952087425560445301992101",
+      "certificate_word": [
+        5,
+        85,
+        2
+      ]
+    },
+    {
+      "m": 86,
+      "k": "60177640798594874474262982",
+      "source_pointer": "134906926324946945488165160",
+      "root_parameter": "134906926324946945488165161",
+      "lift": 0,
+      "required_bits": 88,
+      "extra_bits_over_minimal": 82,
+      "x_residue": "51580834970224178120796832",
+      "theta_residue": "51580834970224178120796837",
+      "certificate_word": [
+        5,
+        86,
+        2
+      ]
+    },
+    {
+      "m": 87,
+      "k": "292291398164603676017848774",
+      "source_pointer": "655262213578313735228230749",
+      "root_parameter": "655262213578313735228230750",
+      "lift": 1,
+      "required_bits": 89,
+      "extra_bits_over_minimal": 83,
+      "x_residue": "515808349702241781207968416",
+      "theta_residue": "515808349702241781207968421",
+      "certificate_word": [
+        5,
+        87,
+        1
+      ]
+    },
+    {
+      "m": 88,
+      "k": "447033903075276210380239302",
+      "source_pointer": "1002165738413891595054941144",
+      "root_parameter": "1002165738413891595054941145",
+      "lift": 1,
+      "required_bits": 90,
+      "extra_bits_over_minimal": 84,
+      "x_residue": "206323339880896712483187360",
+      "theta_residue": "206323339880896712483187365",
+      "certificate_word": [
+        5,
+        88,
+        1
+      ]
+    },
+    {
+      "m": 89,
+      "k": "756518912896621279105020358",
+      "source_pointer": "1695972788085047314708361933",
+      "root_parameter": "1695972788085047314708361934",
+      "lift": 1,
+      "required_bits": 91,
+      "extra_bits_over_minimal": 85,
+      "x_residue": "2063233398808967124831873696",
+      "theta_residue": "2063233398808967124831873701",
+      "certificate_word": [
+        5,
+        89
+      ]
+    },
+    {
+      "m": 90,
+      "k": "137548893253931141655458246",
+      "source_pointer": "308358688742735875401520356",
+      "root_parameter": "308358688742735875401520357",
+      "lift": 0,
+      "required_bits": 92,
+      "extra_bits_over_minimal": 86,
+      "x_residue": "825293359523586849932749472",
+      "theta_residue": "825293359523586849932749477",
+      "certificate_word": [
+        5,
+        90,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 91,
+      "k": "1375488932539311416554582470",
+      "source_pointer": "3083586887427358754015203506",
+      "root_parameter": "3083586887427358754015203507",
+      "lift": 0,
+      "required_bits": 93,
+      "extra_bits_over_minimal": 87,
+      "x_residue": "8252933595235868499327494816",
+      "theta_residue": "8252933595235868499327494821",
+      "certificate_word": [
+        5,
+        91,
+        3
+      ]
+    },
+    {
+      "m": 92,
+      "k": "3851369011110071966352830918",
+      "source_pointer": "8634043284796604511242569808",
+      "root_parameter": "8634043284796604511242569809",
+      "lift": 0,
+      "required_bits": 94,
+      "extra_bits_over_minimal": 88,
+      "x_residue": "3301173438094347399730997920",
+      "theta_residue": "3301173438094347399730997925",
+      "certificate_word": [
+        5,
+        92
+      ]
+    },
+    {
+      "m": 93,
+      "k": "18706649482534635265142321606",
+      "source_pointer": "41936781669012079054606767616",
+      "root_parameter": "41936781669012079054606767617",
+      "lift": 1,
+      "required_bits": 95,
+      "extra_bits_over_minimal": 89,
+      "x_residue": "33011734380943473997309979296",
+      "theta_residue": "33011734380943473997309979301",
+      "certificate_word": [
+        5,
+        93
+      ]
+    },
+    {
+      "m": 94,
+      "k": "28610169796817677464335315398",
+      "source_pointer": "64138607258489062083516232823",
+      "root_parameter": "64138607258489062083516232824",
+      "lift": 1,
+      "required_bits": 96,
+      "extra_bits_over_minimal": 90,
+      "x_residue": "13204693752377389598923991712",
+      "theta_residue": "13204693752377389598923991717",
+      "certificate_word": [
+        5,
+        94
+      ]
+    },
+    {
+      "m": 95,
+      "k": "48417210425383761862721302982",
+      "source_pointer": "108542258437443028141335163236",
+      "root_parameter": "108542258437443028141335163237",
+      "lift": 1,
+      "required_bits": 97,
+      "extra_bits_over_minimal": 91,
+      "x_residue": "132046937523773895989239917216",
+      "theta_residue": "132046937523773895989239917221",
+      "certificate_word": [
+        5,
+        95,
+        2
+      ]
+    },
+    {
+      "m": 96,
+      "k": "8803129168251593065949327814",
+      "source_pointer": "19734956079535096025697302412",
+      "root_parameter": "19734956079535096025697302413",
+      "lift": 0,
+      "required_bits": 98,
+      "extra_bits_over_minimal": 92,
+      "x_residue": "52818775009509558395695966880",
+      "theta_residue": "52818775009509558395695966885",
+      "certificate_word": [
+        5,
+        96,
+        2
+      ]
+    },
+    {
+      "m": 97,
+      "k": "88031291682515930659493278150",
+      "source_pointer": "197349560795350960256973024059",
+      "root_parameter": "197349560795350960256973024060",
+      "lift": 0,
+      "required_bits": 99,
+      "extra_bits_over_minimal": 93,
+      "x_residue": "528187750095095583956959668896",
+      "theta_residue": "528187750095095583956959668901",
+      "certificate_word": [
+        5,
+        97,
+        1
+      ]
+    },
+    {
+      "m": 98,
+      "k": "246487616711044605846581178822",
+      "source_pointer": "552578770226982688719524467350",
+      "root_parameter": "552578770226982688719524467351",
+      "lift": 0,
+      "required_bits": 100,
+      "extra_bits_over_minimal": 94,
+      "x_residue": "211275100038038233582783867552",
+      "theta_residue": "211275100038038233582783867557",
+      "certificate_word": [
+        5,
+        98,
+        1
+      ]
+    },
+    {
+      "m": 99,
+      "k": "1197225566882216656969108582854",
+      "source_pointer": "2683954026816773059494833127096",
+      "root_parameter": "2683954026816773059494833127097",
+      "lift": 1,
+      "required_bits": 101,
+      "extra_bits_over_minimal": 95,
+      "x_residue": "2112751000380382335827838675616",
+      "theta_residue": "2112751000380382335827838675621",
+      "certificate_word": [
+        5,
+        99
+      ]
+    },
+    {
+      "m": 100,
+      "k": "1831050866996331357717460185542",
+      "source_pointer": "4104870864543299973345038900265",
+      "root_parameter": "4104870864543299973345038900266",
+      "lift": 1,
+      "required_bits": 102,
+      "extra_bits_over_minimal": 96,
+      "x_residue": "845100400152152934331135470240",
+      "theta_residue": "845100400152152934331135470245",
+      "certificate_word": [
+        5,
+        100,
+        3
+      ]
+    },
+    {
+      "m": 101,
+      "k": "3098701467224560759214163390918",
+      "source_pointer": "6946704539996353801045450446595",
+      "root_parameter": "6946704539996353801045450446596",
+      "lift": 1,
+      "required_bits": 103,
+      "extra_bits_over_minimal": 97,
+      "x_residue": "8451004001521529343311354702496",
+      "theta_residue": "8451004001521529343311354702501",
+      "certificate_word": [
+        5,
+        101,
+        8,
+        1
+      ]
+    },
+    {
+      "m": 102,
+      "k": "563400266768101956220756980166",
+      "source_pointer": "1263037189090246145644627353935",
+      "root_parameter": "1263037189090246145644627353936",
+      "lift": 0,
+      "required_bits": 104,
+      "extra_bits_over_minimal": 98,
+      "x_residue": "3380401600608611737324541880992",
+      "theta_residue": "3380401600608611737324541880997",
+      "certificate_word": [
+        5,
+        102,
+        1
+      ]
+    },
+    {
+      "m": 103,
+      "k": "5634002667681019562207569801670",
+      "source_pointer": "12630371890902461456446273539255",
+      "root_parameter": "12630371890902461456446273539256",
+      "lift": 0,
+      "required_bits": 105,
+      "extra_bits_over_minimal": 99,
+      "x_residue": "33804016006086117373245418810016",
+      "theta_residue": "33804016006086117373245418810021",
+      "certificate_word": [
+        5,
+        103
+      ]
+    },
+    {
+      "m": 104,
+      "k": "15775207469506854774181195444678",
+      "source_pointer": "35365041294526892078049565909892",
+      "root_parameter": "35365041294526892078049565909893",
+      "lift": 0,
+      "required_bits": 106,
+      "extra_bits_over_minimal": 100,
+      "x_residue": "13521606402434446949298167524000",
+      "theta_residue": "13521606402434446949298167524005",
+      "certificate_word": [
+        5,
+        104
+      ]
+    },
+    {
+      "m": 105,
+      "k": "76622436280461866046022949302726",
+      "source_pointer": "171773057716273475807669320133718",
+      "root_parameter": "171773057716273475807669320133719",
+      "lift": 1,
+      "required_bits": 107,
+      "extra_bits_over_minimal": 101,
+      "x_residue": "135216064024344469492981675240096",
+      "theta_residue": "135216064024344469492981675240101",
+      "certificate_word": [
+        5,
+        105
+      ]
+    },
+    {
+      "m": 106,
+      "k": "117187255487765206893917451874758",
+      "source_pointer": "262711735330771198294082489616271",
+      "root_parameter": "262711735330771198294082489616272",
+      "lift": 1,
+      "required_bits": 108,
+      "extra_bits_over_minimal": 102,
+      "x_residue": "54086425609737787797192670096032",
+      "theta_residue": "54086425609737787797192670096037",
+      "certificate_word": [
+        5,
+        106,
+        4
+      ]
+    },
+    {
+      "m": 107,
+      "k": "198316893902371888589706457018822",
+      "source_pointer": "444589090559766643266908828581374",
+      "root_parameter": "444589090559766643266908828581375",
+      "lift": 1,
+      "required_bits": 109,
+      "extra_bits_over_minimal": 103,
+      "x_residue": "540864256097377877971926700960416",
+      "theta_residue": "540864256097377877971926700960421",
+      "certificate_word": [
+        5,
+        107,
+        3
+      ]
+    },
+    {
+      "m": 108,
+      "k": "36057617073158525198128446730694",
+      "source_pointer": "80834380101775753321256150651169",
+      "root_parameter": "80834380101775753321256150651170",
+      "lift": 0,
+      "required_bits": 110,
+      "extra_bits_over_minimal": 104,
+      "x_residue": "216345702438951151188770680384160",
+      "theta_residue": "216345702438951151188770680384165",
+      "certificate_word": [
+        5,
+        108
+      ]
+    },
+    {
+      "m": 109,
+      "k": "360576170731585251981284467306950",
+      "source_pointer": "808343801017757533212561506511582",
+      "root_parameter": "808343801017757533212561506511583",
+      "lift": 0,
+      "required_bits": 111,
+      "extra_bits_over_minimal": 105,
+      "x_residue": "2163457024389511511887706803841696",
+      "theta_residue": "2163457024389511511887706803841701",
+      "certificate_word": [
+        5,
+        109
+      ]
+    },
+    {
+      "m": 110,
+      "k": "1009613278048438705547596508459462",
+      "source_pointer": "2263362642849721092995172218232406",
+      "root_parameter": "2263362642849721092995172218232407",
+      "lift": 0,
+      "required_bits": 112,
+      "extra_bits_over_minimal": 106,
+      "x_residue": "865382809755804604755082721536672",
+      "theta_residue": "865382809755804604755082721536677",
+      "certificate_word": [
+        5,
+        110
+      ]
+    },
+    {
+      "m": 111,
+      "k": "4903835921949559426945468755374534",
+      "source_pointer": "10993475693841502451690836488557362",
+      "root_parameter": "10993475693841502451690836488557363",
+      "lift": 1,
+      "required_bits": 113,
+      "extra_bits_over_minimal": 107,
+      "x_residue": "8653828097558046047550827215366816",
+      "theta_residue": "8653828097558046047550827215366821",
+      "certificate_word": [
+        5,
+        111,
+        2
+      ]
+    },
+    {
+      "m": 112,
+      "k": "7499984351216973241210716919984582",
+      "source_pointer": "16813551061169356690821279335440666",
+      "root_parameter": "16813551061169356690821279335440667",
+      "lift": 1,
+      "required_bits": 114,
+      "extra_bits_over_minimal": 108,
+      "x_residue": "3461531239023218419020330886146720",
+      "theta_residue": "3461531239023218419020330886146725",
+      "certificate_word": [
+        5,
+        112,
+        2
+      ]
+    },
+    {
+      "m": 113,
+      "k": "12692281209751800869741213249204678",
+      "source_pointer": "28453701795825065169082165029207272",
+      "root_parameter": "28453701795825065169082165029207273",
+      "lift": 1,
+      "required_bits": 115,
+      "extra_bits_over_minimal": 109,
+      "x_residue": "34615312390232184190203308861467296",
+      "theta_residue": "34615312390232184190203308861467301",
+      "certificate_word": [
+        5,
+        113,
+        1
+      ]
+    },
+    {
+      "m": 114,
+      "k": "2307687492682145612680220590764486",
+      "source_pointer": "5173400326513648212560393641674059",
+      "root_parameter": "5173400326513648212560393641674060",
+      "lift": 0,
+      "required_bits": 116,
+      "extra_bits_over_minimal": 110,
+      "x_residue": "13846124956092873676081323544586912",
+      "theta_residue": "13846124956092873676081323544586917",
+      "certificate_word": [
+        5,
+        114,
+        1
+      ]
+    },
+    {
+      "m": 115,
+      "k": "23076874926821456126802205907644870",
+      "source_pointer": "51734003265136482125603936416740483",
+      "root_parameter": "51734003265136482125603936416740484",
+      "lift": 0,
+      "required_bits": 117,
+      "extra_bits_over_minimal": 111,
+      "x_residue": "138461249560928736760813235445869216",
+      "theta_residue": "138461249560928736760813235445869221",
+      "certificate_word": [
+        5,
+        115
+      ]
+    },
+    {
+      "m": 116,
+      "k": "64615249795100077155046176541405638",
+      "source_pointer": "144855209142382149951691021966873329",
+      "root_parameter": "144855209142382149951691021966873330",
+      "lift": 0,
+      "required_bits": 118,
+      "extra_bits_over_minimal": 112,
+      "x_residue": "55384499824371494704325294178347680",
+      "theta_residue": "55384499824371494704325294178347685",
+      "certificate_word": [
+        5,
+        116,
+        3
+      ]
+    },
+    {
+      "m": 117,
+      "k": "313845499004771803324510000343970246",
+      "source_pointer": "703582444405856156908213535267670410",
+      "root_parameter": "703582444405856156908213535267670411",
+      "lift": 1,
+      "required_bits": 119,
+      "extra_bits_over_minimal": 113,
+      "x_residue": "553844998243714947043252941783476896",
+      "theta_residue": "553844998243714947043252941783476901",
+      "certificate_word": [
+        5,
+        117,
+        4
+      ]
+    },
+    {
+      "m": 118,
+      "k": "479998998477886287437485882879013318",
+      "source_pointer": "1076067267914838828212561877468201799",
+      "root_parameter": "1076067267914838828212561877468201800",
+      "lift": 1,
+      "required_bits": 120,
+      "extra_bits_over_minimal": 114,
+      "x_residue": "221537999297485978817301176713390752",
+      "theta_residue": "221537999297485978817301176713390757",
+      "certificate_word": [
+        5,
+        118
+      ]
+    },
+    {
+      "m": 119,
+      "k": "812305997424115255663437647949099462",
+      "source_pointer": "1821036914932804170821258561869264576",
+      "root_parameter": "1821036914932804170821258561869264577",
+      "lift": 1,
+      "required_bits": 121,
+      "extra_bits_over_minimal": 115,
+      "x_residue": "2215379992974859788173011767133907616",
+      "theta_residue": "2215379992974859788173011767133907621",
+      "certificate_word": [
+        5,
+        119
+      ]
+    },
+    {
+      "m": 120,
+      "k": "147691999531657319211534117808927174",
+      "source_pointer": "331097620896873485603865193067139023",
+      "root_parameter": "331097620896873485603865193067139024",
+      "lift": 0,
+      "required_bits": 122,
+      "extra_bits_over_minimal": 116,
+      "x_residue": "886151997189943915269204706853563040",
+      "theta_residue": "886151997189943915269204706853563045",
+      "certificate_word": [
+        5,
+        120,
+        2
+      ]
+    },
+    {
+      "m": 121,
+      "k": "1476919995316573192115341178089271750",
+      "source_pointer": "3310976208968734856038651930671390122",
+      "root_parameter": "3310976208968734856038651930671390123",
+      "lift": 0,
+      "required_bits": 123,
+      "extra_bits_over_minimal": 117,
+      "x_residue": "8861519971899439152692047068535630496",
+      "theta_residue": "8861519971899439152692047068535630501",
+      "certificate_word": [
+        5,
+        121,
+        2
+      ]
+    },
+    {
+      "m": 122,
+      "k": "4135375986886404937922955298649960902",
+      "source_pointer": "9270733385112457596908225405879892328",
+      "root_parameter": "9270733385112457596908225405879892329",
+      "lift": 0,
+      "required_bits": 124,
+      "extra_bits_over_minimal": 118,
+      "x_residue": "3544607988759775661076818827414252192",
+      "theta_residue": "3544607988759775661076818827414252197",
+      "certificate_word": [
+        5,
+        122,
+        1
+      ]
+    },
+    {
+      "m": 123,
+      "k": "20086111936305395412768640022014095814",
+      "source_pointer": "45029276441974794042125666257130905553",
+      "root_parameter": "45029276441974794042125666257130905554",
+      "lift": 1,
+      "required_bits": 125,
+      "extra_bits_over_minimal": 119,
+      "x_residue": "35446079887597756610768188274142522016",
+      "theta_residue": "35446079887597756610768188274142522021",
+      "certificate_word": [
+        5,
+        123,
+        1
+      ]
+    },
+    {
+      "m": 124,
+      "k": "30719935902584722395999096504256852422",
+      "source_pointer": "68868305146549685005603960157964914372",
+      "root_parameter": "68868305146549685005603960157964914373",
+      "lift": 1,
+      "required_bits": 126,
+      "extra_bits_over_minimal": 120,
+      "x_residue": "14178431955039102644307275309657008800",
+      "theta_residue": "14178431955039102644307275309657008805",
+      "certificate_word": [
+        5,
+        124
+      ]
+    },
+    {
+      "m": 125,
+      "k": "51987583835143376362460009468742365638",
+      "source_pointer": "116546362555699466932560547959632932009",
+      "root_parameter": "116546362555699466932560547959632932010",
+      "lift": 1,
+      "required_bits": 127,
+      "extra_bits_over_minimal": 121,
+      "x_residue": "141784319550391026443072753096570088096",
+      "theta_residue": "141784319550391026443072753096570088101",
+      "certificate_word": [
+        5,
+        125,
+        5,
+        5,
+        1
+      ]
+    },
+    {
+      "m": 126,
+      "k": "9452287970026068429538183539771339206",
+      "source_pointer": "21190247737399903078647372356296896738",
+      "root_parameter": "21190247737399903078647372356296896739",
+      "lift": 0,
+      "required_bits": 128,
+      "extra_bits_over_minimal": 122,
+      "x_residue": "56713727820156410577229101238628035232",
+      "theta_residue": "56713727820156410577229101238628035237",
+      "certificate_word": [
+        5,
+        126,
+        3
+      ]
+    },
+    {
+      "m": 127,
+      "k": "94522879700260684295381835397713392070",
+      "source_pointer": "211902477373999030786473723562968967281",
+      "root_parameter": "211902477373999030786473723562968967282",
+      "lift": 0,
+      "required_bits": 129,
+      "extra_bits_over_minimal": 123,
+      "x_residue": "567137278201564105772291012386280352416",
+      "theta_residue": "567137278201564105772291012386280352421",
+      "certificate_word": [
+        5,
+        127
+      ]
+    },
+    {
+      "m": 128,
+      "k": "264664063160729916027069139113597497798",
+      "source_pointer": "593326936647197286202126425976313108363",
+      "root_parameter": "593326936647197286202126425976313108364",
+      "lift": 0,
+      "required_bits": 130,
+      "extra_bits_over_minimal": 124,
+      "x_residue": "226854911280625642308916404954512140960",
+      "theta_residue": "226854911280625642308916404954512140965",
+      "certificate_word": [
+        5,
+        128
+      ]
+    },
+    {
+      "m": 129,
+      "k": "1285511163923545306417192961408902132166",
+      "source_pointer": "2881873692286386818696042640456377954859",
+      "root_parameter": "2881873692286386818696042640456377954860",
+      "lift": 1,
+      "required_bits": 131,
+      "extra_bits_over_minimal": 125,
+      "x_residue": "2268549112806256423089164049545121409696",
+      "theta_residue": "2268549112806256423089164049545121409701",
+      "certificate_word": [
+        5,
+        129
+      ]
+    },
+    {
+      "m": 130,
+      "k": "1966075897765422233343942176272438555078",
+      "source_pointer": "4407571529379179840358653450109754519192",
+      "root_parameter": "4407571529379179840358653450109754519193",
+      "lift": 1,
+      "required_bits": 132,
+      "extra_bits_over_minimal": 126,
+      "x_residue": "907419645122502569235665619818048563872",
+      "theta_residue": "907419645122502569235665619818048563877",
+      "certificate_word": [
+        5,
+        130,
+        2
+      ]
+    },
+    {
+      "m": 131,
+      "k": "3327205365449176087197440605999511400902",
+      "source_pointer": "7458967203564765883683875069416507647856",
+      "root_parameter": "7458967203564765883683875069416507647857",
+      "lift": 1,
+      "required_bits": 133,
+      "extra_bits_over_minimal": 127,
+      "x_residue": "9074196451225025692356656198180485638816",
+      "theta_residue": "9074196451225025692356656198180485638821",
+      "certificate_word": [
+        5,
+        131,
+        2
+      ]
+    },
+    {
+      "m": 132,
+      "k": "604946430081668379490443746545365709254",
+      "source_pointer": "1356175855193593797033431830803001390530",
+      "root_parameter": "1356175855193593797033431830803001390531",
+      "lift": 0,
+      "required_bits": 134,
+      "extra_bits_over_minimal": 128,
+      "x_residue": "3629678580490010276942662479272194255520",
+      "theta_residue": "3629678580490010276942662479272194255525",
+      "certificate_word": [
+        5,
+        132,
+        1
+      ]
+    },
+    {
+      "m": 133,
+      "k": "6049464300816683794904437465453657092550",
+      "source_pointer": "13561758551935937970334318308030013905182",
+      "root_parameter": "13561758551935937970334318308030013905183",
+      "lift": 0,
+      "required_bits": 135,
+      "extra_bits_over_minimal": 129,
+      "x_residue": "36296785804900102769426624792721942555296",
+      "theta_residue": "36296785804900102769426624792721942555301",
+      "certificate_word": [
+        5,
+        133,
+        1
+      ]
+    },
+    {
+      "m": 134,
+      "k": "16938500042286714625732424903270239859142",
+      "source_pointer": "37972923945420626316936091262484038934482",
+      "root_parameter": "37972923945420626316936091262484038934483",
+      "lift": 0,
+      "required_bits": 136,
+      "extra_bits_over_minimal": 130,
+      "x_residue": "14518714321960041107770649917088777022112",
+      "theta_residue": "14518714321960041107770649917088777022117",
+      "certificate_word": [
+        5,
+        134
+      ]
+    },
+    {
+      "m": 135,
+      "k": "82272714491106899610700349530169736458694",
+      "source_pointer": "184439916306328756396546728989208189110302",
+      "root_parameter": "184439916306328756396546728989208189110303",
+      "lift": 1,
+      "required_bits": 137,
+      "extra_bits_over_minimal": 131,
+      "x_residue": "145187143219600411077706499170887770221216",
+      "theta_residue": "145187143219600411077706499170887770221221",
+      "certificate_word": [
+        5,
+        135,
+        3
+      ]
+    },
+    {
+      "m": 136,
+      "k": "125828857456987022934012299281436067525062",
+      "source_pointer": "282084577880267509782953820807024289227516",
+      "root_parameter": "282084577880267509782953820807024289227517",
+      "lift": 1,
+      "required_bits": 138,
+      "extra_bits_over_minimal": 132,
+      "x_residue": "58074857287840164431082599668355108088480",
+      "theta_residue": "58074857287840164431082599668355108088485",
+      "certificate_word": [
+        5,
+        136,
+        5,
+        4
+      ]
+    },
+    {
+      "m": 137,
+      "k": "212941143388747269580636198783968729657798",
+      "source_pointer": "477373901028145016555768004442656489461942",
+      "root_parameter": "477373901028145016555768004442656489461943",
+      "lift": 1,
+      "required_bits": 139,
+      "extra_bits_over_minimal": 133,
+      "x_residue": "580748572878401644310825996683551080884896",
+      "theta_residue": "580748572878401644310825996683551080884901",
+      "certificate_word": [
+        5,
+        137,
+        3
+      ]
+    },
+    {
+      "m": 138,
+      "k": "38716571525226776287388399778903405392326",
+      "source_pointer": "86795254732390003010139637171392088993091",
+      "root_parameter": "86795254732390003010139637171392088993092",
+      "lift": 0,
+      "required_bits": 140,
+      "extra_bits_over_minimal": 134,
+      "x_residue": "232299429151360657724330398673420432353952",
+      "theta_residue": "232299429151360657724330398673420432353957",
+      "certificate_word": [
+        5,
+        138
+      ]
+    },
+    {
+      "m": 139,
+      "k": "387165715252267762873883997789034053923270",
+      "source_pointer": "867952547323900030101396371713920889930792",
+      "root_parameter": "867952547323900030101396371713920889930793",
+      "lift": 0,
+      "required_bits": 141,
+      "extra_bits_over_minimal": 135,
+      "x_residue": "2322994291513606577243303986734204323539616",
+      "theta_residue": "2322994291513606577243303986734204323539621",
+      "certificate_word": [
+        5,
+        139,
+        1
+      ]
+    },
+    {
+      "m": 140,
+      "k": "1084064002706349736046875193809295350985158",
+      "source_pointer": "2430267132506920084283909840798978491806190",
+      "root_parameter": "2430267132506920084283909840798978491806191",
+      "lift": 0,
+      "required_bits": 142,
+      "extra_bits_over_minimal": 136,
+      "x_residue": "929197716605442630897321594693681729415840",
+      "theta_residue": "929197716605442630897321594693681729415845",
+      "certificate_word": [
+        5,
+        140,
+        1
+      ]
+    },
+    {
+      "m": 141,
+      "k": "5265453727430841575084822369930863133356486",
+      "source_pointer": "11804154643605040409378990655309324103058582",
+      "root_parameter": "11804154643605040409378990655309324103058583",
+      "lift": 1,
+      "required_bits": 143,
+      "extra_bits_over_minimal": 137,
+      "x_residue": "9291977166054426308973215946936817294158496",
+      "theta_residue": "9291977166054426308973215946936817294158501",
+      "certificate_word": [
+        5,
+        141
+      ]
+    },
+    {
+      "m": 142,
+      "k": "8053046877247169467776787154011908321604038",
+      "source_pointer": "18053412984337120626109044531649554510560179",
+      "root_parameter": "18053412984337120626109044531649554510560180",
+      "lift": 1,
+      "required_bits": 144,
+      "extra_bits_over_minimal": 138,
+      "x_residue": "3716790866421770523589286378774726917663392",
+      "theta_residue": "3716790866421770523589286378774726917663397",
+      "certificate_word": [
+        5,
+        142,
+        4
+      ]
+    },
+    {
+      "m": 143,
+      "k": "13628233176879825253160716722173998698099142",
+      "source_pointer": "30551929665801281059569152284330015325563370",
+      "root_parameter": "30551929665801281059569152284330015325563371",
+      "lift": 1,
+      "required_bits": 145,
+      "extra_bits_over_minimal": 139,
+      "x_residue": "37167908664217705235892863787747269176634016",
+      "theta_residue": "37167908664217705235892863787747269176634021",
+      "certificate_word": [
+        5,
+        143,
+        3
+      ]
+    },
+    {
+      "m": 144,
+      "k": "2477860577614513682392857585849817945108934",
+      "source_pointer": "5554896302872960192648936778969093695556989",
+      "root_parameter": "5554896302872960192648936778969093695556990",
+      "lift": 0,
+      "required_bits": 146,
+      "extra_bits_over_minimal": 140,
+      "x_residue": "14867163465687082094357145515098907670653600",
+      "theta_residue": "14867163465687082094357145515098907670653605",
+      "certificate_word": [
+        5,
+        144
+      ]
+    },
+    {
+      "m": 145,
+      "k": "24778605776145136823928575858498179451089350",
+      "source_pointer": "55548963028729601926489367789690936955569754",
+      "root_parameter": "55548963028729601926489367789690936955569755",
+      "lift": 0,
+      "required_bits": 147,
+      "extra_bits_over_minimal": 141,
+      "x_residue": "148671634656870820943571455150989076706536096",
+      "theta_residue": "148671634656870820943571455150989076706536101",
+      "certificate_word": [
+        5,
+        145
+      ]
+    },
+    {
+      "m": 146,
+      "k": "69380096173206383107000012403794902463050182",
+      "source_pointer": "155537096480442885394170229811134623475595282",
+      "root_parameter": "155537096480442885394170229811134623475595283",
+      "lift": 0,
+      "required_bits": 148,
+      "extra_bits_over_minimal": 142,
+      "x_residue": "59468653862748328377428582060395630682614432",
+      "theta_residue": "59468653862748328377428582060395630682614437",
+      "certificate_word": [
+        5,
+        146
+      ]
+    },
+    {
+      "m": 147,
+      "k": "336989038555573860805428631675575240534815174",
+      "source_pointer": "755465897190722586200255401939796742595748462",
+      "root_parameter": "755465897190722586200255401939796742595748463",
+      "lift": 1,
+      "required_bits": 149,
+      "extra_bits_over_minimal": 143,
+      "x_residue": "594686538627483283774285820603956306826144416",
+      "theta_residue": "594686538627483283774285820603956306826144421",
+      "certificate_word": [
+        5,
+        147,
+        2
+      ]
+    },
+    {
+      "m": 148,
+      "k": "515395000143818845937714377856762132582658502",
+      "source_pointer": "1155418430997575720070978850025571488675850582",
+      "root_parameter": "1155418430997575720070978850025571488675850583",
+      "lift": 1,
+      "required_bits": 150,
+      "extra_bits_over_minimal": 144,
+      "x_residue": "237874615450993313509714328241582522730457760",
+      "theta_residue": "237874615450993313509714328241582522730457765",
+      "certificate_word": [
+        5,
+        148,
+        2
+      ]
+    },
+    {
+      "m": 149,
+      "k": "872206923320308816202285870219135916678345158",
+      "source_pointer": "1955323498611281987812425746197120980836054820",
+      "root_parameter": "1955323498611281987812425746197120980836054821",
+      "lift": 1,
+      "required_bits": 151,
+      "extra_bits_over_minimal": 145,
+      "x_residue": "2378746154509933135097143282415825227304577696",
+      "theta_residue": "2378746154509933135097143282415825227304577701",
+      "certificate_word": [
+        5,
+        149,
+        1
+      ]
+    },
+    {
+      "m": 150,
+      "k": "158583076967328875673142885494388348486971846",
+      "source_pointer": "355513363383869452329531953854021996515646343",
+      "root_parameter": "355513363383869452329531953854021996515646344",
+      "lift": 0,
+      "required_bits": 152,
+      "extra_bits_over_minimal": 146,
+      "x_residue": "951498461803973254038857312966330090921831072",
+      "theta_residue": "951498461803973254038857312966330090921831077",
+      "certificate_word": [
+        5,
+        150,
+        1
+      ]
+    },
+    {
+      "m": 151,
+      "k": "1585830769673288756731428854943883484869718470",
+      "source_pointer": "3555133633838694523295319538540219965156463295",
+      "root_parameter": "3555133633838694523295319538540219965156463296",
+      "lift": 0,
+      "required_bits": 153,
+      "extra_bits_over_minimal": 147,
+      "x_residue": "9514984618039732540388573129663300909218310816",
+      "theta_residue": "9514984618039732540388573129663300909218310821",
+      "certificate_word": [
+        5,
+        151
+      ]
+    },
+    {
+      "m": 152,
+      "k": "4440326155085208518848000793842873757635211718",
+      "source_pointer": "9954374174748344665226894707912615902438097197",
+      "root_parameter": "9954374174748344665226894707912615902438097198",
+      "lift": 0,
+      "required_bits": 154,
+      "extra_bits_over_minimal": 148,
+      "x_residue": "3805993847215893016155429251865320363687324320",
+      "theta_residue": "3805993847215893016155429251865320363687324325",
+      "certificate_word": [
+        5,
+        152,
+        3
+      ]
+    },
+    {
+      "m": 153,
+      "k": "21567298467556727091547432427236815394228171206",
+      "source_pointer": "48349817420206245516816345724146991526127900614",
+      "root_parameter": "48349817420206245516816345724146991526127900615",
+      "lift": 1,
+      "required_bits": 155,
+      "extra_bits_over_minimal": 149,
+      "x_residue": "38059938472158930161554292518653203636873243296",
+      "theta_residue": "38059938472158930161554292518653203636873243301",
+      "certificate_word": [
+        5,
+        153,
+        4
+      ]
+    },
+    {
+      "m": 154,
+      "k": "32985280009204406140013720182832776485290144198",
+      "source_pointer": "73946779583844846084542646401636575275254436227",
+      "root_parameter": "73946779583844846084542646401636575275254436228",
+      "lift": 1,
+      "required_bits": 156,
+      "extra_bits_over_minimal": 150,
+      "x_residue": "15223975388863572064621717007461281454749297312",
+      "theta_residue": "15223975388863572064621717007461281454749297317",
+      "certificate_word": [
+        5,
+        154
+      ]
+    },
+    {
+      "m": 155,
+      "k": "55821243092499764236946295694024698667414090182",
+      "source_pointer": "125140703911122047219995247756615742773507507452",
+      "root_parameter": "125140703911122047219995247756615742773507507453",
+      "lift": 1,
+      "required_bits": 157,
+      "extra_bits_over_minimal": 151,
+      "x_residue": "152239753888635720646217170074612814547492973216",
+      "theta_residue": "152239753888635720646217170074612814547492973221",
+      "certificate_word": [
+        5,
+        155
+      ]
+    },
+    {
+      "m": 156,
+      "k": "10149316925909048043081144671640854303166198214",
+      "source_pointer": "22752855256567644949090045046657407777001365003",
+      "root_parameter": "22752855256567644949090045046657407777001365004",
+      "lift": 0,
+      "required_bits": 158,
+      "extra_bits_over_minimal": 152,
+      "x_residue": "60895901555454288258486868029845125818997189280",
+      "theta_residue": "60895901555454288258486868029845125818997189285",
+      "certificate_word": [
+        5,
+        156,
+        2
+      ]
+    },
+    {
+      "m": 157,
+      "k": "101493169259090480430811446716408543031661982150",
+      "source_pointer": "227528552565676449490900450466574077770013649895",
+      "root_parameter": "227528552565676449490900450466574077770013649896",
+      "lift": 0,
+      "required_bits": 159,
+      "extra_bits_over_minimal": 153,
+      "x_residue": "608959015554542882584868680298451258189971892896",
+      "theta_residue": "608959015554542882584868680298451258189971892901",
+      "certificate_word": [
+        5,
+        157,
+        2
+      ]
+    },
+    {
+      "m": 158,
+      "k": "284180873925453345206272050805943920488653550022",
+      "source_pointer": "637079947183894058574521261306407417756038219685",
+      "root_parameter": "637079947183894058574521261306407417756038219686",
+      "lift": 0,
+      "required_bits": 160,
+      "extra_bits_over_minimal": 154,
+      "x_residue": "243583606221817153033947472119380503275988757152",
+      "theta_residue": "243583606221817153033947472119380503275988757157",
+      "certificate_word": [
+        5,
+        158,
+        1
+      ]
+    },
+    {
+      "m": 159,
+      "k": "1380307101923630533859035675343156185230602957254",
+      "source_pointer": "3094388314893199713076246126345407457672185638417",
+      "root_parameter": "3094388314893199713076246126345407457672185638418",
+      "lift": 1,
+      "required_bits": 161,
+      "extra_bits_over_minimal": 155,
+      "x_residue": "2435836062218171530339474721193805032759887571616",
+      "theta_residue": "2435836062218171530339474721193805032759887571621",
+      "certificate_word": [
+        5,
+        159,
+        1
+      ]
+    },
+    {
+      "m": 160,
+      "k": "2111057920589081992960878091701297695058569228742",
+      "source_pointer": "4732593893366070149410729369704740817616283917574",
+      "root_parameter": "4732593893366070149410729369704740817616283917575",
+      "lift": 1,
+      "required_bits": 162,
+      "extra_bits_over_minimal": 156,
+      "x_residue": "974334424887268612135789888477522013103955028640",
+      "theta_residue": "974334424887268612135789888477522013103955028645",
+      "certificate_word": [
+        5,
+        160
+      ]
+    },
+    {
+      "m": 161,
+      "k": "3572559557919984911164562924417580714714501771718",
+      "source_pointer": "8009005050311811022079695856423407537504480475887",
+      "root_parameter": "8009005050311811022079695856423407537504480475888",
+      "lift": 1,
+      "required_bits": 163,
+      "extra_bits_over_minimal": 157,
+      "x_residue": "9743344248872686121357898884775220131039550286496",
+      "theta_residue": "9743344248872686121357898884775220131039550286501",
+      "certificate_word": [
+        5,
+        161,
+        8,
+        1
+      ]
+    },
+    {
+      "m": 162,
+      "k": "649556283258179074757193258985014675402636685766",
+      "source_pointer": "1456182736420329276741762882986074097728087359264",
+      "root_parameter": "1456182736420329276741762882986074097728087359265",
+      "lift": 0,
+      "required_bits": 164,
+      "extra_bits_over_minimal": 158,
+      "x_residue": "3897337699549074448543159553910088052415820114592",
+      "theta_residue": "3897337699549074448543159553910088052415820114597",
+      "certificate_word": [
+        5,
+        162,
+        3
+      ]
+    },
+    {
+      "m": 163,
+      "k": "6495562832581790747571932589850146754026366857670",
+      "source_pointer": "14561827364203292767417628829860740977280873592511",
+      "root_parameter": "14561827364203292767417628829860740977280873592512",
+      "lift": 0,
+      "required_bits": 165,
+      "extra_bits_over_minimal": 159,
+      "x_residue": "38973376995490744485431595539100880524158201146016",
+      "theta_residue": "38973376995490744485431595539100880524158201146021",
+      "certificate_word": [
+        5,
+        163
+      ]
+    },
+    {
+      "m": 164,
+      "k": "18187575931229014093201411251580410911273827201478",
+      "source_pointer": "40773116619769219748769360723610074736386446059001",
+      "root_parameter": "40773116619769219748769360723610074736386446059002",
+      "lift": 0,
+      "required_bits": 166,
+      "extra_bits_over_minimal": 160,
+      "x_residue": "15589350798196297794172638215640352209663280458400",
+      "theta_residue": "15589350798196297794172638215640352209663280458405",
+      "certificate_word": [
+        5,
+        164
+      ]
+    },
+    {
+      "m": 165,
+      "k": "88339654523112354166978283221961995854758589264326",
+      "source_pointer": "198040852153164781636879752086106077291019880857945",
+      "root_parameter": "198040852153164781636879752086106077291019880857946",
+      "lift": 1,
+      "required_bits": 167,
+      "extra_bits_over_minimal": 161,
+      "x_residue": "155893507981962977941726382156403522096632804584096",
+      "theta_residue": "155893507981962977941726382156403522096632804584101",
+      "certificate_word": [
+        5,
+        165
+      ]
+    },
+    {
+      "m": 166,
+      "k": "135107706917701247549496197868883052483748430639558",
+      "source_pointer": "302886009175428489562286679661103412327442170723910",
+      "root_parameter": "302886009175428489562286679661103412327442170723911",
+      "lift": 1,
+      "required_bits": 168,
+      "extra_bits_over_minimal": 162,
+      "x_residue": "62357403192785191176690552862561408838653121833632",
+      "theta_residue": "62357403192785191176690552862561408838653121833637",
+      "certificate_word": [
+        5,
+        166,
+        2
+      ]
+    },
+    {
+      "m": 167,
+      "k": "228643811706879034314532027162725165741728113390022",
+      "source_pointer": "512576323219955905413100534811098082400286750455838",
+      "root_parameter": "512576323219955905413100534811098082400286750455839",
+      "lift": 1,
+      "required_bits": 169,
+      "extra_bits_over_minimal": 163,
+      "x_residue": "623574031927851911766905528625614088386531218336416",
+      "theta_residue": "623574031927851911766905528625614088386531218336421",
+      "certificate_word": [
+        5,
+        167,
+        2
+      ]
+    },
+    {
+      "m": 168,
+      "k": "41571602128523460784460368575040939225768747889094",
+      "source_pointer": "93195695130901073711472824511108742254597590991984",
+      "root_parameter": "93195695130901073711472824511108742254597590991985",
+      "lift": 0,
+      "required_bits": 170,
+      "extra_bits_over_minimal": 164,
+      "x_residue": "249429612771140764706762211450245635354612487334560",
+      "theta_residue": "249429612771140764706762211450245635354612487334565",
+      "certificate_word": [
+        5,
+        168,
+        1
+      ]
+    },
+    {
+      "m": 169,
+      "k": "415716021285234607844603685750409392257687478890950",
+      "source_pointer": "931956951309010737114728245111087422545975909919692",
+      "root_parameter": "931956951309010737114728245111087422545975909919693",
+      "lift": 0,
+      "required_bits": 171,
+      "extra_bits_over_minimal": 165,
+      "x_residue": "2494296127711407647067622114502456353546124873345696",
+      "theta_residue": "2494296127711407647067622114502456353546124873345701",
+      "certificate_word": [
+        5,
+        169,
+        1
+      ]
+    },
+    {
+      "m": 170,
+      "k": "1164004859598656901964890320101146298321524940894662",
+      "source_pointer": "2609479463665230063921239086311044783128732547775103",
+      "root_parameter": "2609479463665230063921239086311044783128732547775104",
+      "lift": 0,
+      "required_bits": 172,
+      "extra_bits_over_minimal": 166,
+      "x_residue": "997718451084563058827048845800982541418449949338272",
+      "theta_residue": "997718451084563058827048845800982541418449949338277",
+      "certificate_word": [
+        5,
+        170
+      ]
+    },
+    {
+      "m": 171,
+      "k": "5653737889479190666686610126205567734704549712916934",
+      "source_pointer": "12674614537802546024760304133510788946625272374907596",
+      "root_parameter": "12674614537802546024760304133510788946625272374907597",
+      "lift": 1,
+      "required_bits": 173,
+      "extra_bits_over_minimal": 167,
+      "x_residue": "9977184510845630588270488458009825414184499493382816",
+      "theta_residue": "9977184510845630588270488458009825414184499493382821",
+      "certificate_word": [
+        5,
+        171,
+        3
+      ]
+    },
+    {
+      "m": 172,
+      "k": "8646893242732879843167756663608515358959899560931782",
+      "source_pointer": "19384704587227423331986347498310618388956298926329257",
+      "root_parameter": "19384704587227423331986347498310618388956298926329258",
+      "lift": 1,
+      "required_bits": 174,
+      "extra_bits_over_minimal": 168,
+      "x_residue": "3990873804338252235308195383203930165673799797353120",
+      "theta_residue": "3990873804338252235308195383203930165673799797353125",
+      "certificate_word": [
+        5,
+        172,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 173,
+      "k": "14633203949240258196130049738414410607470599256961478",
+      "source_pointer": "32804884686077177946438434227910277273618352029172578",
+      "root_parameter": "32804884686077177946438434227910277273618352029172579",
+      "lift": 1,
+      "required_bits": 175,
+      "extra_bits_over_minimal": 169,
+      "x_residue": "39908738043382522353081953832039301656737997973531296",
+      "theta_residue": "39908738043382522353081953832039301656737997973531301",
+      "certificate_word": [
+        5,
+        173
+      ]
+    },
+    {
+      "m": 174,
+      "k": "2660582536225501490205463588802620110449199864902086",
+      "source_pointer": "5964524488377668717534260768710959504294245823485936",
+      "root_parameter": "5964524488377668717534260768710959504294245823485937",
+      "lift": 0,
+      "required_bits": 176,
+      "extra_bits_over_minimal": 170,
+      "x_residue": "15963495217353008941232781532815720662695199189412512",
+      "theta_residue": "15963495217353008941232781532815720662695199189412517",
+      "certificate_word": [
+        5,
+        174
+      ]
+    },
+    {
+      "m": 175,
+      "k": "26605825362255014902054635888026201104491998649020870",
+      "source_pointer": "59645244883776687175342607687109595042942458234859216",
+      "root_parameter": "59645244883776687175342607687109595042942458234859217",
+      "lift": 0,
+      "required_bits": 177,
+      "extra_bits_over_minimal": 171,
+      "x_residue": "159634952173530089412327815328157206626951991894125216",
+      "theta_residue": "159634952173530089412327815328157206626951991894125221",
+      "certificate_word": [
+        5,
+        175
+      ]
+    },
+    {
+      "m": 176,
+      "k": "74496311014314041725752980486473363092577596217258438",
+      "source_pointer": "167006685674574724090959301523906866120238883057605780",
+      "root_parameter": "167006685674574724090959301523906866120238883057605781",
+      "lift": 0,
+      "required_bits": 178,
+      "extra_bits_over_minimal": 172,
+      "x_residue": "63853980869412035764931126131262882650780796757650080",
+      "theta_residue": "63853980869412035764931126131262882650780796757650085",
+      "certificate_word": [
+        5,
+        176,
+        1
+      ]
+    },
+    {
+      "m": 177,
+      "k": "361839224926668202667943048077156335021091181626683846",
+      "source_pointer": "811175330419362945584659464544690492584017431994085159",
+      "root_parameter": "811175330419362945584659464544690492584017431994085160",
+      "lift": 1,
+      "required_bits": 179,
+      "extra_bits_over_minimal": 173,
+      "x_residue": "638539808694120357649311261312628826507807967576500896",
+      "theta_residue": "638539808694120357649311261312628826507807967576500901",
+      "certificate_word": [
+        5,
+        177,
+        1
+      ]
+    },
+    {
+      "m": 178,
+      "k": "553401167534904309962736426470944982973433571899634118",
+      "source_pointer": "1240621093582555093247126239891879576893203131285071414",
+      "root_parameter": "1240621093582555093247126239891879576893203131285071415",
+      "lift": 1,
+      "required_bits": 180,
+      "extra_bits_over_minimal": 174,
+      "x_residue": "255415923477648143059724504525051530603123187030600352",
+      "theta_residue": "255415923477648143059724504525051530603123187030600357",
+      "certificate_word": [
+        5,
+        178
+      ]
+    },
+    {
+      "m": 179,
+      "k": "936525052751376524552323183258522278878118352445534662",
+      "source_pointer": "2099512619908939388572059790586257745511574529867043923",
+      "root_parameter": "2099512619908939388572059790586257745511574529867043924",
+      "lift": 1,
+      "required_bits": 181,
+      "extra_bits_over_minimal": 175,
+      "x_residue": "2554159234776481430597245045250515306031231870306003616",
+      "theta_residue": "2554159234776481430597245045250515306031231870306003621",
+      "certificate_word": [
+        5,
+        179,
+        4
+      ]
+    },
+    {
+      "m": 180,
+      "k": "170277282318432095373149669683367687068748791353733574",
+      "source_pointer": "381729567256170797922192689197501408274831732703098908",
+      "root_parameter": "381729567256170797922192689197501408274831732703098909",
+      "lift": 0,
+      "required_bits": 182,
+      "extra_bits_over_minimal": 176,
+      "x_residue": "1021663693910592572238898018100206122412492748122401440",
+      "theta_residue": "1021663693910592572238898018100206122412492748122401445",
+      "certificate_word": [
+        5,
+        180,
+        3
+      ]
+    },
+    {
+      "m": 181,
+      "k": "1702772823184320953731496696833676870687487913537335750",
+      "source_pointer": "3817295672561707979221926891975014082748317327030988941",
+      "root_parameter": "3817295672561707979221926891975014082748317327030988942",
+      "lift": 0,
+      "required_bits": 183,
+      "extra_bits_over_minimal": 177,
+      "x_residue": "10216636939105925722388980181002061224124927481224014496",
+      "theta_residue": "10216636939105925722388980181002061224124927481224014501",
+      "certificate_word": [
+        5,
+        181
+      ]
+    },
+    {
+      "m": 182,
+      "k": "4767763904916098670448190751134295237924966157904540102",
+      "source_pointer": "10688427883172782341821395297530039431695288515686769001",
+      "root_parameter": "10688427883172782341821395297530039431695288515686769002",
+      "lift": 0,
+      "required_bits": 184,
+      "extra_bits_over_minimal": 178,
+      "x_residue": "4086654775642370288955592072400824489649970992489605792",
+      "theta_residue": "4086654775642370288955592072400824489649970992489605797",
+      "certificate_word": [
+        5,
+        182
+      ]
+    },
+    {
+      "m": 183,
+      "k": "23157710395306764970748355076938005441349835624107766214",
+      "source_pointer": "51915221146839228517418205730860191525377115647621449365",
+      "root_parameter": "51915221146839228517418205730860191525377115647621449366",
+      "lift": 1,
+      "required_bits": 185,
+      "extra_bits_over_minimal": 179,
+      "x_residue": "40866547756423702889555920724008244896499709924896058016",
+      "theta_residue": "40866547756423702889555920724008244896499709924896058021",
+      "certificate_word": [
+        5,
+        183
+      ]
+    },
+    {
+      "m": 184,
+      "k": "35417674722233875837615131294140478910299748601576583622",
+      "source_pointer": "79399749989283525967816079353080292921165000402244569610",
+      "root_parameter": "79399749989283525967816079353080292921165000402244569611",
+      "lift": 1,
+      "required_bits": 186,
+      "extra_bits_over_minimal": 180,
+      "x_residue": "16346619102569481155822368289603297958599883969958423200",
+      "theta_residue": "16346619102569481155822368289603297958599883969958423205",
+      "certificate_word": [
+        5,
+        184,
+        2
+      ]
+    },
+    {
+      "m": 185,
+      "k": "59937603376088097571348683728545425848199574556514218438",
+      "source_pointer": "134368807674172120868611826597520495712740769911490810098",
+      "root_parameter": "134368807674172120868611826597520495712740769911490810099",
+      "lift": 1,
+      "required_bits": 187,
+      "extra_bits_over_minimal": 181,
+      "x_residue": "163466191025694811558223682896032979585998839699584232096",
+      "theta_residue": "163466191025694811558223682896032979585998839699584232101",
+      "certificate_word": [
+        5,
+        185,
+        2
+      ]
+    },
+    {
+      "m": 186,
+      "k": "10897746068379654103881578859735531972399922646638948806",
+      "source_pointer": "24430692304394931067020332108640090129589230892998329124",
+      "root_parameter": "24430692304394931067020332108640090129589230892998329125",
+      "lift": 0,
+      "required_bits": 188,
+      "extra_bits_over_minimal": 182,
+      "x_residue": "65386476410277924623289473158413191834399535879833692832",
+      "theta_residue": "65386476410277924623289473158413191834399535879833692837",
+      "certificate_word": [
+        5,
+        186,
+        1
+      ]
+    },
+    {
+      "m": 187,
+      "k": "108977460683796541038815788597355319723999226466389488070",
+      "source_pointer": "244306923043949310670203321086400901295892308929983291072",
+      "root_parameter": "244306923043949310670203321086400901295892308929983291073",
+      "lift": 0,
+      "required_bits": 189,
+      "extra_bits_over_minimal": 183,
+      "x_residue": "653864764102779246232894731584131918343995358798336928416",
+      "theta_residue": "653864764102779246232894731584131918343995358798336928421",
+      "certificate_word": [
+        5,
+        187,
+        1
+      ]
+    },
+    {
+      "m": 188,
+      "k": "305136889914630314908684208072594895227197834105890566598",
+      "source_pointer": "684059384523058069876569299041922523628498465003953214964",
+      "root_parameter": "684059384523058069876569299041922523628498465003953214965",
+      "lift": 0,
+      "required_bits": 190,
+      "extra_bits_over_minimal": 184,
+      "x_residue": "261545905641111698493157892633652767337598143519334771360",
+      "theta_residue": "261545905641111698493157892633652767337598143519334771365",
+      "certificate_word": [
+        5,
+        188
+      ]
+    },
+    {
+      "m": 189,
+      "k": "1482093465299632958127894724924032348246389479942897037766",
+      "source_pointer": "3322574153397710625114765166775052257624135401447772758339",
+      "root_parameter": "3322574153397710625114765166775052257624135401447772758340",
+      "lift": 1,
+      "required_bits": 191,
+      "extra_bits_over_minimal": 185,
+      "x_residue": "2615459056411116984931578926336527673375981435193347713696",
+      "theta_residue": "2615459056411116984931578926336527673375981435193347713701",
+      "certificate_word": [
+        5,
+        189,
+        3
+      ]
+    },
+    {
+      "m": 190,
+      "k": "2266731182222968053607368402824990650259183910500901351878",
+      "source_pointer": "5081583999314145661940229078597138746954560025743652453921",
+      "root_parameter": "5081583999314145661940229078597138746954560025743652453922",
+      "lift": 1,
+      "required_bits": 192,
+      "extra_bits_over_minimal": 186,
+      "x_residue": "1046183622564446793972631570534611069350392574077339085472",
+      "theta_residue": "1046183622564446793972631570534611069350392574077339085477",
+      "certificate_word": [
+        5,
+        190,
+        4
+      ]
+    },
+    {
+      "m": 191,
+      "k": "3836006616069638244566315758626907254284772771616909980102",
+      "source_pointer": "8599603691147015735591156902241311725615409274335411845086",
+      "root_parameter": "8599603691147015735591156902241311725615409274335411845087",
+      "lift": 1,
+      "required_bits": 193,
+      "extra_bits_over_minimal": 187,
+      "x_residue": "10461836225644467939726315705346110693503925740773390854816",
+      "theta_residue": "10461836225644467939726315705346110693503925740773390854821",
+      "certificate_word": [
+        5,
+        191
+      ]
+    },
+    {
+      "m": 192,
+      "k": "697455748376297862648421047023074046233595049384892723654",
+      "source_pointer": "1563564307481275588289301254952965768293710777151893062757",
+      "root_parameter": "1563564307481275588289301254952965768293710777151893062758",
+      "lift": 0,
+      "required_bits": 194,
+      "extra_bits_over_minimal": 188,
+      "x_residue": "4184734490257787175890526282138444277401570296309356341920",
+      "theta_residue": "4184734490257787175890526282138444277401570296309356341925",
+      "certificate_word": [
+        5,
+        192
+      ]
+    },
+    {
+      "m": 193,
+      "k": "6974557483762978626484210470230740462335950493848927236550",
+      "source_pointer": "15635643074812755882893012549529657682937107771518930627412",
+      "root_parameter": "15635643074812755882893012549529657682937107771518930627413",
+      "lift": 0,
+      "required_bits": 195,
+      "extra_bits_over_minimal": 189,
+      "x_residue": "41847344902577871758905262821384442774015702963093563419296",
+      "theta_residue": "41847344902577871758905262821384442774015702963093563419301",
+      "certificate_word": [
+        5,
+        193,
+        2
+      ]
+    },
+    {
+      "m": 194,
+      "k": "19528760954536340154155789316646073294540661382776996262342",
+      "source_pointer": "43779800609475716472100435138683041512223901760253005756723",
+      "root_parameter": "43779800609475716472100435138683041512223901760253005756724",
+      "lift": 0,
+      "required_bits": 196,
+      "extra_bits_over_minimal": 190,
+      "x_residue": "16738937961031148703562105128553777109606281185237425367712",
+      "theta_residue": "16738937961031148703562105128553777109606281185237425367717",
+      "certificate_word": [
+        5,
+        194,
+        2
+      ]
+    },
+    {
+      "m": 195,
+      "k": "94853981779176509320185262395138070287768926716345410417094",
+      "source_pointer": "212644745817453480007344970673603344487944665692657456532576",
+      "root_parameter": "212644745817453480007344970673603344487944665692657456532577",
+      "lift": 1,
+      "required_bits": 197,
+      "extra_bits_over_minimal": 191,
+      "x_residue": "167389379610311487035621051285537771096062811852374253677216",
+      "theta_residue": "167389379610311487035621051285537771096062811852374253677221",
+      "certificate_word": [
+        5,
+        195,
+        1
+      ]
+    },
+    {
+      "m": 196,
+      "k": "145070795662269955430871577780799401616587770272057686520262",
+      "source_pointer": "325221375956105322364174661030216879805091841647593757049815",
+      "root_parameter": "325221375956105322364174661030216879805091841647593757049816",
+      "lift": 1,
+      "required_bits": 198,
+      "extra_bits_over_minimal": 192,
+      "x_residue": "66955751844124594814248420514215108438425124740949701470880",
+      "theta_residue": "66955751844124594814248420514215108438425124740949701470885",
+      "certificate_word": [
+        5,
+        196,
+        1
+      ]
+    },
+    {
+      "m": 197,
+      "k": "245504423428456847652244208552122064274225457383482238726598",
+      "source_pointer": "550374636233409007077834041743443950439386193557466358084292",
+      "root_parameter": "550374636233409007077834041743443950439386193557466358084293",
+      "lift": 1,
+      "required_bits": 199,
+      "extra_bits_over_minimal": 193,
+      "x_residue": "669557518441245948142484205142151084384251247409497014708896",
+      "theta_residue": "669557518441245948142484205142151084384251247409497014708901",
+      "certificate_word": [
+        5,
+        197
+      ]
+    },
+    {
+      "m": 198,
+      "k": "44637167896083063209498947009476738958950083160633134313926",
+      "source_pointer": "100068115678801637650515280316989809170797489737721156015339",
+      "root_parameter": "100068115678801637650515280316989809170797489737721156015340",
+      "lift": 0,
+      "required_bits": 200,
+      "extra_bits_over_minimal": 194,
+      "x_residue": "267823007376498379256993682056860433753700498963798805883552",
+      "theta_residue": "267823007376498379256993682056860433753700498963798805883557",
+      "certificate_word": [
+        5,
+        198,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 199,
+      "k": "446371678960830632094989470094767389589500831606331343139270",
+      "source_pointer": "1000681156788016376505152803169898091707974897377211560153241",
+      "root_parameter": "1000681156788016376505152803169898091707974897377211560153242",
+      "lift": 0,
+      "required_bits": 201,
+      "extra_bits_over_minimal": 195,
+      "x_residue": "2678230073764983792569936820568604337537004989637988058835616",
+      "theta_residue": "2678230073764983792569936820568604337537004989637988058835621",
+      "certificate_word": [
+        5,
+        199,
+        3
+      ]
+    },
+    {
+      "m": 200,
+      "k": "1249840701090325769865970516265348690850602328497727760789958",
+      "source_pointer": "2801907239006445854214427848875714656782329712656192368429047",
+      "root_parameter": "2801907239006445854214427848875714656782329712656192368429048",
+      "lift": 0,
+      "required_bits": 202,
+      "extra_bits_over_minimal": 196,
+      "x_residue": "1071292029505993517027974728227441735014801995855195223534240",
+      "theta_residue": "1071292029505993517027974728227441735014801995855195223534245",
+      "certificate_word": [
+        5,
+        200
+      ]
+    },
+    {
+      "m": 201,
+      "k": "6070654833867296596491856793288836498417211309846106266694086",
+      "source_pointer": "13609263732317022720470078123110614047228458604330077218083879",
+      "root_parameter": "13609263732317022720470078123110614047228458604330077218083880",
+      "lift": 1,
+      "required_bits": 203,
+      "extra_bits_over_minimal": 197,
+      "x_residue": "10712920295059935170279747282274417350148019958551952235342496",
+      "theta_residue": "10712920295059935170279747282274417350148019958551952235342501",
+      "certificate_word": [
+        5,
+        201
+      ]
+    },
+    {
+      "m": 202,
+      "k": "9284530922385277147575780977971161703461617297411691937296838",
+      "source_pointer": "20814168061190740631307178305933880307525877865446000451187102",
+      "root_parameter": "20814168061190740631307178305933880307525877865446000451187103",
+      "lift": 1,
+      "required_bits": 204,
+      "extra_bits_over_minimal": 198,
+      "x_residue": "4285168118023974068111898912909766940059207983420780894136992",
+      "theta_residue": "4285168118023974068111898912909766940059207983420780894136997",
+      "certificate_word": [
+        5,
+        202
+      ]
+    },
+    {
+      "m": 203,
+      "k": "15712283099421238249743629347335812113550429272542863278502342",
+      "source_pointer": "35223976718938176452981378671580412828120716387677846917393547",
+      "root_parameter": "35223976718938176452981378671580412828120716387677846917393548",
+      "lift": 1,
+      "required_bits": 205,
+      "extra_bits_over_minimal": 199,
+      "x_residue": "42851681180239740681118989129097669400592079834207808941370016",
+      "theta_residue": "42851681180239740681118989129097669400592079834207808941370021",
+      "certificate_word": [
+        5,
+        203,
+        2
+      ]
+    },
+    {
+      "m": 204,
+      "k": "2856778745349316045407932608606511293372805322280520596091334",
+      "source_pointer": "6404359403443304809632977940287347786931039343214153984980659",
+      "root_parameter": "6404359403443304809632977940287347786931039343214153984980660",
+      "lift": 0,
+      "required_bits": 206,
+      "extra_bits_over_minimal": 200,
+      "x_residue": "17140672472095896272447595651639067760236831933683123576548000",
+      "theta_residue": "17140672472095896272447595651639067760236831933683123576548005",
+      "certificate_word": [
+        5,
+        204,
+        2
+      ]
+    },
+    {
+      "m": 205,
+      "k": "28567787453493160454079326086065112933728053222805205960913350",
+      "source_pointer": "64043594034433048096329779402873477869310393432141539849806434",
+      "root_parameter": "64043594034433048096329779402873477869310393432141539849806435",
+      "lift": 0,
+      "required_bits": 207,
+      "extra_bits_over_minimal": 201,
+      "x_residue": "171406724720958962724475956516390677602368319336831235765480096",
+      "theta_residue": "171406724720958962724475956516390677602368319336831235765480101",
+      "certificate_word": [
+        5,
+        205,
+        1
+      ]
+    },
+    {
+      "m": 206,
+      "k": "79989804869780849271422113040982316214438549023854576690557382",
+      "source_pointer": "179322063296412534669723382328045738034069101609996311579457981",
+      "root_parameter": "179322063296412534669723382328045738034069101609996311579457982",
+      "lift": 0,
+      "required_bits": 208,
+      "extra_bits_over_minimal": 202,
+      "x_residue": "68562689888383585089790382606556271040947327734732494306192032",
+      "theta_residue": "68562689888383585089790382606556271040947327734732494306192037",
+      "certificate_word": [
+        5,
+        206,
+        1
+      ]
+    },
+    {
+      "m": 207,
+      "k": "388521909367506982175478834770485535898701523830150801068421574",
+      "source_pointer": "870992878868289454110084999879079299022621350677124941957367265",
+      "root_parameter": "870992878868289454110084999879079299022621350677124941957367266",
+      "lift": 1,
+      "required_bits": 209,
+      "extra_bits_over_minimal": 203,
+      "x_residue": "685626898883835850897903826065562710409473277347324943061920416",
+      "theta_residue": "685626898883835850897903826065562710409473277347324943061920421",
+      "certificate_word": [
+        5,
+        207
+      ]
+    },
+    {
+      "m": 208,
+      "k": "594209979032657737444849982590154349021543507034348283986997702",
+      "source_pointer": "1332106755916207400403659411579768339681656183388544028875973458",
+      "root_parameter": "1332106755916207400403659411579768339681656183388544028875973459",
+      "lift": 1,
+      "required_bits": 210,
+      "extra_bits_over_minimal": 204,
+      "x_residue": "274250759553534340359161530426225084163789310938929977224768160",
+      "theta_residue": "274250759553534340359161530426225084163789310938929977224768165",
+      "certificate_word": [
+        5,
+        208,
+        3
+      ]
+    },
+    {
+      "m": 209,
+      "k": "1005586118362959247983592278229491975267227473442743249824149958",
+      "source_pointer": "2254334510012043292990808234981146420999725848811382202713185840",
+      "root_parameter": "2254334510012043292990808234981146420999725848811382202713185841",
+      "lift": 1,
+      "required_bits": 211,
+      "extra_bits_over_minimal": 205,
+      "x_residue": "2742507595535343403591615304262250841637893109389299772247681696",
+      "theta_residue": "2742507595535343403591615304262250841637893109389299772247681701",
+      "certificate_word": [
+        5,
+        209,
+        5,
+        4
+      ]
+    },
+    {
+      "m": 210,
+      "k": "182833839702356226906107686950816722775859540625953318149845446",
+      "source_pointer": "409879001820371507816510588178390258363586517965705855038761078",
+      "root_parameter": "409879001820371507816510588178390258363586517965705855038761079",
+      "lift": 0,
+      "required_bits": 212,
+      "extra_bits_over_minimal": 206,
+      "x_residue": "1097003038214137361436646121704900336655157243755719908899072672",
+      "theta_residue": "1097003038214137361436646121704900336655157243755719908899072677",
+      "certificate_word": [
+        5,
+        210,
+        3
+      ]
+    },
+    {
+      "m": 211,
+      "k": "1828338397023562269061076869508167227758595406259533181498454470",
+      "source_pointer": "4098790018203715078165105881783902583635865179657058550387610598",
+      "root_parameter": "4098790018203715078165105881783902583635865179657058550387610599",
+      "lift": 0,
+      "required_bits": 213,
+      "extra_bits_over_minimal": 207,
+      "x_residue": "10970030382141373614366461217049003366551572437557199088990726816",
+      "theta_residue": "10970030382141373614366461217049003366551572437557199088990726821",
+      "certificate_word": [
+        5,
+        211
+      ]
+    },
+    {
+      "m": 212,
+      "k": "5119347511665974353371015234622868237724067137526692908195672518",
+      "source_pointer": "11476612050970402218862296468994927234180422503039763941085309642",
+      "root_parameter": "11476612050970402218862296468994927234180422503039763941085309643",
+      "lift": 0,
+      "required_bits": 214,
+      "extra_bits_over_minimal": 208,
+      "x_residue": "4388012152856549445746584486819601346620628975022879635596290720",
+      "theta_residue": "4388012152856549445746584486819601346620628975022879635596290725",
+      "certificate_word": [
+        5,
+        212,
+        1
+      ]
+    },
+    {
+      "m": 213,
+      "k": "24865402199520446859230645425311074297516897525129651268378980806",
+      "source_pointer": "55743544247570525063045439992261075137447766443335996285271503901",
+      "root_parameter": "55743544247570525063045439992261075137447766443335996285271503902",
+      "lift": 1,
+      "required_bits": 215,
+      "extra_bits_over_minimal": 209,
+      "x_residue": "43880121528565494457465844868196013466206289750228796355962907296",
+      "theta_residue": "43880121528565494457465844868196013466206289750228796355962907301",
+      "certificate_word": [
+        5,
+        213,
+        1
+      ]
+    },
+    {
+      "m": 214,
+      "k": "38029438658090095196470398885769878337378784450198290175167852998",
+      "source_pointer": "85254832378637273625834202341105173739625995736866817848062300076",
+      "root_parameter": "85254832378637273625834202341105173739625995736866817848062300077",
+      "lift": 1,
+      "required_bits": 216,
+      "extra_bits_over_minimal": 210,
+      "x_residue": "17552048611426197782986337947278405386482515900091518542385162912",
+      "theta_residue": "17552048611426197782986337947278405386482515900091518542385162917",
+      "certificate_word": [
+        5,
+        214
+      ]
+    },
+    {
+      "m": 215,
+      "k": "64357511575229391870949905806687486417102558300335567988745597382",
+      "source_pointer": "144277408640770770751411727038793370943982454323928460973643892425",
+      "root_parameter": "144277408640770770751411727038793370943982454323928460973643892426",
+      "lift": 1,
+      "required_bits": 217,
+      "extra_bits_over_minimal": 211,
+      "x_residue": "175520486114261977829863379472784053864825159000915185423851629216",
+      "theta_residue": "175520486114261977829863379472784053864825159000915185423851629221",
+      "certificate_word": [
+        5,
+        215,
+        4
+      ]
+    },
+    {
+      "m": 216,
+      "k": "11701365740950798521990891964852270257655010600061012361590108614",
+      "source_pointer": "26232256116503776500256677643416976535269537149805174722480707730",
+      "root_parameter": "26232256116503776500256677643416976535269537149805174722480707731",
+      "lift": 0,
+      "required_bits": 218,
+      "extra_bits_over_minimal": 212,
+      "x_residue": "70208194445704791131945351789113621545930063600366074169540651680",
+      "theta_residue": "70208194445704791131945351789113621545930063600366074169540651685",
+      "certificate_word": [
+        5,
+        216,
+        3
+      ]
+    },
+    {
+      "m": 217,
+      "k": "117013657409507985219908919648522702576550106000610123615901086150",
+      "source_pointer": "262322561165037765002566776434169765352695371498051747224807077122",
+      "root_parameter": "262322561165037765002566776434169765352695371498051747224807077123",
+      "lift": 0,
+      "required_bits": 219,
+      "extra_bits_over_minimal": 213,
+      "x_residue": "702081944457047911319453517891136215459300636003660741695406516896",
+      "theta_residue": "702081944457047911319453517891136215459300636003660741695406516901",
+      "certificate_word": [
+        5,
+        217
+      ]
+    },
+    {
+      "m": 218,
+      "k": "327638240746622358615744975015863567214340296801708346124523041222",
+      "source_pointer": "734503171262105742007186974015675342987547040194544892229459815901",
+      "root_parameter": "734503171262105742007186974015675342987547040194544892229459815902",
+      "lift": 0,
+      "required_bits": 220,
+      "extra_bits_over_minimal": 214,
+      "x_residue": "280832777782819164527781407156454486183720254401464296678162606752",
+      "theta_residue": "280832777782819164527781407156454486183720254401464296678162606757",
+      "certificate_word": [
+        5,
+        218
+      ]
+    },
+    {
+      "m": 219,
+      "k": "1591385740769308598990761307219908755041081441608297681176254771654",
+      "source_pointer": "3567586831844513604034908159504708808796657052373503762257376248579",
+      "root_parameter": "3567586831844513604034908159504708808796657052373503762257376248580",
+      "lift": 1,
+      "required_bits": 221,
+      "extra_bits_over_minimal": 215,
+      "x_residue": "2808327777828191645277814071564544861837202544014642966781626067616",
+      "theta_residue": "2808327777828191645277814071564544861837202544014642966781626067621",
+      "certificate_word": [
+        5,
+        219
+      ]
+    },
+    {
+      "m": 220,
+      "k": "2433884074117766092574105528689272213592242204812690571210742591942",
+      "source_pointer": "5456309272232785512053388949830731119336063727159476342275987203700",
+      "root_parameter": "5456309272232785512053388949830731119336063727159476342275987203701",
+      "lift": 1,
+      "required_bits": 222,
+      "extra_bits_over_minimal": 216,
+      "x_residue": "1123331111131276658111125628625817944734881017605857186712650427040",
+      "theta_residue": "1123331111131276658111125628625817944734881017605857186712650427045",
+      "certificate_word": [
+        5,
+        220,
+        2
+      ]
+    },
+    {
+      "m": 221,
+      "k": "4118880740814681079740793971627999130694563731221476351279718232518",
+      "source_pointer": "9233754153009329328090350530482775740414877076731421502313209113940",
+      "root_parameter": "9233754153009329328090350530482775740414877076731421502313209113941",
+      "lift": 1,
+      "required_bits": 223,
+      "extra_bits_over_minimal": 217,
+      "x_residue": "11233311111312766581111256286258179447348810176058571867126504270496",
+      "theta_residue": "11233311111312766581111256286258179447348810176058571867126504270501",
+      "certificate_word": [
+        5,
+        221,
+        2
+      ]
+    },
+    {
+      "m": 222,
+      "k": "748887407420851105407417085750545296489920678403904791141766951366",
+      "source_pointer": "1678864391456241696016427369178686498257250377587531182238765293462",
+      "root_parameter": "1678864391456241696016427369178686498257250377587531182238765293463",
+      "lift": 0,
+      "required_bits": 224,
+      "extra_bits_over_minimal": 218,
+      "x_residue": "4493324444525106632444502514503271778939524070423428746850601708192",
+      "theta_residue": "4493324444525106632444502514503271778939524070423428746850601708197",
+      "certificate_word": [
+        5,
+        222,
+        1
+      ]
+    },
+    {
+      "m": 223,
+      "k": "7488874074208511054074170857505452964899206784039047911417669513670",
+      "source_pointer": "16788643914562416960164273691786864982572503775875311822387652934418",
+      "root_parameter": "16788643914562416960164273691786864982572503775875311822387652934419",
+      "lift": 0,
+      "required_bits": 225,
+      "extra_bits_over_minimal": 219,
+      "x_residue": "44933244445251066324445025145032717789395240704234287468506017082016",
+      "theta_residue": "44933244445251066324445025145032717789395240704234287468506017082021",
+      "certificate_word": [
+        5,
+        223,
+        1
+      ]
+    },
+    {
+      "m": 224,
+      "k": "20968847407783830951407678401015268301717778995309334151969474638278",
+      "source_pointer": "47008202960774767488459966337003221951203010572450873102685428216326",
+      "root_parameter": "47008202960774767488459966337003221951203010572450873102685428216327",
+      "lift": 0,
+      "required_bits": 226,
+      "extra_bits_over_minimal": 220,
+      "x_residue": "17973297778100426529778010058013087115758096281693714987402406832800",
+      "theta_residue": "17973297778100426529778010058013087115758096281693714987402406832805",
+      "certificate_word": [
+        5,
+        224
+      ]
+    },
+    {
+      "m": 225,
+      "k": "101848687409235750335408723662074160322629212262931051595280305385926",
+      "source_pointer": "228325557238048870658234122208301363762986051351904240784472079907797",
+      "root_parameter": "228325557238048870658234122208301363762986051351904240784472079907798",
+      "lift": 1,
+      "required_bits": 227,
+      "extra_bits_over_minimal": 221,
+      "x_residue": "179732977781004265297780100580130871157580962816937149874024068328096",
+      "theta_residue": "179732977781004265297780100580130871157580962816937149874024068328101",
+      "certificate_word": [
+        5,
+        225,
+        3
+      ]
+    },
+    {
+      "m": 226,
+      "k": "155768580743537029924742753836113421669903501108012196557487525884358",
+      "source_pointer": "349203793422898272771416892789166791637508078538206485905663181035443",
+      "root_parameter": "349203793422898272771416892789166791637508078538206485905663181035444",
+      "lift": 1,
+      "required_bits": 228,
+      "extra_bits_over_minimal": 222,
+      "x_residue": "71893191112401706119112040232052348463032385126774859949609627331232",
+      "theta_residue": "71893191112401706119112040232052348463032385126774859949609627331237",
+      "certificate_word": [
+        5,
+        226,
+        4
+      ]
+    },
+    {
+      "m": 227,
+      "k": "263608367412139589103410814184191944364452078798174486481901966881222",
+      "source_pointer": "590960265792597076997782433950897647386552132910810976148045383290736",
+      "root_parameter": "590960265792597076997782433950897647386552132910810976148045383290737",
+      "lift": 1,
+      "required_bits": 229,
+      "extra_bits_over_minimal": 223,
+      "x_residue": "718931911124017061191120402320523484630323851267748599496096273312416",
+      "theta_residue": "718931911124017061191120402320523484630323851267748599496096273312421",
+      "certificate_word": [
+        5,
+        227
+      ]
+    },
+    {
+      "m": 228,
+      "k": "47928794074934470746074693488034898975354923417849906633073084887494",
+      "source_pointer": "107447321053199468545051351627435935888464024165601995663280978780151",
+      "root_parameter": "107447321053199468545051351627435935888464024165601995663280978780152",
+      "lift": 0,
+      "required_bits": 230,
+      "extra_bits_over_minimal": 224,
+      "x_residue": "287572764449606824476448160928209393852129540507099439798438509324960",
+      "theta_residue": "287572764449606824476448160928209393852129540507099439798438509324965",
+      "certificate_word": [
+        5,
+        228
+      ]
+    },
+    {
+      "m": 229,
+      "k": "479287940749344707460746934880348989753549234178499066330730848874950",
+      "source_pointer": "1074473210531994685450513516274359358884640241656019956632809787801318",
+      "root_parameter": "1074473210531994685450513516274359358884640241656019956632809787801319",
+      "lift": 0,
+      "required_bits": 231,
+      "extra_bits_over_minimal": 225,
+      "x_residue": "2875727644496068244764481609282093938521295405070994397984385093249696",
+      "theta_residue": "2875727644496068244764481609282093938521295405070994397984385093249701",
+      "certificate_word": [
+        5,
+        229,
+        2
+      ]
+    },
+    {
+      "m": 230,
+      "k": "1342006234098165180890091417664977171309937855699797385726046376849862",
+      "source_pointer": "3008524989489585119261437845568206204876992676636855878571867405843653",
+      "root_parameter": "3008524989489585119261437845568206204876992676636855878571867405843654",
+      "lift": 0,
+      "required_bits": 232,
+      "extra_bits_over_minimal": 226,
+      "x_residue": "1150291057798427297905792643712837575408518162028397759193754037299872",
+      "theta_residue": "1150291057798427297905792643712837575408518162028397759193754037299877",
+      "certificate_word": [
+        5,
+        230,
+        2
+      ]
+    },
+    {
+      "m": 231,
+      "k": "6518315994191088021466158314372746260648269584827587302097939544699334",
+      "source_pointer": "14612835663235127722126983821331287280831107286521871410206213114097658",
+      "root_parameter": "14612835663235127722126983821331287280831107286521871410206213114097659",
+      "lift": 1,
+      "required_bits": 233,
+      "extra_bits_over_minimal": 227,
+      "x_residue": "11502910577984272979057926437128375754085181620283977591937540372998816",
+      "theta_residue": "11502910577984272979057926437128375754085181620283977591937540372998821",
+      "certificate_word": [
+        5,
+        231,
+        1
+      ]
+    },
+    {
+      "m": 232,
+      "k": "9969189167586369915183536245511258986873824070912780579679201656598982",
+      "source_pointer": "22349042779065489457370681138506674664800517026445215097962443586266997",
+      "root_parameter": "22349042779065489457370681138506674664800517026445215097962443586266998",
+      "lift": 1,
+      "required_bits": 234,
+      "extra_bits_over_minimal": 228,
+      "x_residue": "4601164231193709191623170574851350301634072648113591036775016149199520",
+      "theta_residue": "4601164231193709191623170574851350301634072648113591036775016149199525",
+      "certificate_word": [
+        5,
+        232,
+        1
+      ]
+    },
+    {
+      "m": 233,
+      "k": "16870935514376933702618292107788284439324933043083167134841725880398278",
+      "source_pointer": "37821457010726212927858075772857449432739336506291902473474904530605674",
+      "root_parameter": "37821457010726212927858075772857449432739336506291902473474904530605675",
+      "lift": 1,
+      "required_bits": 235,
+      "extra_bits_over_minimal": 229,
+      "x_residue": "46011642311937091916231705748513503016340726481135910367750161491995296",
+      "theta_residue": "46011642311937091916231705748513503016340726481135910367750161491995301",
+      "certificate_word": [
+        5,
+        233
+      ]
+    },
+    {
+      "m": 234,
+      "k": "3067442820795806127748780383234233534422715098742394024516677432799686",
+      "source_pointer": "6876628547404765986883286504155899896861697546598527722449982641928321",
+      "root_parameter": "6876628547404765986883286504155899896861697546598527722449982641928322",
+      "lift": 0,
+      "required_bits": 236,
+      "extra_bits_over_minimal": 230,
+      "x_residue": "18404656924774836766492682299405401206536290592454364147100064596798112",
+      "theta_residue": "18404656924774836766492682299405401206536290592454364147100064596798117",
+      "certificate_word": [
+        5,
+        234,
+        6,
+        1
+      ]
+    },
+    {
+      "m": 235,
+      "k": "30674428207958061277487803832342335344227150987423940245166774327996870",
+      "source_pointer": "68766285474047659868832865041558998968616975465985277224499826419283023",
+      "root_parameter": "68766285474047659868832865041558998968616975465985277224499826419283024",
+      "lift": 0,
+      "required_bits": 237,
+      "extra_bits_over_minimal": 231,
+      "x_residue": "184046569247748367664926822994054012065362905924543641471000645967981216",
+      "theta_residue": "184046569247748367664926822994054012065362905924543641471000645967981221",
+      "certificate_word": [
+        5,
+        235,
+        3
+      ]
+    },
+    {
+      "m": 236,
+      "k": "85888398982282571576965850730558538963836022764787032686466968118391238",
+      "source_pointer": "192545599327333447632732022116365197112127531304758776228599513973992429",
+      "root_parameter": "192545599327333447632732022116365197112127531304758776228599513973992430",
+      "lift": 0,
+      "required_bits": 238,
+      "extra_bits_over_minimal": 232,
+      "x_residue": "73618627699099347065970729197621604826145162369817456588400258387192480",
+      "theta_residue": "73618627699099347065970729197621604826145162369817456588400258387192485",
+      "certificate_word": [
+        5,
+        236
+      ]
+    },
+    {
+      "m": 237,
+      "k": "417172223628229633373834132119855760681489253428965587334268130860757446",
+      "source_pointer": "935221482447048174216126964565202385973190866337399770253197639302248861",
+      "root_parameter": "935221482447048174216126964565202385973190866337399770253197639302248862",
+      "lift": 1,
+      "required_bits": 239,
+      "extra_bits_over_minimal": 233,
+      "x_residue": "736186276990993470659707291976216048261451623698174565884002583871924896",
+      "theta_residue": "736186276990993470659707291976216048261451623698174565884002583871924901",
+      "certificate_word": [
+        5,
+        237
+      ]
+    },
+    {
+      "m": 238,
+      "k": "638028106725527674571746319712720575159924740538417957099468906022334918",
+      "source_pointer": "1430338737860191325271723592864427178547233089692493766269596389521086484",
+      "root_parameter": "1430338737860191325271723592864427178547233089692493766269596389521086485",
+      "lift": 1,
+      "required_bits": 240,
+      "extra_bits_over_minimal": 234,
+      "x_residue": "294474510796397388263882916790486419304580649479269826353601033548769952",
+      "theta_residue": "294474510796397388263882916790486419304580649479269826353601033548769957",
+      "certificate_word": [
+        5,
+        238
+      ]
+    },
+    {
+      "m": 239,
+      "k": "1079739872920123756967570694898450204116795714757322696629870456345489862",
+      "source_pointer": "2420573248686477627382916849462876763695317536402681758302393889958761729",
+      "root_parameter": "2420573248686477627382916849462876763695317536402681758302393889958761730",
+      "lift": 1,
+      "required_bits": 241,
+      "extra_bits_over_minimal": 235,
+      "x_residue": "2944745107963973882638829167904864193045806494792698263536010335487699616",
+      "theta_residue": "2944745107963973882638829167904864193045806494792698263536010335487699621",
+      "certificate_word": [
+        5,
+        239,
+        2
+      ]
+    },
+    {
+      "m": 240,
+      "k": "196316340530931592175921944526990946203053766319513217569067355699179974",
+      "source_pointer": "440104227033905023160530336265977593399148642982305774236798889083411241",
+      "root_parameter": "440104227033905023160530336265977593399148642982305774236798889083411242",
+      "lift": 0,
+      "required_bits": 242,
+      "extra_bits_over_minimal": 236,
+      "x_residue": "1177898043185589553055531667161945677218322597917079305414404134195079840",
+      "theta_residue": "1177898043185589553055531667161945677218322597917079305414404134195079845",
+      "certificate_word": [
+        5,
+        240,
+        2
+      ]
+    },
+    {
+      "m": 241,
+      "k": "1963163405309315921759219445269909462030537663195132175690673556991799750",
+      "source_pointer": "4401042270339050231605303362659775933991486429823057742367988890834112216",
+      "root_parameter": "4401042270339050231605303362659775933991486429823057742367988890834112217",
+      "lift": 0,
+      "required_bits": 243,
+      "extra_bits_over_minimal": 237,
+      "x_residue": "11778980431855895530555316671619456772183225979170793054144041341950798496",
+      "theta_residue": "11778980431855895530555316671619456772183225979170793054144041341950798501",
+      "certificate_word": [
+        5,
+        241,
+        1
+      ]
+    },
+    {
+      "m": 242,
+      "k": "5496857534866084580925814446755746493685505456946370091933885959577039302",
+      "source_pointer": "12322918356949340648494849415447372615176162003504561678630368894335514163",
+      "root_parameter": "12322918356949340648494849415447372615176162003504561678630368894335514164",
+      "lift": 0,
+      "required_bits": 244,
+      "extra_bits_over_minimal": 238,
+      "x_residue": "4711592172742358212222126668647782708873290391668317221657616536780319392",
+      "theta_residue": "4711592172742358212222126668647782708873290391668317221657616536780319397",
+      "certificate_word": [
+        5,
+        242,
+        1
+      ]
+    },
+    {
+      "m": 243,
+      "k": "26699022312206696535925384455670768683615312219453797589393160375088476614",
+      "source_pointer": "59854174876611083149832125732172952702284215445593585296204648915343925847",
+      "root_parameter": "59854174876611083149832125732172952702284215445593585296204648915343925848",
+      "lift": 1,
+      "required_bits": 245,
+      "extra_bits_over_minimal": 239,
+      "x_residue": "47115921727423582122221266686477827088732903916683172216576165367803194016",
+      "theta_residue": "47115921727423582122221266686477827088732903916683172216576165367803194021",
+      "certificate_word": [
+        5,
+        243
+      ]
+    },
+    {
+      "m": 244,
+      "k": "40833798830433771172591764461614116810235183394458749254366009985429434822",
+      "source_pointer": "91541679223052244817390309943323339427022917740319601041254168929349533640",
+      "root_parameter": "91541679223052244817390309943323339427022917740319601041254168929349533641",
+      "lift": 1,
+      "required_bits": 246,
+      "extra_bits_over_minimal": 240,
+      "x_residue": "18846368690969432848888506674591130835493161566673268886630466147121277600",
+      "theta_residue": "18846368690969432848888506674591130835493161566673268886630466147121277605",
+      "certificate_word": [
+        5,
+        244,
+        3
+      ]
+    },
+    {
+      "m": 245,
+      "k": "69103351866887920445924524473500813063474925744468652584311709206111351238",
+      "source_pointer": "154916687915934568152506678365624112876500322329771632531353208957360749220",
+      "root_parameter": "154916687915934568152506678365624112876500322329771632531353208957360749221",
+      "lift": 1,
+      "required_bits": 247,
+      "extra_bits_over_minimal": 241,
+      "x_residue": "188463686909694328488885066745911308354931615666732688866304661471212776096",
+      "theta_residue": "188463686909694328488885066745911308354931615666732688866304661471212776101",
+      "certificate_word": [
+        5,
+        245,
+        7
+      ]
+    },
+    {
+      "m": 246,
+      "k": "12564245793979621899259004449727420556995441044448845924420310764747518406",
+      "source_pointer": "28166670530169921482273941521022565977545513150867569551155128901338318060",
+      "root_parameter": "28166670530169921482273941521022565977545513150867569551155128901338318061",
+      "lift": 0,
+      "required_bits": 248,
+      "extra_bits_over_minimal": 242,
+      "x_residue": "75385474763877731395554026698364523341972646266693075546521864588485110432",
+      "theta_residue": "75385474763877731395554026698364523341972646266693075546521864588485110437",
+      "certificate_word": [
+        5,
+        246
+      ]
+    },
+    {
+      "m": 247,
+      "k": "125642457939796218992590044497274205569954410444488459244203107647475184070",
+      "source_pointer": "281666705301699214822739415210225659775455131508675695511551289013383180376",
+      "root_parameter": "281666705301699214822739415210225659775455131508675695511551289013383180377",
+      "lift": 0,
+      "required_bits": 249,
+      "extra_bits_over_minimal": 243,
+      "x_residue": "753854747638777313955540266983645233419726462666930755465218645884851104416",
+      "theta_residue": "753854747638777313955540266983645233419726462666930755465218645884851104421",
+      "certificate_word": [
+        5,
+        247
+      ]
+    },
+    {
+      "m": 248,
+      "k": "351798882231429413179252124592367775595872349244567685883768701412930515398",
+      "source_pointer": "788666774844757801503670362588631847371274368224291947432343609237472905012",
+      "root_parameter": "788666774844757801503670362588631847371274368224291947432343609237472905013",
+      "lift": 0,
+      "required_bits": 250,
+      "extra_bits_over_minimal": 244,
+      "x_residue": "301541899055510925582216106793458093367890585066772302186087458353940441760",
+      "theta_residue": "301541899055510925582216106793458093367890585066772302186087458353940441765",
+      "certificate_word": [
+        5,
+        248,
+        1
+      ]
+    },
+    {
+      "m": 249,
+      "k": "1708737427981228578299224605162929195751379982045043045721162264005662503366",
+      "source_pointer": "3830667192103109321589256046859068972946189788517989458957097530582011252823",
+      "root_parameter": "3830667192103109321589256046859068972946189788517989458957097530582011252824",
+      "lift": 1,
+      "required_bits": 251,
+      "extra_bits_over_minimal": 245,
+      "x_residue": "3015418990555109255822161067934580933678905850667723021860874583539404417696",
+      "theta_residue": "3015418990555109255822161067934580933678905850667723021860874583539404417701",
+      "certificate_word": [
+        5,
+        249,
+        1
+      ]
+    },
+    {
+      "m": 250,
+      "k": "2613363125147761355045872925543303475855051737245359952279424639067483828678",
+      "source_pointer": "5858667470275343668312979836372693723329466735380454466640266811478370151366",
+      "root_parameter": "5858667470275343668312979836372693723329466735380454466640266811478370151367",
+      "lift": 1,
+      "required_bits": 252,
+      "extra_bits_over_minimal": 246,
+      "x_residue": "1206167596222043702328864427173832373471562340267089208744349833415761767072",
+      "theta_residue": "1206167596222043702328864427173832373471562340267089208744349833415761767077",
+      "certificate_word": [
+        5,
+        250
+      ]
+    },
+    {
+      "m": 251,
+      "k": "4422614519480826908539169566304052036062395247645993765395949389191126479302",
+      "source_pointer": "9914668026619812361760427415399943224096020629105384482006605373271087948451",
+      "root_parameter": "9914668026619812361760427415399943224096020629105384482006605373271087948452",
+      "lift": 1,
+      "required_bits": 253,
+      "extra_bits_over_minimal": 247,
+      "x_residue": "12061675962220437023288644271738323734715623402670892087443498334157617670816",
+      "theta_residue": "12061675962220437023288644271738323734715623402670892087443498334157617670821",
+      "certificate_word": [
+        5,
+        251,
+        4
+      ]
+    },
+    {
+      "m": 252,
+      "k": "804111730814695801552576284782554915647708226844726139162899888943841178054",
+      "source_pointer": "1802666913930874974865532257345444222562912841655524451273928249685652354284",
+      "root_parameter": "1802666913930874974865532257345444222562912841655524451273928249685652354285",
+      "lift": 0,
+      "required_bits": 254,
+      "extra_bits_over_minimal": 248,
+      "x_residue": "4824670384888174809315457708695329493886249361068356834977399333663047068320",
+      "theta_residue": "4824670384888174809315457708695329493886249361068356834977399333663047068325",
+      "certificate_word": [
+        5,
+        252,
+        3
+      ]
+    },
+    {
+      "m": 253,
+      "k": "8041117308146958015525762847825549156477082268447261391628998889438411780550",
+      "source_pointer": "18026669139308749748655322573454442225629128416555244512739282496856523542621",
+      "root_parameter": "18026669139308749748655322573454442225629128416555244512739282496856523542622",
+      "lift": 0,
+      "required_bits": 255,
+      "extra_bits_over_minimal": 249,
+      "x_residue": "48246703848881748093154577086953294938862493610683568349773993336630470683296",
+      "theta_residue": "48246703848881748093154577086953294938862493610683568349773993336630470683301",
+      "certificate_word": [
+        5,
+        253
+      ]
+    },
+    {
+      "m": 254,
+      "k": "22515128462811482443472135973911537638135830351652331896561196890427552985542",
+      "source_pointer": "50474673590064499296234903205672438231761559566354684635669990991198265919289",
+      "root_parameter": "50474673590064499296234903205672438231761559566354684635669990991198265919290",
+      "lift": 0,
+      "required_bits": 256,
+      "extra_bits_over_minimal": 250,
+      "x_residue": "19298681539552699237261830834781317975544997444273427339909597334652188273312",
+      "theta_residue": "19298681539552699237261830834781317975544997444273427339909597334652188273317",
+      "certificate_word": [
+        5,
+        254
+      ]
+    },
+    {
+      "m": 255,
+      "k": "109359195390798629011150374730427468528088318850882754926154384896362400215494",
+      "source_pointer": "245162700294598996581712386998980414268556146465151325373254241957248720179301",
+      "root_parameter": "245162700294598996581712386998980414268556146465151325373254241957248720179302",
+      "lift": 1,
+      "required_bits": 257,
+      "extra_bits_over_minimal": 251,
+      "x_residue": "192986815395526992372618308347813179755449974442734273399095973346521882733216",
+      "theta_residue": "192986815395526992372618308347813179755449974442734273399095973346521882733221",
+      "certificate_word": [
+        5,
+        255
+      ]
+    },
+    {
+      "m": 256,
+      "k": "167255240009456726722935867234771422454723311183703036945883176900318965035462",
+      "source_pointer": "374954718097621994772030709527852398293085871064349085864977075934615689685978",
+      "root_parameter": "374954718097621994772030709527852398293085871064349085864977075934615689685979",
+      "lift": 1,
+      "required_bits": 258,
+      "extra_bits_over_minimal": 252,
+      "x_residue": "77194726158210796949047323339125271902179989777093709359638389338608753093280",
+      "theta_residue": "77194726158210796949047323339125271902179989777093709359638389338608753093285",
+      "certificate_word": [
+        5,
+        256,
+        2
+      ]
+    }
+  ]
+}

@@ -660,3 +660,22 @@ Review: reviews/r1r2_review_record.md (Claude adversary fixable→patched→clos
   δ ≡ θ_T+3τ+3−2^{j_u} (mod 2^{j_u+1}) depends only on (θ_T, τ mod 2^{j_u+1}, j_u), i.e. τ(n_T) must avoid an
   explicit congruence; Lemma 5.3 bypasses bad classes in two steps when its hypothesis holds.
 - Open: CAL-C (or R1), R2_c, RES above T₄. These are deep calendar-arithmetic statements. EXT open; K_clock unchanged.
+  (Superseded 2026-10-23: CAL-C is false and R1 fails somewhere in [K_clock,T₄); see the work_c3_drift section below.)
+
+## work_c3_drift (GPT Astra) — ε=3/ε=5 c-step identities; CAL-C and R1 refuted as targets — ACCEPTED in part (2026-10-23)
+Review: reviews/c3_drift_review_record.md (Claude adversary fixable→review note; two agy gemini auditors all correct;
+targeted re-review of the adversary note by two agy auditors: all correct / simple errors, patched).
+Accepted: work_c3_drift/NOTES.md §1–4, C5_EXTENSION.md, UNBOUNDED_C_PARAMETER_IF_EXT.md, CONGRUENCE_TARGET_NOTE.md.
+All other files in work_c3_drift/ are an unreviewed exploration record.
+- c-step class identities (extra bit kept, δ' mod 2^{q+1}): ε=3 (history A) δ'≡θ; AA δ'≡θ−1; BA δ'≡θ+1.
+  Hence these c steps act on small drift as 0, ∓1 and may stay deep.
+- J<T₄: H5 ∧ C7 ⟹ EXT(J). H5 = every odd c step with ε>=7 in the initial deep segment has next parameter <N₀;
+  C7 = certified class for an ε>=7 c landing. The BA bare tie (5,5) closes via the first gateway family (m<=50).
+  (The weaker H3 ∧ C_rest version is a valid implication but H3 fails somewhere in [K_clock,T₄).)
+- **Correction to the work_r1r2 frontier:** CAL-C is FALSE relative to accepted EXT(<K_clock) (congruence-target
+  fire 3k*+1≡0 mod 2^M, ε=3 source with ω>=M+1; CONGRUENCE_TARGET_NOTE §1–2), and R1(J) fails for some
+  J in [K_clock,T₄). The implication EXT ⟸ R1 ∧ R2_c stays true, but R1 is not a viable uniform target.
+  Under global strict EXT every m>=5 also occurs as an ε=11 (BBBAA) c parameter (at n+1>=T₄; shift +4/3).
+- Open: H5 (conjectured automatic for J<T₄: ε>=7 and ω>=N₀ ⟹ n>=T₄−1 [C]), C7, R2-type landing classes; beyond T₄
+  classify c steps by source shift (integer {0,±1} vs bounded-height rational) instead of parameter caps.
+  EXT open; K_clock unchanged.

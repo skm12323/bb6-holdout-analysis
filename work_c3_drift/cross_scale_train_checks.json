@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "ka": 819270,
+  "kb": 229398,
+  "source_a": 1836655,
+  "source_b": 514273,
+  "word": [
+    5,
+    1836655,
+    5,
+    514273,
+    5,
+    17,
+    5,
+    17,
+    19
+  ],
+  "losses": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "max_record": 1836656,
+  "certificate_precision": 1836657,
+  "x_bits": 1836667,
+  "theta_bits": 1836665,
+  "x_sha256": "02d5a8c71b96d21e91a26fb042134a03a02df15e3afda0c26bc8a361c6de8861",
+  "theta_sha256": "ce53a7c2667dc82358e0e38323b7de0d867e698363eaccc0215dce0d9ac977a8",
+  "initial_defect_mod64": 21,
+  "orbit_unit_mod8": 3,
+  "normalized_clock_residues": [
+    9,
+    3,
+    1
+  ],
+  "direct_table_size": 1836655,
+  "scope": "Local scalar starting state is constructed, not canonical. Every called crossing is canonical; the trace is independently replayed. No EXT counterexample."
+}

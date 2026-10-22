@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "a_transition_checks": 11164,
+  "gateway_emission_checks": 256,
+  "size_checks": 33,
+  "size_samples": [
+    {
+      "denominator_bits": 2,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000002
+    },
+    {
+      "denominator_bits": 2,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000002
+    },
+    {
+      "denominator_bits": 2,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000002
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 3,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000003
+    },
+    {
+      "denominator_bits": 4,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000004
+    },
+    {
+      "denominator_bits": 4,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000004
+    },
+    {
+      "denominator_bits": 4,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000004
+    },
+    {
+      "denominator_bits": 5,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000005
+    },
+    {
+      "denominator_bits": 5,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000005
+    },
+    {
+      "denominator_bits": 5,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000005
+    },
+    {
+      "denominator_bits": 7,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000007
+    },
+    {
+      "denominator_bits": 7,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000007
+    },
+    {
+      "denominator_bits": 7,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000007
+    },
+    {
+      "denominator_bits": 8,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000008
+    },
+    {
+      "denominator_bits": 8,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000008
+    },
+    {
+      "denominator_bits": 8,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000008
+    },
+    {
+      "denominator_bits": 32,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 10000032
+    },
+    {
+      "denominator_bits": 32,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 10000032
+    },
+    {
+      "denominator_bits": 32,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 10000032
+    },
+    {
+      "denominator_bits": 4999998,
+      "threshold": 20000000,
+      "j": 20000000,
+      "LQ": 14999998
+    },
+    {
+      "denominator_bits": 4999998,
+      "threshold": 20000000,
+      "j": 20000001,
+      "LQ": 14999998
+    },
+    {
+      "denominator_bits": 4999998,
+      "threshold": 20000000,
+      "j": 20000127,
+      "LQ": 14999998
+    },
+    {
+      "denominator_bits": 5000000,
+      "threshold": 20000008,
+      "j": 20000008,
+      "LQ": 15000000
+    },
+    {
+      "denominator_bits": 5000000,
+      "threshold": 20000008,
+      "j": 20000009,
+      "LQ": 15000000
+    },
+    {
+      "denominator_bits": 5000000,
+      "threshold": 20000008,
+      "j": 20000135,
+      "LQ": 15000000
+    },
+    {
+      "denominator_bits": 5000003,
+      "threshold": 20000020,
+      "j": 20000020,
+      "LQ": 15000003
+    },
+    {
+      "denominator_bits": 5000003,
+      "threshold": 20000020,
+      "j": 20000021,
+      "LQ": 15000003
+    },
+    {
+      "denominator_bits": 5000003,
+      "threshold": 20000020,
+      "j": 20000147,
+      "LQ": 15000003
+    }
+  ],
+  "scope": "Finite exact algebra and adaptive-threshold checks, not landing certification or canonical reachability."
+}

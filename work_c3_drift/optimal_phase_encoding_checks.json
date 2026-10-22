@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "phase_classes_checked": 8190,
+  "independently_bruteforced_classes": 254,
+  "rows": [
+    {
+      "m": 1,
+      "classes": 2,
+      "maximum_minimum_cost": 0,
+      "classes_affordable_with_S_eq_m": 2,
+      "worst": {
+        "phi": 0,
+        "cost": 0,
+        "phase": "2",
+        "rank": 0,
+        "height": 0
+      }
+    },
+    {
+      "m": 2,
+      "classes": 4,
+      "maximum_minimum_cost": 1,
+      "classes_affordable_with_S_eq_m": 4,
+      "worst": {
+        "phi": 0,
+        "cost": 1,
+        "phase": "0",
+        "rank": 0,
+        "height": 1
+      }
+    },
+    {
+      "m": 3,
+      "classes": 8,
+      "maximum_minimum_cost": 3,
+      "classes_affordable_with_S_eq_m": 8,
+      "worst": {
+        "phi": 5,
+        "cost": 3,
+        "phase": "5",
+        "rank": 0,
+        "height": 3
+      }
+    },
+    {
+      "m": 4,
+      "classes": 16,
+      "maximum_minimum_cost": 4,
+      "classes_affordable_with_S_eq_m": 16,
+      "worst": {
+        "phi": 9,
+        "cost": 4,
+        "phase": "11/3",
+        "rank": 1,
+        "height": 2
+      }
+    },
+    {
+      "m": 5,
+      "classes": 32,
+      "maximum_minimum_cost": 5,
+      "classes_affordable_with_S_eq_m": 32,
+      "worst": {
+        "phi": 7,
+        "cost": 5,
+        "phase": "7",
+        "rank": 0,
+        "height": 5
+      }
+    },
+    {
+      "m": 6,
+      "classes": 64,
+      "maximum_minimum_cost": 7,
+      "classes_affordable_with_S_eq_m": 60,
+      "worst": {
+        "phi": 12,
+        "cost": 7,
+        "phase": "44/9",
+        "rank": 2,
+        "height": 3
+      }
+    },
+    {
+      "m": 7,
+      "classes": 128,
+      "maximum_minimum_cost": 8,
+      "classes_affordable_with_S_eq_m": 116,
+      "worst": {
+        "phi": 22,
+        "cost": 8,
+        "phase": "82/27",
+        "rank": 3,
+        "height": 2
+      }
+    },
+    {
+      "m": 8,
+      "classes": 256,
+      "maximum_minimum_cost": 10,
+      "classes_affordable_with_S_eq_m": 214,
+      "worst": {
+        "phi": 101,
+        "cost": 10,
+        "phase": "-11/81",
+        "rank": 4,
+        "height": 2
+      }
+    },
+    {
+      "m": 9,
+      "classes": 512,
+      "maximum_minimum_cost": 11,
+      "classes_affordable_with_S_eq_m": 378,
+      "worst": {
+        "phi": 30,
+        "cost": 11,
+        "phase": "-130/81",
+        "rank": 4,
+        "height": 3
+      }
+    },
+    {
+      "m": 10,
+      "classes": 1024,
+      "maximum_minimum_cost": 12,
+      "classes_affordable_with_S_eq_m": 676,
+      "worst": {
+        "phi": 20,
+        "cost": 12,
+        "phase": "764/243",
+        "rank": 5,
+        "height": 2
+      }
+    },
+    {
+      "m": 11,
+      "classes": 2048,
+      "maximum_minimum_cost": 13,
+      "classes_affordable_with_S_eq_m": 1190,
+      "worst": {
+        "phi": 15,
+        "cost": 13,
+        "phase": "15",
+        "rank": 0,
+        "height": 13
+      }
+    },
+    {
+      "m": 12,
+      "classes": 4096,
+      "maximum_minimum_cost": 15,
+      "classes_affordable_with_S_eq_m": 2130,
+      "worst": {
+        "phi": 27,
+        "cost": 15,
+        "phase": "-797/729",
+        "rank": 6,
+        "height": 3
+      }
+    }
+  ],
+  "rank_height_bound_at_64": "8338590849833250",
+  "total_classes_at_64": "18446744073709551616",
+  "scope": "Optimal local phase encoding, not canonical reachability or continuation safety."
+}

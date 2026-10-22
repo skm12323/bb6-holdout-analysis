@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "canonical_sources": {
+    "AA": 4,
+    "BA": 4
+  },
+  "canonical_class_checks": 488,
+  "small_odd_a": [
+    [
+      5,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      14,
+      5
+    ]
+  ],
+  "algebra_gateway_checks": 6000,
+  "drift_through_T3": [
+    [
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "scope": "Canonical sources P<=256; synthetic gateway precision tests separately labeled."
+}

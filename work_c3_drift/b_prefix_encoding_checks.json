@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "phase_class_encodings": 16380,
+  "algebra_prefix_cases": 22,
+  "resonant_cases": 5,
+  "cases": [
+    {
+      "p": 17,
+      "t": 3,
+      "m": 6,
+      "root_bits": 16,
+      "resonance": false,
+      "encoded_rank": 6
+    },
+    {
+      "p": 17,
+      "t": 35,
+      "m": 5,
+      "root_bits": 64,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 17,
+      "t": 67,
+      "m": 15,
+      "root_bits": 112,
+      "resonance": true,
+      "encoded_rank": 15
+    },
+    {
+      "p": 17,
+      "t": 99,
+      "m": 5,
+      "root_bits": 160,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 54,
+      "t": 19,
+      "m": 6,
+      "root_bits": 58,
+      "resonance": false,
+      "encoded_rank": 6
+    },
+    {
+      "p": 54,
+      "t": 51,
+      "m": 5,
+      "root_bits": 106,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 54,
+      "t": 83,
+      "m": 7,
+      "root_bits": 154,
+      "resonance": false,
+      "encoded_rank": 7
+    },
+    {
+      "p": 54,
+      "t": 211,
+      "m": 52,
+      "root_bits": 346,
+      "resonance": true,
+      "encoded_rank": 51
+    },
+    {
+      "p": 90,
+      "t": 3,
+      "m": 5,
+      "root_bits": 52,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 90,
+      "t": 35,
+      "m": 6,
+      "root_bits": 100,
+      "resonance": false,
+      "encoded_rank": 6
+    },
+    {
+      "p": 90,
+      "t": 67,
+      "m": 5,
+      "root_bits": 148,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 90,
+      "t": 99,
+      "m": 8,
+      "root_bits": 196,
+      "resonance": false,
+      "encoded_rank": 8
+    },
+    {
+      "p": 90,
+      "t": 355,
+      "m": 88,
+      "root_bits": 580,
+      "resonance": true,
+      "encoded_rank": 88
+    },
+    {
+      "p": 125,
+      "t": 19,
+      "m": 5,
+      "root_bits": 94,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 125,
+      "t": 51,
+      "m": 6,
+      "root_bits": 142,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 125,
+      "t": 83,
+      "m": 5,
+      "root_bits": 190,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 125,
+      "t": 499,
+      "m": 123,
+      "root_bits": 814,
+      "resonance": true,
+      "encoded_rank": 123
+    },
+    {
+      "p": 161,
+      "t": 3,
+      "m": 7,
+      "root_bits": 88,
+      "resonance": false,
+      "encoded_rank": 6
+    },
+    {
+      "p": 161,
+      "t": 35,
+      "m": 5,
+      "root_bits": 136,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 161,
+      "t": 67,
+      "m": 6,
+      "root_bits": 184,
+      "resonance": false,
+      "encoded_rank": 6
+    },
+    {
+      "p": 161,
+      "t": 99,
+      "m": 5,
+      "root_bits": 232,
+      "resonance": false,
+      "encoded_rank": 5
+    },
+    {
+      "p": 161,
+      "t": 643,
+      "m": 159,
+      "root_bits": 1048,
+      "resonance": true,
+      "encoded_rank": 159
+    }
+  ],
+  "scope": "Exhaustive small phase encodings plus algebraic source lifts. Canonical ancestry of the lifts is not asserted; the reached-prefix theorem is analytic."
+}

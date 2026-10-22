@@ -1,0 +1,522 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "selected_calls": 57,
+  "parent_copy_checks": 1767,
+  "sources": [
+    {
+      "p": 17,
+      "k": 6,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 26
+    },
+    {
+      "p": 90,
+      "k": 38,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 99
+    },
+    {
+      "p": 161,
+      "k": 70,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 170
+    },
+    {
+      "p": 234,
+      "k": 102,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 243
+    },
+    {
+      "p": 306,
+      "k": 134,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 315
+    },
+    {
+      "p": 379,
+      "k": 166,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 388
+    },
+    {
+      "p": 447,
+      "k": 198,
+      "m": 8,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 20,
+      "root_lower": 456
+    },
+    {
+      "p": 520,
+      "k": 230,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 529
+    },
+    {
+      "p": 592,
+      "k": 262,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 601
+    },
+    {
+      "p": 665,
+      "k": 294,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 674
+    },
+    {
+      "p": 736,
+      "k": 326,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 745
+    },
+    {
+      "p": 809,
+      "k": 358,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 818
+    },
+    {
+      "p": 881,
+      "k": 390,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 890
+    },
+    {
+      "p": 954,
+      "k": 422,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 963
+    },
+    {
+      "p": 1021,
+      "k": 454,
+      "m": 12,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 24,
+      "root_lower": 1030
+    },
+    {
+      "p": 1094,
+      "k": 486,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1103
+    },
+    {
+      "p": 1166,
+      "k": 518,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 1175
+    },
+    {
+      "p": 1239,
+      "k": 550,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1248
+    },
+    {
+      "p": 1310,
+      "k": 582,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 1319
+    },
+    {
+      "p": 1383,
+      "k": 614,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1392
+    },
+    {
+      "p": 1455,
+      "k": 646,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 1464
+    },
+    {
+      "p": 1528,
+      "k": 678,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1537
+    },
+    {
+      "p": 1594,
+      "k": 710,
+      "m": 8,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 20,
+      "root_lower": 1603
+    },
+    {
+      "p": 1667,
+      "k": 742,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1676
+    },
+    {
+      "p": 1739,
+      "k": 774,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 1748
+    },
+    {
+      "p": 1812,
+      "k": 806,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1821
+    },
+    {
+      "p": 1883,
+      "k": 838,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 1892
+    },
+    {
+      "p": 1956,
+      "k": 870,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 1965
+    },
+    {
+      "p": 2028,
+      "k": 902,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 2037
+    },
+    {
+      "p": 2101,
+      "k": 934,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2110
+    },
+    {
+      "p": 2168,
+      "k": 966,
+      "m": 9,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 21,
+      "root_lower": 2177
+    },
+    {
+      "p": 2241,
+      "k": 998,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2250
+    },
+    {
+      "p": 2313,
+      "k": 1030,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 2322
+    },
+    {
+      "p": 2386,
+      "k": 1062,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2395
+    },
+    {
+      "p": 2457,
+      "k": 1094,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 2466
+    },
+    {
+      "p": 2530,
+      "k": 1126,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2539
+    },
+    {
+      "p": 2602,
+      "k": 1158,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 2611
+    },
+    {
+      "p": 2675,
+      "k": 1190,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2684
+    },
+    {
+      "p": 2743,
+      "k": 1222,
+      "m": 8,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 20,
+      "root_lower": 2752
+    },
+    {
+      "p": 2816,
+      "k": 1254,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2825
+    },
+    {
+      "p": 2888,
+      "k": 1286,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 2897
+    },
+    {
+      "p": 2961,
+      "k": 1318,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 2970
+    },
+    {
+      "p": 3032,
+      "k": 1350,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 3041
+    },
+    {
+      "p": 3105,
+      "k": 1382,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3114
+    },
+    {
+      "p": 3177,
+      "k": 1414,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 3186
+    },
+    {
+      "p": 3250,
+      "k": 1446,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3259
+    },
+    {
+      "p": 3317,
+      "k": 1478,
+      "m": 10,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 22,
+      "root_lower": 3326
+    },
+    {
+      "p": 3390,
+      "k": 1510,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3399
+    },
+    {
+      "p": 3462,
+      "k": 1542,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 3471
+    },
+    {
+      "p": 3535,
+      "k": 1574,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3544
+    },
+    {
+      "p": 3606,
+      "k": 1606,
+      "m": 7,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 19,
+      "root_lower": 3615
+    },
+    {
+      "p": 3679,
+      "k": 1638,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3688
+    },
+    {
+      "p": 3751,
+      "k": 1670,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 3760
+    },
+    {
+      "p": 3824,
+      "k": 1702,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3833
+    },
+    {
+      "p": 3891,
+      "k": 1734,
+      "m": 8,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 20,
+      "root_lower": 3900
+    },
+    {
+      "p": 3964,
+      "k": 1766,
+      "m": 5,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 17,
+      "root_lower": 3973
+    },
+    {
+      "p": 4036,
+      "k": 1798,
+      "m": 6,
+      "source_loss": 8,
+      "deficit": 11,
+      "source_certificate_budget": 18,
+      "root_lower": 4045
+    }
+  ],
+  "scope": "Canonical call data and affine separation. Huge BBBAA source occurrences use the earlier spectrum construction, not direct simulation; all-p lemma remains unreviewed."
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "symbolic_rows": [
+    {
+      "step": "b",
+      "loss": 2,
+      "alpha": "3/4",
+      "beta": {
+        "L2": "1"
+      },
+      "theta": {
+        "L2": "1"
+      },
+      "exact_beta_valuation": null
+    },
+    {
+      "step": "b",
+      "loss": 4,
+      "alpha": "9/16",
+      "beta": {
+        "L1": "1",
+        "L2": "3/4"
+      },
+      "theta": {
+        "1": "-1",
+        "L1": "1",
+        "L2": "1"
+      },
+      "exact_beta_valuation": 244875
+    },
+    {
+      "step": "b",
+      "loss": 6,
+      "alpha": "27/64",
+      "beta": {
+        "1": "655360",
+        "L1": "3/4",
+        "L2": "9/16"
+      },
+      "theta": {
+        "1": "655358",
+        "L1": "1",
+        "L2": "1"
+      },
+      "exact_beta_valuation": 17
+    },
+    {
+      "step": "a",
+      "loss": 7,
+      "alpha": "229/128",
+      "beta": {
+        "1": "983072",
+        "L1": "13/8",
+        "L2": "55/32"
+      },
+      "theta": {
+        "1": "655397",
+        "L1": "1",
+        "L2": "1"
+      },
+      "exact_beta_valuation": 5
+    },
+    {
+      "step": "a",
+      "loss": 8,
+      "alpha": "283/256",
+      "beta": {
+        "1": "819264",
+        "L1": "19/16",
+        "L2": "73/64"
+      },
+      "theta": {
+        "1": "655406",
+        "L1": "1",
+        "L2": "1"
+      },
+      "exact_beta_valuation": 6
+    },
+    {
+      "step": "b",
+      "loss": 10,
+      "alpha": "849/1024",
+      "beta": {
+        "1": "614458",
+        "L1": "57/64",
+        "L2": "219/256"
+      },
+      "theta": {
+        "1": "655415",
+        "L1": "1",
+        "L2": "1"
+      },
+      "exact_beta_valuation": 1
+    }
+  ],
+  "numeric_substitution_checks": 54,
+  "cancellation_control": "unresolved as required",
+  "scope": "Accepted WITNESS provenance is imported from PROOF_SPECTRUM section 4. This is an affine replay, not a new reachability theorem or global bound."
+}

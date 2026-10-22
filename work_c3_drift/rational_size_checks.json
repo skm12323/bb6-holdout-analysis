@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "samples": 36,
+  "records": [
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 25,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 26,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 26,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 32,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 33,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 33,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 64,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 65,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 65,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 128,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 129,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 129,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 256,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 257,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 257,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 512,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 513,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 513,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 1024,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 1025,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 1025,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 2048,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 2049,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 2049,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 4096,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 4097,
+      "h3": 1,
+      "end": 10000002
+    },
+    {
+      "input_bits": 4097,
+      "h3": 1,
+      "end": 10000002
+    }
+  ],
+  "scope": "Exact finite boundary checks only; all-scale SIZE3 follows from the split power bounds in RATIONAL_MODE.md."
+}

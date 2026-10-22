@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "identity_checks": 744,
+  "certificate_range": [
+    5,
+    16383
+  ],
+  "family_counts": {
+    "46": 16379,
+    "62": 16379
+  },
+  "failures": [],
+  "insufficient_precision_controls": [
+    {
+      "input_d": 37,
+      "input_mod64": 37,
+      "m": 7,
+      "output_delta": 206
+    },
+    {
+      "input_d": 165,
+      "input_mod64": 37,
+      "m": 7,
+      "output_delta": 78
+    }
+  ],
+  "scope": "Synthetic family certificates. No assertion of canonical reachability or all-scale closure."
+}

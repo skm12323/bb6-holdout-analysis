@@ -1,0 +1,35 @@
+{
+ "status": "PASS",
+ "walks": 20000,
+ "forced": {
+  "stats": {
+   "walks": 4000,
+   "free_choices": 213,
+   "chains": 6779,
+   "certified": 6779,
+   "nd_0": 3613,
+   "nd_1": 387
+  },
+  "max_r_certified": 1,
+  "wrong_examples": []
+ },
+ "finite_precision": {
+  "certified": 3658,
+  "uncertified_wrong": 273,
+  "uncertified_right": 10
+ },
+ "stats": {
+  "walk_end": 19999,
+  "chains": 32854,
+  "certified": 32854,
+  "walk_nonpositive": 1
+ },
+ "non_descent_count_hist": {
+  "0": 19961,
+  "1": 39
+ },
+ "max_3adic_denominator_exponent_certified": 1,
+ "precision_exhaustion_examples": [],
+ "seconds": 4.3,
+ "scope": "Synthetic exact walks (constructed starts, not claimed canonical); identities and the precision bound are checked at every chain. No EXT claim."
+}

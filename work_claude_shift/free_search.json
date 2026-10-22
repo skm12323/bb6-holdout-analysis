@@ -1,0 +1,105 @@
+{
+ "stats": {
+  "small": 19811,
+  "free": 6,
+  "end": 49308
+ },
+ "found": [
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 5,
+   "j0": 5,
+   "d0": -11,
+   "U_mod": [
+    1,
+    1
+   ],
+   "eps": 5
+  },
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 6,
+   "j0": 5,
+   "d0": -11,
+   "U_mod": [
+    3,
+    2
+   ],
+   "eps": 5
+  },
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 7,
+   "j0": 5,
+   "d0": -11,
+   "U_mod": [
+    3,
+    3
+   ],
+   "eps": 5
+  },
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 5,
+   "j0": 5,
+   "d0": 5,
+   "U_mod": [
+    1,
+    1
+   ],
+   "eps": 5
+  },
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 6,
+   "j0": 5,
+   "d0": 5,
+   "U_mod": [
+    1,
+    2
+   ],
+   "eps": 5
+  },
+  {
+   "letters": [
+    "A"
+   ],
+   "chains": [
+    5
+   ],
+   "free_from": 7,
+   "j0": 5,
+   "d0": 5,
+   "U_mod": [
+    5,
+    3
+   ],
+   "eps": 5
+  }
+ ]
+}

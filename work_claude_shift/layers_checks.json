@@ -1,0 +1,234 @@
+{
+ "odd_a_table": [
+  [
+   5,
+   1
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   12,
+   4
+  ],
+  [
+   14,
+   5
+  ],
+  [
+   17,
+   6
+  ],
+  [
+   22,
+   8
+  ],
+  [
+   24,
+   9
+  ],
+  [
+   27,
+   10
+  ],
+  [
+   32,
+   13
+  ],
+  [
+   35,
+   14
+  ],
+  [
+   40,
+   16
+  ],
+  [
+   42,
+   17
+  ]
+ ],
+ "max_j_needed": 18,
+ "by_eps": {
+  "3": {
+   "words": 1,
+   "counts": {
+    "min_layers=2": 1
+   },
+   "low_layer_words": [
+    {
+     "word": "A",
+     "min_layers": 2,
+     "max_catapults": 0,
+     "shifts": [
+      "0"
+     ]
+    }
+   ],
+   "n_low": 1
+  },
+  "5": {
+   "words": 2,
+   "counts": {
+    "min_layers=3": 2
+   },
+   "low_layer_words": [
+    {
+     "word": "AA",
+     "min_layers": 3,
+     "max_catapults": 0,
+     "shifts": [
+      "-1"
+     ]
+    },
+    {
+     "word": "BA",
+     "min_layers": 3,
+     "max_catapults": 0,
+     "shifts": [
+      "1"
+     ]
+    }
+   ],
+   "n_low": 2
+  },
+  "7": {
+   "words": 5,
+   "counts": {
+    "min_layers=4": 5
+   },
+   "low_layer_words": [
+    {
+     "word": "AAA",
+     "min_layers": 4,
+     "max_catapults": 0,
+     "shifts": [
+      "0"
+     ]
+    },
+    {
+     "word": "ABA",
+     "min_layers": 4,
+     "max_catapults": 0,
+     "shifts": [
+      "0"
+     ]
+    },
+    {
+     "word": "BAA",
+     "min_layers": 4,
+     "max_catapults": 0,
+     "shifts": [
+      "-2"
+     ]
+    },
+    {
+     "word": "BBA",
+     "min_layers": 4,
+     "max_catapults": 0,
+     "shifts": [
+      "2"
+     ]
+    },
+    {
+     "word": "C(A)A",
+     "min_layers": 4,
+     "max_catapults": 0,
+     "shifts": [
+      "0"
+     ]
+    }
+   ],
+   "n_low": 5
+  },
+  "9": {
+   "words": 14,
+   "counts": {
+    "min_layers=5": 14
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "11": {
+   "words": 42,
+   "counts": {
+    "min_layers=6": 40,
+    "min_layers=5": 2,
+    "words_with_possible_catapult": 2
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "13": {
+   "words": 132,
+   "counts": {
+    "min_layers=7": 130,
+    "min_layers=6": 2,
+    "words_with_possible_catapult": 2
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "15": {
+   "words": 429,
+   "counts": {
+    "min_layers=8": 387,
+    "min_layers=7": 36,
+    "words_with_possible_catapult": 42,
+    "min_layers=6": 6
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "17": {
+   "words": 1430,
+   "counts": {
+    "min_layers=9": 1373,
+    "min_layers=8": 51,
+    "words_with_possible_catapult": 57,
+    "min_layers=7": 6
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "19": {
+   "words": 4862,
+   "counts": {
+    "min_layers=10": 4161,
+    "min_layers=9": 551,
+    "words_with_possible_catapult": 701,
+    "min_layers=8": 132,
+    "min_layers=7": 18
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "21": {
+   "words": 16796,
+   "counts": {
+    "min_layers=11": 15624,
+    "min_layers=10": 975,
+    "words_with_possible_catapult": 1172,
+    "min_layers=9": 179,
+    "min_layers=8": 18
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  },
+  "23": {
+   "words": 58786,
+   "counts": {
+    "min_layers=12": 47853,
+    "min_layers=11": 8082,
+    "words_with_possible_catapult": 10933,
+    "min_layers=10": 2329,
+    "min_layers=9": 468,
+    "min_layers=8": 54
+   },
+   "low_layer_words": [],
+   "n_low": 0
+  }
+ },
+ "note": "l'(w)>=5 (or >=4 when no catapult) forces n+1>=T4 when omega>=N0; see NOTES.md."
+}

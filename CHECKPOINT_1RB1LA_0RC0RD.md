@@ -679,3 +679,21 @@ All other files in work_c3_drift/ are an unreviewed exploration record.
 - Open: H5 (conjectured automatic for J<T₄: ε>=7 and ω>=N₀ ⟹ n>=T₄−1 [C]), C7, R2-type landing classes; beyond T₄
   classify c steps by source shift (integer {0,±1} vs bounded-height rational) instead of parameter caps.
   EXT open; K_clock unchanged.
+
+## work_claude_shift (Claude, Part A) — general source shifts; layer bound; H5 reduced to residual sources — ACCEPTED (2026-10-23)
+Review: reviews/claude_shift_review_record.md (Claude adversary fixable→2 targeted re-reviews→closed; two agy gemini
+auditors all correct).
+- Theorem S: exact identity D'=3+2k-(D+x')/3 at a-steps. The defect automaton extends to non-descents
+  (catapults): d -> (9+6k-d)/3 with lift bit 2^m, with explicit precision H. At certified chains the c shift
+  is s(n)=-1-lambda_Y=Phi-2 for every history (incl. catapults, nested c); Phi in Z[1/3] with denominator
+  dividing 3^(#non-descents). Recovers 0, -1, +1, +4/3.
+- Lemma ND (non-descents only at explicit small chains for bounded |d|, r); Lemma CB (bare-tie catapult output
+  m<G(y)+1, class (10-2^m)/3 or (26-2^m)/3).
+- Theorem L [A+B]: for a *simple* c crossing (source chain produced while chains >=N0, or the output of an A/B-
+  entered bare-tie gateway; nested C letters simple), eps>=7 and omega>=N0 ⟹ n+1>=T4 (enumeration eps<=15,
+  counting l*>=1+W/4 beyond).
+- Corollary (inside the least strict-EXT counterexample induction): J<T4: EXT(J) ⟸ H5_res ∧ C7, H5_res = H5 for
+  residual sources only: (i) true entry class outside the window, (ii) rational entry class, (iii) bare tie
+  entered by a C letter, (iv) gateway output >=10^8, (v) nested residual C letter.
+- [C] A 2-layer case-(iii) shape suggests H5 is probably NOT automatic below T4; the open core below T4 is
+  "rational/uncertified class at a small chain" (C7 and H5_res), i.e. Part B's domain. EXT open; K_clock unchanged.

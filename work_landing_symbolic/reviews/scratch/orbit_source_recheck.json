@@ -1,0 +1,21 @@
+{
+  "inner_pointer": 48,
+  "inner_k": 20,
+  "fire_k": "469124961184426",
+  "sigma": "1051689726214394",
+  "x0": "2814749767106560",
+  "x0_is_5_2_49": true,
+  "y": "4222124650659962",
+  "val_y": 1,
+  "y_mod_128": 122,
+  "A": "263882790666247",
+  "A_mod_8": 7,
+  "A_plus_1_below_2_48": true,
+  "sigma_minus_5": "1051689726214389",
+  "r_lower_bound": "657306078883964",
+  "r_lower_bound_quoted": "657306078883964",
+  "consistent": true,
+  "eta_r_example_r0": "3",
+  "eta_r_height": "|eta_r|<=5 for r>=0 (r=0: 3)",
+  "status": "PASS"
+}

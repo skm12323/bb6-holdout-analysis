@@ -1,0 +1,158 @@
+{
+  "run": {
+    "run_id": "dwfrun-e527efb9-6123-4162-9e53-6e38fa4a73e7",
+    "label": "EXT 着陆符号论证",
+    "status": "completed",
+    "created_at": "2026-10-22T15:42:15.077Z",
+    "completed_at": "2026-10-23T05:29:40.310Z",
+    "duration": "13h 47m",
+    "phases": 6,
+    "dispatched_steps": 85,
+    "tokens": 324618900,
+    "workspace": "D:/math_cc/work_landing_symbolic"
+  },
+  "deliverables": {
+    "primary": "NOTES.md",
+    "theorem": "THEOREM.md",
+    "gate_script": "verify_landing.py",
+    "gate_json": "landing_checks.json",
+    "directions_status": "directions_status.json",
+    "manifest": "MANIFEST.md"
+  },
+  "conclusion_zh": "目标的无条件、与尺度无关的着陆认证未证明。已证明的是条件形式 (I)/(II)：(I) 在 (S2*) 且无 x=0 时，走法在 <=j0-4 条链内终止，链数界与 J 无关，但绝对记录天花板是 R0=j0+Gamma0=J；(II) j_t=5 的 gateway 有显式类映射、块内记录 <= 前驱-1、高度/深度递推，tie 步记录上升 m-4；j_t>=6 时输出参数/类不由类决定，需要实际仿射来源 (U,beta)。剩余条件是 (S3)、(S4)、(SC)、(AC2)；其中 (S4) 的 5<=j_*<2*10^7 是 [B] 有限参数上界，(DEEP) 含 J<T_h 的 horizon 上界，(H4) 的 j>=N0+1 是深段下界，因此严格按本轮要求（附加条件必须是来源/相位条件）合并定理仍未达标。三个方向脚本与 verify_landing.py 全部 PASS（903,945 次检查/0 失败）。最终审计判定 issues：6 条均为标签/文字残留。未证明全局 EXT，未声称机器不停机，K_clock 不变。",
+  "target_theorem_status": {
+    "unconditional_scale_independent_landing": "not proved",
+    "proved_conditional_parts": [
+      "(I) [A|S2*] 每个 a 链满足 3Q_t k_t+C_t != 0 (mod 2^{j_t-2})（充分形式 (DEPTH) Q_t(kappa(j_t)+h_t)<2^{j_t-2} 且非零），且走法无 x=0 => 全部步为强下降或 b/c，在 <=j0-4 条链内终止于偶交叉；类/参数序列由 mod 2^{j0+1} 的类决定（HP 用 P=R0+1）。链数界不含 J；绝对记录天花板 R0=j0+Gamma0=J。",
+      "(II) [A|C1,C2] 若 (S2*) 在 j_t=5 失败，则 m<H 时 C'=15Q-C-32bQ、Q'=3Q、b'=1、D'=(15Q-C-32bQ)/(3Q)+2^m (mod 2^{m+1})；块记录 <= 前驱记录-1；h'<=5+(h+|s|)/3+32b/3（j=5）；深度 r0+t（需块间 d<=r_t）；tie 步记录上升 m-4。j_t>=6 需实际仿射来源 (U,beta)。"
+    ],
+    "open_conditions": [
+      "(S3) gateway 输出 m 与祖先精度 sigma 的关系（仿射形式 v2(beta')<J-Gamma-1）",
+      "(S4) 终端类认证：整数窗口 5<=j_*<2*10^7、delta_* in [-12,15] 除 (5,5),(5,-11)；或 j_*<=18 且不在 24 例外；或 DEEP",
+      "(SC) 分母深度 r 与 sigma 的关系：r0+T<5(sigma-53)/8 或 3^r != -A^{-1} (mod 2^{sigma-5})",
+      "(AC2) tie 续走的条件与 lift 求解",
+      "24 个 certify 例外与裸 tie (5,5)/(5,-11) 的所有尺度认证",
+      "j>=6 的 gateway 的实际仿射来源展开"
+    ],
+    "not_param_cap_caveat": "(S4) 的 5<=j_*<2*10^7 是 [B] 有限参数上界；(DEEP) 的 J<T_h 是 horizon 上界；(H4) 的 j>=N0+1 是深段下界。严格按本轮'不能是参数上界'的要求，合并定理仍未达标。"
+  },
+  "review": {
+    "documents_reviewed": [
+      "work_c3_drift/RATIONAL_MODE.md",
+      "work_c3_drift/ODD_DENOMINATOR.md",
+      "work_c3_drift/SHIFT_TRANSPORT.md",
+      "work_c3_drift/FIRST_A_REDUCTION.md"
+    ],
+    "claimed_errors_checked": 37,
+    "confirmed": 32,
+    "refuted": 5,
+    "confirmed_by": "两个独立复核者用自重算逐条确认（reviews/check_R.md、reviews/check_T.md）",
+    "confirmed_highlights": [
+      "RATIONAL_MODE.md:L47 critical — C!=0 mod 3 不排除 exact resonance；反例 j=5,C=55,k=1: 9k+C=64!=0 但 3k+theta=0",
+      "RATIONAL_MODE.md:L38-44,L62-63 major — 隐含持续 c 步 epsilon in {3,5}；HR5 只覆盖 >=7，未引用 accepted weight grammar",
+      "RATIONAL_MODE.md:L10-20,L58 major — 只覆盖分母 3（r<=1），不是一般 s in Z[1/3]；O1 的 r-sigma 耦合未触及",
+      "RATIONAL_MODE.md:L127-131 major — 完整 (C,b,j) 类是 7,936 不是 3,968；j<=128 远低于可达着陆 <N0",
+      "ODD_DENOMINATOR.md:L28-31 major — permitted 未定义；|C_t|/Q<=A+t 被 BBBAA 的 +4/3 破坏（Q=3,C0=1 时 t=8 首次失败）",
+      "ODD_DENOMINATOR.md:L61-68 major — 主引理假设不全：epsilon in {3,5} grammar、defined prefix、R0<=J、A 是来源属性",
+      "ODD_DENOMINATOR.md:L61-62,L99-102 major — N_Q=max(N0,4(d+2))，[N0,N_Q) 开放带；r=1e7 时 N_Q=63,398,512",
+      "SHIFT_TRANSPORT.md:L21-30,L57,L86 major — 只对整数 eta 证明；eta=theta_T-2 不是本轮 source shift；无 r-sigma_C 关联",
+      "SHIFT_TRANSPORT.md:L14-16,L32-38 major — Safe 未要求 x!=0；HP 需要 x*_i!=0",
+      "FIRST_A_REDUCTION.md:L52 minor — y>=28 需要 lambda_Y>=0，原文缺一步依据",
+      "FIRST_A_REDUCTION.md:L59 minor — j=0 未定义；实际 1<=j<=4"
+    ],
+    "refuted_claims": [
+      "ODD_DENOMINATOR E5（单调性论证有效）",
+      "ODD_DENOMINATOR E9（N_Q 随 log2 Q 增长是真实原因；+4/3 在窗口内）",
+      "SHIFT_TRANSPORT E1（原文自述 uniform reduction，无过度声称）",
+      "SHIFT_TRANSPORT E9（mixed-history 依赖已接受的书面证明）",
+      "FIRST_A E2（positive-output obstruction 是 case，不与 §2 正性矛盾）"
+    ],
+    "review_files": {
+      "rational_mode": "reviews/rational_mode.md",
+      "odd_denominator": "reviews/odd_denominator.md",
+      "shift_transport": "reviews/shift_transport.md",
+      "first_a": "reviews/first_a.md",
+      "check_R": "reviews/check_R.md",
+      "check_T": "reviews/check_T.md"
+    }
+  },
+  "adversary": {
+    "issues_raised": 12,
+    "issues_absorbed": 12,
+    "report": "reviews/theorem_adversary.md",
+    "draft_claims_refuted": [
+      "36 条代表元走法记录 <= 入口记录（maxrec[(17,229310)]=22>17；maxrec[(27,167772130)]=30>27）",
+      "tie->tie 记录律 rho(tie,t+1)>=rho(tie,t)+(m_t-4)（反例 (73515,98094)，记录 [73515,6,19,8,21,22,7]）",
+      "A4 的 Z[1/3] 延拓（反例族 theta=2^{j-2}/3^r-3k；j=40/61/100 记录 42/62/101>J）",
+      "强 a 步保持 ht=|C|/Q（反例 (j=5,Q=1,C=7,b=0,k=1,u=1): ht 7->4）",
+      "catapult 高度常数 32b/3 对所有 j 成立（一般项 b*2^j/3；j=8/12/17 反例）"
+    ]
+  },
+  "final_audit": {
+    "verdict": "issues",
+    "issues_count": 6,
+    "report": "reviews/final_audit.md",
+    "residual_theorem_issues": [
+      "I1 [THEOREM, minor] §2.4/§5.2 标题仍写 [A|(L1),(L2)]，正文与 §7 已把 (L3) X(0..3) 偶标为 [B]；标题漏标签",
+      "I2 [THEOREM, minor] §6.1 gateway(i) 行写'无 J'，但块记录 rho_2=j_2+Gamma_p+2 含 Gamma_p=J-j_p"
+    ],
+    "other_issues": [
+      "I3 [THEOREM, minor] §5.6 表列头'为什么不是参数上界'与 S4/DEEP 行矛盾",
+      "I4 [THEOREM, minor] §6.1 AFF A4 行与 NOTES §4.4 漏掉 A4 结论的直接记录 <=J",
+      "I5 [THEOREM, minor] 头部/§8.2 的 timing 仍是旧运行",
+      "I6 [NOTES, minor] §2.4 表 #1/#8 的'已修'略过度"
+    ]
+  },
+  "deterministic_gates": [
+    {
+      "gate": "四个基线验证脚本",
+      "command": "python -B work_c3_drift/verify_{rational_mode,odd_denominator,shift_transport,first_a}.py",
+      "exits": [0, 0, 0, 0]
+    },
+    {
+      "gate": "rational",
+      "command": "python -B work_landing_symbolic/rational/verify_rational.py",
+      "exit": 0,
+      "checks": 1337300,
+      "failures": 0,
+      "elapsed_seconds": 6.14
+    },
+    {
+      "gate": "affine",
+      "command": "python -B work_landing_symbolic/affine/verify_affine.py",
+      "exit": 0,
+      "failures": 0,
+      "canonical_shift_cases": 5712,
+      "canonical_fires": 252,
+      "canonical_chains": 419,
+      "canonical_c_sources": 84,
+      "elapsed_seconds": 2.34
+    },
+    {
+      "gate": "gateway",
+      "command": "python -B work_landing_symbolic/gateway/verify_gateway.py",
+      "exit": 0,
+      "checks": 49952,
+      "failures": 0,
+      "elapsed_seconds": 94.5
+    },
+    {
+      "gate": "consolidated",
+      "command": "python -B work_landing_symbolic/verify_landing.py",
+      "exit": 0,
+      "checks": 903945,
+      "failures": 0,
+      "elapsed_seconds": 9.8
+    }
+  ],
+  "not_covered": [
+    "s in Z[1/3] 的一般来源公式：另一位研究者仍在推导，本轮只把 s 当参数",
+    "J>=T4 的深部日历与全局控制；H5/C7/RES 等已接受残余条件未在本轮证明",
+    "规范实例只覆盖 Calendar(512)/小表可达范围；合成状态不可规范（已在各 json 标注）",
+    "未复现 8,712 坏对（缺 table_100000000.pkl）",
+    "Bad_j 的 j=22/24/27 只抽验 4 个 lift，未全枚举；j>27 未计算",
+    "A4 深段解析证明未重跑（Calendar 需 B>=N0，不可行）",
+    "未证明全局 EXT、未证明机器不停机；K_clock 不变"
+  ],
+  "honesty": "本报告与 NOTES.md/THEOREM.md 一致：不证明全局 EXT，不声称机器不停机，K_clock 未改；[B] 为有限精确计算（范围写明），[C] 为猜想/开放；合成状态均标 non-canonical。"
+}

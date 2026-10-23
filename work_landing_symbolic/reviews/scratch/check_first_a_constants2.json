@@ -1,0 +1,89 @@
+{
+ "min_state_time": 52,
+ "min_y": 248,
+ "min_y_shifted": 232,
+ "min_m": 5,
+ "min_slack_6sA5_minus_xA": 157,
+ "collision_qdist": {
+  "1": 448,
+  "2": 4,
+  "3": 28,
+  "4": 12
+ },
+ "n_bad": 0,
+ "bad": [],
+ "examples": [
+  {
+   "P": 5,
+   "kind": "fire",
+   "m": 5,
+   "sA": 52,
+   "tau": 2,
+   "xA": 160,
+   "y": 248,
+   "sprime": 55,
+   "q": 3
+  },
+  {
+   "P": 8,
+   "kind": "fire",
+   "m": 8,
+   "sA": 84,
+   "tau": 4,
+   "xA": 256,
+   "y": 398,
+   "sprime": 89,
+   "q": 1
+  },
+  {
+   "P": 12,
+   "kind": "fire",
+   "m": 12,
+   "sA": 1364,
+   "tau": 8,
+   "xA": 4096,
+   "y": 6170,
+   "sprime": 1373,
+   "q": 1
+  },
+  {
+   "P": 14,
+   "kind": "fire",
+   "m": 14,
+   "sA": 5460,
+   "tau": 10,
+   "xA": 16384,
+   "y": 24608,
+   "sprime": 5471,
+   "q": 5
+  },
+  {
+   "P": 14,
+   "kind": "c",
+   "m": 5,
+   "sA": 5471,
+   "tau": 2,
+   "xA": 24608,
+   "y": 20538,
+   "sprime": 5474,
+   "q": 1
+  },
+  {
+   "P": 17,
+   "kind": "fire",
+   "m": 17,
+   "sA": 218452,
+   "tau": 12,
+   "xA": 655360,
+   "y": 983078,
+   "sprime": 218465,
+   "q": 1
+  }
+ ],
+ "base_odd_0_3": [
+  false,
+  false,
+  false,
+  false
+ ]
+}

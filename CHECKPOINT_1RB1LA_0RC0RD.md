@@ -697,3 +697,23 @@ auditors all correct).
   entered by a C letter, (iv) gateway output >=10^8, (v) nested residual C letter.
 - [C] A 2-layer case-(iii) shape suggests H5 is probably NOT automatic below T4; the open core below T4 is
   "rational/uncertified class at a small chain" (C7 and H5_res), i.e. Part B's domain. EXT open; K_clock unchanged.
+
+## work_landing_symbolic (external workflow agent, Part B) — symbolic landing: conditional results — ACCEPTED in part (2026-10-23)
+Review: reviews/landing_symbolic_review_record.md (two Claude adversaries fixable→patched→targeted re-review closed;
+two agy gemini auditors simple errors). THEOREM.md carries a 10-item review-correction block that overrides its body.
+- Accepted: rational a-step trichotomy (A1–A3; the claim "Q>1 ⇒ x'≠0" is refuted); b/c class recursion; Theorem D/L
+  [A | S2*]: if every a-chain satisfies 3Q_t k_t+C_t ≢ 0 (mod 2^(j_t−2)), the walk ends within j0−4 chains, records
+  <= R0 <= J, classes determined mod 2^(j0+1); j=5 gateway class map (15Q−C−32bQ)/(3Q)+2^m (consistent with
+  work_claude_shift Theorem S and the r1r2 families); affine A5 (no tie + certified terminal + σ>J ⇒ records<σ;
+  tie record J+e); O1/O2/O3 mechanisms; 36 bad classes [B].
+- Refuted (do not reuse): tie→tie record law (counterexample (73515,98094)); Z[1/3] extension of the deep no-tie
+  lemma; strong a-steps preserving ht; universal catapult height constant; "record <= entry record" on the 36
+  representatives; rational (A4).
+- Not achieved: unconditional J-independent landing for arbitrary θ+s; a J-independent bound on gateway chains;
+  the terminal certificate still uses the [B] window 5<=j<2·10^7.
+- work_c3_drift group 2 now reviewed (status lines at the head of each file): RATIONAL_MODE (§1 [A] minus a false
+  resonance sentence; §2 conditional; §3 [B]), ODD_DENOMINATOR ([A-cond], §1 only for integer shifts),
+  SHIFT_TRANSPORT (§2–§4 [A] conditional, integer eta), FIRST_A_REDUCTION (§1–§3 [A] conditional; §4 [C]).
+- Open core unchanged in kind: rational/uncertified classes at small chains — (S3) gateway output vs precision,
+  (SC) dangerous residues, the 24 certify exceptions and the bare ties, j>=6 gateways needing affine provenance.
+  EXT open; K_clock unchanged.

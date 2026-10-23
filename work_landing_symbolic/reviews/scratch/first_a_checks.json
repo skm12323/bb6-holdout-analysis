@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "source_P": [
+    5,
+    256
+  ],
+  "shifts": [
+    -8,
+    8
+  ],
+  "cases": 5712,
+  "counts": {
+    "valuation_mismatch_closes": 852,
+    "collision_end": 492,
+    "zero_shift": 336,
+    "no_A": 4032
+  },
+  "collision_examples": [
+    {
+      "P": 5,
+      "kind": "fire",
+      "n": "63",
+      "eta": -4,
+      "real_output_parameter": 3,
+      "shifted_output_parameter": 4,
+      "residual_precision": "62",
+      "suffix": [
+        4
+      ]
+    },
+    {
+      "P": 5,
+      "kind": "fire",
+      "n": "63",
+      "eta": 4,
+      "real_output_parameter": 3,
+      "shifted_output_parameter": 8,
+      "residual_precision": "62",
+      "suffix": [
+        8,
+        3
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": -7,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 7,
+      "residual_precision": "98",
+      "suffix": [
+        7
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": -5,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 2,
+      "residual_precision": "98",
+      "suffix": [
+        2
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": -3,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 3,
+      "residual_precision": "98",
+      "suffix": [
+        3
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": -1,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 2,
+      "residual_precision": "98",
+      "suffix": [
+        2
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": 1,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 4,
+      "residual_precision": "98",
+      "suffix": [
+        4
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": 3,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 2,
+      "residual_precision": "98",
+      "suffix": [
+        2
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": 5,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 3,
+      "residual_precision": "98",
+      "suffix": [
+        3
+      ]
+    },
+    {
+      "P": 8,
+      "kind": "fire",
+      "n": "99",
+      "eta": 7,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 2,
+      "residual_precision": "98",
+      "suffix": [
+        2
+      ]
+    },
+    {
+      "P": 12,
+      "kind": "fire",
+      "n": "1537",
+      "eta": -7,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 2,
+      "residual_precision": "1536",
+      "suffix": [
+        2
+      ]
+    },
+    {
+      "P": 12,
+      "kind": "fire",
+      "n": "1537",
+      "eta": -5,
+      "real_output_parameter": 1,
+      "shifted_output_parameter": 4,
+      "residual_precision": "1536",
+      "suffix": [
+        4
+      ]
+    }
+  ],
+  "collision_certificates": {
+    "minimal_class_end": 488,
+    "minimal_class_ceiling": 4
+  },
+  "max_extra_bits": 3,
+  "extra_precision_examples": [
+    {
+      "P": 17,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "certificate_bits": 8,
+      "x_residue": 32,
+      "theta_residue": 37,
+      "word": [
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "P": 90,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "certificate_bits": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ]
+    },
+    {
+      "P": 161,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "certificate_bits": 9,
+      "x_residue": 416,
+      "theta_residue": 421,
+      "word": [
+        5,
+        7
+      ]
+    },
+    {
+      "P": 234,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "certificate_bits": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ]
+    }
+  ],
+  "scope": "Actual canonical fires and c chains at selected fires. Conditional all-scale reduction is in FIRST_A_REDUCTION.md."
+}

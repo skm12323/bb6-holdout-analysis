@@ -1,0 +1,91 @@
+{
+ "claim_attacked": "THEOREM.md 2.7 (A4) / affine/RESULT.md A4: j>=N0+1, |theta|<=B-3 implies no tie, via a 'Z[1/3] extension' of work_deep Lemma 2.2",
+ "mechanism": "work_deep Lemma 2.2 uses |z|>=2^v2(z) for INTEGER z. For theta=C/3^r, z=(3^(r+1)k+C)/3^r has v2(z)=v2(3^(r+1)k+C) which can be j-2 while |z|<2^(j-2); the family below realizes exactly that at every j.",
+ "rows": [
+  {
+   "j": 20,
+   "skipped": "crossing not odd a"
+  },
+  {
+   "j": 40,
+   "k": 16,
+   "r": 20,
+   "theta": "107512255696/3486784401",
+   "theta_abs_float": 30.834213800304312,
+   "v2_3k_theta": 38,
+   "j_minus_2": 38,
+   "tie": true,
+   "d_in_Z13": true,
+   "beta": "0",
+   "beta2": "549755813888/3486784401",
+   "v2_beta2": 39,
+   "ell": 39,
+   "e": 2,
+   "j_next": 41,
+   "record_next": 42,
+   "J": 40,
+   "record_exceeds_J": true,
+   "theta_within_B_minus_3": true
+  },
+  {
+   "j": 61,
+   "k": 25,
+   "r": 33,
+   "theta": "159531209811759263/5559060566555523",
+   "theta_abs_float": 28.69751244869188,
+   "v2_3k_theta": 59,
+   "j_minus_2": 59,
+   "tie": true,
+   "d_in_Z13": true,
+   "beta": "0",
+   "beta2": "1152921504606846976/5559060566555523",
+   "v2_beta2": 60,
+   "ell": 60,
+   "e": 1,
+   "j_next": 61,
+   "record_next": 62,
+   "J": 61,
+   "record_exceeds_J": true,
+   "theta_within_B_minus_3": true
+  },
+  {
+   "j": 100,
+   "k": 42,
+   "r": 57,
+   "theta": "119087244772715067307468446406/1570042899082081611640534563",
+   "theta_abs_float": 75.84967572691095,
+   "v2_3k_theta": 98,
+   "j_minus_2": 98,
+   "tie": true,
+   "d_in_Z13": true,
+   "beta": "0",
+   "beta2": "633825300114114700748351602688/1570042899082081611640534563",
+   "v2_beta2": 99,
+   "ell": 99,
+   "e": 1,
+   "j_next": 100,
+   "record_next": 101,
+   "J": 100,
+   "record_exceeds_J": true,
+   "theta_within_B_minus_3": true
+  },
+  {
+   "j": 200,
+   "skipped": "crossing not odd a"
+  },
+  {
+   "j": 400,
+   "skipped": "crossing not odd a"
+  },
+  {
+   "j": "any j >= N0+1 with calendar k>=1",
+   "identity": "3k+theta = 2^(j-2)/3^r with r=max{r: 3^r <= 2^(j-2)/(3k)}",
+   "v2_3k_theta_proved": "j-2 (exact, since 3k+theta = 2^(j-2)/3^r)",
+   "tie": true,
+   "abs_theta_bound": "|theta| <= 6k <= 2*kappa(j) << B-3 for j >= N0",
+   "computed": false,
+   "note": "algebraic; the same identity is verified exactly below at j<=400 with the true calendar half-time k"
+  }
+ ],
+ "all_ties": true
+}

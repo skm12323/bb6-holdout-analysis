@@ -1,0 +1,49 @@
+{
+  "generated": "2026-10-23",
+  "run_id": "dwfrun-e527efb9-6123-4162-9e53-6e38fa4a73e7",
+  "note": "控制台'三个表示方向的验证状态'表的落盘版本；数值取自三个方向的 checks.json。",
+  "directions": [
+    {
+      "direction": "有理模式",
+      "gate": "pass",
+      "status": "PASS",
+      "checks": "1,337,300 checks",
+      "failures": 0,
+      "elapsed_seconds": 6.14,
+      "script": "rational/verify_rational.py",
+      "checks_json": "rational/checks.json",
+      "scope": "Z[1/3] 正规形、a 步三分类、b/c 类递推、参数五 gateway、高度/秩/记录、certify/lift、RAT-C、O1/O2/O3"
+    },
+    {
+      "direction": "仿射来源",
+      "gate": "pass",
+      "status": "PASS",
+      "checks": "0 failures; 5,712 canonical shift cases; 252 fires / 419 chains / 84 c sources",
+      "failures": 0,
+      "elapsed_seconds": 2.34,
+      "script": "affine/verify_affine.py",
+      "checks_json": "affine/checks.json",
+      "scope": "x=A*U+beta, Theta=2^J U+3d+1 的一步递推、三分类、tie 账本、A5 判据；深段 j>=2e7 未覆盖"
+    },
+    {
+      "direction": "重复 gateway 链",
+      "gate": "pass",
+      "status": "PASS",
+      "checks": "49,952 checks",
+      "failures": 0,
+      "elapsed_seconds": 94.5,
+      "script": "gateway/verify_gateway.py",
+      "checks_json": "gateway/checks.json",
+      "scope": "a/b 两型显式类映射、块内记录、深度/高度、入口完备性、36 坏类图、O1 阈值；j>27 的 Bad_j 未计算"
+    }
+  ],
+  "consolidated": {
+    "gate": "pass",
+    "status": "PASS",
+    "checks": "903,945 checks",
+    "failures": 0,
+    "elapsed_seconds": 9.8,
+    "script": "verify_landing.py",
+    "checks_json": "landing_checks.json"
+  }
+}

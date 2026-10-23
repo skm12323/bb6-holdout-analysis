@@ -1,0 +1,1115 @@
+{
+  "status": "PASS",
+  "scope": "Exact integer/rational checks of the rational-mode normal form (PLAN.md): a-step three-way classification, b/c class recurrence, parameter-five gateway, height/rank/record recursions, certify/lift invariance, small-j exhaustive scan, RAT-C (DEPTH) walks, O1/O2/O3. Canonical crossings from work_global_calendar/calendar_oracle.Calendar(256/512); every synthetic state is labelled canonical:false. Not a proof of global EXT; K_clock unchanged. Bounded [B] statements are not extrapolated beyond their ranges.",
+  "canonical_tests": {
+    "a_step_canonical_strong": {
+      "n": 21952,
+      "fail": 0
+    },
+    "a_step_canonical_nt_bound": {
+      "n": 544,
+      "fail": 0
+    },
+    "a_step_canonical_onestep": {
+      "n": 544,
+      "fail": 0
+    },
+    "a_step_canonical_nozero": {
+      "n": 20480,
+      "fail": 0
+    },
+    "bc_omega_v2_lambda": {
+      "n": 1273,
+      "fail": 0
+    },
+    "bc_sigma_v2_cW": {
+      "n": 1273,
+      "fail": 0
+    },
+    "bc_S1_omega_lt_sigma": {
+      "n": 1273,
+      "fail": 0
+    },
+    "bc_class_recurrence": {
+      "n": 488832,
+      "fail": 0
+    },
+    "X4_odd_type_a_tau2": {
+      "n": 1,
+      "fail": 0
+    },
+    "height_Lipschitz_bc": {
+      "n": 9120,
+      "fail": 0
+    },
+    "rank_rule_bc": {
+      "n": 9120,
+      "fail": 0
+    },
+    "rank_rule_bc_dichotomy": {
+      "n": 9120,
+      "fail": 0
+    },
+    "record_bc_descent": {
+      "n": 9120,
+      "fail": 0
+    },
+    "small_j_all_residues_scanned": {
+      "n": 14,
+      "fail": 0
+    },
+    "small_j_exception_count": {
+      "n": 5,
+      "fail": 0
+    },
+    "small_j_no_exception_nonodd_a": {
+      "n": 9,
+      "fail": 0
+    },
+    "RAT_C_family_walk_ok": {
+      "n": 2946,
+      "fail": 0
+    },
+    "RAT_C_depth_implies_no_nt": {
+      "n": 2946,
+      "fail": 0
+    },
+    "RAT_C_depth_at_j19plus": {
+      "n": 2946,
+      "fail": 0
+    },
+    "O1_source_P49": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_source_pointer": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_X48_odd_a_tau40": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_x0_5x2^49": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_y_eq_16A_plus_10": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_v2_y_1": {
+      "n": 1,
+      "fail": 0
+    }
+  },
+  "synthetic_tests": {
+    "a_step_synthetic_strong": {
+      "n": 234976,
+      "fail": 0
+    },
+    "a_step_synthetic_onestep": {
+      "n": 2176,
+      "fail": 0
+    },
+    "a_step_synthetic_nt_bound": {
+      "n": 1888,
+      "fail": 0
+    },
+    "a_step_synthetic_nozero": {
+      "n": 212480,
+      "fail": 0
+    },
+    "a_step_nt_u_dependence": {
+      "n": 1,
+      "fail": 0
+    },
+    "a_step_Q1_resonance_zero": {
+      "n": 3,
+      "fail": 0
+    },
+    "bc_synthetic_prescribed_shift_exists": {
+      "n": 21,
+      "fail": 0
+    },
+    "bc_synthetic_shift_class": {
+      "n": 4032,
+      "fail": 0
+    },
+    "bc_synthetic_rank_bound": {
+      "n": 4032,
+      "fail": 0
+    },
+    "bc_synthetic_rank_drop_rule": {
+      "n": 4032,
+      "fail": 0
+    },
+    "bc_synthetic_covers_4_3": {
+      "n": 1,
+      "fail": 0
+    },
+    "gateway_class": {
+      "n": 33220,
+      "fail": 0
+    },
+    "gateway_height_bound": {
+      "n": 33220,
+      "fail": 0
+    },
+    "gateway_rank_rule": {
+      "n": 33220,
+      "fail": 0
+    },
+    "gateway_rank_zero_exception": {
+      "n": 1296,
+      "fail": 0
+    },
+    "gateway_m_ge_H_is_provenance": {
+      "n": 1,
+      "fail": 0
+    },
+    "gateway_height_ladder": {
+      "n": 40,
+      "fail": 0
+    },
+    "height_ht_le_A_plus_3_2": {
+      "n": 3080,
+      "fail": 0
+    },
+    "height_A_preserved_a": {
+      "n": 3058,
+      "fail": 0
+    },
+    "record_strong_descent": {
+      "n": 3058,
+      "fail": 0
+    },
+    "record_one_step_equal": {
+      "n": 10,
+      "fail": 0
+    },
+    "certify_name_swap_same_class": {
+      "n": 60264,
+      "fail": 0
+    },
+    "certify_name_swap_same_result": {
+      "n": 60264,
+      "fail": 0
+    },
+    "certify_high_lift_same_result": {
+      "n": 60264,
+      "fail": 0
+    },
+    "certify_propagation_same_word": {
+      "n": 40,
+      "fail": 0
+    },
+    "BBBAA_heights_le_31": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_certificate_gcd": {
+      "n": 200,
+      "fail": 0
+    },
+    "O1_height_le_4": {
+      "n": 200,
+      "fail": 0
+    },
+    "O1_v2_xprime_formula": {
+      "n": 200,
+      "fail": 0
+    },
+    "O1_A_identity": {
+      "n": 119,
+      "fail": 0
+    },
+    "O1_v2_below_44_equal": {
+      "n": 119,
+      "fail": 0
+    },
+    "O1_depth_threshold_r_le_18": {
+      "n": 1,
+      "fail": 0
+    },
+    "O1_sharpened_r_min": {
+      "n": 1,
+      "fail": 0
+    },
+    "O2_family_exact": {
+      "n": 254,
+      "fail": 0
+    },
+    "O2_record_unbounded": {
+      "n": 1,
+      "fail": 0
+    },
+    "O3_count_below_2_64": {
+      "n": 1,
+      "fail": 0
+    },
+    "O3_count_exact_value": {
+      "n": 1,
+      "fail": 0
+    },
+    "O3_enumeration_hopeless": {
+      "n": 1,
+      "fail": 0
+    }
+  },
+  "conclusions": {
+    "A1": {
+      "n": 256928,
+      "fail": 0,
+      "label": "[A]",
+      "note": "strong descent: j'=p, C'=3Q-C, b'=0"
+    },
+    "A2": {
+      "n": 2720,
+      "fail": 0,
+      "label": "[A]",
+      "note": "one-step descent: j'=j-1, class mod 2^j determined"
+    },
+    "A3": {
+      "n": 2433,
+      "fail": 0,
+      "label": "[A]",
+      "note": "NT gate: v2(x')>=j-1, outcome depends on u (not on the class)"
+    },
+    "A4": {
+      "n": 232963,
+      "fail": 0,
+      "label": "[A]",
+      "note": "x'!=0 for Q>1; Q=1 resonance exists"
+    },
+    "B1": {
+      "n": 3819,
+      "fail": 0,
+      "label": "[A]",
+      "note": "omega=v2(lambda'), sigma=n-eps, S1"
+    },
+    "B2": {
+      "n": 488832,
+      "fail": 0,
+      "label": "[A]",
+      "note": "D' = D + Phi - 2 (mod 2^{omega+1})"
+    },
+    "B3": {
+      "n": 12118,
+      "fail": 0,
+      "label": "[A]",
+      "note": "rational shifts a/3^d: Q'=3^max(r,d), C' formula"
+    },
+    "C0": {
+      "n": 1,
+      "fail": 0,
+      "label": "[B]",
+      "note": "canonical base: X(4) is odd type a with tau(4)=2"
+    },
+    "C1": {
+      "n": 33220,
+      "fail": 0,
+      "label": "[A]",
+      "note": "gateway class C'=15Q-C-32bQ, Q'=3Q, b'=1 (m<H)"
+    },
+    "C2": {
+      "n": 33220,
+      "fail": 0,
+      "label": "[A]",
+      "note": "gateway height ht' <= 5+ht/3+32b/3"
+    },
+    "C3": {
+      "n": 34516,
+      "fail": 0,
+      "label": "[A]",
+      "note": "rank +1 at gateway (r>=1); r=0 exception"
+    },
+    "C4": {
+      "n": 1,
+      "fail": 0,
+      "label": "[A]",
+      "note": "m>=H: class does not determine the output"
+    },
+    "C5": {
+      "n": 40,
+      "fail": 0,
+      "label": "[A]",
+      "note": "iterated gateway height bound ht_t <= 47/2 + 3^-t (h0-47/2)"
+    },
+    "D1": {
+      "n": 6138,
+      "fail": 0,
+      "label": "[A]",
+      "note": "A preserved at a-steps, ht<=A+3/2"
+    },
+    "D2": {
+      "n": 9120,
+      "fail": 0,
+      "label": "[A]",
+      "note": "A' <= A+|s| at b/c steps"
+    },
+    "D3": {
+      "n": 18240,
+      "fail": 0,
+      "label": "[A]",
+      "note": "rank r'=max(r,d)"
+    },
+    "D4": {
+      "n": 12188,
+      "fail": 0,
+      "label": "[A]",
+      "note": "record R'<=R-1 or =R"
+    },
+    "E1": {
+      "n": 180792,
+      "fail": 0,
+      "label": "[A]",
+      "note": "certify depends only on the class (lift invariance)"
+    },
+    "E2": {
+      "n": 40,
+      "fail": 0,
+      "label": "[A]",
+      "note": "certified class propagates to every state with that class"
+    },
+    "E3": {
+      "n": 28,
+      "fail": 0,
+      "label": "[B]",
+      "note": "small-j exhaustive scan, compare exception counts"
+    },
+    "F1": {
+      "n": 8838,
+      "fail": 0,
+      "label": "[A+B]",
+      "note": "RAT-C (DEPTH) walks for the gateway/BBBAA families"
+    },
+    "F2": {
+      "n": 1,
+      "fail": 0,
+      "label": "[A]",
+      "note": "BBBAA landing heights <= 16/3 + 3/2"
+    },
+    "G1": {
+      "n": 6,
+      "fail": 0,
+      "label": "[A]",
+      "note": "O1 source data"
+    },
+    "G2": {
+      "n": 600,
+      "fail": 0,
+      "label": "[A]",
+      "note": "O1 certificate (C,Q,b) and v2(x')"
+    },
+    "G3": {
+      "n": 238,
+      "fail": 0,
+      "label": "[A]",
+      "note": "O1 p0=j-1 boundary characterisation"
+    },
+    "G4": {
+      "n": 1,
+      "fail": 0,
+      "label": "[A]",
+      "note": "(DEPTH) threshold r<=18 at the O1 source"
+    },
+    "G5": {
+      "n": 1,
+      "fail": 0,
+      "label": "[B]",
+      "note": "sharpened O1 r_min (high-precision, not exact integers)"
+    },
+    "H1": {
+      "n": 254,
+      "fail": 0,
+      "label": "[A]",
+      "note": "O2 family exact"
+    },
+    "H2": {
+      "n": 1,
+      "fail": 0,
+      "label": "[A]",
+      "note": "no h-only record bound"
+    },
+    "I1": {
+      "n": 2,
+      "fail": 0,
+      "label": "[A]",
+      "note": "O3 count < 2^64"
+    },
+    "I2": {
+      "n": 1,
+      "fail": 0,
+      "label": "[A]",
+      "note": "low-cost enumeration cannot cover classes"
+    }
+  },
+  "failures": [],
+  "failures_truncated": {},
+  "data": {
+    "A3_nt_gate_u_dependence": {
+      "classes_sampled": 540,
+      "classes_with_>=2_outcomes": 540,
+      "examples": [
+        {
+          "key": [
+            5,
+            1,
+            -17,
+            0,
+            0,
+            3
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 8,
+            "17": 5,
+            "127": 6
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -17,
+            0,
+            1,
+            3
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 7,
+            "17": 5,
+            "127": 6
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -17,
+            1,
+            0,
+            3
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 6,
+            "17": 5,
+            "127": 11
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -17,
+            1,
+            1,
+            3
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 6,
+            "17": 5,
+            "127": 7
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -11,
+            0,
+            0,
+            1
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 8,
+            "17": 5,
+            "127": 6
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -11,
+            0,
+            0,
+            17
+          ],
+          "j_prime_by_u": {
+            "1": 8,
+            "3": 5,
+            "17": 10,
+            "127": 5
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -11,
+            0,
+            1,
+            1
+          ],
+          "j_prime_by_u": {
+            "1": 5,
+            "3": 7,
+            "17": 5,
+            "127": 6
+          }
+        },
+        {
+          "key": [
+            5,
+            1,
+            -11,
+            0,
+            1,
+            17
+          ],
+          "j_prime_by_u": {
+            "1": 7,
+            "3": 5,
+            "17": 7,
+            "127": 5
+          }
+        }
+      ],
+      "note": "same class mod 2^(j+1), different u -> different j' (class cannot decide)"
+    },
+    "A4_Q1_zero_examples": [
+      {
+        "j": 5,
+        "k": 1,
+        "u": 1,
+        "D": -27,
+        "C": 37,
+        "x_prime": 0
+      },
+      {
+        "j": 5,
+        "k": 1,
+        "u": 3,
+        "D": -75,
+        "C": 53,
+        "x_prime": 0
+      },
+      {
+        "j": 5,
+        "k": 1,
+        "u": 5,
+        "D": -123,
+        "C": 5,
+        "x_prime": 0
+      }
+    ],
+    "B_canonical_crossings_checked": 1273,
+    "C_m_ge_H_ambiguity": {
+      "cases": 184,
+      "examples": [
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 6,
+          "u": 3,
+          "m": 8,
+          "m_other_lift": 7
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 6,
+          "u": 11,
+          "m": 7,
+          "m_other_lift": 8
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 6,
+          "u": 3,
+          "m": 7,
+          "m_other_lift": 9
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 6,
+          "u": 11,
+          "m": 8,
+          "m_other_lift": 7
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 8,
+          "u": 11,
+          "m": 10,
+          "m_other_lift": 9
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 0,
+          "H": 8,
+          "u": 11,
+          "m": 9,
+          "m_other_lift": 11
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 1,
+          "H": 6,
+          "u": 7,
+          "m": 7,
+          "m_other_lift": 9
+        },
+        {
+          "Q": 1,
+          "C": -11,
+          "b": 1,
+          "H": 6,
+          "u": 31,
+          "m": 9,
+          "m_other_lift": 7
+        }
+      ],
+      "note": "m>=H: the class mod 2^H does not determine the gateway output"
+    },
+    "E_propagation_classes_tested": 40,
+    "small_j_exceptions": {
+      "5": {
+        "count": 4,
+        "residues": [
+          5,
+          21,
+          37,
+          53
+        ],
+        "residues_symmetric": [
+          5,
+          21,
+          -27,
+          -11
+        ],
+        "accepted_count": 4
+      },
+      "8": {
+        "count": 4,
+        "residues": [
+          58,
+          186,
+          314,
+          442
+        ],
+        "residues_symmetric": [
+          58,
+          186,
+          -198,
+          -70
+        ],
+        "accepted_count": 4
+      },
+      "12": {
+        "count": 4,
+        "residues": [
+          1012,
+          3060,
+          5108,
+          7156
+        ],
+        "residues_symmetric": [
+          1012,
+          3060,
+          -3084,
+          -1036
+        ],
+        "accepted_count": 4
+      },
+      "14": {
+        "count": 4,
+        "residues": [
+          4081,
+          12273,
+          20465,
+          28657
+        ],
+        "residues_symmetric": [
+          4081,
+          12273,
+          -12303,
+          -4111
+        ],
+        "accepted_count": 4
+      },
+      "17": {
+        "count": 8,
+        "residues": [
+          32702,
+          32750,
+          98238,
+          98286,
+          163774,
+          163822,
+          229310,
+          229358
+        ],
+        "residues_symmetric": [
+          32702,
+          32750,
+          98238,
+          98286,
+          -98370,
+          -98322,
+          -32834,
+          -32786
+        ],
+        "accepted_count": 8
+      }
+    },
+    "small_j_scan_seconds": 3.41,
+    "RAT_C_families": {
+      "(10-2^m)/3": {
+        "n": 982,
+        "end": 968,
+        "gateway": 14,
+        "nt_gate": 0,
+        "depth_fail_count": 0,
+        "max_A": "17/6",
+        "max_steps": 2,
+        "rec_raise": 0,
+        "depth_fail_all_j": 32
+      },
+      "(26-2^m)/3": {
+        "n": 982,
+        "end": 969,
+        "gateway": 13,
+        "nt_gate": 0,
+        "depth_fail_count": 0,
+        "max_A": "49/6",
+        "max_steps": 2,
+        "rec_raise": 0,
+        "depth_fail_all_j": 31
+      },
+      "BBBAA C/3": {
+        "n": 982,
+        "end": 981,
+        "gateway": 1,
+        "nt_gate": 0,
+        "depth_fail_count": 0,
+        "max_A": "95/6",
+        "max_steps": 2,
+        "rec_raise": 0,
+        "depth_fail_all_j": 25
+      }
+    },
+    "RAT_C_note": "walks use the minimal-cost representative; j>=19 segment checked against (DEPTH)",
+    "BBBAA_landing_heights": [
+      "11/3",
+      "8/3",
+      "5/3",
+      "7/3",
+      "10/3",
+      "13/3",
+      "16/3"
+    ],
+    "O1_fire": {
+      "k": 469124961184426,
+      "pointer": 1051689726214394,
+      "J": 49
+    },
+    "O1_small_r_rows": [
+      {
+        "r": 1,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 2,
+        "p0": 10,
+        "v2_xp": 10
+      },
+      {
+        "r": 3,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 4,
+        "p0": 7,
+        "v2_xp": 7
+      },
+      {
+        "r": 5,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 6,
+        "p0": 8,
+        "v2_xp": 8
+      },
+      {
+        "r": 7,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 8,
+        "p0": 7,
+        "v2_xp": 7
+      },
+      {
+        "r": 9,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 10,
+        "p0": 9,
+        "v2_xp": 9
+      },
+      {
+        "r": 11,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 12,
+        "p0": 7,
+        "v2_xp": 7
+      },
+      {
+        "r": 13,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 14,
+        "p0": 8,
+        "v2_xp": 8
+      },
+      {
+        "r": 15,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 16,
+        "p0": 7,
+        "v2_xp": 7
+      },
+      {
+        "r": 17,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 18,
+        "p0": 12,
+        "v2_xp": 12
+      },
+      {
+        "r": 19,
+        "p0": 5,
+        "v2_xp": 5
+      },
+      {
+        "r": 20,
+        "p0": 7,
+        "v2_xp": 7
+      }
+    ],
+    "O1_p0_j_minus_1_characterisation": "p0 = 4+v2(7*3^r+1); p0 = j-1 = 48 iff v2(7*3^r+1) = 44; combined with v2(A*3^r+1) >= sigma-5 > 44 this forces v2(7*3^r+1) = 44 exactly, i.e. the O1 dangerous r are precisely the p0 = j-1 (NT-gate) boundary.  Not realisable at r <= 200, so this step is [A] by the displayed identity, not [B].",
+    "O1_depth_threshold": {
+      "max_r_covered": 18,
+      "min_r_violating": 19,
+      "kappa49": "125064"
+    },
+    "O1_sharpened": {
+      "r_min": 663542339794048,
+      "fractional_part": "0.766499617232016493924067994801516790793040076",
+      "o1_bound": "657306078883963.125",
+      "margin": "0.766499617232016493924067994801516790793040076",
+      "note": "60-digit Decimal; the fractional part is 0.7665, far from an integer boundary, so the ceil is certain"
+    },
+    "O1_verdict": "the O1 dangerous r are exactly the p0=j-1 boundary (NT gate); they violate (DEPTH) at the source by ~1.04e15 bits",
+    "O2_family_rows": [
+      {
+        "m": 6,
+        "x_prime": "64",
+        "record_in": 5,
+        "record_out": 7
+      },
+      {
+        "m": 8,
+        "x_prime": "256",
+        "record_in": 5,
+        "record_out": 9
+      },
+      {
+        "m": 10,
+        "x_prime": "1024",
+        "record_in": 5,
+        "record_out": 11
+      },
+      {
+        "m": 12,
+        "x_prime": "4096",
+        "record_in": 5,
+        "record_out": 13
+      },
+      {
+        "m": 14,
+        "x_prime": "16384",
+        "record_in": 5,
+        "record_out": 15
+      },
+      {
+        "m": 16,
+        "x_prime": "65536",
+        "record_in": 5,
+        "record_out": 17
+      },
+      {
+        "m": 18,
+        "x_prime": "262144",
+        "record_in": 5,
+        "record_out": 19
+      },
+      {
+        "m": 20,
+        "x_prime": "1048576",
+        "record_in": 5,
+        "record_out": 21
+      },
+      {
+        "m": 22,
+        "x_prime": "4194304",
+        "record_in": 5,
+        "record_out": 23
+      },
+      {
+        "m": 24,
+        "x_prime": "16777216",
+        "record_in": 5,
+        "record_out": 25
+      },
+      {
+        "m": 26,
+        "x_prime": "67108864",
+        "record_in": 5,
+        "record_out": 27
+      },
+      {
+        "m": 28,
+        "x_prime": "268435456",
+        "record_in": 5,
+        "record_out": 29
+      }
+    ],
+    "O2_family_count": 254,
+    "O3_table": [
+      {
+        "j": 64,
+        "h": 5,
+        "R": 32,
+        "low_cost_descriptions": 363,
+        "classes": 36893488147419103232,
+        "ratio": "363/36893488147419103232"
+      },
+      {
+        "j": 100,
+        "h": 31,
+        "R": 64,
+        "low_cost_descriptions": 4095,
+        "classes": 2535301200456458802993406410752,
+        "ratio": "4095/2535301200456458802993406410752"
+      },
+      {
+        "j": 200,
+        "h": 31,
+        "R": 128,
+        "low_cost_descriptions": 8127,
+        "classes": 3213876088517980551083924184682325205044405987565585670602752,
+        "ratio": "8127/3213876088517980551083924184682325205044405987565585670602752"
+      }
+    ],
+    "falsification": {
+      "F1": {
+        "checks": 256928,
+        "fail": 0,
+        "kills": []
+      },
+      "F2": {
+        "checks": 2720,
+        "fail": 0,
+        "kills": []
+      },
+      "F3": {
+        "checks": 232960,
+        "fail": 0,
+        "kills": []
+      },
+      "F4": {
+        "checks": 66440,
+        "fail": 0,
+        "kills": []
+      },
+      "F5": {
+        "checks": 492864,
+        "fail": 0,
+        "kills": []
+      },
+      "F6": {
+        "checks": 40,
+        "fail": 0,
+        "kills": []
+      },
+      "F7": {
+        "checks": 120528,
+        "fail": 0,
+        "kills": []
+      },
+      "F8": {
+        "checks": 5,
+        "fail": 0,
+        "kills": []
+      },
+      "F9": {
+        "checks": 255,
+        "fail": 0,
+        "kills": []
+      },
+      "F10": {
+        "checks": 2946,
+        "fail": 0,
+        "kills": []
+      },
+      "F11": {
+        "checks": 12178,
+        "fail": 0,
+        "kills": []
+      }
+    }
+  },
+  "counts": {
+    "total_checks": 1337300,
+    "total_fail": 0,
+    "canonical_checks": 581524,
+    "synthetic_checks": 755776,
+    "elapsed_seconds": 6.14
+  }
+}

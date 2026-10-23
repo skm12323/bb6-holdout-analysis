@@ -1,0 +1,490 @@
+{
+ "ht_preserved_counterexample": {
+  "input": {
+   "j": 5,
+   "Q": 1,
+   "C": 7,
+   "b": 0,
+   "k": 1,
+   "u": 1
+  },
+  "p": 2,
+  "strong_descent": true,
+  "jn": 2,
+  "ht": "7",
+  "ht_after": "4",
+  "equal": false,
+  "A_before": "11/2",
+  "A_after": "11/2",
+  "note": "THEOREM 2.3 asserts ht'=ht on strong a descent; c'=3-c gives |3-c|, not |c|"
+ },
+ "ht_preserved_counterexample_canon": {
+  "j": 5,
+  "k": 1,
+  "C": 10,
+  "Q": 1,
+  "p": 1,
+  "strong": true,
+  "ht": "10",
+  "ht_after": "7"
+ },
+ "A3_zero_formula": {
+  "state": {
+   "j": 5,
+   "u": 1,
+   "Theta": 5,
+   "D": -27
+  },
+  "x_next": 0,
+  "class_mod_2j1": 37,
+  "C_used": 37,
+  "C_is_valid_rep": true,
+  "lhs": 128,
+  "formula_holds": false,
+  "symmetric_C": -27,
+  "lhs_symmetric": 0,
+  "p": 4,
+  "conclusion": "x'=0 but the stated necessary equation fails for the valid representative C=37"
+ },
+ "B_lambda": {
+  "n_checked": 601314,
+  "lam_neg": 0,
+  "lam_min": 10,
+  "type_b_abs_lam_lt_cW": 398682,
+  "table_len": 1000000
+ },
+ "B_zero_u": [
+  {
+   "n": 5,
+   "kind": "b",
+   "cW": 48,
+   "lam": 10,
+   "zero_u_possible": false
+  },
+  {
+   "n": 8,
+   "kind": "b",
+   "cW": 384,
+   "lam": 16,
+   "zero_u_possible": false
+  },
+  {
+   "n": 12,
+   "kind": "b",
+   "cW": 6144,
+   "lam": 28,
+   "zero_u_possible": false
+  },
+  {
+   "n": 14,
+   "kind": "b",
+   "cW": 24576,
+   "lam": 34,
+   "zero_u_possible": false
+  },
+  {
+   "n": 17,
+   "kind": "b",
+   "cW": 196608,
+   "lam": 40,
+   "zero_u_possible": false
+  }
+ ],
+ "catapult_height": [
+  {
+   "j": 6,
+   "k": 1,
+   "b": 0,
+   "ht'": "14/3",
+   "claimed_bound": "16/3",
+   "holds": true
+  },
+  {
+   "j": 6,
+   "k": 1,
+   "b": 1,
+   "ht'": "50/3",
+   "claimed_bound": "16",
+   "holds": false
+  },
+  {
+   "j": 6,
+   "k": 5,
+   "b": 0,
+   "ht'": "38/3",
+   "claimed_bound": "40/3",
+   "holds": true
+  },
+  {
+   "j": 6,
+   "k": 5,
+   "b": 1,
+   "ht'": "26/3",
+   "claimed_bound": "24",
+   "holds": true
+  },
+  {
+   "j": 10,
+   "k": 1,
+   "b": 0,
+   "ht'": "14/3",
+   "claimed_bound": "16/3",
+   "holds": true
+  },
+  {
+   "j": 10,
+   "k": 1,
+   "b": 1,
+   "ht'": "1010/3",
+   "claimed_bound": "16",
+   "holds": false
+  },
+  {
+   "j": 10,
+   "k": 5,
+   "b": 0,
+   "ht'": "38/3",
+   "claimed_bound": "40/3",
+   "holds": true
+  },
+  {
+   "j": 10,
+   "k": 5,
+   "b": 1,
+   "ht'": "986/3",
+   "claimed_bound": "24",
+   "holds": false
+  },
+  {
+   "j": 20,
+   "k": 1,
+   "b": 0,
+   "ht'": "14/3",
+   "claimed_bound": "16/3",
+   "holds": true
+  },
+  {
+   "j": 20,
+   "k": 1,
+   "b": 1,
+   "ht'": "1048562/3",
+   "claimed_bound": "16",
+   "holds": false
+  },
+  {
+   "j": 20,
+   "k": 5,
+   "b": 0,
+   "ht'": "38/3",
+   "claimed_bound": "40/3",
+   "holds": true
+  },
+  {
+   "j": 20,
+   "k": 5,
+   "b": 1,
+   "ht'": "1048538/3",
+   "claimed_bound": "24",
+   "holds": false
+  },
+  {
+   "j": 40,
+   "k": 1,
+   "b": 0,
+   "ht'": "14/3",
+   "claimed_bound": "16/3",
+   "holds": true
+  },
+  {
+   "j": 40,
+   "k": 1,
+   "b": 1,
+   "ht'": "1099511627762/3",
+   "claimed_bound": "16",
+   "holds": false
+  },
+  {
+   "j": 40,
+   "k": 5,
+   "b": 0,
+   "ht'": "38/3",
+   "claimed_bound": "40/3",
+   "holds": true
+  },
+  {
+   "j": 40,
+   "k": 5,
+   "b": 1,
+   "ht'": "1099511627738/3",
+   "claimed_bound": "24",
+   "holds": false
+  }
+ ],
+ "gamma0_records": {
+  "fires_with_ge3_chains": 12,
+  "example": {
+   "P": 28,
+   "interior_j0": 1,
+   "Gamma0": 4,
+   "record_at_entry": 5,
+   "record_exceeds_j0": true,
+   "full_walk_rows": [
+    [
+     28,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ },
+ "gamma0_walks": [
+  {
+   "P": 14,
+   "rows": [
+    [
+     14,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "P": 28,
+   "rows": [
+    [
+     28,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "P": 65,
+   "rows": [
+    [
+     65,
+     0
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  {
+   "P": 87,
+   "rows": [
+    [
+     87,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "P": 101,
+   "rows": [
+    [
+     101,
+     0
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ],
+ "O1_substitution": {
+  "P": 49,
+  "k": 469124961184426,
+  "sigma": "1051689726214394",
+  "x0": "2814749767106560",
+  "A": "263882790666247",
+  "A_mod8": 7,
+  "rows": [
+   {
+    "r": 1,
+    "p0": 5,
+    "j_minus_2": 47,
+    "S2star_holds": true,
+    "DEPTH_holds": true,
+    "j": 49,
+    "is_NT_gate": false
+   },
+   {
+    "r": 2,
+    "p0": 10,
+    "j_minus_2": 47,
+    "S2star_holds": true,
+    "DEPTH_holds": true,
+    "j": 49,
+    "is_NT_gate": false
+   },
+   {
+    "r": 18,
+    "p0": 12,
+    "j_minus_2": 47,
+    "S2star_holds": true,
+    "DEPTH_holds": true,
+    "j": 49,
+    "is_NT_gate": false
+   },
+   {
+    "r": 19,
+    "p0": 5,
+    "j_minus_2": 47,
+    "S2star_holds": true,
+    "DEPTH_holds": false,
+    "j": 49,
+    "is_NT_gate": false
+   },
+   {
+    "r": 100,
+    "p0": 7,
+    "j_minus_2": 47,
+    "S2star_holds": true,
+    "DEPTH_holds": false,
+    "j": 49,
+    "is_NT_gate": false
+   }
+  ],
+  "reading": "O1 is excluded by (S2*) because p_0 = 4 + v2(7*3^r+1) and the dangerous region forces v2(7*3^r+1)=44, i.e. p_0=48=j-1; the theorem's (L1) is exactly what fails. No refutation of THEOREM here."
+ },
+ "O2_substitution": {
+  "rows": [
+   {
+    "m": 6,
+    "u_odd": true,
+    "x_next": "64",
+    "v2_x_next": 6,
+    "entry_record": 5,
+    "exit_record": 7,
+    "record_rise": 2,
+    "theta5_mod16": 5,
+    "S3_m_plus_1_le_9": true
+   },
+   {
+    "m": 8,
+    "u_odd": true,
+    "x_next": "256",
+    "v2_x_next": 8,
+    "entry_record": 5,
+    "exit_record": 9,
+    "record_rise": 4,
+    "theta5_mod16": 5,
+    "S3_m_plus_1_le_9": true
+   },
+   {
+    "m": 12,
+    "u_odd": true,
+    "x_next": "4096",
+    "v2_x_next": 12,
+    "entry_record": 5,
+    "exit_record": 13,
+    "record_rise": 8,
+    "theta5_mod16": 5,
+    "S3_m_plus_1_le_9": false
+   },
+   {
+    "m": 20,
+    "u_odd": true,
+    "x_next": "1048576",
+    "v2_x_next": 20,
+    "entry_record": 5,
+    "exit_record": 21,
+    "record_rise": 16,
+    "theta5_mod16": 5,
+    "S3_m_plus_1_le_9": false
+   },
+   {
+    "m": 100,
+    "u_odd": true,
+    "x_next": "1267650600228229401496703205376",
+    "v2_x_next": 100,
+    "entry_record": 5,
+    "exit_record": 101,
+    "record_rise": 96,
+    "theta5_mod16": 5,
+    "S3_m_plus_1_le_9": false
+   }
+  ],
+  "reading": "O2 states are ties with class 5 mod 16 and no predecessor; THEOREM only claims block descent for A/B-type gateways, so O2 is not a counterexample to a stated [A] claim, but it shows (S3) is not derivable from j=5 class data."
+ },
+ "O3_sum": {
+  "S": 64,
+  "sum": "8338590849833250",
+  "below_2_64": true,
+  "exponent_of_2": 18446744073709551616
+ },
+ "gateway_rank_r0": [
+  {
+   "Q": 1,
+   "C": 5,
+   "b": 0,
+   "C_prime": 10,
+   "div3": false,
+   "rank_prime": 1
+  },
+  {
+   "Q": 1,
+   "C": -11,
+   "b": 0,
+   "C_prime": 26,
+   "div3": false,
+   "rank_prime": 1
+  },
+  {
+   "Q": 1,
+   "C": -27,
+   "b": 0,
+   "C_prime": 42,
+   "div3": true,
+   "rank_prime": 0
+  },
+  {
+   "Q": 1,
+   "C": 21,
+   "b": 0,
+   "C_prime": -6,
+   "div3": true,
+   "rank_prime": 0
+  }
+ ]
+}

@@ -1,0 +1,1070 @@
+{
+ "status": "PASS",
+ "scope": "Exact integer/rational checks of PLAN.md for direction G. Canonical: Calendar(512) for the reachable small range and the accepted canonical lambda-walk table (n<10**6) otherwise; X(6132) plus all 28 omega=5 odd type-c crossings with n<10**6, four lifts each; full Bad_j enumeration for every odd-a parameter 5<=j<=27. Synthetic (explicitly non-canonical): a-gateway and b/c-gateway states, rational descriptions, iteration/orbit, height recursion, closure bound, TRAIN algebra.",
+ "environment": {
+  "script": "D:/math_cc/work_landing_symbolic/gateway/verify_gateway.py",
+  "table": "D:/math_cc_astra/deep1/table_1000000.pkl",
+  "calendar": "work_global_calendar/calendar_oracle.Calendar(512)",
+  "nmax": 64,
+  "enum_max_j": 27
+ },
+ "canonical_tests": {
+  "oracle_vs_table": {
+   "n": 512,
+   "mismatch": 0
+  },
+  "X4": {
+   "kind": "a",
+   "odd": true,
+   "tau": 2,
+   "k": 1
+  },
+  "X6132": {
+   "n": 6132,
+   "kind": "c",
+   "odd": true,
+   "tau": 5471,
+   "eps": 3,
+   "lam": 24608,
+   "omega": 5,
+   "sigma": 6129,
+   "lambdaY": 8191,
+   "tie_theta_mod16": 5,
+   "lifts": [
+    {
+     "theta_T": 5,
+     "delta_5_mod64": 5,
+     "tie": true,
+     "M_B": "20544",
+     "j2": 6,
+     "delta2": "110",
+     "j2_lt_sigma_minus_1": true,
+     "record_descent": true,
+     "in_Bad": true,
+     "certify": true
+    },
+    {
+     "theta_T": 21,
+     "delta_5_mod64": 21,
+     "tie": true,
+     "M_B": "20576",
+     "j2": 5,
+     "delta2": "30",
+     "j2_lt_sigma_minus_1": true,
+     "record_descent": true,
+     "in_Bad": true,
+     "certify": true
+    },
+    {
+     "theta_T": -27,
+     "delta_5_mod64": 37,
+     "tie": true,
+     "M_B": "20480",
+     "j2": 12,
+     "delta2": "4110",
+     "j2_lt_sigma_minus_1": true,
+     "record_descent": true,
+     "in_Bad": true,
+     "certify": true
+    },
+    {
+     "theta_T": -11,
+     "delta_5_mod64": 53,
+     "tie": true,
+     "M_B": "20512",
+     "j2": 5,
+     "delta2": "62",
+     "j2_lt_sigma_minus_1": true,
+     "record_descent": true,
+     "in_Bad": true,
+     "certify": true
+    }
+   ],
+   "all_ok": true
+  },
+  "omega5_family": {
+   "crossings": 28,
+   "cases": 112,
+   "ok": 112,
+   "j2_hist": {
+    "6": 28,
+    "5": 56,
+    "12": 28
+   },
+   "fail": 0,
+   "first": [
+    6132,
+    42862,
+    79593,
+    116319,
+    153050
+   ],
+   "last": [
+    924380,
+    961111,
+    997836
+   ]
+  },
+  "small_constants": {
+   "max_tau_n_le26": 20,
+   "max_lam_n_le26": 89,
+   "max_k_odd_a_n_le26": 10,
+   "max_eps_n_le26": 3
+  },
+  "Bad_j_counts": {
+   "5": 4,
+   "8": 4,
+   "12": 4,
+   "14": 4,
+   "17": 8,
+   "22": 4,
+   "24": 4,
+   "27": 4
+  },
+  "generic_counts": {},
+  "Bad_j_structure": {
+   "5": {
+    "5": 4
+   },
+   "8": {
+    "58": 4
+   },
+   "12": {
+    "1012": 4
+   },
+   "14": {
+    "4081": 4
+   },
+   "17": {
+    "32702": 4,
+    "32750": 4
+   },
+   "22": {
+    "1048552": 4
+   },
+   "24": {
+    "4194277": 4
+   },
+   "27": {
+    "33554402": 4
+   }
+  },
+  "Bad_j_tie_class": {
+   "5": "5",
+   "8": "58",
+   "12": "1012",
+   "14": "4081",
+   "17": "32750",
+   "22": "1048552",
+   "24": "4194277",
+   "27": "33554402"
+  },
+  "bad_graph": {
+   "vertices": 36,
+   "edges": 4,
+   "cycles": [],
+   "max_parameter": 29,
+   "nodata": [],
+   "successors": {
+    "(27, 234880994)": null,
+    "(27, 167772130)": null,
+    "(27, 100663266)": null,
+    "(27, 33554402)": null,
+    "(24, 29360101)": null,
+    "(24, 20971493)": null,
+    "(24, 12582885)": null,
+    "(24, 4194277)": null,
+    "(22, 7340008)": null,
+    "(22, 5242856)": null,
+    "(22, 3145704)": null,
+    "(22, 1048552)": null,
+    "(17, 229358)": null,
+    "(17, 229310)": "(5, 5)",
+    "(5, 5)": null,
+    "(17, 163822)": null,
+    "(17, 163774)": "(5, 5)",
+    "(17, 98286)": null,
+    "(17, 98238)": "(5, 5)",
+    "(17, 32750)": null,
+    "(17, 32702)": "(5, 5)",
+    "(14, 28657)": null,
+    "(14, 20465)": null,
+    "(14, 12273)": null,
+    "(14, 4081)": null,
+    "(12, 7156)": null,
+    "(12, 5108)": null,
+    "(12, 3060)": null,
+    "(12, 1012)": null,
+    "(8, 442)": null,
+    "(8, 314)": null,
+    "(8, 186)": null,
+    "(8, 58)": null,
+    "(5, 53)": null,
+    "(5, 37)": null,
+    "(5, 21)": null
+   },
+   "maxrec": {
+    "(27, 234880994)": 28,
+    "(27, 167772130)": 30,
+    "(27, 100663266)": 28,
+    "(27, 33554402)": 29,
+    "(24, 29360101)": 25,
+    "(24, 20971493)": 27,
+    "(24, 12582885)": 25,
+    "(24, 4194277)": 26,
+    "(22, 7340008)": 23,
+    "(22, 5242856)": 25,
+    "(22, 3145704)": 23,
+    "(22, 1048552)": 24,
+    "(17, 229358)": 18,
+    "(17, 229310)": 22,
+    "(5, 5)": 7,
+    "(17, 163822)": 20,
+    "(17, 163774)": 18,
+    "(17, 98286)": 18,
+    "(17, 98238)": 20,
+    "(17, 32750)": 19,
+    "(17, 32702)": 18,
+    "(14, 28657)": 15,
+    "(14, 20465)": 17,
+    "(14, 12273)": 15,
+    "(14, 4081)": 16,
+    "(12, 7156)": 13,
+    "(12, 5108)": 15,
+    "(12, 3060)": 13,
+    "(12, 1012)": 14,
+    "(8, 442)": 9,
+    "(8, 314)": 11,
+    "(8, 186)": 9,
+    "(8, 58)": 10,
+    "(5, 53)": 6,
+    "(5, 37)": 8,
+    "(5, 21)": 6
+   }
+  },
+  "window30": {
+   "max_parameter": 29,
+   "Bad6": 0,
+   "X28_odd": false,
+   "X29_odd": false,
+   "ok": true
+  },
+  "closure27": {
+   "holds": false,
+   "max_parameter": 29
+  },
+  "graph_time": 0.0,
+  "record_law_R": {
+   "checked": 0,
+   "ok": 0,
+   "bad": [],
+   "note": "needs a representative walk through two gateways; 0 such canonical instances found"
+  }
+ },
+ "synthetic_tests": {
+  "a_gateway": {
+   "checked": 6020,
+   "ids": {
+    "I1": 6020,
+    "I2": 6020,
+    "I3": 5972,
+    "I4": 5972,
+    "I4.record": 5972,
+    "I8.Q1": 6000,
+    "n": 6020
+   },
+   "control_outside_hypothesis": {
+    "n": 28,
+    "record_fail": 28
+   }
+  },
+  "bc_gateway": {
+   "checked": 57,
+   "ids": {
+    "I5": 57,
+    "I6": 55,
+    "I7": 55,
+    "I7.uT": 55,
+    "I4.bc_record": 55,
+    "n": 57
+   }
+  },
+  "description": {
+   "checked": 43,
+   "den_ok": 43,
+   "height_ok": 43,
+   "D1": 43,
+   "D1_bad": 0
+  },
+  "iteration": {
+   "checked": 1500
+  },
+  "height": {
+   "checked": 2000,
+   "ok": 2000
+  },
+  "closure": {
+   "checked": 3000,
+   "ok": 3000,
+   "max_tau": 20,
+   "max_lam": 89,
+   "zero_M": 4
+  },
+  "entry_congruence": {
+   "checked": 5000,
+   "canonical_preimages": [
+    {
+     "delta": 32702,
+     "class_at_5": 5,
+     "tie": true
+    },
+    {
+     "delta": 98238,
+     "class_at_5": 5,
+     "tie": true
+    },
+    {
+     "delta": 163774,
+     "class_at_5": 5,
+     "tie": true
+    },
+    {
+     "delta": 229310,
+     "class_at_5": 5,
+     "tie": true
+    }
+   ]
+  },
+  "o1": {
+   "A_mod8": 7,
+   "A_plus_1_lt_2_48": true,
+   "A_plus_1_pow5_lt_2_240": true,
+   "3_pow5_lt_2_8": true,
+   "sigma": 1051689726214394,
+   "r_min_claimed_by_O1": 657306078883964,
+   "r_min_computed": 657306078883964,
+   "threshold_tight_at_r_min_minus_1": true,
+   "threshold_tight_from_r_min": true,
+   "threshold_identity": {
+    "240 + 5*(sigma-53)": 5258448631071945,
+    "5*(sigma-5)": 5258448631071945
+   },
+   "gateway_only_5_to": "10/3",
+   "gateway_only_5_mod16": 14
+  },
+  "train": {
+   "algebra_checked": 300,
+   "algebra_ok": 300,
+   "trains_built": 40,
+   "valuation_checked": 40,
+   "valuation_ok": 40,
+   "train_examples": [
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 37,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 293,
+     "m": [
+      6,
+      9,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 549,
+     "m": [
+      6,
+      7,
+      7
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 805,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 1061,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 1317,
+     "m": [
+      6,
+      11,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 1573,
+     "m": [
+      6,
+      7,
+      8
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 1829,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 2085,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 2341,
+     "m": [
+      6,
+      9,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 2597,
+     "m": [
+      6,
+      7,
+      7
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 2853,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 3109,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 3365,
+     "m": [
+      6,
+      10,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 3621,
+     "m": [
+      6,
+      7,
+      10
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 3877,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 4133,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 4389,
+     "m": [
+      6,
+      9,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 4645,
+     "m": [
+      6,
+      7,
+      7
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 4901,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 5157,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 5413,
+     "m": [
+      6,
+      13,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 5669,
+     "m": [
+      6,
+      7,
+      8
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 5925,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 6181,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 6437,
+     "m": [
+      6,
+      9,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 6693,
+     "m": [
+      6,
+      7,
+      7
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 6949,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 7205,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 7461,
+     "m": [
+      6,
+      10,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 7717,
+     "m": [
+      6,
+      7,
+      9
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 7973,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 8229,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 8485,
+     "m": [
+      6,
+      9,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 8741,
+     "m": [
+      6,
+      7,
+      7
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 8997,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 9253,
+     "m": [
+      6,
+      7,
+      6
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 9509,
+     "m": [
+      6,
+      11,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 9765,
+     "m": [
+      6,
+      7,
+      8
+     ],
+     "v2(4-k0+3k1)": 4
+    },
+    {
+     "k0": 6,
+     "k1": 6,
+     "T0": 10021,
+     "m": [
+      6,
+      8,
+      5
+     ],
+     "v2(4-k0+3k1)": 4
+    }
+   ]
+  }
+ },
+ "conclusions": {
+  "C1.oracle": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C2.X4": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C3.X6132": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C3.X6132_lift": {
+   "checked": 4,
+   "failed": 0,
+   "examples": []
+  },
+  "C4.omega5": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C4.omega5_lift": {
+   "checked": 112,
+   "failed": 0,
+   "examples": []
+  },
+  "C5.consts": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C6.Bad_j_counts": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C6.Bad_j_struct": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C7.acyclic": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C8.R": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "C8.m_ge_5": {
+   "checked": 8,
+   "failed": 0,
+   "examples": []
+  },
+  "I1": {
+   "checked": 6020,
+   "failed": 0,
+   "examples": []
+  },
+  "I10": {
+   "checked": 1500,
+   "failed": 0,
+   "examples": []
+  },
+  "I10.bbb": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "I10.orbit5": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "I10.tie": {
+   "checked": 109,
+   "failed": 0,
+   "examples": []
+  },
+  "I12": {
+   "checked": 2000,
+   "failed": 0,
+   "examples": []
+  },
+  "I13": {
+   "checked": 3000,
+   "failed": 0,
+   "examples": []
+  },
+  "I13.step_bound": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "I13.window30": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "I14": {
+   "checked": 5000,
+   "failed": 0,
+   "examples": []
+  },
+  "I14.preimage": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "I16.TRAIN": {
+   "checked": 40,
+   "failed": 0,
+   "examples": []
+  },
+  "I16.algebra": {
+   "checked": 300,
+   "failed": 0,
+   "examples": []
+  },
+  "I2": {
+   "checked": 6020,
+   "failed": 0,
+   "examples": []
+  },
+  "I3": {
+   "checked": 5972,
+   "failed": 0,
+   "examples": []
+  },
+  "I4": {
+   "checked": 5972,
+   "failed": 0,
+   "examples": []
+  },
+  "I4.bc_record": {
+   "checked": 55,
+   "failed": 0,
+   "examples": []
+  },
+  "I4.record": {
+   "checked": 5972,
+   "failed": 0,
+   "examples": []
+  },
+  "I5": {
+   "checked": 57,
+   "failed": 0,
+   "examples": []
+  },
+  "I6": {
+   "checked": 55,
+   "failed": 0,
+   "examples": []
+  },
+  "I7": {
+   "checked": 55,
+   "failed": 0,
+   "examples": []
+  },
+  "I7.ut": {
+   "checked": 55,
+   "failed": 0,
+   "examples": []
+  },
+  "I8.D1": {
+   "checked": 43,
+   "failed": 0,
+   "examples": []
+  },
+  "I8.Q1": {
+   "checked": 6000,
+   "failed": 0,
+   "examples": []
+  },
+  "I8.den": {
+   "checked": 43,
+   "failed": 0,
+   "examples": []
+  },
+  "I8.height": {
+   "checked": 43,
+   "failed": 0,
+   "examples": []
+  },
+  "I9": {
+   "checked": 1500,
+   "failed": 0,
+   "examples": []
+  },
+  "O1S.pow5": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "O1S.r_min": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "O1S.tight": {
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  }
+ },
+ "failures": [],
+ "not_run": [
+  "work_r1r2's accepted 8,712 bad pairs are NOT reproduced: table_100000000.pkl is absent on this machine (D:/math_cc_astra/deep1/ holds only table_1000000.pkl). The local analogue is the 28 crossings x 4 lifts below.",
+  "Bad_j for j>27 and the corresponding bad graph are not computed (enumeration cost grows as 2^{j+1}); the repeated-chain theorem is only used inside j<=27.",
+  "O1's canonical source (P=49 fire, pointer) is not re-verified here; only the threshold arithmetic and the exact factors are re-derived.",
+  "TRAIN: no canonical 5,m,5,m,... train exists in the small canonical data; only the algebraic identities and constructed non-canonical chains are checked."
+ ],
+ "controls": {
+  "closure27_refuted": {
+   "claim": "PLAN (iii) original: 'once j<=27, all later parameters are <=27'",
+   "status": "refuted; superseded by the corrected window checked below",
+   "witness_start": [
+    17,
+    163822
+   ],
+   "witness_chain": [
+    [
+     17,
+     46
+    ],
+    [
+     19,
+     21
+    ]
+   ],
+   "max_parameter_over_36_bad_classes": 29
+  }
+ },
+ "refuted_claims": [
+  {
+   "claim": "PLAN (iii) original: 'once j<=27, all later parameters are <=27'",
+   "status": "refuted; superseded by the corrected window checked below",
+   "witness_start": [
+    17,
+    163822
+   ],
+   "witness_chain": [
+    [
+     17,
+     46
+    ],
+    [
+     19,
+     21
+    ]
+   ],
+   "max_parameter_over_36_bad_classes": 29
+  }
+ ],
+ "timing": {
+  "canonical": 93.7,
+  "total": 94.5
+ }
+}

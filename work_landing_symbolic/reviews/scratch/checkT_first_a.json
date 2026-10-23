@@ -1,0 +1,282 @@
+{
+  "counts": {
+    "valuation_mismatch_closes": 852,
+    "collision_end": 492,
+    "zero_shift": 336,
+    "no_A": 4032
+  },
+  "cases": 5712,
+  "certificates": {
+    "minimal_class_end": 488,
+    "minimal_class_ceiling": 4
+  },
+  "max_extra_bits": 3,
+  "extra_examples": [
+    {
+      "P": 17,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 8,
+      "x_residue": 32,
+      "theta_residue": 37,
+      "word": [
+        5,
+        6,
+        1
+      ],
+      "ys_bits": 20,
+      "actual_ys_high": 3840,
+      "actual_ts_high": 2560
+    },
+    {
+      "P": 90,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ],
+      "ys_bits": 91,
+      "actual_ys_high": 14507109835375550096474113,
+      "actual_ts_high": 9671406556917033397649409
+    },
+    {
+      "P": 161,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 9,
+      "x_residue": 416,
+      "theta_residue": 421,
+      "word": [
+        5,
+        7
+      ],
+      "ys_bits": 164,
+      "actual_ys_high": 42817430781178796431748579083484854091482398720,
+      "actual_ts_high": 28544953854119197621165719388989902727654932480
+    },
+    {
+      "P": 234,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ],
+      "ys_bits": 235,
+      "actual_ys_high": 323519360005807677536004181044235568083645733070486869773243322990596,
+      "actual_ts_high": 215679573337205118357336120696157045389097155380324579848828881993732
+    }
+  ],
+  "min_m": 5,
+  "min_s_A": "52",
+  "min_y": "248",
+  "min_y_shifted": "232",
+  "min_slack_6sA5_minus_xA": "157",
+  "min_lam_new": "79",
+  "lam_new_formula_bad": 0,
+  "y_lt_3sout4": 0,
+  "y_lt_28": 0,
+  "y_lower_bound_from_xA": "339/2",
+  "q_dist": {
+    "3": 14,
+    "1": 56,
+    "5": 4,
+    "4": 6,
+    "7": 1,
+    "2": 1,
+    "6": 1,
+    "9": 1
+  },
+  "min_q": 1,
+  "n_sources": 84,
+  "n_sources_c": 4,
+  "min_chain_param_real": 5,
+  "min_tau_first_a": 2,
+  "p90_p234": [
+    {
+      "P": 90,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ],
+      "ys_bits": 91,
+      "actual_ys_high": 14507109835375550096474113,
+      "actual_ts_high": 9671406556917033397649409
+    },
+    {
+      "P": 234,
+      "kind": "fire",
+      "eta": -3,
+      "j": 5,
+      "delta": 5,
+      "minimal_status": "ceiling",
+      "K": 7,
+      "x_residue": 96,
+      "theta_residue": 101,
+      "word": [
+        5,
+        5,
+        1
+      ],
+      "ys_bits": 235,
+      "actual_ys_high": 323519360005807677536004181044235568083645733070486869773243322990596,
+      "actual_ts_high": 215679573337205118357336120696157045389097155380324579848828881993732
+    }
+  ],
+  "exception_classes": [
+    [
+      17,
+      8,
+      32,
+      37,
+      [
+        5,
+        6,
+        1
+      ]
+    ],
+    [
+      90,
+      7,
+      96,
+      101,
+      [
+        5,
+        5,
+        1
+      ]
+    ],
+    [
+      161,
+      9,
+      416,
+      421,
+      [
+        5,
+        7
+      ]
+    ],
+    [
+      234,
+      7,
+      96,
+      101,
+      [
+        5,
+        5,
+        1
+      ]
+    ]
+  ],
+  "exception_distinct": 3,
+  "exception_distinct_words": 3,
+  "crossing_minus1": "EXC KeyError: -1",
+  "base_odd_0_3": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "crossing_0_3_kinds": [
+    "a",
+    "b",
+    "a",
+    "b"
+  ],
+  "negative_lambda_crossings_n_lt_4000": [],
+  "n_negative_lambda": 0,
+  "collision_table_check": {
+    "-8": [
+      4
+    ],
+    "-7": [
+      1
+    ],
+    "-6": [
+      2
+    ],
+    "-5": [
+      1
+    ],
+    "-4": [
+      3
+    ],
+    "-3": [
+      1
+    ],
+    "-2": [
+      2
+    ],
+    "-1": [
+      1
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      1
+    ],
+    "4": [
+      3
+    ],
+    "5": [
+      1
+    ],
+    "6": [
+      2
+    ],
+    "7": [
+      1
+    ],
+    "8": [
+      4
+    ]
+  },
+  "collision_real_len_dist": {
+    "1": 492
+  },
+  "resonance_x32_theta5_P10": [
+    "zero",
+    [
+      [
+        5,
+        0,
+        "32",
+        "5"
+      ]
+    ]
+  ]
+}

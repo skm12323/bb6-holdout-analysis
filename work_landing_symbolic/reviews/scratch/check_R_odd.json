@@ -1,0 +1,219 @@
+{
+  "BBBAAshift_first_violation": {
+    "t": 8,
+    "c": "11",
+    "A_plus_t": "32/3"
+  },
+  "BBBAAshift_violations_0_11": 4,
+  "a_step_random": {
+    "checked": 2845,
+    "ok": 2845
+  },
+  "height_recurrence_permitted": {
+    "checked": 42066,
+    "ok": 42066
+  },
+  "weight_grammar": {
+    "eps_eq_W_plus_1": "PROOF_ROOT_PHASE.md:22",
+    "W_always_even_type_c_deficit_odd_at_least_3": "PROOF_ROOT_PHASE.md:34",
+    "eps3_iff_A_eps5_iff_AA_or_BA": "PROOF_LOW_DEFICIT.md:9-15"
+  },
+  "X4": {
+    "odd": true,
+    "kind": "a",
+    "time": 2,
+    "k": 1
+  },
+  "a_step_identity": {
+    "1": {
+      "general": true,
+      "k1_formula": true
+    },
+    "2": {
+      "general": true,
+      "k1_formula": true
+    },
+    "3": {
+      "general": true,
+      "k1_formula": true
+    },
+    "20": {
+      "general": true,
+      "k1_formula": true
+    }
+  },
+  "gateway": [
+    {
+      "Q": 3,
+      "R": 9,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 5,
+      "R": 15,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 7,
+      "R": 7,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 9,
+      "R": 27,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 27,
+      "R": 81,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 81,
+      "R": 243,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 243,
+      "R": 729,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    },
+    {
+      "Q": 3486784401,
+      "R": 10460353203,
+      "ok_R": true,
+      "m_range_ok": true,
+      "map_ok": true
+    }
+  ],
+  "gateway_all_ok": true,
+  "composite": [
+    {
+      "c0": "5",
+      "c1": "10/3",
+      "c2": "-1/3",
+      "single_step": "-1/3",
+      "ok": true
+    },
+    {
+      "c0": "0",
+      "c1": "5",
+      "c2": "-2",
+      "single_step": "-2",
+      "ok": true
+    },
+    {
+      "c0": "1/3",
+      "c1": "44/9",
+      "c2": "-17/9",
+      "single_step": "-17/9",
+      "ok": true
+    }
+  ],
+  "orbit_c0_5": [
+    "5",
+    "-1/3",
+    "-19/9",
+    "-73/27",
+    "-235/81",
+    "-721/243",
+    "-2179/729",
+    "-6553/2187"
+  ],
+  "orbit_ok": true,
+  "tripling": {
+    "Q=1,C=3": 1,
+    "Q=1,C=5": 3,
+    "Q=1,C=15": 1,
+    "Q=1,C=16": 3,
+    "Q=3,C=5": 9,
+    "Q=3,C=16": 9,
+    "Q=9,C=5": 27,
+    "Q=9,C=16": 27
+  },
+  "r1e7": {
+    "d": 15849626,
+    "NQ": 63398512,
+    "log2QkB_plus2": "25849627.007211561814537389439478165087598144076924810604557526545410982277940000000",
+    "first_j_size": 25849628,
+    "band_lo": 20000000,
+    "band_hi": 25849628,
+    "band_width": 5849628,
+    "NQ_gt_N0": true
+  },
+  "O1": {
+    "d": 1041805486527146,
+    "NQ": 4167221946108592,
+    "m_lb": 1051689726214393,
+    "m_lt_NQ": true,
+    "ratio": 3.9624062518027108,
+    "m_minus_d": 9884239687247,
+    "sharp_size_with_B_bits": 1041805496527149,
+    "source_j": 49,
+    "source_ge_NQ": false
+  },
+  "E8_finite": {
+    "Q_lt_2_exp": 4999998,
+    "C_lt_2_exp": 14999998,
+    "note": "NQ=N0 => d<=N0/4-2 => Q<2^d<=2^expQ; |C/Q|<=B => |C|<=BQ<2^expC"
+  },
+  "E8_NQ_Q3": 20000000,
+  "E9_shift_4_3_inside_window": true,
+  "E9_shift_4_3_is_integer": false,
+  "E9_cumulative_12_steps": "16",
+  "monotonicity": {
+    "2": {
+      "f_gt_1": true,
+      "ratio_gt_1": false,
+      "doc_criterion_gt_1": false,
+      "reviewer_ratio_gt_1": true
+    },
+    "5": {
+      "f_gt_1": false,
+      "ratio_gt_1": false,
+      "doc_criterion_gt_1": false,
+      "reviewer_ratio_gt_1": true
+    },
+    "6": {
+      "f_gt_1": false,
+      "ratio_gt_1": false,
+      "doc_criterion_gt_1": true,
+      "reviewer_ratio_gt_1": true
+    },
+    "7": {
+      "f_gt_1": false,
+      "ratio_gt_1": true,
+      "doc_criterion_gt_1": true,
+      "reviewer_ratio_gt_1": true
+    },
+    "8": {
+      "f_gt_1": false,
+      "ratio_gt_1": true,
+      "doc_criterion_gt_1": true,
+      "reviewer_ratio_gt_1": true
+    },
+    "20": {
+      "f_gt_1": true,
+      "ratio_gt_1": true,
+      "doc_criterion_gt_1": true,
+      "reviewer_ratio_gt_1": true
+    }
+  },
+  "doc_criterion_min_j": 6,
+  "ratio_min_j": 7,
+  "reviewer_ratio_min_j": 2
+}

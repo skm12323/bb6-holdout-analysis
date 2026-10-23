@@ -1,5 +1,7 @@
 # A uniform rational-mode lemma for odd denominators
 
+**Review status (2026-10-23):** reviewed via the work_landing_symbolic three-way review (reviews/landing_symbolic_review_record.md, group 2). Status: accepted as an [A-cond] local tool. §1 is [A] only for Phi∈{1,2,3} (a, b, c3, AA, BA steps): with a rational shift (e.g. BBBAA, Phi−2=4/3) the claims Q'=Q and 'preserves coprimality' fail (Q=3,C=2 collapses; Q=5,C=1 gives 23/15); the height recursion also fails (first violation t=8). §2 [A | fixed Q, eps∈{3,5}, eps>=7 c steps leave the window, A+h_Q<=B, R_0<=J]; the conclusion is only descent below N_Q (coarse threshold 4(d+2); r=1e7 gives N_Q=63,398,512 vs exact ~25,849,627). §3 [A] given X(4) odd a with k=1. §4 only for j>=N_Q.
+
 2026-10-20. **UNREVIEWED proposed lemma.** This replaces separate
 denominator-3 and denominator-9 descent calculations with one
 parameterized argument. It does not close the landing problem or HR5.

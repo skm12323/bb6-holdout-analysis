@@ -1,0 +1,75 @@
+{
+  "threshold_table": [
+    {
+      "r": 1,
+      "d": 2,
+      "NQ": 20000000,
+      "NQ_gt_N0": false,
+      "nat": 11,
+      "genuine_gap": false,
+      "size_at_probes": {
+        "20000000": true
+      }
+    },
+    {
+      "r": 10,
+      "d": 16,
+      "NQ": 20000000,
+      "NQ_gt_N0": false,
+      "nat": 39,
+      "genuine_gap": false,
+      "size_at_probes": {
+        "20000000": true
+      }
+    },
+    {
+      "r": 1000,
+      "d": 1585,
+      "NQ": 20000000,
+      "NQ_gt_N0": false,
+      "nat": 3177,
+      "genuine_gap": false,
+      "size_at_probes": {
+        "20000000": true
+      }
+    },
+    {
+      "r": 5000000,
+      "d": 7924813,
+      "NQ": 31699260,
+      "NQ_gt_N0": true,
+      "nat": 15849633,
+      "genuine_gap": false,
+      "size_at_probes": {
+        "20000000": true,
+        "31699260": true
+      }
+    },
+    {
+      "r": 10000000,
+      "d": 15849626,
+      "NQ": 63398512,
+      "NQ_gt_N0": true,
+      "nat": 31699259,
+      "genuine_gap": true,
+      "size_at_probes": {
+        "20000000": false,
+        "31699257": true,
+        "31699259": true,
+        "63398512": true
+      }
+    }
+  ],
+  "gateway_random": {
+    "checks": 2874,
+    "reduced_denominator_ok": 2874
+  },
+  "height_map_limit": "105977895688040508785736083000/14130386091738734504764811067",
+  "height_map_below_8": true,
+  "finite_count_note": {
+    "dmax": 4999998,
+    "Q_max_bits": 4999998,
+    "bound_on_C_abs": "B*Q",
+    "finite": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "obstruction": {
+    "sigma": 1051689726214394,
+    "r": 657306078883964,
+    "d": 1041805486527146,
+    "NQ": 4167221946108592,
+    "m_lower_bound": 1051689726214393,
+    "natural_threshold": 1041805496527149,
+    "m_below_NQ": true,
+    "m_above_natural": true,
+    "NQ_over_m": 3.9624062518027108
+  },
+  "r1e7": {
+    "d": 15849626,
+    "NQ": 63398512,
+    "exact_first_j": 25849628,
+    "band_lo": 20000000,
+    "band_width": 5849628,
+    "holds_at_N0": false
+  },
+  "threshold_family": [
+    {
+      "r": 3000000,
+      "d": 4754888,
+      "NQ": 20000000,
+      "nat": 14754891,
+      "NQ_gt_nat": true,
+      "gap": false
+    },
+    {
+      "r": 4000000,
+      "d": 6339851,
+      "NQ": 25359412,
+      "nat": 16339854,
+      "NQ_gt_nat": true,
+      "gap": false
+    },
+    {
+      "r": 5000000,
+      "d": 7924813,
+      "NQ": 31699260,
+      "nat": 17924816,
+      "NQ_gt_nat": true,
+      "gap": false
+    },
+    {
+      "r": 6000000,
+      "d": 9509776,
+      "NQ": 38039112,
+      "nat": 19509779,
+      "NQ_gt_nat": true,
+      "gap": false
+    },
+    {
+      "r": 7000000,
+      "d": 11094738,
+      "NQ": 44378960,
+      "nat": 21094741,
+      "NQ_gt_nat": true,
+      "gap": true
+    }
+  ]
+}

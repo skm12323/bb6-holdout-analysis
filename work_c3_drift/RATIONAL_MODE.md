@@ -1,5 +1,7 @@
 # Low-height rational phases after a large gateway
 
+**Review status (2026-10-23):** reviewed via the work_landing_symbolic three-way review (reviews/landing_symbolic_review_record.md, group 2). Status: §1 RA/RC algebra [A], except the L47 sentence ('C not 0 mod 3 excludes exact resonance') which is FALSE (j=5, C=55, k=1: 3k+theta=0; resonance iff 9k+C ≡ −3b·2^j mod 2^(j+1)); (RC) also assumes an integer shift Phi∈{1,2,3} (a rational shift such as 4/3 can break coprimality). §2 accepted as a conditional lemma [A | HR5, (C0+3h3)/3<=B, accepted grammar eps∈{3,5}, q>=N0, C0∈{10,26}]. §3 is [B] data for b=0, j<=128 only (the gateway classes (C,b)=(10,1),(26,1) are not covered). Landing remains open.
+
 2026-10-20. **UNREVIEWED conditional lemma**, not a global certificate.
 This addresses how to continue a gateway whose output parameter is
 above the existing finite certificate cutoff. It does not assume the

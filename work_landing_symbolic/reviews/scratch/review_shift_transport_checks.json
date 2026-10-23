@@ -1,0 +1,396 @@
+{
+  "canonical_pairs": [
+    {
+      "P": 14,
+      "p": 5,
+      "source_index": "6133",
+      "ancestor_index": 5,
+      "precision": 4,
+      "sigma_D": 6128,
+      "x_diff_val": 4,
+      "theta_diff_val": 5
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "source_index": "289086270696314883188925376",
+      "ancestor_index": 5,
+      "precision": 4,
+      "sigma_D": 289086270696314883188925371,
+      "x_diff_val": 4,
+      "theta_diff_val": 5
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "source_index": "136517131539405869694540270279944446662008190014",
+      "ancestor_index": 5,
+      "precision": 4,
+      "sigma_D": 136517131539405869694540270279944446662008190009,
+      "x_diff_val": 4,
+      "theta_diff_val": 5
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "source_index": "6446839263191968112703081097646156153307841449936119739796858726807903",
+      "ancestor_index": 5,
+      "precision": 4,
+      "sigma_D": 6446839263191968112703081097646156153307841449936119739796858726807898,
+      "x_diff_val": 4,
+      "theta_diff_val": 5
+    }
+  ],
+  "ancestor_p_values": [
+    5
+  ],
+  "ancestor_precisions": [
+    4
+  ],
+  "integer_eta_cases": 260,
+  "reference_tail_lengths": {
+    "1": 260
+  },
+  "matched_states": 260,
+  "fire_references": 76,
+  "synthetic_status": {
+    "end": 4940,
+    "ceiling": 4
+  },
+  "synthetic_reference_tail_lengths": {
+    "1": 4554,
+    "2": 375,
+    "3": 15
+  },
+  "synthetic_matched_states": 5345,
+  "forced_controls": [
+    {
+      "p": 64,
+      "eta": 4611686018427387780,
+      "status": "ceiling",
+      "next_x": 9223372036854775808,
+      "next_x_is_2sc": true,
+      "q": 5,
+      "sc": 63,
+      "ref_rows": [
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": 316912650057057350374175801145,
+      "status": "ceiling",
+      "next_x": 633825300114114700748351602688,
+      "next_x_is_2sc": true,
+      "q": 8,
+      "sc": 99,
+      "ref_rows": [
+        [
+          8,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": 10889035741470030830827987437816582766324,
+      "status": "ceiling",
+      "next_x": 21778071482940061661655974875633165533184,
+      "next_x_is_2sc": true,
+      "q": 5,
+      "sc": 134,
+      "ref_rows": [
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 208,
+      "eta": 102844034832575377634685573909834406561420991602098741459287652,
+      "status": "ceiling",
+      "next_x": 205688069665150755269371147819668813122841983204197482918576128,
+      "next_x_is_2sc": true,
+      "q": 5,
+      "sc": 207,
+      "ref_rows": [
+        [
+          5,
+          0
+        ]
+      ]
+    }
+  ],
+  "rational_eta_probes": [
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "1/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "5/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 14,
+      "p": 5,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "1/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "5/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 87,
+      "p": 5,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "1/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "5/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 158,
+      "p": 5,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "1/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "5/9",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    },
+    {
+      "P": 231,
+      "p": 5,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "actual_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "actual_len": 1
+    }
+  ],
+  "status": "PASS",
+  "scope": "Reviewer recomputation. Rational-eta probes are diagnostics only; the document claims integer eta only. Counts must agree with work_c3_drift/transport_checks.json."
+}

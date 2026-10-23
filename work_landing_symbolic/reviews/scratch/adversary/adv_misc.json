@@ -1,0 +1,253 @@
+{
+ "window_check": {
+  "range": "5<=j<=200, -12<=d<=15",
+  "checked": 5488,
+  "failures": [
+   [
+    5,
+    -11
+   ],
+   [
+    5,
+    5
+   ]
+  ],
+  "matches_claim": true
+ },
+ "exceptions": {
+  "rows": [
+   {
+    "j": 5,
+    "delta": 5,
+    "in_window_rep": [
+     5
+    ],
+    "certified": false
+   },
+   {
+    "j": 5,
+    "delta": 21,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 5,
+    "delta": -27,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 5,
+    "delta": -11,
+    "in_window_rep": [
+     -11
+    ],
+    "certified": false
+   },
+   {
+    "j": 8,
+    "delta": 58,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 8,
+    "delta": 186,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 8,
+    "delta": -198,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 8,
+    "delta": -70,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 12,
+    "delta": 1012,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 12,
+    "delta": 3060,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 12,
+    "delta": -3084,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 12,
+    "delta": -1036,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 14,
+    "delta": 4081,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 14,
+    "delta": 12273,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 14,
+    "delta": -12303,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 14,
+    "delta": -4111,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": 32702,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": 32750,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": 98238,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": 98286,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": -98370,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": -98322,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": -32834,
+    "in_window_rep": [],
+    "certified": false
+   },
+   {
+    "j": 17,
+    "delta": -32786,
+    "in_window_rep": [],
+    "certified": false
+   }
+  ],
+  "any_in_window": true,
+  "all_bad": true
+ },
+ "ratc_families": {
+  "(10-2^m)/3": {
+   "counts": {
+    "end": 968,
+    "gateway": 14
+   },
+   "maxA": "11/6",
+   "maxsteps": 2
+  },
+  "(26-2^m)/3": {
+   "counts": {
+    "end": 969,
+    "gateway": 13
+   },
+   "maxA": "43/6",
+   "maxsteps": 2
+  },
+  "BBBAA C/3": {
+   "counts": {
+    "end": 981,
+    "gateway": 1
+   },
+   "maxA": "95/6",
+   "maxsteps": 2
+  }
+ },
+ "ratc_note": "max A_t quoted in THEOREM 2.8 is 95/6 = 15.833333",
+ "constants": {
+  "kappa19": "42849",
+  "kappa18": "80937/2",
+  "kappa49": "125064",
+  "3(k19+31)": "128640",
+  "2^17": 131072,
+  "k18+31": "80999/2",
+  "2^16": 65536,
+  "3(k19+841)": "131070",
+  "3(k19+842)": "131073"
+ },
+ "crossings": {
+  "4": {
+   "kind": "a",
+   "odd": true,
+   "tau": 2,
+   "eps": 0,
+   "omega": 1
+  },
+  "5": {
+   "kind": "b",
+   "odd": true,
+   "tau": 2,
+   "eps": 1,
+   "omega": 1
+  },
+  "27": {
+   "kind": "b",
+   "odd": true,
+   "tau": 20,
+   "eps": 1,
+   "omega": 6
+  },
+  "28": {
+   "kind": "c",
+   "odd": false,
+   "tau": 24,
+   "eps": 5,
+   "omega": null
+  },
+  "29": {
+   "kind": "a",
+   "odd": false,
+   "tau": 25,
+   "eps": 0,
+   "omega": null
+  },
+  "6132": {
+   "kind": "c",
+   "odd": true,
+   "tau": 5471,
+   "eps": 3,
+   "omega": 5
+  }
+ }
+}

@@ -1,0 +1,107 @@
+{
+  "numerators": [
+    -26,
+    -23,
+    -20,
+    -17,
+    -14,
+    -11,
+    -10,
+    -8,
+    -7,
+    -4,
+    -2,
+    -1,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    22,
+    23,
+    26,
+    29,
+    32,
+    35,
+    38
+  ],
+  "n": 32,
+  "lift_0": {
+    "status": {
+      "end": 3966,
+      "ceiling": 2
+    },
+    "nfail": 2,
+    "fails": [
+      {
+        "j": 5,
+        "C": -17,
+        "lift": 0,
+        "delta": "37",
+        "status": "ceiling",
+        "chains": 1
+      },
+      {
+        "j": 5,
+        "C": -1,
+        "lift": 0,
+        "delta": "21",
+        "status": "ceiling",
+        "chains": 1
+      }
+    ],
+    "fail_j_hist": {
+      "5": 2
+    }
+  },
+  "lift_1": {
+    "status": {
+      "end": 3966,
+      "ceiling": 2
+    },
+    "nfail": 2,
+    "fails": [
+      {
+        "j": 5,
+        "C": -17,
+        "lift": 1,
+        "delta": "5",
+        "status": "ceiling",
+        "chains": 1
+      },
+      {
+        "j": 5,
+        "C": -1,
+        "lift": 1,
+        "delta": "53",
+        "status": "ceiling",
+        "chains": 1
+      }
+    ],
+    "fail_j_hist": {
+      "5": 2
+    }
+  },
+  "gateway_classes": {
+    "10": {
+      "status": {
+        "end": 124
+      },
+      "fails": []
+    },
+    "26": {
+      "status": {
+        "end": 124
+      },
+      "fails": []
+    }
+  }
+}

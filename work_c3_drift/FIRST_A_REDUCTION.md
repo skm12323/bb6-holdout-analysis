@@ -1,5 +1,7 @@
 # Exact first-a reduction for small common shifts
 
+**Review status (2026-10-23):** reviewed via the work_landing_symbolic three-way review (reviews/landing_symbolic_review_record.md, group 2). Status: §1–§3 accepted as an [A] conditional reduction (integer |eta|<=8, real chain and real tail); L49/L52 should argue via lambda_out=3s_A+3−x_A/2>=1/2 (4 of 84 first a-steps have lambda_in<0, min margin of x_A<=6s_A+5 is 157). §5–§6 [B]. §4 [C], depending on SHIFT_TRANSPORT and Lambda<=4 (J<T4).
+
 2026-10-20. **UNREVIEWED.** Generalizes the eta=-1 first-a argument
 in work_claude_ext_next section 6 to the shift range needed by the
 current Lambda<=4 drift argument. Unlike the later H-family

@@ -1,5 +1,7 @@
 # Common-shift ancestry transport for interior c steps
 
+**Review status (2026-10-23):** reviewed via the work_landing_symbolic three-way review (reviews/landing_symbolic_review_record.md, group 2). Status: §2–§4 accepted as an [A] conditional reduction (for integer eta, which is exactly the case needed since eta=theta−2 is an integer by construction), with added statements: j_D=j_C, reference calls inside X(0..J−1), the definition of eps_D, and the Lemma K(c) citation; x*≠0 is implicit in Safe (v2(0)=∞ violates the margin) and should be stated. §5 is thin [B] evidence; the terminal family is [C].
+
 2026-10-20. **UNREVIEWED conditional lemma.** No new horizon and no
 global EXT conclusion. This moves beyond enumerating individual deficits:
 the transport applies to every later c source in an A-initial epoch,

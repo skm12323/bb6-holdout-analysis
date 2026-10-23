@@ -1,0 +1,1636 @@
+{
+ "status": "PASS",
+ "scope": "Independent cross-direction recomputation for work_landing_symbolic/THEOREM.md. No import of the three direction verifiers. Canonical data: Calendar(512) and table_1000000.pkl; every synthetic state is marked non-canonical. This is not a global EXT proof and does not change K_clock.",
+ "environment": {
+  "python": "3.14.6",
+  "calendar": "work_global_calendar/calendar_oracle.Calendar(512)",
+  "table": "D:/math_cc_astra/deep1/table_1000000.pkl"
+ },
+ "checks": {
+  "Z.table_vs_calendar": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "Z.table_lambda": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "Z.small_base_even": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "Z.X5": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.strong": {
+   "tag": "A",
+   "checked": 47605,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.nonzero": {
+   "tag": "A",
+   "checked": 50154,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.total": {
+   "tag": "A",
+   "checked": 50154,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.nt_j": {
+   "tag": "A",
+   "checked": 1366,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.onestep": {
+   "tag": "A",
+   "checked": 1183,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.constructed_onestep": {
+   "tag": "A",
+   "checked": 1062,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.constructed_nt": {
+   "tag": "A",
+   "checked": 1089,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.virtual_resonance": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.p_infinity": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "A.rational.nt_not_class_determined": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.bc.lambda_bound": {
+   "tag": "A",
+   "checked": 1273,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.bc.exact": {
+   "tag": "A",
+   "checked": 122208,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.bc.rank_bound": {
+   "tag": "A",
+   "checked": 122208,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.bc.rank_equality": {
+   "tag": "A",
+   "checked": 122208,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.bc.shift_class": {
+   "tag": "A",
+   "checked": 122208,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.synth.rank_bound": {
+   "tag": "A",
+   "checked": 1846,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.synth.rank_equality": {
+   "tag": "A",
+   "checked": 1846,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.synth.class": {
+   "tag": "A",
+   "checked": 1846,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.rank_counterexample_1": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "B.rank_counterexample_2": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.gateway.class": {
+   "tag": "A",
+   "checked": 48504,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.gateway.height": {
+   "tag": "A",
+   "checked": 48504,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.gateway.record": {
+   "tag": "A",
+   "checked": 48504,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.gateway.m_not_class_determined": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.gateway.synth_class": {
+   "tag": "A",
+   "checked": 2832,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.Atype.identity": {
+   "tag": "A",
+   "checked": 6000,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.Atype.ledger": {
+   "tag": "A",
+   "checked": 5999,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.Btype.identity": {
+   "tag": "A",
+   "checked": 6000,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.Btype.ledger": {
+   "tag": "A",
+   "checked": 5979,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.height.ladder": {
+   "tag": "A",
+   "checked": 238,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.height.fixed_point": {
+   "tag": "A",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.height.shift_fixed_point": {
+   "tag": "A",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "C.formula_bridge": {
+   "tag": "A",
+   "checked": 72,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.anchor.theta_class": {
+   "tag": "A",
+   "checked": 15817,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.anchor.lift": {
+   "tag": "A",
+   "checked": 15817,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.synth.recursion": {
+   "tag": "A",
+   "checked": 11067,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.synth.landing": {
+   "tag": "A",
+   "checked": 11059,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.bc.recursion": {
+   "tag": "A",
+   "checked": 5047,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.bc.landing": {
+   "tag": "A",
+   "checked": 5047,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.recursion": {
+   "tag": "A",
+   "checked": 4675,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.landing": {
+   "tag": "A",
+   "checked": 4657,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.synth.tie": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.tie": {
+   "tag": "A",
+   "checked": 6,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.suspension": {
+   "tag": "A",
+   "checked": 12,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "D.a.synth.suspension": {
+   "tag": "A",
+   "checked": 5,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.anchor": {
+   "tag": "A",
+   "checked": 419,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.anchor.lift": {
+   "tag": "A",
+   "checked": 419,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.suffix_safe": {
+   "tag": "B",
+   "checked": 419,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.suffix_le_R0": {
+   "tag": "B",
+   "checked": 419,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.affine_ledger": {
+   "tag": "A",
+   "checked": 419,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.landing_class_certified": {
+   "tag": "B",
+   "checked": 179,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.c_anchor_lift": {
+   "tag": "B",
+   "checked": 84,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.c_suffix_safe": {
+   "tag": "B",
+   "checked": 84,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.c_suffix_le_R0": {
+   "tag": "B",
+   "checked": 84,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.c_affine_ledger": {
+   "tag": "A",
+   "checked": 84,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.c_landing_class_certified": {
+   "tag": "B",
+   "checked": 6,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.counts": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.sources_count": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.shift_tie": {
+   "tag": "B",
+   "checked": 5,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.shift_tie_safe": {
+   "tag": "B",
+   "checked": 5,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.shift_count": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.shift_ties_count": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "E.shift_ledger": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O2.family": {
+   "tag": "A",
+   "checked": 254,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O2.record": {
+   "tag": "A",
+   "checked": 254,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.source": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.y": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.identity": {
+   "tag": "A",
+   "checked": 600,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.valuation_rule": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.p0": {
+   "tag": "A",
+   "checked": 7,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.threshold": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.constants": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O1.depth_source": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O3.count": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.O3.table": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.kappa": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.j19Q3": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.j18Q3_fails": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.j18Q1": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.h841": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.h88222": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.family": {
+   "tag": "B",
+   "checked": 2946,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.no_nt": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "F.RATC.max_steps": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "G.p_vs_r": {
+   "tag": "A",
+   "checked": 41,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "G.m_vs_e": {
+   "tag": "A",
+   "checked": 254,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "G.gateway_rank": {
+   "tag": "A",
+   "checked": 40,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.count": {
+   "tag": "B",
+   "checked": 14,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.sym5": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.sym8": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.sym12": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.sym14": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.small_j.sym17": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.bad22_27.lifts4": {
+   "tag": "B",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.bad22_27.bad": {
+   "tag": "B",
+   "checked": 12,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.vertices": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.edges": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.edges_to_5": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.maxparam": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.acyclic": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.window30": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.terminates": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.graph.maxrec": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "H.refuted_closure27": {
+   "tag": "B",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "I.witness.crossing": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "I.witness.MA": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "I.witness.two_ties": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "I.R.eq_holds": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 1,
+   "examples": [
+    "(6, 17, 8, 19)"
+   ],
+   "note": "",
+   "truncated": 0
+  },
+  "I.block_descent": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.calendar_k": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.tie_identity": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.theta_small": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.next_not_integer": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.record_exceeds_J": {
+   "tag": "A",
+   "checked": 3,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.integer_no_tie": {
+   "tag": "A",
+   "checked": 1881,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.deep_size": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I1.real_theta_integer": {
+   "tag": "A",
+   "checked": 99,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I2.internal_record": {
+   "tag": "B",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I4.A_preserved": {
+   "tag": "A",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I4.ht_not_preserved": {
+   "tag": "A",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I5.onestep": {
+   "tag": "A",
+   "checked": 4,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I5.old_bound_refuted": {
+   "tag": "A",
+   "checked": 4,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I5.new_bound": {
+   "tag": "A",
+   "checked": 4,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I6.congruence": {
+   "tag": "A",
+   "checked": 2,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I8.ceillog": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I11.r0_rule": {
+   "tag": "A",
+   "checked": 4,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  },
+  "R.I12.min_rep": {
+   "tag": "A",
+   "checked": 718,
+   "failed": 0,
+   "examples": [],
+   "note": "",
+   "truncated": 0
+  }
+ },
+ "counts": {
+  "A_nt_classes": 132,
+  "A_nt_u_dependent": 36,
+  "B_canonical_bc": 1273,
+  "C_m_ge_H": 96,
+  "C_classes_with_varying_m": 16,
+  "D_cases": 15817,
+  "E_fires": 252,
+  "E_chains": 419,
+  "E_c_sources": 84,
+  "E_steps": 167,
+  "E_a_steps": 84,
+  "E_bc_steps": 83,
+  "E_ties": 0,
+  "E_suffix_checks": 503,
+  "E_suffix_bad": 0,
+  "E_class_certificates": 185,
+  "E_sources": 336,
+  "E_shift_cases": 5712,
+  "E_shift_ties": 5,
+  "E_shift_tie_safe": 5,
+  "E_shift_ledger_bad": 0,
+  "F_O2_cases": 254,
+  "F_RATC_families": {
+   "(10-2^m)/3": {
+    "n": 982,
+    "end": 968,
+    "gateway": 14,
+    "nt_high": 0,
+    "rec_raise": 0,
+    "depth_fail_high": 0,
+    "maxsteps": 2
+   },
+   "(26-2^m)/3": {
+    "n": 982,
+    "end": 969,
+    "gateway": 13,
+    "nt_high": 0,
+    "rec_raise": 0,
+    "depth_fail_high": 0,
+    "maxsteps": 2
+   },
+   "BBBAA C/3": {
+    "n": 982,
+    "end": 981,
+    "gateway": 1,
+    "nt_high": 0,
+    "rec_raise": 0,
+    "depth_fail_high": 0,
+    "maxsteps": 2
+   }
+  },
+  "G_p_vs_r": 41,
+  "R_I8_ceillog": 663542339794048,
+  "total_checks": 903945,
+  "total_fail": 0,
+  "elapsed_seconds": 9.77
+ },
+ "canonical": {
+  "shift_ties": [
+   {
+    "label": [
+     "fire",
+     5
+    ],
+    "eta": 4,
+    "j": 5,
+    "theta_mod16": 5,
+    "e": 4,
+    "m": 8,
+    "record": 9,
+    "sigma": "63",
+    "exact_safe": true
+   },
+   {
+    "label": [
+     "c",
+     14,
+     6132
+    ],
+    "eta": 3,
+    "j": 5,
+    "theta_mod16": 5,
+    "e": 2,
+    "m": 6,
+    "record": 8,
+    "sigma": "6129",
+    "exact_safe": true
+   },
+   {
+    "label": [
+     "c",
+     87,
+     289086270696314883188925375
+    ],
+    "eta": 3,
+    "j": 5,
+    "theta_mod16": 5,
+    "e": 1,
+    "m": 5,
+    "record": 7,
+    "sigma": "289086270696314883188925372",
+    "exact_safe": true
+   },
+   {
+    "label": [
+     "c",
+     158,
+     136517131539405869694540270279944446662008190013
+    ],
+    "eta": 3,
+    "j": 5,
+    "theta_mod16": 5,
+    "e": 3,
+    "m": 7,
+    "record": 9,
+    "sigma": "136517131539405869694540270279944446662008190010",
+    "exact_safe": true
+   },
+   {
+    "label": [
+     "c",
+     231,
+     6446839263191968112703081097646156153307841449936119739796858726807902
+    ],
+    "eta": 3,
+    "j": 5,
+    "theta_mod16": 5,
+    "e": 1,
+    "m": 5,
+    "record": 7,
+    "sigma": "6446839263191968112703081097646156153307841449936119739796858726807899",
+    "exact_safe": true
+   }
+  ],
+  "O1_fire": {
+   "k": 469124961184426,
+   "pointer": 1051689726214394,
+   "J": 49
+  },
+  "small_j_bad": {
+   "5": [
+    5,
+    21,
+    37,
+    53
+   ],
+   "8": [
+    58,
+    186,
+    314,
+    442
+   ],
+   "12": [
+    1012,
+    3060,
+    5108,
+    7156
+   ],
+   "14": [
+    4081,
+    12273,
+    20465,
+    28657
+   ],
+   "17": [
+    32702,
+    32750,
+    98238,
+    98286,
+    163774,
+    163822,
+    229310,
+    229358
+   ]
+  },
+  "small_j_bad_sym": {
+   "5": [
+    -27,
+    -11,
+    5,
+    21
+   ],
+   "8": [
+    -198,
+    -70,
+    58,
+    186
+   ],
+   "12": [
+    -3084,
+    -1036,
+    1012,
+    3060
+   ],
+   "14": [
+    -12303,
+    -4111,
+    4081,
+    12273
+   ],
+   "17": [
+    -98370,
+    -98322,
+    -32834,
+    -32786,
+    32702,
+    32750,
+    98238,
+    98286
+   ]
+  },
+  "bad_22_24_27": {
+   "22": [
+    1048552,
+    3145704,
+    5242856,
+    7340008
+   ],
+   "24": [
+    4194277,
+    12582885,
+    20971493,
+    29360101
+   ],
+   "27": [
+    33554402,
+    100663266,
+    167772130,
+    234880994
+   ]
+  },
+  "bad_graph": {
+   "vertices": 36,
+   "edges": 4,
+   "max_parameter": 29,
+   "successors": {
+    "(5, 5)": null,
+    "(5, 21)": null,
+    "(5, 37)": null,
+    "(5, 53)": null,
+    "(8, 58)": null,
+    "(8, 186)": null,
+    "(8, 314)": null,
+    "(8, 442)": null,
+    "(12, 1012)": null,
+    "(12, 3060)": null,
+    "(12, 5108)": null,
+    "(12, 7156)": null,
+    "(14, 4081)": null,
+    "(14, 12273)": null,
+    "(14, 20465)": null,
+    "(14, 28657)": null,
+    "(17, 32702)": "(5, 5)",
+    "(17, 32750)": null,
+    "(17, 98238)": "(5, 5)",
+    "(17, 98286)": null,
+    "(17, 163774)": "(5, 5)",
+    "(17, 163822)": null,
+    "(17, 229310)": "(5, 5)",
+    "(17, 229358)": null,
+    "(22, 1048552)": null,
+    "(22, 3145704)": null,
+    "(22, 5242856)": null,
+    "(22, 7340008)": null,
+    "(24, 4194277)": null,
+    "(24, 12582885)": null,
+    "(24, 20971493)": null,
+    "(24, 29360101)": null,
+    "(27, 33554402)": null,
+    "(27, 100663266)": null,
+    "(27, 167772130)": null,
+    "(27, 234880994)": null
+   },
+   "max_record": 30
+  },
+  "internal_record_examples": [
+   {
+    "P": 14,
+    "j0": 5,
+    "Gamma0": 1,
+    "R0": 6,
+    "records": [
+     [
+      14,
+      0,
+      14
+     ],
+     [
+      5,
+      1,
+      6
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   {
+    "P": 28,
+    "j0": 6,
+    "Gamma0": 2,
+    "R0": 8,
+    "records": [
+     [
+      28,
+      0,
+      28
+     ],
+     [
+      6,
+      2,
+      8
+     ],
+     [
+      1,
+      4,
+      5
+     ]
+    ]
+   }
+  ]
+ },
+ "synthetic": {
+  "tie_record_witness": {
+   "start": [
+    73515,
+    98094
+   ],
+   "k": 32790,
+   "M_A_v2": 17,
+   "walk": [
+    [
+     73515,
+     0,
+     73515
+    ],
+    [
+     5,
+     1,
+     6
+    ],
+    [
+     17,
+     2,
+     19
+    ],
+    [
+     5,
+     3,
+     8
+    ],
+    [
+     17,
+     4,
+     21
+    ],
+    [
+     17,
+     5,
+     22
+    ],
+    [
+     1,
+     6,
+     7
+    ]
+   ]
+  },
+  "A4_z13_counterexamples": [
+   {
+    "j": 40,
+    "k": 16,
+    "r": 20,
+    "theta": "107512255696/3486784401",
+    "v2_3k_theta": 38,
+    "e": 2,
+    "record": 42,
+    "x_next_denominator": "3486784401",
+    "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+   },
+   {
+    "j": 61,
+    "k": 25,
+    "r": 33,
+    "theta": "159531209811759263/5559060566555523",
+    "v2_3k_theta": 59,
+    "e": 1,
+    "record": 62,
+    "x_next_denominator": "5559060566555523",
+    "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+   },
+   {
+    "j": 100,
+    "k": 42,
+    "r": 57,
+    "theta": "119087244772715067307468446406/1570042899082081611640534563",
+    "v2_3k_theta": 98,
+    "e": 1,
+    "record": 101,
+    "x_next_denominator": "1570042899082081611640534563",
+    "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+   }
+  ]
+ },
+ "refuted_claims": [
+  {
+   "claim": "gateway RESULT: every one of the 36 representative walks closes with records <= entry record",
+   "status": "not supported by the gateway json itself",
+   "evidence": "maxrec[(17,229310)]=22>17, maxrec[(27,167772130)]=30>27, maxrec[(17,98238)]=20>17 in gateway/checks.json; the walks terminate and max parameter is 29, but the record bound is false."
+  },
+  {
+   "claim": "Theorem G(ii): rho(tie,t+1) >= rho(tie,t) + (m_t - 4)",
+   "status": "refuted by an exact walk",
+   "witness_start": [
+    73515,
+    98094
+   ],
+   "k_predecessor": 32790,
+   "v2_M_A": 17,
+   "records": [
+    73515,
+    6,
+    19,
+    8,
+    21,
+    22,
+    7
+   ],
+   "parameters": [
+    73515,
+    5,
+    17,
+    5,
+    17,
+    17,
+    1
+   ],
+   "rho_tie_0": 6,
+   "m_0": 17,
+   "rho_tie_1": 8,
+   "claimed_lower_bound": 19,
+   "reason": "the path from m_0=17 to the next tie at parameter 5 is a single landing (17 -> 5); hence k=1, not >= m_0-5.  The proof's 'at least m_t-5 chains' has the wrong sign: a chain's parameter can drop by more than 1."
+  },
+  {
+   "claim": "A4 over Z[1/3]: j>=N0+1 and |theta|<=B-3 imply no tie",
+   "status": "refuted by the exact rational-theta family",
+   "witness_family": "theta = 2^(j-2)/3^r - 3k, beta=0, d=(theta-1)/3, U=1, J=j",
+   "witness_rows": [
+    {
+     "j": 40,
+     "k": 16,
+     "r": 20,
+     "theta": "107512255696/3486784401",
+     "v2_3k_theta": 38,
+     "e": 2,
+     "record": 42,
+     "x_next_denominator": "3486784401",
+     "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+    },
+    {
+     "j": 61,
+     "k": 25,
+     "r": 33,
+     "theta": "159531209811759263/5559060566555523",
+     "v2_3k_theta": 59,
+     "e": 1,
+     "record": 62,
+     "x_next_denominator": "5559060566555523",
+     "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+    },
+    {
+     "j": 100,
+     "k": 42,
+     "r": 57,
+     "theta": "119087244772715067307468446406/1570042899082081611640534563",
+     "v2_3k_theta": 98,
+     "e": 1,
+     "record": 101,
+     "x_next_denominator": "1570042899082081611640534563",
+     "note": "algebraic affine state; x' is not an integer, so this is not a machine chain"
+    }
+   ],
+   "repair": "the real-state case has integer theta (x,Theta in Z, A,U,beta in Z); for integer theta with |theta|<=B-3 and j>=N0+1, |3k+theta|<2^(j-2) forces v2<=j-3, so there is no tie.  The next x' in the rational counterexample is not an integer, so it is not a machine chain."
+  },
+  {
+   "claim": "strong a step preserves ht = |C|/Q",
+   "status": "false; the preserved quantity is A=|C/Q-3/2| and h_t=A+3/2",
+   "witness": "(j,Q,C,b,k,u)=(5,1,7,0,1,1): ht 7 -> 4, A=7/2 preserved; canonical X(4), C=10: ht 10 -> 7"
+  },
+  {
+   "claim": "catapult height bound 3+2k+ht/3+32b/3 for all j",
+   "status": "false for j>5; the correct term is b*2^j/3",
+   "witness": "(j,k,C,b)=(8,2,122,1): ht'=119 > 3+2k+ht/3+32b/3=175/3; (12,4,2036,1): 2033 > 2101/3; (17,6,65518,1): 65515 > 21865"
+  }
+ ],
+ "notes": {
+  "A.rational.nt_j": "NT gate: j'=v2(x') >= j; output not a function of the class",
+  "B.bc.exact": "D' = D + Phi - 2 + (2^j - c_W)u; v2(2^j-c_W)=sigma>omega",
+  "C.gateway.class": "D' = (15Q-C-32bQ)/(3Q) + 2^m (mod 2^{m+1}), m<H",
+  "D.a.landing": "r = v2(3k+theta) <= j-3: j'=r+1, v2(beta')=r+1, record <= J-1",
+  "D.a.tie": "r = j-2: j' = (j-1)+e, e = v2((A'/2^{j-1})U + beta'/2^{j-1}), record = J+e",
+  "E.affine_ledger": "A1-A3 ledger from every canonical chain state, U=(6k+4)>>P",
+  "E.shift_tie": "ties induced by Theta-shifts d -> d+eta/3, eta in [-8,8]",
+  "F.O1": "P=49 fire: x0=5*2^49, D0=1, k=20, sigma=pointer; p0=4+v2(7*3^r+1)",
+  "F.O3": "low-cost descriptions (R+1)(2h+1) vs 2^{j+1} classes",
+  "G.p_vs_r": "p = 1+v2(3Qk+C) = 1 + v2(3k+theta) with Q=1, C=theta",
+  "I.R.eq_holds": "control: expected to be FALSE; the failure is the documented refutation",
+  "R.I1.tie_identity": "A4 over Z[1/3] is refuted; the real-state case needs integer theta",
+  "R.I2.internal_record": "R_t <= R_0 = j_0+Gamma_0 = J; the chain-count bound remains j_0-4",
+  "R.I4.ht_not_preserved": "strong a preserves A and h_t=A+3/2, not ht=|C|/Q",
+  "R.I5.old_bound_refuted": "catapult height is 3+2k+ht/3+b*2^j/3; 32b/3 is the j=5 special case",
+  "R.I8.ceillog": "663542339794048 is a necessary lower bound (ceil log_3), not a dangerous range"
+ },
+ "not_run": [
+  {
+   "check": "affine A4 deep two-chain [B]",
+   "reason": "Calendar(B) would need B >= N0 = 2*10^7 > 1024; A4 is [A-imp]+[A] only, not tested here."
+  },
+  {
+   "check": "full Bad_j enumeration at j=22,24,27",
+   "reason": "cost 2^{j+1} (up to 2^28 walks); only the four documented lifts per j were verified bad."
+  },
+  {
+   "check": "work_r1r2 8,712 bad pairs",
+   "reason": "table_100000000.pkl is absent on this machine; only table_1000000.pkl is available."
+  },
+  {
+   "check": "N_Q terminal certificate",
+   "reason": "ODD_DENOMINATOR only reduces the walk below N_Q under four extra hypotheses; N_Q can exceed 2*10^7 and the band [N0,N_Q) remains open. It is a continuation reduction, not a class certificate."
+  },
+  {
+   "check": "canonical reachability of the (R) counterexample",
+   "reason": "the witness state is exact but synthetic (non-canonical); it refutes the universal algebraic claim, not a canonical statement."
+  }
+ ],
+ "failures": [],
+ "timing": {
+  "A": 0.11,
+  "B": 3.91,
+  "C": 0.36,
+  "D": 0.58,
+  "E": 0.26,
+  "F": 0.09,
+  "G": 0.02,
+  "H": 4.41,
+  "I": 0.0,
+  "R": 0.01
+ },
+ "scope_map": {
+  "canonical": [
+   "Z.table_vs_calendar",
+   "Z.table_lambda",
+   "E.*",
+   "H.*",
+   "F.O1.source"
+  ],
+  "canonical_crossings_with_synthetic_classes": [
+   "F.RATC.*",
+   "F.O1.*",
+   "F.O2.*",
+   "F.O3.*",
+   "G.*"
+  ],
+  "mixed_canonical_and_synthetic_states": [
+   "A.*",
+   "B.*",
+   "C.*",
+   "D.*",
+   "I.*"
+  ],
+  "note": "A/B/C/D/I mix canonical crossings (Calendar(512)) with synthetic, non-canonical exact integer states; the tag_detail in a_case/bc_case labels 'canon' vs 'synth'. E/H/Z use only canonical data. F.O1/F.RATC use canonical crossings but synthetic initial classes. The synthetic witness in I is exact but not claimed reachable."
+ }
+}

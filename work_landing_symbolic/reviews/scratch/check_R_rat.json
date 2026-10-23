@@ -1,0 +1,226 @@
+{
+  "n_numerators": 32,
+  "numerators": [
+    -26,
+    -23,
+    -20,
+    -17,
+    -14,
+    -11,
+    -10,
+    -8,
+    -7,
+    -4,
+    -2,
+    -1,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    22,
+    23,
+    26,
+    29,
+    32,
+    35,
+    38
+  ],
+  "closure_ok_mod3": true,
+  "single_lift": {
+    "end": 3966,
+    "ceiling": 2
+  },
+  "single_fail": [
+    {
+      "j": 5,
+      "C": -17,
+      "delta": "37",
+      "status": "ceiling"
+    },
+    {
+      "j": 5,
+      "C": -1,
+      "delta": "21",
+      "status": "ceiling"
+    }
+  ],
+  "single_total": 3968,
+  "both_lifts": {
+    "lift0": {
+      "counts": {
+        "end": 3966,
+        "ceiling": 2
+      },
+      "fails": [
+        {
+          "j": 5,
+          "C": -17,
+          "lift": 0,
+          "delta": "37",
+          "b_bit": 1,
+          "status": "ceiling",
+          "chains": 1
+        },
+        {
+          "j": 5,
+          "C": -1,
+          "lift": 0,
+          "delta": "21",
+          "b_bit": 0,
+          "status": "ceiling",
+          "chains": 1
+        }
+      ]
+    },
+    "lift1": {
+      "counts": {
+        "end": 3966,
+        "ceiling": 2
+      },
+      "fails": [
+        {
+          "j": 5,
+          "C": -17,
+          "lift": 1,
+          "delta": "5",
+          "b_bit": 0,
+          "status": "ceiling",
+          "chains": 1
+        },
+        {
+          "j": 5,
+          "C": -1,
+          "lift": 1,
+          "delta": "53",
+          "b_bit": 1,
+          "status": "ceiling",
+          "chains": 1
+        }
+      ]
+    }
+  },
+  "total_classes_C_b_j": 7936,
+  "total_states_scanned_both": 7936,
+  "single_lift_b_bit_hist": {
+    "1": 1987,
+    "0": 1981
+  },
+  "doc_failures": [
+    {
+      "j": 5,
+      "C": -17,
+      "delta": "37",
+      "b_bit": 1,
+      "is_a_image_of_gateway": true
+    },
+    {
+      "j": 5,
+      "C": -1,
+      "delta": "21",
+      "b_bit": 0,
+      "is_a_image_of_gateway": true
+    }
+  ],
+  "other_lift_failures": [
+    {
+      "j": 5,
+      "C": -17,
+      "delta": "5",
+      "delta_mod_2j": 5
+    },
+    {
+      "j": 5,
+      "C": -1,
+      "delta": "53",
+      "delta_mod_2j": 21
+    }
+  ],
+  "gateway_classes": {
+    "10": {
+      "counts": {
+        "end": 124
+      },
+      "fails": []
+    },
+    "26": {
+      "counts": {
+        "end": 124
+      },
+      "fails": []
+    }
+  },
+  "a_step_checks": 2360,
+  "a_step_skipped_pairs": [
+    {
+      "j": 5,
+      "C": -17,
+      "q": 4
+    },
+    {
+      "j": 5,
+      "C": -1,
+      "q": 4
+    },
+    {
+      "j": 5,
+      "C": 7,
+      "q": 5
+    },
+    {
+      "j": 5,
+      "C": 23,
+      "q": 6
+    }
+  ],
+  "a_step_skipped_lift_checks": 8,
+  "resonance_counterexample": {
+    "j": 5,
+    "k": 1,
+    "theta": -3,
+    "C": 55,
+    "b": 0,
+    "nine_k_plus_C": 64,
+    "C_mod_3": 1,
+    "class_identity_3D_eq_C": true,
+    "resonance_z_zero": true,
+    "nine_k_plus_C_nonzero": true,
+    "x_prime": "48",
+    "theta_prime": "38",
+    "D_prime": "-10",
+    "j_prime": 4,
+    "RA_would_predict": 7,
+    "X4_is_odd_a_k1": [
+      true,
+      "a",
+      1
+    ]
+  },
+  "P_N0m1": 6753,
+  "kappa_N0": "405179979741/2",
+  "three_kappa_B_lt_2_j_minus_2": true,
+  "bitlen_floor_three_kB": 10000001,
+  "SIZE3_rhs_exponent": 19999998,
+  "L3_N0": {
+    "L3": 10000002,
+    "term1": 10000002,
+    "term2": 39
+  },
+  "L3_N0_lt_N0": true,
+  "L3_N0_gt_128": true,
+  "L3_N0_le_tower_bound": true,
+  "h3_N0": 1,
+  "height_condition_at_N0": true,
+  "L3_lower_bound": 10000002,
+  "P_nondecreasing_sample": true,
+  "U1_exponent": "19999995/2",
+  "tower_note": "U1=2^{(N0-5)/2}; U3 height 3, K_clock=2^{K'} height 4 -> U3<K_clock; U4 height 4 with top 1e7>499997 -> U4>K_clock"
+}

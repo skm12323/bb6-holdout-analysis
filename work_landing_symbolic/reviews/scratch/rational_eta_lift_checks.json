@@ -1,0 +1,1143 @@
+{
+  "status": "PASS",
+  "counts": [
+    {
+      "ref_status": "end",
+      "lift_status": "end",
+      "same": true,
+      "precision_ok": true,
+      "ref_len": 1,
+      "n": 560
+    },
+    {
+      "ref_status": "end",
+      "lift_status": "end",
+      "same": true,
+      "precision_ok": true,
+      "ref_len": 2,
+      "n": 48
+    }
+  ],
+  "nontrivial_cases": [
+    {
+      "p": 27,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "1/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "5/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 27,
+      "eta": "-2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "1/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "5/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 64,
+      "eta": "-2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "1/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "5/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 100,
+      "eta": "-2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "1/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "5/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 135,
+      "eta": "-2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "lift_rows": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "1/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "-7/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "-37/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "5/9",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "-1/27",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 171,
+      "eta": "-2/3",
+      "ref_status": "end",
+      "lift_status": "end",
+      "same_word": true,
+      "precision_ok": true,
+      "ref_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "lift_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  ]
+}

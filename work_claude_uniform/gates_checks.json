@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "end": 17951130,
+  "small": 7302920
+ },
+ "walks_with_gates": {
+  "1": 86950
+ },
+ "worst_relative_record": [
+  0,
+  {
+   "y": 22,
+   "theta": "-24",
+   "word": [
+    21
+   ]
+  }
+ ],
+ "problems": [],
+ "seconds": 461.0,
+ "scope": "Synthetic affine starts on canonical data: y in [19,252) all classes of 3-adic rank r<=4 with height <= HR[r] (2048,2048,760,330,190) and both lift bits; y in [252,500) rank<=1 heights<=60; not reachability."
+}

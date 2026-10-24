@@ -1,0 +1,254 @@
+{
+  "_failures": [],
+  "GT.S1.recurrences": {
+    "status": "PASS",
+    "random_instances": 500,
+    "mismatches": 0
+  },
+  "GT.TRAIN.min_twice": {
+    "status": "PASS",
+    "instances": 400,
+    "violations": 0
+  },
+  "GT.labels.calendar_vs_table": {
+    "status": "PASS",
+    "X6": [
+      "c",
+      false
+    ],
+    "num_labels": 76,
+    "labels_below_8": [
+      5
+    ],
+    "internal_labels_le_256": [
+      17,
+      54,
+      90,
+      125,
+      161,
+      198,
+      234
+    ],
+    "labels_5_to_16": {
+      "5": 1,
+      "8": 2,
+      "12": 4,
+      "14": 5
+    }
+  },
+  "GT.S2.no_three_identical": {
+    "status": "PASS",
+    "diagonal_labels": 76,
+    "quad_range": [
+      8,
+      4096
+    ],
+    "tau_le_n_table": true
+  },
+  "GT.S3.band_algebra": {
+    "status": "PASS",
+    "instances": 300
+  },
+  "GT.S4.graph_rebuild": {
+    "status": "PASS",
+    "vertices": 5776,
+    "edges": 1433,
+    "acyclic": false,
+    "cycle_present": true,
+    "advance": 960,
+    "v2_advance": 6,
+    "required_bits": 81,
+    "repeat_excluded": true,
+    "crt_ok": true
+  },
+  "CF.S1.entry_derivation": {
+    "status": "PASS",
+    "theta_residue": true,
+    "k_mod8": true,
+    "k_mod16": true,
+    "fire_param_impl": true,
+    "fire_param_iff_mod8": true,
+    "min_internal_label": 17
+  },
+  "CF.S2.drop2": {
+    "status": "PASS",
+    "instances": 400,
+    "violations": 0,
+    "canonical_k_order_matches_label_order": true
+  },
+  "CF.S3.no_four_arithmetic": {
+    "status": "PASS",
+    "kmax_16381": 7305,
+    "z0_bound": 29224
+  },
+  "CF.S4.graph2_rebuild": {
+    "status": "PASS",
+    "vertices": 532,
+    "edges": 14,
+    "acyclic": true,
+    "maximum": 3,
+    "longest": [
+      17,
+      125,
+      5
+    ],
+    "clock_consistent": true,
+    "entry_excludes_cycle8": true,
+    "initial_residue": 32693,
+    "initial_precision": 15
+  },
+  "ORBIT.all": {
+    "status": "PASS",
+    "congruence_instances": 200,
+    "order_ok": true,
+    "coset_sums": true,
+    "advance": true,
+    "lift_invariance": true
+  },
+  "CS.all": {
+    "status": "PASS",
+    "ka": 819270,
+    "kb": 229398,
+    "source_a": 1836655,
+    "source_b": 514273,
+    "word": [
+      5,
+      1836655,
+      5,
+      514273,
+      5,
+      17,
+      5,
+      17,
+      19
+    ],
+    "losses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "max_record": 1836656,
+    "z0": -131072,
+    "z1": -229376,
+    "orbit_residues": [
+      9,
+      3,
+      1
+    ],
+    "dlog_exponent_mod2_48": 50969618443259,
+    "x_sha256": "02d5a8c71b96d21e91a26fb042134a03a02df15e3afda0c26bc8a361c6de8861",
+    "theta_sha256": "ce53a7c2667dc82358e0e38323b7de0d867e698363eaccc0215dce0d9ac977a8",
+    "hp_replay": "end",
+    "x_bits": 1836667
+  },
+  "DEPTH.all": {
+    "status": "PASS",
+    "identity_instances": 300,
+    "e0_ok": true,
+    "dlog256_ok": true,
+    "potential_instances": 200,
+    "size_chain_spot": true,
+    "depth_source": true
+  },
+  "SEED.all": {
+    "status": "PASS",
+    "identity_instances": 300,
+    "m_checked": 300,
+    "m_matched": 300,
+    "arithmetic": true,
+    "quadratic": true,
+    "z2_positive": true,
+    "z2_forms": true
+  },
+  "COPY.all": {
+    "status": "PASS",
+    "copy_identities_bad": 0,
+    "chain_instances": 300,
+    "negative_control": true
+  },
+  "JOINT.all": {
+    "status": "PASS",
+    "height_identities": true,
+    "small_fire_gaps": [
+      3,
+      3,
+      9,
+      12
+    ],
+    "composition_ok": true
+  },
+  "STOP.all": {
+    "status": "PASS",
+    "sample_words": {
+      "6": [
+        5,
+        6,
+        1
+      ],
+      "8": [
+        5,
+        8,
+        3
+      ],
+      "10": [
+        5,
+        10
+      ],
+      "12": [
+        5,
+        12,
+        2
+      ],
+      "16": [
+        5,
+        16
+      ],
+      "20": [
+        5,
+        20
+      ],
+      "32": [
+        5,
+        32,
+        1
+      ],
+      "64": [
+        5,
+        64,
+        3
+      ]
+    },
+    "max_record_m8": 9
+  },
+  "STREAM.table1e6": {
+    "status": "PASS",
+    "reached": 1000000,
+    "max_tau_minus_n": 0,
+    "min_p3_gap": 12,
+    "p3_count": 54887,
+    "p3_count_below_16381": 899,
+    "table_match": true
+  },
+  "STREAM.big": {
+    "status": "PASS",
+    "reached": 100000000,
+    "max_tau_minus_n": 0,
+    "min_p3_gap": 12,
+    "p3_count": 5488724,
+    "p3_count_below_16381": 899,
+    "table_match": null,
+    "seconds": 29.1
+  },
+  "meta": {
+    "total": 19,
+    "failures": 0,
+    "seconds": 3.0,
+    "seed": 20261024
+  }
+}

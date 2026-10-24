@@ -1,0 +1,711 @@
+{
+ "status": "PASS",
+ "scope": "Task C (climb bound S3, general entries). Exact recomputation of Lemma CB and of its run-generalization. Canonical data: Calendar(512). Every constructed ancestor state (D_y, u_y lifts) and every synthetic-data run is non-canonical. No global EXT claim, no non-halting claim, K_clock unchanged.",
+ "checks": {
+  "Z.CB.A.pool": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.entry": {
+   "tag": "A",
+   "checked": 2380,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.v2beta": {
+   "tag": "A",
+   "checked": 8843,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.landing": {
+   "tag": "A",
+   "checked": 5750,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.mu_ge": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.vZ_ge5": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.m_ge5": {
+   "tag": "A",
+   "checked": 5750,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.m_eq": {
+   "tag": "A",
+   "checked": 5750,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.identity": {
+   "tag": "A",
+   "checked": 2218,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.size": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.m_le_size": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.S_neq0": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.q_v2": {
+   "tag": "A",
+   "checked": 5940,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.zcb_identity": {
+   "tag": "A",
+   "checked": 2380,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.deg.red_mod128": {
+   "tag": "A",
+   "checked": 2380,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.m_eq": {
+   "tag": "A",
+   "checked": 2380,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.budget": {
+   "tag": "A",
+   "checked": 716,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.instances": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.A.sigma_stability": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.BC.pool": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.BC.entry": {
+   "tag": "A",
+   "checked": 2016,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.deg.zcb_bc_identity": {
+   "tag": "A",
+   "checked": 2016,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.BC.vlim": {
+   "tag": "A",
+   "checked": 2016,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.BC.m_eq": {
+   "tag": "A",
+   "checked": 2016,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.BC.instances": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.replay.formula": {
+   "tag": "A",
+   "checked": 6,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.replay.instances": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.synth.cover": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.synth.residue": {
+   "tag": "A",
+   "checked": 1,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.canon.pool_nonempty": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.canon.lowdim": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.canon.realize": {
+   "tag": "A",
+   "checked": 167,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.canon.verified": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.huge.realize": {
+   "tag": "A",
+   "checked": 9,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.huge.t_struct": {
+   "tag": "A",
+   "checked": 9,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.run.huge.instances": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.pool": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.entry": {
+   "tag": "A",
+   "checked": 10,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.sigmaC": {
+   "tag": "A",
+   "checked": 10,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.ind_bound": {
+   "tag": "A",
+   "checked": 10,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.sigma_ind": {
+   "tag": "A",
+   "checked": 10,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.cert_fit": {
+   "tag": "B",
+   "checked": 10,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.centry.instances": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.const.slack": {
+   "tag": "B",
+   "checked": 0,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.data.S1": {
+   "tag": "A",
+   "checked": 7713,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.data.ratio": {
+   "tag": "A",
+   "checked": 7713,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.data.lam": {
+   "tag": "B",
+   "checked": 7713,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.data.tau": {
+   "tag": "A",
+   "checked": 7713,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.class": {
+   "tag": "A",
+   "checked": 1350,
+   "failed": 0,
+   "examples": []
+  },
+  "Z.CB.class.families": {
+   "tag": "A",
+   "checked": 425,
+   "failed": 0,
+   "examples": []
+  }
+ },
+ "counts": {
+  "cb_A_pool_small": 111,
+  "cb_A_pool_big": 8,
+  "cb_A_instances": 2380,
+  "cb_BC_pool": 168,
+  "cb_BC_instances": 2016,
+  "replay_tie_visits": 6,
+  "replay_zero_walks": 5,
+  "synth_runs": {
+   "5": 177,
+   "1": 316,
+   "2": 286,
+   "3": 254,
+   "4": 200,
+   "6": 125
+  },
+  "canon_scan_y": 3627,
+  "canon_scan_hits": 167,
+  "canon_verified": 167,
+  "canon_bigomega_bc": 0,
+  "centry_instances": 10,
+  "crossings_used": 7713,
+  "max_param_used": 20000034,
+  "total_checks": 115121,
+  "total_fail": 0
+ },
+ "stats": {
+  "cb_A_max_e": 11,
+  "cb_A_max_m_minus_G": -5.174925682500678,
+  "cb_BC_kinds": {
+   "b": 167,
+   "c": 1
+  },
+  "cb_BC_u_dependent": 0,
+  "synth_freq": {
+   "1": {
+    "hits": 2443,
+    "total": 299008,
+    "rate": 0.00817
+   },
+   "2": {
+    "hits": 1206,
+    "total": 299008,
+    "rate": 0.00403
+   },
+   "3": {
+    "hits": 583,
+    "total": 299008,
+    "rate": 0.00195
+   },
+   "4": {
+    "hits": 291,
+    "total": 299008,
+    "rate": 0.00097
+   },
+   "5": {
+    "hits": 153,
+    "total": 299008,
+    "rate": 0.00051
+   },
+   "6": {
+    "hits": 63,
+    "total": 299008,
+    "rate": 0.00021
+   },
+   "7": {
+    "hits": 39,
+    "total": 299008,
+    "rate": 0.00013
+   },
+   "8": {
+    "hits": 19,
+    "total": 299008,
+    "rate": 6e-05
+   },
+   "9": {
+    "hits": 6,
+    "total": 299008,
+    "rate": 2e-05
+   },
+   "10": {
+    "hits": 5,
+    "total": 299008,
+    "rate": 2e-05
+   },
+   "11": {
+    "hits": 3,
+    "total": 299008,
+    "rate": 1e-05
+   },
+   "12": {
+    "hits": 0,
+    "total": 299008,
+    "rate": 0.0
+   }
+  },
+  "tie_reach": {
+   "17": {
+    "reach": 8192,
+    "tot": 262144,
+    "frac": 0.03125,
+    "log2_frac": -5.0
+   },
+   "18": {
+    "reach": 0,
+    "tot": 524288,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "19": {
+    "reach": 0,
+    "tot": 1048576,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "20": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "21": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "22": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "23": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "24": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "25": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "26": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "27": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "28": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "29": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "30": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "31": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "32": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "33": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "34": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "35": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "36": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "37": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "38": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "39": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   },
+   "40": {
+    "reach_sampled": 0,
+    "n": 4000,
+    "frac": 0.0,
+    "log2_frac": null
+   }
+  },
+  "canon_hit_j1": {
+   "17": 167
+  },
+  "canon_run_lengths": {
+   "2": 167
+  },
+  "huge_runs": [
+   {
+    "y": 99987,
+    "target": 100000,
+    "j1": 54,
+    "m": 7,
+    "r": 2,
+    "s": 0,
+    "absDy": 9007199254607189,
+    "v2Z": 7,
+    "mu": 99984
+   },
+   {
+    "y": 100023,
+    "target": 100000,
+    "j1": 17,
+    "m": 5,
+    "r": 2,
+    "s": 0,
+    "absDy": 62757,
+    "v2Z": 5,
+    "mu": 100020
+   },
+   {
+    "target": 100000,
+    "found": 2
+   },
+   {
+    "y": 999977,
+    "target": 1000000,
+    "j1": 17,
+    "m": 7,
+    "r": 2,
+    "s": 0,
+    "absDy": 38085,
+    "v2Z": 7,
+    "mu": 999974
+   },
+   {
+    "y": 1000013,
+    "target": 1000000,
+    "j1": 54,
+    "m": 6,
+    "r": 2,
+    "s": 0,
+    "absDy": 9007199253402773,
+    "v2Z": 6,
+    "mu": 1000010
+   },
+   {
+    "target": 1000000,
+    "found": 2
+   },
+   {
+    "y": 9999974,
+    "target": 10000000,
+    "j1": 54,
+    "m": 6,
+    "r": 2,
+    "s": 0,
+    "absDy": 9007199241358997,
+    "v2Z": 6,
+    "mu": 9999971
+   },
+   {
+    "y": 10000010,
+    "target": 10000000,
+    "j1": 17,
+    "m": 5,
+    "r": 2,
+    "s": 0,
+    "absDy": 52837,
+    "v2Z": 5,
+    "mu": 10000007
+   },
+   {
+    "target": 10000000,
+    "found": 2
+   },
+   {
+    "y": 19999961,
+    "target": 20000000,
+    "j1": 54,
+    "m": 6,
+    "r": 2,
+    "s": 0,
+    "absDy": 9007199227976981,
+    "v2Z": 6,
+    "mu": 19999958
+   },
+   {
+    "y": 19999997,
+    "target": 20000000,
+    "j1": 17,
+    "m": 5,
+    "r": 2,
+    "s": 0,
+    "absDy": 40165,
+    "v2Z": 5,
+    "mu": 19999994
+   },
+   {
+    "y": 20000034,
+    "target": 20000000,
+    "j1": 54,
+    "m": 5,
+    "r": 2,
+    "s": 0,
+    "absDy": 9007199227976885,
+    "v2Z": 5,
+    "mu": 20000031
+   },
+   {
+    "target": 20000000,
+    "found": 3
+   }
+  ],
+  "slack_min": 10.981,
+  "slack_argmin": [
+   20000000,
+   64,
+   0
+  ],
+  "rstar_table": {
+   "0": 30,
+   "1": 24,
+   "2": 20,
+   "3": 16,
+   "4": 13
+  },
+  "e_histogram": {
+   "1": 674,
+   "2": 321,
+   "3": 178,
+   "4": 93,
+   "5": 44,
+   "6": 20,
+   "7": 10,
+   "8": 6,
+   "12": 2,
+   "13": 1,
+   "14": 1
+  },
+  "max_e": 14,
+  "max_m": 18
+ },
+ "examples": {},
+ "failures": [],
+ "timing": {
+  "cb_A": 5.5,
+  "cb_BC": 0.2,
+  "replay": 0.0,
+  "synth": 6.0,
+  "canon": 3.9,
+  "huge": 0.7,
+  "total": 16.4
+ }
+}

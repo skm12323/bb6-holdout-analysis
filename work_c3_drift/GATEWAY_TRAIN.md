@@ -1,5 +1,7 @@
 # Clock compatibility across consecutive gateway returns
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). ACCEPTED [A]+[B]: two-a-step recurrence and (TRAIN) congruence [A]; no three identical consecutive catapults [A]; the necessary-condition graph (5776 vertices) is cyclic [B]; cycle (8,244,81,27) not exactly repeatable [A]. The C1 shorthand means the accepted CLOCK bound (tau(n)<=n^2 derivation should be spelled out).
+
 2026-10-20. **UNREVIEWED proposed all-parameter identities and bounds.**
 This addresses repeated gateways using exact numerator/clock equations,
 without approximating their rational phase or assuming a finite window.

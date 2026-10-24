@@ -1,5 +1,7 @@
 # Stop checkpoint: small-gateway limitation of the joint reserve
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). Reviewed: the small-gateway counterexample to the joint reserve (x'=3x/2+16=2^m, W=8<9) is correct algebra on constructed local states.
+
 2026-10-21. Saved at the user's request to stop at the next node.
 All work in this directory remains **unreviewed and uncommitted**.
 Global EXT/non-halting is unproved; accepted K_clock is unchanged.

@@ -1,5 +1,7 @@
 # Initializing the denominator reserve at low-deficit bare-tie gateways
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). Accepted as a conditional result [A-cond]+[B] (b-parent formula [B]); not a global ranking function.
+
 2026-10-21. **UNREVIEWED proposed lemma.** This removes the separate
 initial-potential assumption for the specific entry branches below.
 It does not establish that every trajectory enters through one of them.

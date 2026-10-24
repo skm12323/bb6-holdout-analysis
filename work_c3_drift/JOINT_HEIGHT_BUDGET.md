@@ -1,5 +1,7 @@
 # A joint record, denominator, and phase-height reserve
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). Accepted as a conditional result [A-cond]; heights symmetric about 3/2 (no use of the refuted 'strong a preserves ht'); not a global ranking function.
+
 2026-10-21. **UNREVIEWED proposed composition invariant.** It closes
 the bookkeeping of specified copies and large gateways, not all exits.
 

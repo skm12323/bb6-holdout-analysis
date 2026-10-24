@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "orbit_points_checked": 1044480,
+  "cases": [
+    {
+      "L": 17,
+      "unit_modulus_bits": 12,
+      "period": 1024,
+      "starting_unit": 1,
+      "clock_advance_valuation": 15
+    },
+    {
+      "L": 17,
+      "unit_modulus_bits": 12,
+      "period": 1024,
+      "starting_unit": 3,
+      "clock_advance_valuation": 15
+    },
+    {
+      "L": 17,
+      "unit_modulus_bits": 12,
+      "period": 1024,
+      "starting_unit": 5,
+      "clock_advance_valuation": 15
+    },
+    {
+      "L": 17,
+      "unit_modulus_bits": 12,
+      "period": 1024,
+      "starting_unit": 7,
+      "clock_advance_valuation": 15
+    },
+    {
+      "L": 18,
+      "unit_modulus_bits": 13,
+      "period": 2048,
+      "starting_unit": 1,
+      "clock_advance_valuation": 16
+    },
+    {
+      "L": 18,
+      "unit_modulus_bits": 13,
+      "period": 2048,
+      "starting_unit": 3,
+      "clock_advance_valuation": 16
+    },
+    {
+      "L": 18,
+      "unit_modulus_bits": 13,
+      "period": 2048,
+      "starting_unit": 5,
+      "clock_advance_valuation": 16
+    },
+    {
+      "L": 18,
+      "unit_modulus_bits": 13,
+      "period": 2048,
+      "starting_unit": 7,
+      "clock_advance_valuation": 16
+    },
+    {
+      "L": 19,
+      "unit_modulus_bits": 14,
+      "period": 4096,
+      "starting_unit": 1,
+      "clock_advance_valuation": 17
+    },
+    {
+      "L": 19,
+      "unit_modulus_bits": 14,
+      "period": 4096,
+      "starting_unit": 3,
+      "clock_advance_valuation": 17
+    },
+    {
+      "L": 19,
+      "unit_modulus_bits": 14,
+      "period": 4096,
+      "starting_unit": 5,
+      "clock_advance_valuation": 17
+    },
+    {
+      "L": 19,
+      "unit_modulus_bits": 14,
+      "period": 4096,
+      "starting_unit": 7,
+      "clock_advance_valuation": 17
+    },
+    {
+      "L": 20,
+      "unit_modulus_bits": 15,
+      "period": 8192,
+      "starting_unit": 1,
+      "clock_advance_valuation": 18
+    },
+    {
+      "L": 20,
+      "unit_modulus_bits": 15,
+      "period": 8192,
+      "starting_unit": 3,
+      "clock_advance_valuation": 18
+    },
+    {
+      "L": 20,
+      "unit_modulus_bits": 15,
+      "period": 8192,
+      "starting_unit": 5,
+      "clock_advance_valuation": 18
+    },
+    {
+      "L": 20,
+      "unit_modulus_bits": 15,
+      "period": 8192,
+      "starting_unit": 7,
+      "clock_advance_valuation": 18
+    },
+    {
+      "L": 21,
+      "unit_modulus_bits": 16,
+      "period": 16384,
+      "starting_unit": 1,
+      "clock_advance_valuation": 19
+    },
+    {
+      "L": 21,
+      "unit_modulus_bits": 16,
+      "period": 16384,
+      "starting_unit": 3,
+      "clock_advance_valuation": 19
+    },
+    {
+      "L": 21,
+      "unit_modulus_bits": 16,
+      "period": 16384,
+      "starting_unit": 5,
+      "clock_advance_valuation": 19
+    },
+    {
+      "L": 21,
+      "unit_modulus_bits": 16,
+      "period": 16384,
+      "starting_unit": 7,
+      "clock_advance_valuation": 19
+    },
+    {
+      "L": 22,
+      "unit_modulus_bits": 17,
+      "period": 32768,
+      "starting_unit": 1,
+      "clock_advance_valuation": 20
+    },
+    {
+      "L": 22,
+      "unit_modulus_bits": 17,
+      "period": 32768,
+      "starting_unit": 3,
+      "clock_advance_valuation": 20
+    },
+    {
+      "L": 22,
+      "unit_modulus_bits": 17,
+      "period": 32768,
+      "starting_unit": 5,
+      "clock_advance_valuation": 20
+    },
+    {
+      "L": 22,
+      "unit_modulus_bits": 17,
+      "period": 32768,
+      "starting_unit": 7,
+      "clock_advance_valuation": 20
+    },
+    {
+      "L": 23,
+      "unit_modulus_bits": 18,
+      "period": 65536,
+      "starting_unit": 1,
+      "clock_advance_valuation": 21
+    },
+    {
+      "L": 23,
+      "unit_modulus_bits": 18,
+      "period": 65536,
+      "starting_unit": 3,
+      "clock_advance_valuation": 21
+    },
+    {
+      "L": 23,
+      "unit_modulus_bits": 18,
+      "period": 65536,
+      "starting_unit": 5,
+      "clock_advance_valuation": 21
+    },
+    {
+      "L": 23,
+      "unit_modulus_bits": 18,
+      "period": 65536,
+      "starting_unit": 7,
+      "clock_advance_valuation": 21
+    },
+    {
+      "L": 24,
+      "unit_modulus_bits": 19,
+      "period": 131072,
+      "starting_unit": 1,
+      "clock_advance_valuation": 22
+    },
+    {
+      "L": 24,
+      "unit_modulus_bits": 19,
+      "period": 131072,
+      "starting_unit": 3,
+      "clock_advance_valuation": 22
+    },
+    {
+      "L": 24,
+      "unit_modulus_bits": 19,
+      "period": 131072,
+      "starting_unit": 5,
+      "clock_advance_valuation": 22
+    },
+    {
+      "L": 24,
+      "unit_modulus_bits": 19,
+      "period": 131072,
+      "starting_unit": 7,
+      "clock_advance_valuation": 22
+    }
+  ],
+  "scope": "Arithmetic checks of necessary clock orbits; no canonical train of these lengths is asserted."
+}

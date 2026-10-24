@@ -1,0 +1,85 @@
+{
+ "stats": {
+  "end": 18929152,
+  "small": 7760112,
+  "UNSAFE_OR_FREE": 4
+ },
+ "walks_with_gates": {
+  "1": 95152,
+  "2": 4
+ },
+ "worst_relative_record": [
+  0,
+  {
+   "y": 256,
+   "theta": "-336",
+   "word": [
+    255
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "y": 411,
+   "theta": "-2578/81",
+   "status": "small",
+   "maxrel": 19,
+   "gates": 2,
+   "nt_gates": 2,
+   "word": [
+    5,
+    17,
+    5,
+    5,
+    1
+   ]
+  },
+  {
+   "y": 411,
+   "theta": "428364267776081092120841119605235633808806234560854230096452419337814952721129752094722608364935504581239105392215136181155310/81",
+   "status": "small",
+   "maxrel": 19,
+   "gates": 2,
+   "nt_gates": 2,
+   "word": [
+    5,
+    17,
+    5,
+    5,
+    1
+   ]
+  },
+  {
+   "y": 422,
+   "theta": "-2666/81",
+   "status": "small",
+   "maxrel": 20,
+   "gates": 2,
+   "nt_gates": 2,
+   "word": [
+    5,
+    17,
+    5,
+    5,
+    1
+   ]
+  },
+  {
+   "y": 422,
+   "theta": "877290020405414076663482612951522578040435168380629463237534554803845023172873732289991901931387913382377687843256598899011351958/81",
+   "status": "small",
+   "maxrel": 20,
+   "gates": 2,
+   "nt_gates": 2,
+   "word": [
+    5,
+    17,
+    5,
+    5,
+    1
+   ]
+  }
+ ],
+ "seconds": 1431.5,
+ "scope": "Synthetic affine starts on canonical data: y in [252,500), all classes of 3-adic rank r<=4 with height <= HR[r] (2048,2048,760,330,190) and both lift bits; not reachability."
+}

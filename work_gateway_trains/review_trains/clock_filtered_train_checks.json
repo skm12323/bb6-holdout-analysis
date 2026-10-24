@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "parameter_range": [
+    5,
+    256
+  ],
+  "vertices": 532,
+  "edges": 14,
+  "acyclic": true,
+  "maximum_catapult_labels": 3,
+  "longest_necessary_word": [
+    17,
+    125,
+    5
+  ],
+  "longest_word_clock_consistent": true,
+  "initial_clock_residue": "32693",
+  "initial_clock_precision": 15,
+  "internal_labels": [
+    17,
+    54,
+    90,
+    125,
+    161,
+    198,
+    234
+  ],
+  "linear_clock_checks": 16381,
+  "parameter_three_pointer_gaps": 899,
+  "scope": "Necessary-condition graph. Upper bound is valid for actual trains; the displayed longest word is not claimed reachable."
+}

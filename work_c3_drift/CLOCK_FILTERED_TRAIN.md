@@ -1,5 +1,7 @@
 # The missing five-entry clock condition bounds short-scale gateway trains
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). ACCEPTED: (ENTRY) k≡6 mod 16 [A], smallest internal label 17 [B]; (DROP2) [A]; param-3 fire gaps >=5 [A: a J=3 epoch occupies 5 pointers and odd type-a crossings are fire pointers; B to 10^8]; at most 3 consecutive catapult labels in [5,16381] [A+B]; revised graph acyclic [B].
+
 2026-10-20. **UNREVIEWED proposed theorem.** Uses the exact recurrence
 of GATEWAY_TRAIN, the accepted small canonical base, and C1/clock inputs.
 It bounds consecutive all-a gateway trains, not arbitrary return words.

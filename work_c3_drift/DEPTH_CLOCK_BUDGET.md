@@ -1,5 +1,7 @@
 # Coupling orbit depth to a source, and charging a large paired gateway
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). Accepted as a conditional result [A-cond]+[B]; not a global ranking function.
+
 2026-10-21. **UNREVIEWED proposed necessary condition and conditional
 budget lemma.** Neither joint reachability nor global EXT is proved.
 

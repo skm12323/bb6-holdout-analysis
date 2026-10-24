@@ -1,0 +1,2095 @@
+{
+ "status": "PASS",
+ "scope": "Record-budget ledger identities L1-L4 on exact walks: tie->tie witness (synthetic), 36 bad-class representatives (canonical [B] states), O2 family (synthetic). Canonical crossings from Calendar(512). Not a global EXT proof; K_clock unchanged.",
+ "identities": {
+  "L1": "within-run per-step record drop = j-j'-1-eps, >=1 (one-step descent: =0)",
+  "L2": "NT gate record climb = j'-j+1 (j=5 tie: m-4)",
+  "L3": "R_after - R_peak = j' + 1 + toll - y; run-paid <=> j' <= y-toll-1; global-paid <=> R_after <= R0",
+  "L4": "all gates globally-paid <=> maxrec <= R0; maxrec is attained at the start or immediately after a gate"
+ },
+ "counts": {
+  "walks": 45,
+  "gates": 46,
+  "run_paid": 1,
+  "globally_paid": 3,
+  "failures": 0
+ },
+ "maxrec_over_R0": {
+  "witness_73515_98094": 0,
+  "bad_5_5": 2,
+  "bad_5_21": 1,
+  "bad_5_-27": 0,
+  "bad_5_-11": 1,
+  "bad_8_58": 2,
+  "bad_8_186": 1,
+  "bad_8_-198": 0,
+  "bad_8_-70": 1,
+  "bad_12_1012": 2,
+  "bad_12_3060": 1,
+  "bad_12_-3084": 0,
+  "bad_12_-1036": 1,
+  "bad_14_4081": 2,
+  "bad_14_12273": 1,
+  "bad_14_-12303": 0,
+  "bad_14_-4111": 1,
+  "bad_17_32702": 1,
+  "bad_17_32750": 2,
+  "bad_17_98238": 3,
+  "bad_17_98286": 1,
+  "bad_17_-98370": 0,
+  "bad_17_-98332": 0,
+  "bad_17_-32834": 3,
+  "bad_17_-32786": 1,
+  "bad_22_1048552": 2,
+  "bad_22_3145704": 1,
+  "bad_22_5242856": 3,
+  "bad_22_7340008": 1,
+  "bad_24_4194277": 2,
+  "bad_24_12582885": 1,
+  "bad_24_20971493": 3,
+  "bad_24_29360101": 1,
+  "bad_27_33554402": 2,
+  "bad_27_100663266": 1,
+  "bad_27_167772130": 3,
+  "bad_27_234880994": 1,
+  "O2_m6": 2,
+  "O2_m8": 4,
+  "O2_m10": 6,
+  "O2_m12": 8,
+  "O2_m16": 12,
+  "O2_m24": 20,
+  "O2_m32": 28,
+  "O2_m64": 60
+ },
+ "unpaid_gates": [
+  {
+   "label": "witness_73515_98094",
+   "j": 5,
+   "jp": 17,
+   "G_before": 3,
+   "R": 8,
+   "R_after": 21,
+   "climb": 13,
+   "y": 17,
+   "toll": 1,
+   "slack0": 73496,
+   "paid": false,
+   "paid0": true,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "witness_73515_98094",
+   "j": 17,
+   "jp": 17,
+   "G_before": 4,
+   "R": 21,
+   "R_after": 22,
+   "climb": 1,
+   "y": 17,
+   "toll": 0,
+   "slack0": 73494,
+   "paid": false,
+   "paid0": true,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_5_5",
+   "j": 5,
+   "jp": 6,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 7,
+   "climb": 2,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_5_21",
+   "j": 5,
+   "jp": 5,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 6,
+   "climb": 1,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_5_-27",
+   "j": 5,
+   "jp": null,
+   "G_before": 0,
+   "R": 5,
+   "R_after": null,
+   "climb": null,
+   "y": 5,
+   "toll": 0,
+   "paid": null,
+   "R_after_minus_peak": null,
+   "zero": true
+  },
+  {
+   "label": "bad_5_-11",
+   "j": 5,
+   "jp": 5,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 6,
+   "climb": 1,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_8_58",
+   "j": 8,
+   "jp": 9,
+   "G_before": 0,
+   "R": 8,
+   "R_after": 10,
+   "climb": 2,
+   "y": 8,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_8_186",
+   "j": 8,
+   "jp": 8,
+   "G_before": 0,
+   "R": 8,
+   "R_after": 9,
+   "climb": 1,
+   "y": 8,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_8_-198",
+   "j": 8,
+   "jp": null,
+   "G_before": 0,
+   "R": 8,
+   "R_after": null,
+   "climb": null,
+   "y": 8,
+   "toll": 0,
+   "paid": null,
+   "R_after_minus_peak": null,
+   "zero": true
+  },
+  {
+   "label": "bad_8_-70",
+   "j": 8,
+   "jp": 8,
+   "G_before": 0,
+   "R": 8,
+   "R_after": 9,
+   "climb": 1,
+   "y": 8,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_12_1012",
+   "j": 12,
+   "jp": 13,
+   "G_before": 0,
+   "R": 12,
+   "R_after": 14,
+   "climb": 2,
+   "y": 12,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_12_3060",
+   "j": 12,
+   "jp": 12,
+   "G_before": 0,
+   "R": 12,
+   "R_after": 13,
+   "climb": 1,
+   "y": 12,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_12_-3084",
+   "j": 12,
+   "jp": null,
+   "G_before": 0,
+   "R": 12,
+   "R_after": null,
+   "climb": null,
+   "y": 12,
+   "toll": 0,
+   "paid": null,
+   "R_after_minus_peak": null,
+   "zero": true
+  },
+  {
+   "label": "bad_12_-1036",
+   "j": 12,
+   "jp": 12,
+   "G_before": 0,
+   "R": 12,
+   "R_after": 13,
+   "climb": 1,
+   "y": 12,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_14_4081",
+   "j": 14,
+   "jp": 15,
+   "G_before": 0,
+   "R": 14,
+   "R_after": 16,
+   "climb": 2,
+   "y": 14,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_14_12273",
+   "j": 14,
+   "jp": 14,
+   "G_before": 0,
+   "R": 14,
+   "R_after": 15,
+   "climb": 1,
+   "y": 14,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_14_-12303",
+   "j": 14,
+   "jp": null,
+   "G_before": 0,
+   "R": 14,
+   "R_after": null,
+   "climb": null,
+   "y": 14,
+   "toll": 0,
+   "paid": null,
+   "R_after_minus_peak": null,
+   "zero": true
+  },
+  {
+   "label": "bad_14_-4111",
+   "j": 14,
+   "jp": 14,
+   "G_before": 0,
+   "R": 14,
+   "R_after": 15,
+   "climb": 1,
+   "y": 14,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_17_32702",
+   "j": 5,
+   "jp": 16,
+   "G_before": 1,
+   "R": 6,
+   "R_after": 18,
+   "climb": 12,
+   "y": 17,
+   "toll": 1,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_17_32750",
+   "j": 17,
+   "jp": 18,
+   "G_before": 0,
+   "R": 17,
+   "R_after": 19,
+   "climb": 2,
+   "y": 17,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_17_98238",
+   "j": 5,
+   "jp": 18,
+   "G_before": 1,
+   "R": 6,
+   "R_after": 20,
+   "climb": 14,
+   "y": 17,
+   "toll": 1,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 3
+  },
+  {
+   "label": "bad_17_98286",
+   "j": 17,
+   "jp": 17,
+   "G_before": 0,
+   "R": 17,
+   "R_after": 18,
+   "climb": 1,
+   "y": 17,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_17_-32834",
+   "j": 5,
+   "jp": 17,
+   "G_before": 1,
+   "R": 6,
+   "R_after": 19,
+   "climb": 13,
+   "y": 17,
+   "toll": 1,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_17_-32834",
+   "j": 17,
+   "jp": 17,
+   "G_before": 2,
+   "R": 19,
+   "R_after": 20,
+   "climb": 1,
+   "y": 17,
+   "toll": 0,
+   "slack0": -2,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_17_-32786",
+   "j": 17,
+   "jp": 17,
+   "G_before": 0,
+   "R": 17,
+   "R_after": 18,
+   "climb": 1,
+   "y": 17,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_22_1048552",
+   "j": 22,
+   "jp": 23,
+   "G_before": 0,
+   "R": 22,
+   "R_after": 24,
+   "climb": 2,
+   "y": 22,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_22_3145704",
+   "j": 22,
+   "jp": 22,
+   "G_before": 0,
+   "R": 22,
+   "R_after": 23,
+   "climb": 1,
+   "y": 22,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_22_5242856",
+   "j": 22,
+   "jp": 24,
+   "G_before": 0,
+   "R": 22,
+   "R_after": 25,
+   "climb": 3,
+   "y": 22,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 3
+  },
+  {
+   "label": "bad_22_7340008",
+   "j": 22,
+   "jp": 22,
+   "G_before": 0,
+   "R": 22,
+   "R_after": 23,
+   "climb": 1,
+   "y": 22,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_24_4194277",
+   "j": 24,
+   "jp": 25,
+   "G_before": 0,
+   "R": 24,
+   "R_after": 26,
+   "climb": 2,
+   "y": 24,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_24_12582885",
+   "j": 24,
+   "jp": 24,
+   "G_before": 0,
+   "R": 24,
+   "R_after": 25,
+   "climb": 1,
+   "y": 24,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_24_20971493",
+   "j": 24,
+   "jp": 26,
+   "G_before": 0,
+   "R": 24,
+   "R_after": 27,
+   "climb": 3,
+   "y": 24,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 3
+  },
+  {
+   "label": "bad_24_29360101",
+   "j": 24,
+   "jp": 24,
+   "G_before": 0,
+   "R": 24,
+   "R_after": 25,
+   "climb": 1,
+   "y": 24,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_27_33554402",
+   "j": 27,
+   "jp": 28,
+   "G_before": 0,
+   "R": 27,
+   "R_after": 29,
+   "climb": 2,
+   "y": 27,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "bad_27_100663266",
+   "j": 27,
+   "jp": 27,
+   "G_before": 0,
+   "R": 27,
+   "R_after": 28,
+   "climb": 1,
+   "y": 27,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "bad_27_167772130",
+   "j": 27,
+   "jp": 29,
+   "G_before": 0,
+   "R": 27,
+   "R_after": 30,
+   "climb": 3,
+   "y": 27,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 3
+  },
+  {
+   "label": "bad_27_234880994",
+   "j": 27,
+   "jp": 27,
+   "G_before": 0,
+   "R": 27,
+   "R_after": 28,
+   "climb": 1,
+   "y": 27,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 1
+  },
+  {
+   "label": "O2_m6",
+   "j": 5,
+   "jp": 6,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 7,
+   "climb": 2,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 2
+  },
+  {
+   "label": "O2_m8",
+   "j": 5,
+   "jp": 8,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 9,
+   "climb": 4,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 4
+  },
+  {
+   "label": "O2_m10",
+   "j": 5,
+   "jp": 10,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 11,
+   "climb": 6,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 6
+  },
+  {
+   "label": "O2_m12",
+   "j": 5,
+   "jp": 12,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 13,
+   "climb": 8,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 8
+  },
+  {
+   "label": "O2_m16",
+   "j": 5,
+   "jp": 16,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 17,
+   "climb": 12,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 12
+  },
+  {
+   "label": "O2_m24",
+   "j": 5,
+   "jp": 24,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 25,
+   "climb": 20,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 20
+  },
+  {
+   "label": "O2_m32",
+   "j": 5,
+   "jp": 32,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 33,
+   "climb": 28,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 28
+  },
+  {
+   "label": "O2_m64",
+   "j": 5,
+   "jp": 64,
+   "G_before": 0,
+   "R": 5,
+   "R_after": 65,
+   "climb": 60,
+   "y": 5,
+   "toll": 0,
+   "slack0": 0,
+   "paid": false,
+   "paid0": false,
+   "R_after_minus_peak": 60
+  }
+ ],
+ "walks": [
+  {
+   "label": "witness_73515_98094",
+   "canonical": false,
+   "R0": 73515,
+   "maxrec": 73515,
+   "n_chains": 7,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 17,
+     "G_before": 1,
+     "R": 6,
+     "R_after": 19,
+     "climb": 13,
+     "y": 73515,
+     "toll": 1,
+     "slack0": 0,
+     "paid": true,
+     "paid0": true,
+     "R_after_minus_peak": -73496
+    },
+    {
+     "j": 5,
+     "jp": 17,
+     "G_before": 3,
+     "R": 8,
+     "R_after": 21,
+     "climb": 13,
+     "y": 17,
+     "toll": 1,
+     "slack0": 73496,
+     "paid": false,
+     "paid0": true,
+     "R_after_minus_peak": 2
+    },
+    {
+     "j": 17,
+     "jp": 17,
+     "G_before": 4,
+     "R": 21,
+     "R_after": 22,
+     "climb": 1,
+     "y": 17,
+     "toll": 0,
+     "slack0": 73494,
+     "paid": false,
+     "paid0": true,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": true,
+   "word": [
+    73515,
+    5,
+    17,
+    5,
+    17,
+    17,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_5_5",
+   "canonical": true,
+   "R0": 5,
+   "maxrec": 7,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 6,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 7,
+     "climb": 2,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    6,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_5_21",
+   "canonical": true,
+   "R0": 5,
+   "maxrec": 6,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 5,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 6,
+     "climb": 1,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    5,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_5_-27",
+   "canonical": true,
+   "R0": 5,
+   "maxrec": 5,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 5,
+     "jp": null,
+     "G_before": 0,
+     "R": 5,
+     "R_after": null,
+     "climb": null,
+     "y": 5,
+     "toll": 0,
+     "paid": null,
+     "R_after_minus_peak": null,
+     "zero": true
+    }
+   ],
+   "all_paid0": true,
+   "word": [
+    5,
+    5
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_5_-11",
+   "canonical": true,
+   "R0": 5,
+   "maxrec": 6,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 5,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 6,
+     "climb": 1,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    5,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_8_58",
+   "canonical": true,
+   "R0": 8,
+   "maxrec": 10,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 8,
+     "jp": 9,
+     "G_before": 0,
+     "R": 8,
+     "R_after": 10,
+     "climb": 2,
+     "y": 8,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    8,
+    9,
+    4
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_8_186",
+   "canonical": true,
+   "R0": 8,
+   "maxrec": 9,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 8,
+     "jp": 8,
+     "G_before": 0,
+     "R": 8,
+     "R_after": 9,
+     "climb": 1,
+     "y": 8,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    8,
+    8,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_8_-198",
+   "canonical": true,
+   "R0": 8,
+   "maxrec": 8,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 8,
+     "jp": null,
+     "G_before": 0,
+     "R": 8,
+     "R_after": null,
+     "climb": null,
+     "y": 8,
+     "toll": 0,
+     "paid": null,
+     "R_after_minus_peak": null,
+     "zero": true
+    }
+   ],
+   "all_paid0": true,
+   "word": [
+    8,
+    8
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_8_-70",
+   "canonical": true,
+   "R0": 8,
+   "maxrec": 9,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 8,
+     "jp": 8,
+     "G_before": 0,
+     "R": 8,
+     "R_after": 9,
+     "climb": 1,
+     "y": 8,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    8,
+    8,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_12_1012",
+   "canonical": true,
+   "R0": 12,
+   "maxrec": 14,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 12,
+     "jp": 13,
+     "G_before": 0,
+     "R": 12,
+     "R_after": 14,
+     "climb": 2,
+     "y": 12,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    12,
+    13,
+    2
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_12_3060",
+   "canonical": true,
+   "R0": 12,
+   "maxrec": 13,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 12,
+     "jp": 12,
+     "G_before": 0,
+     "R": 12,
+     "R_after": 13,
+     "climb": 1,
+     "y": 12,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    12,
+    12,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_12_-3084",
+   "canonical": true,
+   "R0": 12,
+   "maxrec": 12,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 12,
+     "jp": null,
+     "G_before": 0,
+     "R": 12,
+     "R_after": null,
+     "climb": null,
+     "y": 12,
+     "toll": 0,
+     "paid": null,
+     "R_after_minus_peak": null,
+     "zero": true
+    }
+   ],
+   "all_paid0": true,
+   "word": [
+    12,
+    12
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_12_-1036",
+   "canonical": true,
+   "R0": 12,
+   "maxrec": 13,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 12,
+     "jp": 12,
+     "G_before": 0,
+     "R": 12,
+     "R_after": 13,
+     "climb": 1,
+     "y": 12,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    12,
+    12,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_14_4081",
+   "canonical": true,
+   "R0": 14,
+   "maxrec": 16,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 14,
+     "jp": 15,
+     "G_before": 0,
+     "R": 14,
+     "R_after": 16,
+     "climb": 2,
+     "y": 14,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    14,
+    15,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_14_12273",
+   "canonical": true,
+   "R0": 14,
+   "maxrec": 15,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 14,
+     "jp": 14,
+     "G_before": 0,
+     "R": 14,
+     "R_after": 15,
+     "climb": 1,
+     "y": 14,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    14,
+    14,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_14_-12303",
+   "canonical": true,
+   "R0": 14,
+   "maxrec": 14,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 14,
+     "jp": null,
+     "G_before": 0,
+     "R": 14,
+     "R_after": null,
+     "climb": null,
+     "y": 14,
+     "toll": 0,
+     "paid": null,
+     "R_after_minus_peak": null,
+     "zero": true
+    }
+   ],
+   "all_paid0": true,
+   "word": [
+    14,
+    14
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_14_-4111",
+   "canonical": true,
+   "R0": 14,
+   "maxrec": 15,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 14,
+     "jp": 14,
+     "G_before": 0,
+     "R": 14,
+     "R_after": 15,
+     "climb": 1,
+     "y": 14,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    14,
+    14,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_32702",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 18,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 16,
+     "G_before": 1,
+     "R": 6,
+     "R_after": 18,
+     "climb": 12,
+     "y": 17,
+     "toll": 1,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    5,
+    16
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_32750",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 19,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 17,
+     "jp": 18,
+     "G_before": 0,
+     "R": 17,
+     "R_after": 19,
+     "climb": 2,
+     "y": 17,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    18,
+    3
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_98238",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 20,
+   "n_chains": 4,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 18,
+     "G_before": 1,
+     "R": 6,
+     "R_after": 20,
+     "climb": 14,
+     "y": 17,
+     "toll": 1,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 3
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    5,
+    18,
+    3
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_98286",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 18,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 17,
+     "jp": 17,
+     "G_before": 0,
+     "R": 17,
+     "R_after": 18,
+     "climb": 1,
+     "y": 17,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    17,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_-98370",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 17,
+   "n_chains": 1,
+   "gates": [],
+   "all_paid0": true,
+   "word": [
+    17
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_-98332",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 17,
+   "n_chains": 1,
+   "gates": [],
+   "all_paid0": true,
+   "word": [
+    17
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_-32834",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 20,
+   "n_chains": 5,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 17,
+     "G_before": 1,
+     "R": 6,
+     "R_after": 19,
+     "climb": 13,
+     "y": 17,
+     "toll": 1,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    },
+    {
+     "j": 17,
+     "jp": 17,
+     "G_before": 2,
+     "R": 19,
+     "R_after": 20,
+     "climb": 1,
+     "y": 17,
+     "toll": 0,
+     "slack0": -2,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    5,
+    17,
+    17,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_17_-32786",
+   "canonical": true,
+   "R0": 17,
+   "maxrec": 18,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 17,
+     "jp": 17,
+     "G_before": 0,
+     "R": 17,
+     "R_after": 18,
+     "climb": 1,
+     "y": 17,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    17,
+    17,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_22_1048552",
+   "canonical": true,
+   "R0": 22,
+   "maxrec": 24,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 22,
+     "jp": 23,
+     "G_before": 0,
+     "R": 22,
+     "R_after": 24,
+     "climb": 2,
+     "y": 22,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    22,
+    23,
+    2
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_22_3145704",
+   "canonical": true,
+   "R0": 22,
+   "maxrec": 23,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 22,
+     "jp": 22,
+     "G_before": 0,
+     "R": 22,
+     "R_after": 23,
+     "climb": 1,
+     "y": 22,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    22,
+    22,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_22_5242856",
+   "canonical": true,
+   "R0": 22,
+   "maxrec": 25,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 22,
+     "jp": 24,
+     "G_before": 0,
+     "R": 22,
+     "R_after": 25,
+     "climb": 3,
+     "y": 22,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 3
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    22,
+    24,
+    2
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_22_7340008",
+   "canonical": true,
+   "R0": 22,
+   "maxrec": 23,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 22,
+     "jp": 22,
+     "G_before": 0,
+     "R": 22,
+     "R_after": 23,
+     "climb": 1,
+     "y": 22,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    22,
+    22,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_24_4194277",
+   "canonical": true,
+   "R0": 24,
+   "maxrec": 26,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 24,
+     "jp": 25,
+     "G_before": 0,
+     "R": 24,
+     "R_after": 26,
+     "climb": 2,
+     "y": 24,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    24,
+    25,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_24_12582885",
+   "canonical": true,
+   "R0": 24,
+   "maxrec": 25,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 24,
+     "jp": 24,
+     "G_before": 0,
+     "R": 24,
+     "R_after": 25,
+     "climb": 1,
+     "y": 24,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    24,
+    24,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_24_20971493",
+   "canonical": true,
+   "R0": 24,
+   "maxrec": 27,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 24,
+     "jp": 26,
+     "G_before": 0,
+     "R": 24,
+     "R_after": 27,
+     "climb": 3,
+     "y": 24,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 3
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    24,
+    26
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_24_29360101",
+   "canonical": true,
+   "R0": 24,
+   "maxrec": 25,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 24,
+     "jp": 24,
+     "G_before": 0,
+     "R": 24,
+     "R_after": 25,
+     "climb": 1,
+     "y": 24,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    24,
+    24,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_27_33554402",
+   "canonical": true,
+   "R0": 27,
+   "maxrec": 29,
+   "n_chains": 4,
+   "gates": [
+    {
+     "j": 27,
+     "jp": 28,
+     "G_before": 0,
+     "R": 27,
+     "R_after": 29,
+     "climb": 2,
+     "y": 27,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    27,
+    28,
+    6,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_27_100663266",
+   "canonical": true,
+   "R0": 27,
+   "maxrec": 28,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 27,
+     "jp": 27,
+     "G_before": 0,
+     "R": 27,
+     "R_after": 28,
+     "climb": 1,
+     "y": 27,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    27,
+    27,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_27_167772130",
+   "canonical": true,
+   "R0": 27,
+   "maxrec": 30,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 27,
+     "jp": 29,
+     "G_before": 0,
+     "R": 27,
+     "R_after": 30,
+     "climb": 3,
+     "y": 27,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 3
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    27,
+    29
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "bad_27_234880994",
+   "canonical": true,
+   "R0": 27,
+   "maxrec": 28,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 27,
+     "jp": 27,
+     "G_before": 0,
+     "R": 27,
+     "R_after": 28,
+     "climb": 1,
+     "y": 27,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 1
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    27,
+    27,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m6",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 7,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 6,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 7,
+     "climb": 2,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 2
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    6,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m8",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 9,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 8,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 9,
+     "climb": 4,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 4
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    8,
+    3
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m10",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 11,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 10,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 11,
+     "climb": 6,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 6
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    10
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m12",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 13,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 12,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 13,
+     "climb": 8,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 8
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    12,
+    2
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m16",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 17,
+   "n_chains": 2,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 16,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 17,
+     "climb": 12,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 12
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    16
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m24",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 25,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 24,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 25,
+     "climb": 20,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 20
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    24,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m32",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 33,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 32,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 33,
+     "climb": 28,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 28
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    32,
+    1
+   ],
+   "status": "ok"
+  },
+  {
+   "label": "O2_m64",
+   "canonical": false,
+   "R0": 5,
+   "maxrec": 65,
+   "n_chains": 3,
+   "gates": [
+    {
+     "j": 5,
+     "jp": 64,
+     "G_before": 0,
+     "R": 5,
+     "R_after": 65,
+     "climb": 60,
+     "y": 5,
+     "toll": 0,
+     "slack0": 0,
+     "paid": false,
+     "paid0": false,
+     "R_after_minus_peak": 60
+    }
+   ],
+   "all_paid0": false,
+   "word": [
+    5,
+    64,
+    3
+   ],
+   "status": "ok"
+  }
+ ],
+ "failures": [],
+ "timing": 0.0
+}

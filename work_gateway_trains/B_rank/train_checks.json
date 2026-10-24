@@ -1,0 +1,947 @@
+{
+ "status": "PASS",
+ "failures": [],
+ "counts": {
+  "T1_table_consistent_n": 5000,
+  "T1_lambda_consistent_n": 1592,
+  "T2_kernels_scanned": 512,
+  "T2_parameter5_chains": 14,
+  "T2_ties": 0,
+  "T2_gateway_patterns": 0,
+  "T3_odd_a_labels": 302877,
+  "T3_A_internal_labels": 27879,
+  "T3_omega5_labels": 13967,
+  "T3_B_internal_labels": 0,
+  "T4_walks": 36,
+  "T4_total_ties": 9,
+  "T4_max_train": 2,
+  "T4_max_m": 18,
+  "T4T5_class_recursion_ok": 8,
+  "T6_a_chains": 25,
+  "T6_S2_ok": 25,
+  "T7_j": 22,
+  "T7_k": 8,
+  "T7_order_of_3": 262144,
+  "T7_dangerous_classes": 32768,
+  "T7_v2_of_3k": 3,
+  "T7_total_classes": 1048576,
+  "T8_distinct_m_vs_u": 9,
+  "T8_max_m_vs_u": 14,
+  "T8_m_fixed_when_u1": 1
+ },
+ "data": {
+  "T2_five_class_mod16": {
+   "start": 1,
+   "2": 7,
+   "0": 7
+  },
+  "T3_A_internal_first20": [
+   17,
+   54,
+   90,
+   125,
+   161,
+   198,
+   234,
+   270,
+   306,
+   343,
+   379,
+   411,
+   447,
+   484,
+   520,
+   556,
+   592,
+   629,
+   665,
+   700
+  ],
+  "T3_A_internal_mod32": {
+   "6": 13940,
+   "22": 13939
+  },
+  "T3_B_internal_first20": [],
+  "T3_labels_5_16": [
+   {
+    "m": 5,
+    "kind": "a",
+    "k": 1,
+    "k_mod32": 1,
+    "omega": null,
+    "lY_mod16": null
+   },
+   {
+    "m": 6,
+    "kind": "b",
+    "k": null,
+    "k_mod32": null,
+    "omega": 1,
+    "lY_mod16": 0
+   },
+   {
+    "m": 7,
+    "kind": "even"
+   },
+   {
+    "m": 8,
+    "kind": "a",
+    "k": 2,
+    "k_mod32": 2,
+    "omega": null,
+    "lY_mod16": null
+   },
+   {
+    "m": 9,
+    "kind": "b",
+    "k": null,
+    "k_mod32": null,
+    "omega": 4,
+    "lY_mod16": 0
+   },
+   {
+    "m": 10,
+    "kind": "even"
+   },
+   {
+    "m": 11,
+    "kind": "even"
+   },
+   {
+    "m": 12,
+    "kind": "a",
+    "k": 4,
+    "k_mod32": 4,
+    "omega": null,
+    "lY_mod16": null
+   },
+   {
+    "m": 13,
+    "kind": "b",
+    "k": null,
+    "k_mod32": null,
+    "omega": 2,
+    "lY_mod16": 0
+   },
+   {
+    "m": 14,
+    "kind": "a",
+    "k": 5,
+    "k_mod32": 5,
+    "omega": null,
+    "lY_mod16": null
+   },
+   {
+    "m": 15,
+    "kind": "b",
+    "k": null,
+    "k_mod32": null,
+    "omega": 1,
+    "lY_mod16": 0
+   },
+   {
+    "m": 16,
+    "kind": "even"
+   }
+  ],
+  "T4_walks": [
+   {
+    "label": "bad_5_5",
+    "canonical": true,
+    "word": [
+     5,
+     6,
+     1
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     0
+    ],
+    "tie_classes_mod64": [
+     5
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     6
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_5_21",
+    "canonical": true,
+    "word": [
+     5,
+     5,
+     1
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     0
+    ],
+    "tie_classes_mod64": [
+     21
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     5
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_5_-27",
+    "canonical": true,
+    "word": [
+     5
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     0
+    ],
+    "tie_classes_mod64": [
+     37
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": true
+   },
+   {
+    "label": "bad_5_-11",
+    "canonical": true,
+    "word": [
+     5,
+     5,
+     1
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     0
+    ],
+    "tie_classes_mod64": [
+     53
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     5
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_8_58",
+    "canonical": true,
+    "word": [
+     8,
+     9,
+     4
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_8_186",
+    "canonical": true,
+    "word": [
+     8,
+     8,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_8_-198",
+    "canonical": true,
+    "word": [
+     8
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": true
+   },
+   {
+    "label": "bad_8_-70",
+    "canonical": true,
+    "word": [
+     8,
+     8,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_12_1012",
+    "canonical": true,
+    "word": [
+     12,
+     13,
+     2
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_12_3060",
+    "canonical": true,
+    "word": [
+     12,
+     12,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_12_-3084",
+    "canonical": true,
+    "word": [
+     12
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": true
+   },
+   {
+    "label": "bad_12_-1036",
+    "canonical": true,
+    "word": [
+     12,
+     12,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_14_4081",
+    "canonical": true,
+    "word": [
+     14,
+     15,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_14_12273",
+    "canonical": true,
+    "word": [
+     14,
+     14,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_14_-12303",
+    "canonical": true,
+    "word": [
+     14
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": true
+   },
+   {
+    "label": "bad_14_-4111",
+    "canonical": true,
+    "word": [
+     14,
+     14,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_32702",
+    "canonical": true,
+    "word": [
+     17,
+     5,
+     16
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     1
+    ],
+    "tie_classes_mod64": [
+     5
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     16
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_32750",
+    "canonical": true,
+    "word": [
+     17,
+     18,
+     3
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_98238",
+    "canonical": true,
+    "word": [
+     17,
+     5,
+     18,
+     3
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     1
+    ],
+    "tie_classes_mod64": [
+     5
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     18
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_98286",
+    "canonical": true,
+    "word": [
+     17,
+     17,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_-98370",
+    "canonical": true,
+    "word": [
+     17
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_-98322",
+    "canonical": true,
+    "word": [
+     17
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": true
+   },
+   {
+    "label": "bad_17_-32834",
+    "canonical": true,
+    "word": [
+     17,
+     5,
+     17,
+     17,
+     1
+    ],
+    "n_ties": 1,
+    "tie_idx": [
+     1
+    ],
+    "tie_classes_mod64": [
+     5
+    ],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [
+     17
+    ],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_17_-32786",
+    "canonical": true,
+    "word": [
+     17,
+     17,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_22_1048552",
+    "canonical": true,
+    "word": [
+     22,
+     23,
+     2
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_22_3145704",
+    "canonical": true,
+    "word": [
+     22,
+     22,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_22_5242856",
+    "canonical": true,
+    "word": [
+     22,
+     24,
+     2
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_22_7340008",
+    "canonical": true,
+    "word": [
+     22,
+     22,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_24_4194277",
+    "canonical": true,
+    "word": [
+     24,
+     25,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_24_12582885",
+    "canonical": true,
+    "word": [
+     24,
+     24,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_24_20971493",
+    "canonical": true,
+    "word": [
+     24,
+     26
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_24_29360101",
+    "canonical": true,
+    "word": [
+     24,
+     24,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_27_33554402",
+    "canonical": true,
+    "word": [
+     27,
+     28,
+     6,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_27_100663266",
+    "canonical": true,
+    "word": [
+     27,
+     27,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_27_167772130",
+    "canonical": true,
+    "word": [
+     27,
+     29
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   },
+   {
+    "label": "bad_27_234880994",
+    "canonical": true,
+    "word": [
+     27,
+     27,
+     1
+    ],
+    "n_ties": 0,
+    "tie_idx": [],
+    "tie_classes_mod64": [],
+    "max_train": 0,
+    "trains": [],
+    "tie_gaps": [],
+    "ms": [],
+    "rank_tripling_ok": true,
+    "zero": false
+   }
+  ],
+  "T5_witness": {
+   "label": "witness_73515_98094",
+   "canonical": false,
+   "word": [
+    73515,
+    5,
+    17,
+    5,
+    17,
+    17,
+    1
+   ],
+   "n_ties": 2,
+   "tie_idx": [
+    1,
+    3
+   ],
+   "tie_classes_mod64": [
+    21,
+    5
+   ],
+   "max_train": 2,
+   "trains": [
+    2
+   ],
+   "tie_gaps": [
+    2
+   ],
+   "ms": [
+    17,
+    17
+   ],
+   "rank_tripling_ok": true,
+   "zero": false
+  },
+  "T5_witness_ties_mod32": [
+   21,
+   5
+  ],
+  "T5_label17_k_mod32": 6,
+  "T6_DEPTH": {
+   "('post_gate', False)": 6,
+   "('post_gate', True)": 1,
+   "('other', True)": 1
+  },
+  "T6_DEPTH_worst": [
+   [
+    "bad_22_7340008",
+    22,
+    "post_gate",
+    1.147
+   ],
+   [
+    "bad_22_3145704",
+    22,
+    "post_gate",
+    1.049
+   ],
+   [
+    "bad_24_29360101",
+    24,
+    "post_gate",
+    1.04
+   ],
+   [
+    "bad_24_12582885",
+    24,
+    "post_gate",
+    1.013
+   ],
+   [
+    "bad_27_234880994",
+    27,
+    "post_gate",
+    1.006
+   ],
+   [
+    "bad_27_100663266",
+    27,
+    "post_gate",
+    1.002
+   ],
+   [
+    "bad_22_5242856",
+    24,
+    "post_gate",
+    0.263
+   ],
+   [
+    "witness",
+    73515,
+    "other",
+    0.0
+   ]
+  ],
+  "T8_m_vs_u_at_class5": {
+   "6": 64,
+   "5": 128,
+   "8": 16,
+   "7": 32,
+   "10": 4,
+   "9": 8,
+   "12": 1,
+   "11": 2,
+   "14": 1
+  },
+  "T8_m_vs_lift_D_at_u1": {
+   "6": 64
+  },
+  "T9_synthetic_54": {
+   "m": 54,
+   "k53_mod32": 22,
+   "returned": 5,
+   "next_class_mod32": 21,
+   "next_out": 7,
+   "X6_even": true
+  }
+ },
+ "scope": "Task (B) gateway-train / rank-growth checks. Canonical: Calendar(512) + table_1000000.pkl (n<10^6). The (73515,98094) witness and lift variants are synthetic (non-canonical). No global EXT claim; K_clock unchanged.",
+ "timing": 0.3
+}

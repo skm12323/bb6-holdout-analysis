@@ -717,3 +717,30 @@ two agy gemini auditors simple errors). THEOREM.md carries a 10-item review-corr
 - Open core unchanged in kind: rational/uncertified classes at small chains — (S3) gateway output vs precision,
   (SC) dangerous residues, the 24 certify exceptions and the bare ties, j>=6 gateways needing affine provenance.
   EXT open; K_clock unchanged.
+
+## work_claude_uniform (Claude, direction A) — EXT(J) from a rank–height condition — ACCEPTED as conditional (2026-10-24)
+Review: reviews/claude_uniform_review_record.md (Claude adversary: UA1 and "supersedes" claims wrong → withdrawn; Lemma GD
+rewritten; targeted re-review closed; two agy auditors simple errors).
+- Lemma NT/LC: at an a-chain, NT gate ⟺ v2(3Qk_j+C)=j−2. The canonical calendar has no odd-a chain at j=19,20,21 and DEPTH
+  margins 2^(j−2)−3k_j−1 >= 1,048,551 from j=22 (CLOCK beyond 400): classes with 3^r(3k_j+h)<2^(j−2) never gate.
+- Full-residue certify for 5<=j<=18: exactly 24 exceptional classes (lift-independent, independent recomputation).
+- Gate blocks entered from y>=19 are block-safe: [B] 51.9M symbolic walks for y<500 (rank<=4, heights <=(2048,2048,760,330,190));
+  Lemma GD [A|NZ] for y>=216.
+- Theorem UA [A+B]: inside the least strict-EXT counterexample induction, for every J, S(J) is tie-free under RH
+  ((RH-a) DEPTH at chains >=19, (RH-b) rank/height caps at arrivals, (RH-c) <=3 non-descents per region walk, (NZ)).
+  An alternative reduction; it does NOT replace the accepted J<T4 reduction, and whether RH holds in any range is open.
+
+## work_gateway_trains (external ZCode agent, directions B+C) — gateway trains and climbs — ACCEPTED in part (2026-10-24)
+Review: reviews/gateway_trains_review_record.md (two Claude adversaries; RECORD_BUDGET conclusions corrected; two agy auditors).
+Review-correction blocks at the head of RECORD_BUDGET.md, B_RANK.md, C_CLIMB.md, NOTES.md override their bodies.
+- B1: gate tie classes alternate 5↔21 (mod 32) with internal labels k≡22/6 (mod 32) [A]; b crossings cannot return to a tie
+  (lambda_Y≡0 mod 16) [A]; B5 = the fixed residue D≡−3k (mod 2^(j−2)) in class coordinates; class-level constraints alone do
+  not bound consecutive gateway blocks.
+- C1/C3/C5: climbs through arbitrary runs into a bare tie: x''=A''u_y+Z_run, no identically cancelling run (S≠0), over-bound
+  climbs form a single residue; C4 climb bound [A-cond D2] for the FIRST gate (y>=N0, |D_y|<=5); C6 for r=1 C entries.
+- Ledger identities [A]; Theorem RB only for the first gate under explicit hypotheses. Failure modes F1–F6 (later gates,
+  empty-run gates, non-tie NT gates at j>=6, large ancestral defects) remain open: the train problem is not closed.
+- work_c3_drift train/budget documents now reviewed (status lines at their heads): GATEWAY_TRAIN, CLOCK_FILTERED_TRAIN,
+  TRAIN_CLOCK_ORBIT accepted; CROSS_SCALE_TRAIN as a construction; five budget documents as conditional results.
+- Open core (both directions): NT gates after the first gate / gateway trains, i.e. avoiding the tie residue at later gates.
+  EXT open; K_clock unchanged.

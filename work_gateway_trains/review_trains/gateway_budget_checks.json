@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "paired_gateway_checks": 216,
+  "joint_height_budget_checks": 216,
+  "scope": "Synthetic calls satisfying the displayed algebraic hypotheses; not claimed canonical trajectories. All-scale size argument is analytic."
+}

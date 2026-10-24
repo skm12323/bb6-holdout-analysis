@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "height_copy_checks": {
+    "b": 370,
+    "c": 350
+  },
+  "reflection_gateway_checks": 20,
+  "uncertified_height_control_increase": 3,
+  "small_fire_gaps": [
+    {
+      "rho": 4,
+      "P": 1,
+      "gap": 3
+    },
+    {
+      "rho": 7,
+      "P": 4,
+      "gap": 3
+    },
+    {
+      "rho": 11,
+      "P": 2,
+      "gap": 9
+    },
+    {
+      "rho": 13,
+      "P": 1,
+      "gap": 12
+    }
+  ],
+  "scope": "Real small copy coefficients with synthetic eligible phase certificates. No claim of global certificate existence."
+}

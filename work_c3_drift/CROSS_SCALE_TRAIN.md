@@ -1,5 +1,7 @@
 # A four-catapult local witness using genuine canonical call data
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). ACCEPTED as a construction: the four-catapult local witness replays exactly from a non-canonical start; not a reachability or halting claim.
+
 2026-10-20. **UNREVIEWED construction with two exact replay methods.**
 The initial scalar state is constructed, not claimed canonical. The
 witness is safe with its stated precision and is not an EXT counterexample.

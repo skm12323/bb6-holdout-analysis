@@ -1,5 +1,7 @@
 # A forced binary orbit of internal source clocks
 
+**Review status (2026-10-24):** reviewed via the work_gateway_trains three-way review (reviews/gateway_trains_review_record.md, group 2). ACCEPTED [A]: (CLOCK-ORBIT), period 2^(L-7), (ADVANCE) v2(Σ)=L-2 (lift-invariant), no exact period repetition.
+
 2026-10-20. **UNREVIEWED proposed all-parameter result.** This relates
 consecutive gateway generations to their selected canonical sources.
 It does not control b/c interruptions or establish global EXT.

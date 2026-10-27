@@ -1,0 +1,90 @@
+{
+ "N": 100000000,
+ "HL1": {
+  "crossings": 31872913,
+  "violations": 0
+ },
+ "band": [
+  {
+   "log2J": 10,
+   "A_max": 103.6,
+   "band_r0": 8,
+   "band_r1": 8,
+   "band_r4": 14,
+   "band_r8": 17
+  },
+  {
+   "log2J": 20,
+   "A_max": 124.7,
+   "band_r0": 8,
+   "band_r1": 8,
+   "band_r4": 14,
+   "band_r8": 17
+  },
+  {
+   "log2J": 40,
+   "A_max": 166.1,
+   "band_r0": 8,
+   "band_r1": 8,
+   "band_r4": 14,
+   "band_r8": 22
+  },
+  {
+   "log2J": 100,
+   "A_max": 288.3,
+   "band_r0": 8,
+   "band_r1": 8,
+   "band_r4": 14,
+   "band_r8": 22
+  },
+  {
+   "log2J": 1000,
+   "A_max": 2094.5,
+   "band_r0": 12,
+   "band_r1": 14,
+   "band_r4": 17,
+   "band_r8": 24
+  },
+  {
+   "log2J": 10000,
+   "A_max": 20101.1,
+   "band_r0": 14,
+   "band_r1": 17,
+   "band_r4": 22,
+   "band_r8": 27
+  },
+  {
+   "log2J": 100000,
+   "A_max": 200139.6,
+   "band_r0": 17,
+   "band_r1": 17,
+   "band_r4": 24,
+   "band_r8": 32
+  },
+  {
+   "log2J": 1000000,
+   "A_max": 2000146.6,
+   "band_r0": 22,
+   "band_r1": 24,
+   "band_r4": 27,
+   "band_r8": 35
+  },
+  {
+   "log2J": 1000000000,
+   "A_max": 2000000167.3,
+   "band_r0": 32,
+   "band_r1": 32,
+   "band_r4": 35,
+   "band_r8": 45
+  },
+  {
+   "log2J": 1000000000000,
+   "A_max": 2000000000187.9,
+   "band_r0": 42,
+   "band_r1": 42,
+   "band_r4": 49,
+   "band_r8": 54
+  }
+ ],
+ "note": "A_max is a crude worst-case automaton height (shift bound |s|<=(eps+1)/2+19.5); band = largest odd-a chain where a non-descent is arithmetically possible."
+}

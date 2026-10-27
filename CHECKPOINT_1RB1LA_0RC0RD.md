@@ -757,3 +757,15 @@ PROOF.md carries a review-correction block that overrides its body.
 - Scope: payment relative to an anchor (S(J)'s own first gate was already covered by Theorem L'); discharges work_claude_uniform's NZ
   only for arrivals from y>=65536 with rank<=4, height<=2048 and no catapult before the first region gate. Open: later gates (their
   outputs fall below 65536), one-step descents, D>y/4, empty runs. EXT open; K_clock unchanged.
+
+## work_claude_heights (Claude) — height ledger, steps 1–2 — ACCEPTED in part (2026-10-28)
+Review: reviews/claude_heights_review_record.md (Claude adversary: §2 wrong → corrected; two agy auditors simple errors).
+A review-correction block at the head of Step 2 overrides its body.
+- [B] Canonical table n<10^8: c crossings have eps∈{3,5} with shifts 0 or −1 only, omega∈{1,3,5}; pure b/c trains have
+  length <=2; all NT gates and catapults of the sampled class walks occur at (j,k)=(5,1).
+- [A] HL1: a b/c step from chain z lands at omega <= floor(log2(6tau(z−1)+5)) (MASS); a-descents land at
+  1+log2(3^r(3k+A+3/2)). Ledger rules for A=|d−3/2|; |s| <= W/2 for catapult-free certified histories.
+- [A-cond] The first NT gate of S(J) lies where 2^(j−2) <= 3^r(3k_j+A+3/2), A ≈ 2log2 J (given certified copied sources).
+- Rejected: "S(J) has no budget-propagation problem". After a true NT gate with output above the certified precision,
+  the post-gate class is uncertified for S(J) as well. The open core remains ND-EXIT, i.e. certifying real residues at
+  NT-gate outputs. EXT open; K_clock unchanged.

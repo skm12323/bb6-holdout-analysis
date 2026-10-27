@@ -1,0 +1,140 @@
+{
+ "N": 1000000,
+ "sample": 20000,
+ "S1": {
+  "counts": {
+   "b": 302878,
+   "c": 15850
+  },
+  "eps_c_dist": {
+   "3": 15822,
+   "5": 28
+  },
+  "minrep_hist_omega_ge8": {},
+  "violations": []
+ },
+ "S2": {
+  "max_train": 2,
+  "dist": {
+   "1": 310818,
+   "2": 7910
+  },
+  "longest": [
+   {
+    "len": 2,
+    "chain": [
+     999908,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999764,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999619,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999552,
+     9,
+     4
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999479,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999334,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999190,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     999045,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     998904,
+     6,
+     1
+    ]
+   },
+   {
+    "len": 2,
+    "chain": [
+     998759,
+     6,
+     1
+    ]
+   }
+  ]
+ },
+ "S3": {
+  "counts": {
+   "walks": 479772,
+   "cat": 1560,
+   "maxr=0": 380712,
+   "maxr=1": 99036,
+   "maxr=4": 24
+  },
+  "worst_height": [
+   "26/3",
+   {
+    "j": 19,
+    "theta": "26/3",
+    "path": [
+     19
+    ]
+   }
+  ],
+  "worst_steps": [
+   3,
+   {
+    "j": 6131,
+    "theta": "2",
+    "path": [
+     6131,
+     14,
+     5,
+     1
+    ]
+   }
+  ],
+  "NT_examples": []
+ },
+ "seconds": 1.1,
+ "scope": "[B] canonical table n<N; S3 class walks use least-height shift representatives (a model of Theorem S), not exact walks."
+}

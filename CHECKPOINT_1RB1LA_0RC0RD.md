@@ -744,3 +744,16 @@ Review-correction blocks at the head of RECORD_BUDGET.md, B_RANK.md, C_CLIMB.md,
   TRAIN_CLOCK_ORBIT accepted; CROSS_SCALE_TRAIN as a construction; five budget documents as conditional results.
 - Open core (both directions): NT gates after the first gate / gateway trains, i.e. avoiding the tie residue at later gates.
   EXT open; K_clock unchanged.
+
+## work_gateway_trains/origin_contraction (GPT Astra) — MASS, affine cone, uniform next-gate theorem — ACCEPTED (2026-10-27)
+Review: reviews/origin_contraction_review_record.md (Claude adversary: math correct, scope fixes; two agy auditors all correct).
+PROOF.md carries a review-correction block that overrides its body.
+- MASS: b steps have ratio 3/4, c steps ratio in (1/2,1), and 0<lambda'_W<=6tau+5 (from the accepted G6 mass/positivity), so C4's
+  D2 is no longer an assumption.
+- CONE: for a fixed anchor x=2^yU, Theta=x+D, the affine small part beta=qD+b keeps 0<=q<=2, 0<=b<=6t for any word; no (3/2)^s.
+- Next-gate theorem [A-cond]: y>=65536, |D|<=y/4, odd-denominator budget QB (automatic for integer D), a nonempty strong-descent/
+  b/c run with loss<=4L+128 ⟹ the next a-output (including non-tie NT gates at j>=6) is nonzero with m+ell+1<y; the certified block
+  transfers to all integer lifts agreeing mod 2^y.
+- Scope: payment relative to an anchor (S(J)'s own first gate was already covered by Theorem L'); discharges work_claude_uniform's NZ
+  only for arrivals from y>=65536 with rank<=4, height<=2048 and no catapult before the first region gate. Open: later gates (their
+  outputs fall below 65536), one-step descents, D>y/4, empty runs. EXT open; K_clock unchanged.

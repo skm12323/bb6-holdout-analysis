@@ -1,0 +1,338 @@
+{
+  "status": "PASS",
+  "review_status": "unreviewed",
+  "canonical_mass": {
+    "crossings": 200000,
+    "odd": {
+      "a": 60575,
+      "b": 60575,
+      "c": 3171
+    },
+    "full_pair_ratio_checks": {
+      "b": 309,
+      "c": 16
+    }
+  },
+  "cone": {
+    "arbitrary_data_word_steps": 75000,
+    "seed": 20261027,
+    "scope": "Algebra checks; these words are not claimed canonical or reachable."
+  },
+  "uniform_arithmetic": {
+    "dyadic_exponents": [
+      16,
+      4096
+    ],
+    "integer_comparisons": 40805
+  },
+  "replay": {
+    "anchors": 21856,
+    "statuses": {
+      "end": 21785,
+      "one_step_descent": 32,
+      "gate": 39
+    },
+    "full_integer_replays": 6369,
+    "gates": 39,
+    "huge_gate_examples": [
+      {
+        "status": "gate",
+        "word": [
+          146935,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 146935,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 131085,
+        "Z": "589888",
+        "mu": 146933,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          147008,
+          5,
+          5
+        ],
+        "types": "aa",
+        "y": 147008,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 5,
+        "run_steps": 1,
+        "duration": 131149,
+        "Z": "590176",
+        "mu": 147006,
+        "loss": 2,
+        "record": 7
+      },
+      {
+        "status": "gate",
+        "word": [
+          2350727,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 2350727,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 2097165,
+        "Z": "9437248",
+        "mu": 2350725,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          2350800,
+          5,
+          5
+        ],
+        "types": "aa",
+        "y": 2350800,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 5,
+        "run_steps": 1,
+        "duration": 2097229,
+        "Z": "9437536",
+        "mu": 2350798,
+        "loss": 2,
+        "record": 7
+      },
+      {
+        "status": "gate",
+        "word": [
+          2407126769,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 2407126769,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 2147483661,
+        "Z": "9663676480",
+        "mu": 2407126767,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          2407126842,
+          5,
+          5
+        ],
+        "types": "aa",
+        "y": 2407126842,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 5,
+        "run_steps": 1,
+        "duration": 2147483725,
+        "Z": "9663676768",
+        "mu": 2407126840,
+        "loss": 2,
+        "record": 7
+      },
+      {
+        "status": "gate",
+        "word": [
+          2584632671144439744,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 2584632671144439744,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 2305843009213693965,
+        "Z": "10376293541461622848",
+        "mu": 2584632671144439742,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          2584632671144439817,
+          5,
+          5
+        ],
+        "types": "aa",
+        "y": 2584632671144439817,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 5,
+        "run_steps": 1,
+        "duration": 2305843009213694029,
+        "Z": "10376293541461623136",
+        "mu": 2584632671144439815,
+        "loss": 2,
+        "record": 7
+      },
+      {
+        "status": "gate",
+        "word": [
+          2979878588071861370434786737604251116,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 2979878588071861370434786737604251116,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 2658455991569831745807614120560689165,
+        "Z": "11963051962064242856134263542523101248",
+        "mu": 2979878588071861370434786737604251114,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          2979878588071861370434786737604251189,
+          5,
+          5
+        ],
+        "types": "aa",
+        "y": 2979878588071861370434786737604251189,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 5,
+        "run_steps": 1,
+        "duration": 2658455991569831745807614120560689229,
+        "Z": "11963051962064242856134263542523101536",
+        "mu": 2979878588071861370434786737604251187,
+        "loss": 2,
+        "record": 7
+      },
+      {
+        "status": "gate",
+        "word": [
+          2424159,
+          17,
+          18
+        ],
+        "types": "aa",
+        "y": 2424159,
+        "D": "-32747",
+        "gate_input": 17,
+        "gate_output": 18,
+        "run_steps": 1,
+        "duration": 2162675,
+        "Z": "9699328",
+        "mu": 2424157,
+        "loss": 2,
+        "record": 20
+      }
+    ],
+    "scope": "Non-canonical ancestor states using certified canonical call data."
+  },
+  "lift_transfer": {
+    "integer_lift_replays": 120,
+    "statuses": {
+      "end": 108,
+      "gate": 12
+    },
+    "gate_examples": [
+      {
+        "status": "gate",
+        "word": [
+          146935,
+          5,
+          6
+        ],
+        "types": "aa",
+        "y": 146935,
+        "D": "-2",
+        "gate_input": 5,
+        "gate_output": 6,
+        "run_steps": 1,
+        "duration": 131085,
+        "Z": "589888",
+        "mu": 146933,
+        "loss": 2,
+        "record": 8
+      },
+      {
+        "status": "gate",
+        "word": [
+          146935,
+          5,
+          8
+        ],
+        "types": "aa",
+        "y": 146935,
+        "D": "58/3",
+        "gate_input": 5,
+        "gate_output": 8,
+        "run_steps": 1,
+        "duration": 131085,
+        "Z": "1769728/3",
+        "mu": 146933,
+        "loss": 2,
+        "record": 10
+      },
+      {
+        "status": "gate",
+        "word": [
+          146935,
+          5,
+          7
+        ],
+        "types": "aa",
+        "y": 146935,
+        "D": "-118034/59049",
+        "gate_input": 5,
+        "gate_output": 7,
+        "run_steps": 1,
+        "duration": 131085,
+        "Z": "34832296576/59049",
+        "mu": 146933,
+        "loss": 2,
+        "record": 9
+      },
+      {
+        "status": "gate",
+        "word": [
+          2424159,
+          17,
+          18
+        ],
+        "types": "aa",
+        "y": 2424159,
+        "D": "-32747",
+        "gate_input": 17,
+        "gate_output": 18,
+        "run_steps": 1,
+        "duration": 2162675,
+        "Z": "9699328",
+        "mu": 2424157,
+        "loss": 2,
+        "record": 20
+      }
+    ],
+    "excluded_small_gateway_boundary_checks": 126,
+    "scope": "Rational reference vs constructed integer phase lifts; not real orbit reachability."
+  },
+  "scope": "Checks for local origin-contraction theorem; no global EXT proof; K_clock unchanged."
+}

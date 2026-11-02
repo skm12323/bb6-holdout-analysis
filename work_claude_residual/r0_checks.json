@@ -1,0 +1,23 @@
+{
+ "identity_bc": {
+  "b": 6057602,
+  "c": 316980,
+  "bad": 0
+ },
+ "source_link": {
+  "nmax": 20000000,
+  "matched": 316980,
+  "unmatched": [],
+  "labels": [
+   5,
+   8,
+   12,
+   14,
+   17,
+   22,
+   24
+  ]
+ },
+ "seconds": 5.0,
+ "status": "PASS"
+}

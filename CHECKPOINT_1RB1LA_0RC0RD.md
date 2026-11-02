@@ -769,3 +769,31 @@ A review-correction block at the head of Step 2 overrides its body.
 - Rejected: "S(J) has no budget-propagation problem". After a true NT gate with output above the certified precision,
   the post-gate class is uncertified for S(J) as well. The open core remains ND-EXIT, i.e. certifying real residues at
   NT-gate outputs. EXT open; K_clock unchanged.
+
+## work_claude_residual (Claude subagent) — uncertified sources (G2); Theorem T4 — ACCEPTED (2026-11-02)
+Review: reviews/claude_residual_review_record.md (Claude adversary fixable→2 targeted re-reviews→closed; agy auditors all
+correct / simple errors). A review-correction block at the head of NOTES.md overrides its body.
+- Lemma R0 [A+B]: for every odd c crossing, s(n) = −1−lambda_Y = D_src−2 exactly and s ≡ 3tau(n)+3+2^omega (mod 2^(omega+1)):
+  an "uncertified" shift is a real clock residue; MASS/CONE/clock inequalities cannot restrict it [A].
+- Scale lemma DL [A] with exact drift sets (S(J): theta_1∈{0,1,2}, theta_2∈[−1,3], theta_3∈[−2,4]; at most 4 deep chains
+  below T4); level computation [B] (levels.py, zero margin): every shallow entry of every source S(Q), Q<T3, is certified;
+  finite shift spectra at chains omega>=5. H5 holds for J<T4; residual types (i)–(v) empty; the 2-layer case-(iii) shape is
+  an artifact. The only uncertified C7-type entry (BBBA family, (5,5), 68 m0) is reachable only via route a → Theorem RA.
+- **Theorem T4 [A+B]**, relative to accepted EXT(<K_clock) and imports (C5_EXTENSION §4, CLOCK/C1, gateway and window
+  certificates): for every J with K_clock <= J < T4 and F defined through tau(J−1), S(J) is tie-free. The machine-level
+  horizon 2^T4−2 is expected by the Corollary H-CLOCK pattern but NOT separately verified: the accepted horizon stays
+  K_clock until that transfer is reviewed. Withdrawn: AB′/copy principle as proved statements; "genuine G2 instance".
+- Beyond T4 the level method does not stabilise (drift grows per level, gateway climbs return to deep chains). G2 reduces
+  to G1 (post-gate problem for a shifted reference). Global EXT open.
+
+## work_claude_cycle (Claude subagent) — post-gate structure (G1) — ACCEPTED in part (2026-11-02)
+Review: reviews/claude_cycle_review_record.md (Claude adversary: DR false → corrected; 2 targeted re-reviews → closed;
+agy auditors all correct). A review-correction block at the head of NOTES.md overrides its body.
+- [A]: PG (post-gate phase Theta ≡ 2^(j−2)+3(k+1) mod 2^(j−1)); LAND (first-landing integer class by type of X(m−1));
+  DR′ (a gate determined by its predecessor has R_after <= R_in+1+L_bc; attained for L_bc∈{0,2}); FREE for first-landing
+  escapes (j <= 3+log2(6mP(m))); NEXT, SELF, CG (v2(E) >= min(g,g')−2), identities 2G/3G/JT (TRAIN generalised).
+- [A] FREE-EXIT ⇒ EXT with "free" = "not record-safe" (bookkeeping; any gain over ND-EXIT rests on FREE-B and CL2).
+- [B] within small-m ranges only (postgate j<400, m<5000; sweep j<3000, depth 3000); all multi-gate instances synthetic.
+- Refuted: Lemma DR (counterexamples j=24, m=6,268,562: record +1; j=42, type b: +3); "determined cascades cost nothing";
+  "next gate always at chain 5/8"; "gate outputs decrease"; the label-residue avoidance pattern mod 16.
+- Open: FREE-B (localising boundary gates), later escapes (CL2), trains (CL4). G1 not closed. EXT open; K_clock unchanged.

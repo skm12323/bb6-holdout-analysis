@@ -1,0 +1,263 @@
+{
+"refute_5_or_8": [
+{
+"j": 9194,
+"k_j": 4101,
+"m": 45901,
+"k_m": 20474,
+"c": 14,
+"predicted_output": 16,
+"det": true,
+"word": [
+45901,
+14,
+16
+],
+"gates": [
+[
+9194,
+4101,
+45901
+],
+[
+14,
+5,
+16
+]
+],
+"replay": "PASS"
+},
+{
+"j": 27560,
+"k_j": 12293,
+"m": 64268,
+"k_m": 28666,
+"c": 14,
+"predicted_output": 15,
+"det": true,
+"word": [
+64268,
+14,
+15,
+1
+],
+"gates": [
+[
+27560,
+12293,
+64268
+],
+[
+14,
+5,
+15
+]
+],
+"replay": "PASS"
+}
+],
+"seeded": [
+{
+"j": 24,
+"k_j": 9,
+"m": 97946,
+"k_m": 43686,
+"mp": 17,
+"leaves": 1,
+"gates_after_first_hist": {
+"1": 1
+},
+"max_total_gates": 2,
+"best": [
+{
+"word": [
+97946,
+5,
+17,
+6,
+1
+],
+"gates": [
+[
+24,
+9,
+97946
+],
+[
+5,
+1,
+17
+]
+],
+"bits": 0,
+"status": "END",
+"replay": "PASS"
+}
+]
+},
+{
+"j": 61,
+"k_j": 25,
+"m": 293820,
+"k_m": 131062,
+"mp": 17,
+"leaves": 1,
+"gates_after_first_hist": {
+"2": 1
+},
+"max_total_gates": 3,
+"best": [
+{
+"word": [
+293820,
+5,
+17,
+5,
+5,
+1
+],
+"gates": [
+[
+61,
+25,
+293820
+],
+[
+5,
+1,
+17
+],
+[
+5,
+1,
+5
+]
+],
+"bits": 0,
+"status": "END",
+"replay": "PASS"
+}
+]
+},
+{
+"j": 97,
+"k_j": 41,
+"m": 489700,
+"k_m": 218438,
+"mp": 17,
+"leaves": 1,
+"gates_after_first_hist": {
+"1": 1
+},
+"max_total_gates": 2,
+"best": [
+{
+"word": [
+489700,
+5,
+17,
+7
+],
+"gates": [
+[
+97,
+41,
+489700
+],
+[
+5,
+1,
+17
+]
+],
+"bits": 0,
+"status": "END",
+"replay": "PASS"
+}
+]
+},
+{
+"j": 132,
+"k_j": 57,
+"m": 97910,
+"k_m": 43670,
+"mp": 17,
+"leaves": 1,
+"gates_after_first_hist": {
+"2": 1
+},
+"max_total_gates": 3,
+"best": [
+{
+"word": [
+97910,
+5,
+17,
+5,
+7
+],
+"gates": [
+[
+132,
+57,
+97910
+],
+[
+5,
+1,
+17
+],
+[
+5,
+1,
+7
+]
+],
+"bits": 0,
+"status": "END",
+"replay": "PASS"
+}
+]
+},
+{
+"j": 168,
+"k_j": 73,
+"m": 293784,
+"k_m": 131046,
+"mp": 17,
+"leaves": 1,
+"gates_after_first_hist": {
+"1": 1
+},
+"max_total_gates": 2,
+"best": [
+{
+"word": [
+293784,
+5,
+17,
+6,
+1
+],
+"gates": [
+[
+168,
+73,
+293784
+],
+[
+5,
+1,
+17
+]
+],
+"bits": 0,
+"status": "END",
+"replay": "PASS"
+}
+]
+}
+],
+"seconds": 0.0,
+"replay_status": "PASS"
+}

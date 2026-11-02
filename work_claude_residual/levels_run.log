@@ -1,0 +1,25 @@
+delta -8 aouts 27 uncert 0 [] nt 0 7.5
+delta -7 aouts 13 uncert 0 [] nt 0 11.5
+delta -6 aouts 29 uncert 0 [] nt 0 15.9
+delta -5 aouts 8 uncert 0 [] nt 0 19.7
+delta -4 aouts 6 uncert 0 [] nt 0 24.6
+delta -3 aouts 33 uncert 0 [] nt 0 28.6
+delta -2 aouts 49 uncert 0 [] nt 278793 33.3
+delta -1 aouts 9 uncert 0 [] nt 68 37.1
+delta 0 aouts 27 uncert 0 [] nt 0 41.4
+delta 1 aouts 32 uncert 0 [] nt 0 45.0
+delta 2 aouts 27 uncert 0 [] nt 0 49.1
+delta 3 aouts 9 uncert 0 [] nt 0 52.8
+delta 4 aouts 26 uncert 0 [] nt 0 57.2
+delta 5 aouts 34 uncert 1 [5] nt 614 60.9
+delta 6 aouts 51 uncert 0 [] nt 278792 66.0
+delta 7 aouts 8 uncert 0 [] nt 0 69.6
+delta 8 aouts 27 uncert 0 [] nt 0 74.3
+delta 9 aouts 32 uncert 0 [] nt 0 77.8
+delta 10 aouts 28 uncert 0 [] nt 0 83.1
+B classes 54 specific 20 uncert [] 83.1
+C classes 83 specific 0 uncert [] 83.1
+OUT classes 148 specific 1 uncert [] 83.1
+D classes 148 specific 1 uncert [] 83.1
+C7 classes 89 specific 65 uncert [{'kind': 'specific', 'chain': 5, 'cls': 5, 'status': 'ceiling', 'word': [5, 6], 'why': ('C7', 't1', 2, 5, 5, ('bulk', -1, 244875))}] 83.1
+{"A": {"n_classes": 32, "classes_sym": [-1, 1, 2, 3], "chain5": [2], "uncert_Q": []}, "B": {"n_classes": 54, "generic_out": [2], "all_chain_integer_entries": [0, 2], "n_specific_entries": 20, "uncert": [], "chain5": [1, 2, 3], "exotic": []}, "C": {"n_classes": 83, "generic_out": [1, 2, 3], "all_chain_integer_entries": [-1, 0, 1, 2, 3], "n_specific_entries": 0, "uncert": [], "chain5": [0, 1, 2, 3, 5], "exotic": []}, "OUT": {"n_classes": 148, "generic_out": [0, 1, 2, 3, 4], "all_chain_integer_entries": [-2, -1, 0, 1, 2, 3, 4], "n_specific_entries": 1, "uncert": [], "chain5": [-1, 0, 1, 2, 3, 5, 14], "exotic": [[7, 46], [7, 85], [8, -82], [9, 174], [10, -338], [11, 686], [12, -1362], [13, 2734], [14, -5458], [15, 10926], [16, -21842], [17, 43694], [18, -87378], [19, 174766], [20, -349522], [21, 699054], [22, -1398098], [24, -5592402]]}, "D": {"n_classes": 148, "generic_out": [0, 1, 2, 3, 4], "all_chain_integer_entries": [-2, -1, 0, 1, 2, 3, 4], "n_specific_entries": 1, "uncert": [], "chain5": [-1, 0, 1, 2, 3, 5, 14], "exotic": [[7, 46], [7, 85], [8, -82], [9, 174], [10, -338], [11, 686], [12, -1362], [13, 2734], [14, -5458], [15, 10926], [16, -21842], [17, 43694], [18, -87378], [19, 174766], [20, -349522], [21, 699054], [22, -1398098], [24, -5592402]]}, "C7": {"n_classes": 89, "generic_out": [], "all_chain_integer_entries": [-1, 0, 1, 2, 3], "n_specific_entries": 65, "uncert": [{"kind": "specific", "chain": 5, "cls": 5, "status": "ceiling", "word": [5, 6], "why": ["C7", "t1", 2, 5, 5, ["bulk", -1, 244875]]}], "chain5": [-1, 0, 1, 2, 3, 5], "exotic": []}, "C7_ab_landings_uncert": {"-3": [], "-2": [], "-1": [], "0": [], "1": [], "2": [], "3": [], "4": [], "5": [5]}}

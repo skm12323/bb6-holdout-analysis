@@ -1,0 +1,2479 @@
+{
+"BITS": 150,
+"results": [
+{
+"name": "G(5)",
+"j0": 5,
+"leaves": 979,
+"status": {
+"CUT_BITS": 11,
+"END": 968
+},
+"max_gates": 3,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 0.9999389350414272,
+"2": 6.105750799223475e-05,
+"3": 7.450580597032248e-09
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 304,
+"2": 496,
+"3": 178
+},
+"best": [
+{
+"word": [
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+5
+],
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+17
+],
+[
+17,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 28,
+"gates": [
+[
+5,
+1,
+17,
+1
+],
+[
+5,
+1,
+17,
+3
+],
+[
+17,
+6,
+17,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 17,
+"start_x_bits": 17
+},
+{
+"word": [
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+5
+],
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+18
+],
+[
+18,
+"b",
+3
+]
+],
+"status": "END",
+"bits": 29,
+"gates": [
+[
+5,
+1,
+17,
+1
+],
+[
+5,
+1,
+17,
+3
+],
+[
+17,
+6,
+18,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 18,
+"start_x_bits": 20
+},
+{
+"word": [
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+5
+],
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+19
+]
+],
+"status": "END",
+"bits": 30,
+"gates": [
+[
+5,
+1,
+17,
+1
+],
+[
+5,
+1,
+17,
+3
+],
+[
+17,
+6,
+19,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 19,
+"start_x_bits": 22
+},
+{
+"word": [
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+5
+],
+[
+5,
+"a",
+17
+],
+[
+17,
+"a",
+20
+]
+],
+"status": "END",
+"bits": 31,
+"gates": [
+[
+5,
+1,
+17,
+1
+],
+[
+5,
+1,
+17,
+3
+],
+[
+17,
+6,
+20,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 23
+}
+],
+"seconds": 0.2
+},
+{
+"name": "G(8)",
+"j0": 8,
+"leaves": 186,
+"status": {
+"CUT_BITS": 3,
+"END": 183
+},
+"max_gates": 2,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0,
+"2": 9.183479550875905e-41
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 168,
+"2": 17
+},
+"best": [
+{
+"word": [
+[
+8,
+"a",
+139
+],
+[
+139,
+"a",
+8
+],
+[
+8,
+"a",
+8
+],
+[
+8,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 134,
+"gates": [
+[
+8,
+2,
+139,
+1
+],
+[
+8,
+2,
+8,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 139,
+"start_x_bits": 10
+},
+{
+"word": [
+[
+8,
+"a",
+139
+],
+[
+139,
+"a",
+8
+],
+[
+8,
+"a",
+9
+],
+[
+9,
+"b",
+4
+]
+],
+"status": "END",
+"bits": 135,
+"gates": [
+[
+8,
+2,
+139,
+1
+],
+[
+8,
+2,
+9,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 139,
+"start_x_bits": 12
+},
+{
+"word": [
+[
+8,
+"a",
+139
+],
+[
+139,
+"a",
+8
+],
+[
+8,
+"a",
+10
+]
+],
+"status": "END",
+"bits": 136,
+"gates": [
+[
+8,
+2,
+139,
+1
+],
+[
+8,
+2,
+10,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 139,
+"start_x_bits": 11
+},
+{
+"word": [
+[
+8,
+"a",
+139
+],
+[
+139,
+"a",
+8
+],
+[
+8,
+"a",
+11
+]
+],
+"status": "END",
+"bits": 137,
+"gates": [
+[
+8,
+2,
+139,
+1
+],
+[
+8,
+2,
+11,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 139,
+"start_x_bits": 13
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(12)",
+"j0": 12,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+12,
+"a",
+12
+],
+[
+12,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+12,
+4,
+12,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 12,
+"start_x_bits": 13
+},
+{
+"word": [
+[
+12,
+"a",
+13
+],
+[
+13,
+"b",
+2
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+12,
+4,
+13,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 13,
+"start_x_bits": 13
+},
+{
+"word": [
+[
+12,
+"a",
+14
+],
+[
+14,
+"a",
+2
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+12,
+4,
+14,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 14,
+"start_x_bits": 13
+},
+{
+"word": [
+[
+12,
+"a",
+15
+],
+[
+15,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+12,
+4,
+15,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 15,
+"start_x_bits": 13
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(14)",
+"j0": 14,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+14,
+"a",
+14
+],
+[
+14,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+14,
+5,
+14,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 14,
+"start_x_bits": 15
+},
+{
+"word": [
+[
+14,
+"a",
+15
+],
+[
+15,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+14,
+5,
+15,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 15,
+"start_x_bits": 15
+},
+{
+"word": [
+[
+14,
+"a",
+16
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+14,
+5,
+16,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 16,
+"start_x_bits": 15
+},
+{
+"word": [
+[
+14,
+"a",
+17
+],
+[
+17,
+"a",
+3
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+14,
+5,
+17,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 17,
+"start_x_bits": 15
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(17)",
+"j0": 17,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+17,
+"a",
+17
+],
+[
+17,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+17,
+6,
+17,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 17,
+"start_x_bits": 18
+},
+{
+"word": [
+[
+17,
+"a",
+18
+],
+[
+18,
+"b",
+3
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+17,
+6,
+18,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 18,
+"start_x_bits": 18
+},
+{
+"word": [
+[
+17,
+"a",
+19
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+17,
+6,
+19,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 19,
+"start_x_bits": 18
+},
+{
+"word": [
+[
+17,
+"a",
+20
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+17,
+6,
+20,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 18
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(22)",
+"j0": 22,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+22,
+"a",
+22
+],
+[
+22,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+22,
+8,
+22,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 22,
+"start_x_bits": 23
+},
+{
+"word": [
+[
+22,
+"a",
+23
+],
+[
+23,
+"b",
+2
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+22,
+8,
+23,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 23,
+"start_x_bits": 23
+},
+{
+"word": [
+[
+22,
+"a",
+24
+],
+[
+24,
+"a",
+2
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+22,
+8,
+24,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 24,
+"start_x_bits": 23
+},
+{
+"word": [
+[
+22,
+"a",
+25
+],
+[
+25,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+22,
+8,
+25,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 25,
+"start_x_bits": 23
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(24)",
+"j0": 24,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 2,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0,
+"2": 6.776263578034403e-21
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 148,
+"2": 2
+},
+"best": [
+{
+"word": [
+[
+24,
+"a",
+90
+],
+[
+90,
+"a",
+5
+],
+[
+5,
+"a",
+7
+]
+],
+"status": "END",
+"bits": 67,
+"gates": [
+[
+24,
+9,
+90,
+1
+],
+[
+5,
+1,
+7,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 90,
+"start_x_bits": 25
+},
+{
+"word": [
+[
+24,
+"a",
+161
+],
+[
+161,
+"a",
+5
+],
+[
+5,
+"a",
+5
+],
+[
+5,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 138,
+"gates": [
+[
+24,
+9,
+161,
+1
+],
+[
+5,
+1,
+5,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 161,
+"start_x_bits": 25
+},
+{
+"word": [
+[
+24,
+"a",
+24
+],
+[
+24,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+24,
+9,
+24,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 24,
+"start_x_bits": 25
+},
+{
+"word": [
+[
+24,
+"a",
+25
+],
+[
+25,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+24,
+9,
+25,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 25,
+"start_x_bits": 25
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(27)",
+"j0": 27,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+27,
+"a",
+27
+],
+[
+27,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+27,
+10,
+27,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 27,
+"start_x_bits": 28
+},
+{
+"word": [
+[
+27,
+"a",
+28
+],
+[
+28,
+"b",
+6
+],
+[
+6,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+27,
+10,
+28,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 28,
+"start_x_bits": 28
+},
+{
+"word": [
+[
+27,
+"a",
+29
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+27,
+10,
+29,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 29,
+"start_x_bits": 28
+},
+{
+"word": [
+[
+27,
+"a",
+30
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+27,
+10,
+30,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 30,
+"start_x_bits": 28
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(32)",
+"j0": 32,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+32,
+"a",
+32
+],
+[
+32,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+32,
+13,
+32,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 32,
+"start_x_bits": 33
+},
+{
+"word": [
+[
+32,
+"a",
+33
+],
+[
+33,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+32,
+13,
+33,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 33,
+"start_x_bits": 33
+},
+{
+"word": [
+[
+32,
+"a",
+34
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+32,
+13,
+34,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 34,
+"start_x_bits": 33
+},
+{
+"word": [
+[
+32,
+"a",
+35
+],
+[
+35,
+"a",
+3
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+32,
+13,
+35,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 35,
+"start_x_bits": 33
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(42)",
+"j0": 42,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 2,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 0.9999999403953552,
+"2": 5.960464477539063e-08
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 148,
+"2": 2
+},
+"best": [
+{
+"word": [
+[
+42,
+"a",
+65
+],
+[
+65,
+"b",
+5
+],
+[
+5,
+"a",
+5
+],
+[
+5,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 24,
+"gates": [
+[
+42,
+17,
+65,
+1
+],
+[
+5,
+1,
+5,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 65,
+"start_x_bits": 43
+},
+{
+"word": [
+[
+42,
+"a",
+136
+],
+[
+136,
+"b",
+5
+],
+[
+5,
+"a",
+7
+]
+],
+"status": "END",
+"bits": 95,
+"gates": [
+[
+42,
+17,
+136,
+1
+],
+[
+5,
+1,
+7,
+4
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 136,
+"start_x_bits": 43
+},
+{
+"word": [
+[
+42,
+"a",
+42
+],
+[
+42,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+42,
+17,
+42,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 42,
+"start_x_bits": 43
+},
+{
+"word": [
+[
+42,
+"a",
+43
+],
+[
+43,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+42,
+17,
+43,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 43,
+"start_x_bits": 43
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(61)",
+"j0": 61,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 2,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0,
+"2": 2.710505431213761e-20
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 148,
+"2": 2
+},
+"best": [
+{
+"word": [
+[
+61,
+"a",
+125
+],
+[
+125,
+"a",
+5
+],
+[
+5,
+"a",
+6
+],
+[
+6,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 65,
+"gates": [
+[
+61,
+25,
+125,
+1
+],
+[
+5,
+1,
+6,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 125,
+"start_x_bits": 62
+},
+{
+"word": [
+[
+61,
+"a",
+198
+],
+[
+198,
+"a",
+5
+],
+[
+5,
+"a",
+5
+],
+[
+5,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 138,
+"gates": [
+[
+61,
+25,
+198,
+1
+],
+[
+5,
+1,
+5,
+3
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 198,
+"start_x_bits": 62
+},
+{
+"word": [
+[
+61,
+"a",
+61
+],
+[
+61,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+61,
+25,
+61,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 61,
+"start_x_bits": 62
+},
+{
+"word": [
+[
+61,
+"a",
+62
+],
+[
+62,
+"b",
+1
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+61,
+25,
+62,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 62,
+"start_x_bits": 62
+}
+],
+"seconds": 0.0
+},
+{
+"name": "G(152)",
+"j0": 152,
+"leaves": 151,
+"status": {
+"CUT_BITS": 1,
+"END": 150
+},
+"max_gates": 1,
+"mass_by_gates": {
+"0": 7.006492321624085e-46,
+"1": 1.0
+},
+"leaves_by_gates": {
+"0": 1,
+"1": 150
+},
+"best": [
+{
+"word": [
+[
+152,
+"a",
+152
+],
+[
+152,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 1,
+"gates": [
+[
+152,
+66,
+152,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 152,
+"start_x_bits": 153
+},
+{
+"word": [
+[
+152,
+"a",
+153
+],
+[
+153,
+"b",
+4
+]
+],
+"status": "END",
+"bits": 2,
+"gates": [
+[
+152,
+66,
+153,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 153,
+"start_x_bits": 153
+},
+{
+"word": [
+[
+152,
+"a",
+154
+]
+],
+"status": "END",
+"bits": 3,
+"gates": [
+[
+152,
+66,
+154,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 154,
+"start_x_bits": 153
+},
+{
+"word": [
+[
+152,
+"a",
+155
+]
+],
+"status": "END",
+"bits": 4,
+"gates": [
+[
+152,
+66,
+155,
+1
+]
+],
+"replay": "PASS",
+"start_Theta_bits": 155,
+"start_x_bits": 153
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(19,-1)",
+"j0": 19,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 19,
+"start_x_bits": 20
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(19,0)",
+"j0": 19,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 20
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(19,1)",
+"j0": 19,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 20
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(19,2)",
+"j0": 19,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 20
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(19,3)",
+"j0": 19,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 20,
+"start_x_bits": 20
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(30,-1)",
+"j0": 30,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 30,
+"start_x_bits": 31
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(30,0)",
+"j0": 30,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 31,
+"start_x_bits": 31
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(30,1)",
+"j0": 30,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 31,
+"start_x_bits": 31
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(30,2)",
+"j0": 30,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 31,
+"start_x_bits": 31
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(30,3)",
+"j0": 30,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 31,
+"start_x_bits": 31
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(64,-1)",
+"j0": 64,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [
+[
+64,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 64,
+"start_x_bits": 65
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(64,0)",
+"j0": 64,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [
+[
+64,
+"a",
+2
+]
+],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 65,
+"start_x_bits": 65
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(64,1)",
+"j0": 64,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [
+[
+64,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 65,
+"start_x_bits": 65
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(64,2)",
+"j0": 64,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [
+[
+64,
+"a",
+5
+],
+[
+5,
+"a",
+3
+]
+],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 65,
+"start_x_bits": 65
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(64,3)",
+"j0": 64,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [
+[
+64,
+"a",
+1
+]
+],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 65,
+"start_x_bits": 65
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(128,-1)",
+"j0": 128,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 128,
+"start_x_bits": 129
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(128,0)",
+"j0": 128,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 129,
+"start_x_bits": 129
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(128,1)",
+"j0": 128,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 129,
+"start_x_bits": 129
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(128,2)",
+"j0": 128,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 129,
+"start_x_bits": 129
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(128,3)",
+"j0": 128,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 129,
+"start_x_bits": 129
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(200,-1)",
+"j0": 200,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 200,
+"start_x_bits": 201
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(200,0)",
+"j0": 200,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 201,
+"start_x_bits": 201
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(200,1)",
+"j0": 200,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 201,
+"start_x_bits": 201
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(200,2)",
+"j0": 200,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 201,
+"start_x_bits": 201
+}
+],
+"seconds": 0.0
+},
+{
+"name": "A(200,3)",
+"j0": 200,
+"leaves": 1,
+"status": {
+"END": 1
+},
+"max_gates": 0,
+"mass_by_gates": {
+"0": 1.0
+},
+"leaves_by_gates": {
+"0": 1
+},
+"best": [
+{
+"word": [],
+"status": "END",
+"bits": 0,
+"gates": [],
+"replay": "PASS",
+"start_Theta_bits": 201,
+"start_x_bits": 201
+}
+],
+"seconds": 0.0
+}
+],
+"replay_status": "PASS"
+}

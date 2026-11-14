@@ -1,0 +1,1588 @@
+{
+ "B": {
+  "n_classes": 42,
+  "generic_out": [
+   2
+  ],
+  "all_chain_integer_entries": [
+   0,
+   2
+  ],
+  "n_specific_entries": 14,
+  "uncert": [],
+  "chain5": [
+   1,
+   2,
+   3
+  ],
+  "exotic": []
+ },
+ "C": {
+  "n_classes": 63,
+  "generic_out": [
+   1,
+   2,
+   3
+  ],
+  "all_chain_integer_entries": [
+   -1,
+   0,
+   1,
+   2,
+   3
+  ],
+  "n_specific_entries": 0,
+  "uncert": [],
+  "chain5": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "exotic": []
+ },
+ "OUT": {
+  "n_classes": 108,
+  "generic_out": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "all_chain_integer_entries": [
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n_specific_entries": 1,
+  "uncert": [],
+  "chain5": [
+   -1,
+   0,
+   1,
+   2,
+   3,
+   5,
+   14
+  ],
+  "exotic": [
+   [
+    7,
+    46
+   ],
+   [
+    8,
+    -82
+   ],
+   [
+    9,
+    174
+   ],
+   [
+    10,
+    -338
+   ],
+   [
+    11,
+    686
+   ],
+   [
+    12,
+    -1362
+   ],
+   [
+    13,
+    2734
+   ],
+   [
+    14,
+    -5458
+   ],
+   [
+    15,
+    10926
+   ],
+   [
+    16,
+    -21842
+   ],
+   [
+    18,
+    -87378
+   ]
+  ]
+ },
+ "D": {
+  "n_classes": 108,
+  "generic_out": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "all_chain_integer_entries": [
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n_specific_entries": 1,
+  "uncert": [],
+  "chain5": [
+   -1,
+   0,
+   1,
+   2,
+   3,
+   5,
+   14
+  ],
+  "exotic": [
+   [
+    7,
+    46
+   ],
+   [
+    8,
+    -82
+   ],
+   [
+    9,
+    174
+   ],
+   [
+    10,
+    -338
+   ],
+   [
+    11,
+    686
+   ],
+   [
+    12,
+    -1362
+   ],
+   [
+    13,
+    2734
+   ],
+   [
+    14,
+    -5458
+   ],
+   [
+    15,
+    10926
+   ],
+   [
+    16,
+    -21842
+   ],
+   [
+    18,
+    -87378
+   ]
+  ]
+ },
+ "C7": {
+  "n_classes": 67,
+  "generic_out": [],
+  "all_chain_integer_entries": [
+   -1,
+   0,
+   1,
+   2,
+   3
+  ],
+  "n_specific_entries": 46,
+  "uncert": [
+   {
+    "kind": "specific",
+    "chain": 5,
+    "cls": 5,
+    "status": "ceiling",
+    "word": [
+     5,
+     6
+    ],
+    "why": [
+     "C7",
+     "t1",
+     2,
+     5,
+     5,
+     [
+      "bulk",
+      -1,
+      244875
+     ]
+    ]
+   }
+  ],
+  "chain5": [
+   -1,
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "exotic": []
+ },
+ "E": {
+  "ints": [
+   -3,
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "n_specific": 1548,
+  "uncert_int": [
+   {
+    "kind": "int",
+    "cls": 5,
+    "chains": [
+     5
+    ]
+   }
+  ],
+  "uncert_spec": [
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": 5,
+    "status": "ceiling",
+    "word": [
+     5,
+     6
+    ],
+    "why": [
+     "E0",
+     "c",
+     1,
+     5,
+     6,
+     [
+      "family",
+      "37/9",
+      false
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": 21,
+    "status": "ceiling",
+    "word": [
+     5,
+     5
+    ],
+    "why": [
+     "E0",
+     "c",
+     1,
+     5,
+     22,
+     [
+      "family",
+      "7/3",
+      false
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": -27,
+    "status": "ceiling",
+    "word": [
+     5,
+     7
+    ],
+    "why": [
+     "E0",
+     "c",
+     1,
+     5,
+     -26,
+     [
+      "family",
+      "23/3",
+      true
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": -11,
+    "status": "ceiling",
+    "word": [
+     5,
+     5
+    ],
+    "why": [
+     "E0",
+     "c",
+     1,
+     5,
+     -10,
+     [
+      "family",
+      "53/9",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ "C7E": {
+  "ints": [
+   -6,
+   -5,
+   -4,
+   -3,
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_specific": 1719,
+  "uncert_int": [
+   {
+    "kind": "int",
+    "cls": 5,
+    "chains": [
+     5
+    ]
+   }
+  ],
+  "uncert_spec": [
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": 5,
+    "status": "ceiling",
+    "word": [
+     5,
+     6
+    ],
+    "why": [
+     "S0",
+     "c",
+     1,
+     5,
+     6,
+     [
+      "family",
+      "37/9",
+      false
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": 21,
+    "status": "ceiling",
+    "word": [
+     5,
+     5
+    ],
+    "why": [
+     "S0",
+     "c",
+     1,
+     5,
+     22,
+     [
+      "family",
+      "7/3",
+      false
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": -27,
+    "status": "ceiling",
+    "word": [
+     5,
+     7
+    ],
+    "why": [
+     "S0",
+     "c",
+     1,
+     5,
+     -26,
+     [
+      "family",
+      "23/3",
+      true
+     ]
+    ]
+   },
+   {
+    "kind": "spec",
+    "chain": 5,
+    "cls": -11,
+    "status": "ceiling",
+    "word": [
+     5,
+     5
+    ],
+    "why": [
+     "S0",
+     "c",
+     1,
+     5,
+     -10,
+     [
+      "family",
+      "53/9",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ "families": {
+  "-177155/59049/0": "deep-m 354302/59049 descendant a",
+  "-177139/59049/0": "deep-m 354286/59049 descendant a",
+  "-59057/19683/0": "deep-m 118106/19683 descendant a",
+  "-59041/19683/0": "deep-m 118090/19683 descendant a",
+  "-19691/6561/0": "deep-m 39374/6561 descendant a",
+  "-19675/6561/0": "deep-m 39358/6561 descendant a",
+  "-6569/2187/0": "deep-m 13130/2187 descendant a",
+  "-6553/2187/0": "deep-m 13114/2187 descendant a",
+  "-2195/729/0": "deep-m 4382/729 descendant a",
+  "-2179/729/0": "deep-m 4366/729 descendant a",
+  "-737/243/0": "deep-m 1466/243 descendant a",
+  "-721/243/0": "deep-m 1450/243 descendant a",
+  "-251/81/0": "deep-m 494/81 descendant a",
+  "-235/81/0": "deep-m 478/81 descendant a",
+  "-89/27/0": "deep-m 170/27 descendant a",
+  "-73/27/0": "deep-m 154/27 descendant a",
+  "-35/9/0": "deep-m 62/9 descendant a",
+  "-19/9/0": "deep-m 46/9 descendant a",
+  "-17/3/0": "deep-m 26/3 descendant a",
+  "-7/3/0": "S(J) landing class t4",
+  "-5/3/0": "S(J) landing class t4",
+  "-4/3/0": "S(J) landing class t3",
+  "-2/1/1": "NT-gateway from free entry (j=5, delta=21)",
+  "-2/3/0": "S(J) landing class t3",
+  "-1/3/0": "S(J) landing class t2",
+  "1/3/0": "S(J) landing class t2",
+  "2/3/0": "S(J) landing class t1",
+  "4/3/0": "S(J) landing class t1",
+  "5/3/0": "S(J) landing class t2",
+  "7/3/0": "S(J) landing class t2",
+  "7/3/1": "S(J) t0 copy of gateway 10/3",
+  "8/3/0": "S(J) landing class t3",
+  "10/3/0": "S(J) landing class t3",
+  "10/3/1": "gateway (10-2^m)/3",
+  "11/3/0": "S(J) landing class t4",
+  "13/3/0": "S(J) landing class t4",
+  "14/1/1": "NT-gateway from free entry (j=5, delta=-27)",
+  "17/3/0": "deep-m 26/3 descendant cs-1",
+  "19/3/0": "deep-m 10/3 descendant cs1",
+  "19/9/0": "deep-m 46/9 descendant cs-1",
+  "23/3/0": "deep-m 26/3 descendant b",
+  "23/3/1": "S(J) t0 copy of gateway 26/3",
+  "26/3/0": "deep-m 26/3 descendant cs0",
+  "26/3/1": "gateway (26-2^m)/3 (covered for safety)",
+  "35/3/0": "deep-m 26/3 descendant cs1",
+  "35/9/0": "deep-m 62/9 descendant cs-1",
+  "37/9/0": "deep-m 46/9 descendant b",
+  "46/9/0": "deep-m 46/9 descendant cs0",
+  "46/9/1": "NT-gateway from free entry (j=5, delta=-1/3)",
+  "53/9/0": "deep-m 62/9 descendant b",
+  "62/9/0": "deep-m 62/9 descendant cs0",
+  "62/9/1": "NT-gateway from free entry (j=5, delta=-17/3)",
+  "73/9/0": "deep-m 46/9 descendant cs1",
+  "73/27/0": "deep-m 154/27 descendant cs-1",
+  "89/9/0": "deep-m 62/9 descendant cs1",
+  "89/27/0": "deep-m 170/27 descendant cs-1",
+  "127/27/0": "deep-m 154/27 descendant b",
+  "143/27/0": "deep-m 170/27 descendant b",
+  "154/27/0": "deep-m 154/27 descendant cs0",
+  "154/27/1": "NT-gateway from free entry (j=5, delta=-19/9)",
+  "170/27/0": "deep-m 170/27 descendant cs0",
+  "170/27/1": "NT-gateway from free entry (j=5, delta=-35/9)",
+  "235/27/0": "deep-m 154/27 descendant cs1",
+  "235/81/0": "deep-m 478/81 descendant cs-1",
+  "251/27/0": "deep-m 170/27 descendant cs1",
+  "251/81/0": "deep-m 494/81 descendant cs-1",
+  "397/81/0": "deep-m 478/81 descendant b",
+  "413/81/0": "deep-m 494/81 descendant b",
+  "478/81/0": "deep-m 478/81 descendant cs0",
+  "478/81/1": "NT-gateway from free entry (j=5, delta=-73/27)",
+  "494/81/0": "deep-m 494/81 descendant cs0",
+  "494/81/1": "NT-gateway from free entry (j=5, delta=-89/27)",
+  "721/81/0": "deep-m 478/81 descendant cs1",
+  "721/243/0": "deep-m 1450/243 descendant cs-1",
+  "737/81/0": "deep-m 494/81 descendant cs1",
+  "737/243/0": "deep-m 1466/243 descendant cs-1",
+  "1207/243/0": "deep-m 1450/243 descendant b",
+  "1223/243/0": "deep-m 1466/243 descendant b",
+  "1450/243/0": "deep-m 1450/243 descendant cs0",
+  "1450/243/1": "NT-gateway from free entry (j=5, delta=-235/81)",
+  "1466/243/0": "deep-m 1466/243 descendant cs0",
+  "1466/243/1": "NT-gateway from free entry (j=5, delta=-251/81)",
+  "2179/243/0": "deep-m 1450/243 descendant cs1",
+  "2179/729/0": "deep-m 4366/729 descendant cs-1",
+  "2195/243/0": "deep-m 1466/243 descendant cs1",
+  "2195/729/0": "deep-m 4382/729 descendant cs-1",
+  "3637/729/0": "deep-m 4366/729 descendant b",
+  "3653/729/0": "deep-m 4382/729 descendant b",
+  "4366/729/0": "deep-m 4366/729 descendant cs0",
+  "4366/729/1": "NT-gateway from free entry (j=5, delta=-721/243)",
+  "4382/729/0": "deep-m 4382/729 descendant cs0",
+  "4382/729/1": "NT-gateway from free entry (j=5, delta=-737/243)",
+  "6553/729/0": "deep-m 4366/729 descendant cs1",
+  "6553/2187/0": "deep-m 13114/2187 descendant cs-1",
+  "6569/729/0": "deep-m 4382/729 descendant cs1",
+  "6569/2187/0": "deep-m 13130/2187 descendant cs-1",
+  "10927/2187/0": "deep-m 13114/2187 descendant b",
+  "10943/2187/0": "deep-m 13130/2187 descendant b",
+  "13114/2187/0": "deep-m 13114/2187 descendant cs0",
+  "13114/2187/1": "NT-gateway from free entry (j=5, delta=-2179/729)",
+  "13130/2187/0": "deep-m 13130/2187 descendant cs0",
+  "13130/2187/1": "NT-gateway from free entry (j=5, delta=-2195/729)",
+  "19675/2187/0": "deep-m 13114/2187 descendant cs1",
+  "19675/6561/0": "deep-m 39358/6561 descendant cs-1",
+  "19691/2187/0": "deep-m 13130/2187 descendant cs1",
+  "19691/6561/0": "deep-m 39374/6561 descendant cs-1",
+  "32797/6561/0": "deep-m 39358/6561 descendant b",
+  "32813/6561/0": "deep-m 39374/6561 descendant b",
+  "39358/6561/0": "deep-m 39358/6561 descendant cs0",
+  "39358/6561/1": "NT-gateway from free entry (j=5, delta=-6553/2187)",
+  "39374/6561/0": "deep-m 39374/6561 descendant cs0",
+  "39374/6561/1": "NT-gateway from free entry (j=5, delta=-6569/2187)",
+  "59041/6561/0": "deep-m 39358/6561 descendant cs1",
+  "59041/19683/0": "deep-m 118090/19683 descendant cs-1",
+  "59057/6561/0": "deep-m 39374/6561 descendant cs1",
+  "59057/19683/0": "deep-m 118106/19683 descendant cs-1",
+  "98407/19683/0": "deep-m 118090/19683 descendant b",
+  "98423/19683/0": "deep-m 118106/19683 descendant b",
+  "118090/19683/0": "deep-m 118090/19683 descendant cs0",
+  "118090/19683/1": "NT-gateway from free entry (j=5, delta=-19675/6561)",
+  "118106/19683/0": "deep-m 118106/19683 descendant cs0",
+  "118106/19683/1": "NT-gateway from free entry (j=5, delta=-19691/6561)",
+  "177139/19683/0": "deep-m 118090/19683 descendant cs1",
+  "177139/59049/0": "deep-m 354286/59049 descendant cs-1",
+  "177155/19683/0": "deep-m 118106/19683 descendant cs1",
+  "177155/59049/0": "deep-m 354302/59049 descendant cs-1",
+  "295237/59049/0": "deep-m 354286/59049 descendant b",
+  "295253/59049/0": "deep-m 354302/59049 descendant b",
+  "354286/59049/0": "deep-m 354286/59049 descendant cs0",
+  "354286/59049/1": "NT-gateway from free entry (j=5, delta=-59041/19683)",
+  "354302/59049/0": "deep-m 354302/59049 descendant cs0",
+  "354302/59049/1": "NT-gateway from free entry (j=5, delta=-59057/19683)",
+  "531433/59049/0": "deep-m 354286/59049 descendant cs1",
+  "531449/59049/0": "deep-m 354302/59049 descendant cs1"
+ },
+ "family_status": {
+  "-177155/59049/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-177139/59049/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-59057/19683/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-59041/19683/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-19691/6561/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-19675/6561/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-6569/2187/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-6553/2187/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-2195/729/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-2179/729/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-737/243/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-721/243/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-251/81/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-235/81/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-89/27/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-73/27/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-35/9/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-19/9/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-17/3/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "-7/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "-5/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "-4/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "-2/1/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "-2/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "-1/3/0": {
+   "unc_s": [
+    [
+     5,
+     "ceiling",
+     [
+      5,
+      5
+     ]
+    ]
+   ],
+   "unc_b": []
+  },
+  "1/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "2/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "4/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "5/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "7/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "7/3/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "8/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "10/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "10/3/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "11/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "13/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "14/1/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "17/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "23/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "23/3/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "26/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "26/3/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "35/3/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "35/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "37/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "46/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "46/9/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "53/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "62/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "62/9/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "73/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "73/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "89/9/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "89/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "127/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "143/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "154/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "154/27/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "170/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "170/27/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "235/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "235/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "251/27/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "251/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "397/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "413/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "478/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "478/81/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "494/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "494/81/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "721/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "721/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "737/81/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "737/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1207/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1223/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1450/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1450/243/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1466/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "1466/243/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "2179/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "2179/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "2195/243/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "2195/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "3637/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "3653/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "4366/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "4366/729/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "4382/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "4382/729/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "6553/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "6553/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "6569/729/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "6569/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "10927/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "10943/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "13114/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "13114/2187/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "13130/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "13130/2187/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19675/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19675/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19691/2187/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "19691/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "32797/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "32813/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "39358/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "39358/6561/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "39374/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "39374/6561/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "59041/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "59041/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "59057/6561/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "59057/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "98407/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "98423/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "118090/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "118090/19683/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "118106/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "118106/19683/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "177139/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "177139/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "177155/19683/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "177155/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "295237/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "295253/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "354286/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "354286/59049/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "354302/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "354302/59049/1": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "531433/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  },
+  "531449/59049/0": {
+   "unc_s": [],
+   "unc_b": []
+  }
+ },
+ "orbit_free_entries": {
+  "5,3^2": [
+   "('-1/3', 46)",
+   "('-17/3', 62)"
+  ],
+  "5,3^3": [
+   "('-19/9', 154)",
+   "('-35/9', 170)"
+  ],
+  "5,3^4": [
+   "('-73/27', 478)",
+   "('-89/27', 494)"
+  ],
+  "5,3^5": [
+   "('-235/81', 1450)",
+   "('-251/81', 1466)"
+  ],
+  "5,3^6": [
+   "('-721/243', 4366)",
+   "('-737/243', 4382)"
+  ],
+  "5,3^7": [
+   "('-2179/729', 13114)",
+   "('-2195/729', 13130)"
+  ],
+  "5,3^8": [
+   "('-6553/2187', 39358)",
+   "('-6569/2187', 39374)"
+  ],
+  "5,3^9": [
+   "('-19675/6561', 118090)",
+   "('-19691/6561', 118106)"
+  ],
+  "5,3^10": [
+   "('-59041/19683', 354286)",
+   "('-59057/19683', 354302)"
+  ],
+  "5,3^11": [
+   "('-177139/59049', 1062874)",
+   "('-177155/59049', 1062890)"
+  ]
+ },
+ "fire_beyond_cap": [
+  [
+   1062890,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177155/59049)"
+  ],
+  [
+   -531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant a"
+  ],
+  [
+   885743,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant b"
+  ],
+  [
+   531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs-1"
+  ],
+  [
+   1062890,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs0"
+  ],
+  [
+   1594331,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs1"
+  ],
+  [
+   1062874,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177139/59049)"
+  ],
+  [
+   -531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant a"
+  ],
+  [
+   885727,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant b"
+  ],
+  [
+   531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs-1"
+  ],
+  [
+   1062874,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs0"
+  ],
+  [
+   1594315,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs1"
+  ],
+  [
+   1062890,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177155/59049)"
+  ],
+  [
+   -531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant a"
+  ],
+  [
+   885743,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant b"
+  ],
+  [
+   531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs-1"
+  ],
+  [
+   1062890,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs0"
+  ],
+  [
+   1594331,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs1"
+  ],
+  [
+   1062874,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177139/59049)"
+  ],
+  [
+   -531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant a"
+  ],
+  [
+   885727,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant b"
+  ],
+  [
+   531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs-1"
+  ],
+  [
+   1062874,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs0"
+  ],
+  [
+   1594315,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs1"
+  ],
+  [
+   1062890,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177155/59049)"
+  ],
+  [
+   -531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant a"
+  ],
+  [
+   885743,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant b"
+  ],
+  [
+   531449,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs-1"
+  ],
+  [
+   1062890,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs0"
+  ],
+  [
+   1594331,
+   177147,
+   false,
+   "deep-m 1062890/177147 descendant cs1"
+  ],
+  [
+   1062874,
+   177147,
+   true,
+   "NT-gateway from free entry (j=5, delta=-177139/59049)"
+  ],
+  [
+   -531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant a"
+  ],
+  [
+   885727,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant b"
+  ],
+  [
+   531433,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs-1"
+  ],
+  [
+   1062874,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs0"
+  ],
+  [
+   1594315,
+   177147,
+   false,
+   "deep-m 1062874/177147 descendant cs1"
+  ]
+ ],
+ "orbit_cap_note": "families beyond den=3^9 are not certified; the free-entry orbit at chain 5 (and other shallow chains) persists through every computed tower level -- the static closure does NOT close (Theorem OBST)"
+}

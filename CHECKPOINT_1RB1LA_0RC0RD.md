@@ -797,3 +797,21 @@ agy auditors all correct). A review-correction block at the head of NOTES.md ove
 - Refuted: Lemma DR (counterexamples j=24, m=6,268,562: record +1; j=42, type b: +3); "determined cascades cost nothing";
   "next gate always at chain 5/8"; "gate outputs decrease"; the label-residue avoidance pattern mod 16.
 - Open: FREE-B (localising boundary gates), later escapes (CL2), trains (CL4). G1 not closed. EXT open; K_clock unchanged.
+
+## work_gc_* (ZCode GLM agent, R1–R4) — horizon 2^T4−2 ACCEPTED; FREE-B, level T5, Sigma ACCEPTED in part (2026-11-14)
+Reviews: reviews/gc_{t4_horizon,freeb,level_t5,sigma}_review_record.md (rounds 1–2: GLM adversary + GLM auditor + agy
+auditor; round 3: independent Claude adversary per note, whose correction blocks at the head of each NOTES.md override).
+- **work_gc_t4_horizon — Theorem H-T4 [A + imported A+B]: F is defined for every s with 3s+4 < 2^T4 and #1 does not halt
+  during the first 2^T4−2 top steps.** The accepted horizon is now 2^T4−2 (was 2^K_clock−2). It inherits Theorem T4's
+  zero-margin [B] level computation. The [B] ladder (H0 = 20..28) exercises only the old range.
+- work_gc_freeb — [A] FREE-B for two-step boundary gates: explicit positive sums S_a, U_b, U_c and unconditional bounds
+  j <= 2+log2(3gP(g)+3) / 2+log2(21gP(g)+20) / 1+eps_1+log2(30gP(g)+29); [A-cond] FB-5: CL2 at B*(g) ⟺ no (α) undetermined
+  W-path to a next gate, no (γ) deep-family boundary. Deep boundary gates remain open (part of CL2). "FREE-B gap closed"
+  withdrawn.
+- work_gc_level_t5 — [A] DL5 (supersets), GW, OBST algebra (delta_r^± = −3±8/3^r ≡ 5 mod 16); [B] level-E data. NOT
+  accepted: T5-RED (multi-step descendants missing; failing class 10/9 at chain 8) and OBST as an impossibility (the
+  m=N0 boundary emission does not exist; real orbit depth <= r0+4). **The route to T5 is open, not blocked**: a closure
+  graded by provenance height is the natural next attempt.
+- work_gc_sigma — [B] baselines reproduced; the uniform-Sigma candidate fails at h=4 only weakly (shift 28/9+2^c,
+  3-height 2, fired-range reading). Withdrawn: den-3 violations, unbounded 3-height.
+- Global EXT open. Open core unchanged: G1 (trains / CL2 / CL4) and levels beyond T4.

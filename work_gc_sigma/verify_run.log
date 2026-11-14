@@ -1,0 +1,31 @@
+ok V1a_P1_reproduction_vs_levels_20000000 (127s) 
+ok V1b_bulk_uncert_exactly_5_at_chain5 (127s) {5: [5]}
+ok V2a_ThetaE_bfs_equals_hand_table (127s) 
+ok V2b_ThetaE_integral (127s) 
+ok V3a_k5_is_1 (127s) 
+ok V3b_fire_arithmetic_from_recorded_sources (127s) 17 fired families
+ok V3c_orbit_delta_r_eq_5_mod16 (127s) 
+ok V3d_desc_a_recursion_and_family_presence (127s) r=1..9
+ok V3e_REG_descendant_set_of_10/3_in_families (127s) ['-1/3/0', '1/3/0', '10/3/0', '19/3/0', '7/3/0']
+ok V4a_all_families_scalar_certification_matches_artifact (127s) no-lift unc entries total=17
+ok V4b_fired_shift_ranges_structure (127s) {'deep': 85, 'top': 1, 'orbit': 16}
+ok V4c_fired_residues_present_in_spectrum (127s) missing=0
+ok V5a_orbit_spine_in_both_closures (127s) spine=19 mine=102 t5=134 mine-only=['-155/81/0', '-177059/59049/0', '-19595/6561/0', '-2099/729/0', '-58961/19683/0', '-641/243/0', '-6473/2187/0', '10847/2187/0', '1127/243/0', '118010/19683/0', '118010/19683/1', '13034/2187/0', '13034/2187/1', '1370/243/0', '1370/243/1', '155/81/0', '177059/19683/0', '177059/59049/0', '19595/2187/0', '19595/6561/0', '2099/243/0', '2099/729/0', '295157/59049/0', '317/81/0', '32717/6561/0', '354206/59049/0', '354206/59049/1', '3557/729/0', '39278/6561/0', '39278/6561/1', '398/81/0', '398/81/1', '4286/729/0', '4286/729/1', '531353/59049/0', '58961/19683/0', '58961/6561/0', '641/243/0', '641/81/0', '6473/2187/0', '6473/729/0', '98327/19683/0']
+ok V5b_spot_recertification_5_families (163s) 10/3/1:unc_s=[],bulk_unc=0; -1/3/0:unc_s=[(5, 'ceiling')],bulk_unc=0; 46/9/1:unc_s=[],bulk_unc=0; 154/27/1:unc_s=[],bulk_unc=0; 354286/59049/1:unc_s=[],bulk_unc=0
+ok V6a0_fast_classifier_fully_equivalent (166s) n=5706
+ok V6a_baseline_h_le_3_zero_out_of_list (166s) {'<T1': 0, '<T2': 0, '<T3': 0, '<T4': 5379}
+ok V6b_T4_out_of_list_nonempty_and_count_matches (166s) n=5379
+ok V6c_first_violation_values_present (166s) 
+ok V6d_den_reaches_3pow10_and_beyond_cap_fires (166s) maxden=59049 beyond_distinct=12 note=deduplicated by (num,den,lift); 12 distinct families, 18 raw log appends
+ok V6e_baseline_ok_flags_all_true (166s) {'ints_<T1': True, 'ints_<T2': True, 'ints_<T3': True, 'gw_<T3': True, 'm2_<T3': True}
+ok V6f_tier1_violations_nonempty (166s) n=99
+ok V6g_int_T4_sets (166s) ['-4', '-3', '-2', '-1', '0', '1', '2', '3', '4']
+ok V6h_den3_height_measure (166s) T3=1 T4=10
+ok V7a_realised_crosstab_matches_artifact (166s) [((1, -1), 545), ((1, 0), 37097), ((3, 0), 278793), ((5, 0), 545)]
+ok V7b_omega_ge5_shifts_exactly_0 (166s) 
+ok V7c_all_realised_in_-1_0 (166s) 
+ok V8a_deep_values_formulas (166s) {'<=N0': [Fraction(0, 1)], '<T1': [Fraction(0, 1)], '<T2': [Fraction(-1, 1), Fraction(0, 1), Fraction(1, 1)], '<T3': [Fraction(-2, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)], '<T4': [Fraction(-3, 1), Fraction(-2, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(2, 1), Fraction(3, 1)]}
+ok V8b_T3_possible_reading_adds_exactly_2 (166s) 
+ok V8c_artifact_scope_full_table (166s) 
+
+ALL PASS

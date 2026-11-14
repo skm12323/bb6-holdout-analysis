@@ -1,0 +1,10 @@
+[a] horizon inequality 3(H-1)^2+4<2^H exact H=16..4096 + all-scale step: OK
+[b] tower order T1<K, T2<Kp, Kp<T3, T3<Kclock, Kclock<T4 (exact): OK
+[c] H0=20: F prefix 349523 steps (ptr 391793, 118665 fires, 9309 chains, 118664 epochs), 1048574 top steps, 468602 singletons, max v 19, 355996 gap checks (0.6s + 1.2s)
+[c] H0=22: F prefix 1398099 steps (ptr 1567149, 474657 fires, 37235 chains, 474656 epochs), 4194302 top steps, 1874390 singletons, max v 21, 1423972 gap checks (2.3s + 5.2s)
+[c] H0=24: F prefix 5592403 steps (ptr 6268570, 1898624 fires, 148940 chains, 1898623 epochs), 16777214 top steps, 7497539 singletons, max v 23, 5695873 gap checks (9.9s + 19.6s)
+[c] H0=26: F prefix 22369619 steps (ptr 25074248, 7594491 fires, 595760 chains, 7594490 epochs), 67108862 top steps, 29990130 singletons, max v 25, 22783474 gap checks (38.5s + 76.2s)
+[c] H0=28: F prefix 89478483 steps (ptr 100296961, 30377959 fires, 2383039 chains, 30377958 epochs), 268435454 top steps, 119960495 singletons, max v 27, 91133877 gap checks (143.2s + 303.4s)
+[c] achieved H0 ladder: [20, 22, 24, 26, 28] (total 600.2 s)
+ALL PASS
+EXIT=0

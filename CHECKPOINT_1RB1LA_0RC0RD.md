@@ -815,3 +815,14 @@ auditor; round 3: independent Claude adversary per note, whose correction blocks
 - work_gc_sigma — [B] baselines reproduced; the uniform-Sigma candidate fails at h=4 only weakly (shift 28/9+2^c,
   3-height 2, fired-range reading). Withdrawn: den-3 violations, unbounded 3-height.
 - Global EXT open. Open core unchanged: G1 (trains / CL2 / CL4) and levels beyond T4.
+
+## Global strict-EXT proof draft — pending independent review (2026-11-22)
+
+The [mixed-block argument](work_mixed_bridge/PROOF.md) derives a length
+bound of Q for every productive word with input chains in [5,Q], Q≥64,
+in the strict outer induction. Consecutive excursions above a lower cap
+share an integer clock. Eliminating it bounds the number of reentries.
+The [small-base assembly](work_mixed_bridge/SMALL_BASE.md) checks
+S(1),…,S(1023) and starts induction at J=1024, obtaining strict EXT
+and applying Theorem U to #1 on the blank tape. The new global argument
+is a research draft; the prior review verdicts apply to its imports.

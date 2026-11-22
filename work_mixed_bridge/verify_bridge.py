@@ -107,8 +107,10 @@ def base_check():
 
     visit(0, 0, 0, 0, 0, 0)
     assert counts == {1: 325, 2: 105625, 3: 25438, 4: 17378, 5: 6271, 6: 504}
-    assert max(block.loss for block in blocks.values()) == 3
-    print("mixed-word counts:", sorted(counts.items()), "maximum block loss: 3")
+    losses = Counter(block.loss for block in blocks.values())
+    assert losses == {1: 309, 3: 16}
+    print("mixed-word counts:", sorted(counts.items()))
+    print("losses over all productive inputs (no output cap):", sorted(losses.items()), "maximum:", max(losses))
 
 
 def scale_checks():

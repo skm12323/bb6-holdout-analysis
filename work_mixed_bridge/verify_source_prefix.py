@@ -22,6 +22,8 @@ class Prefix:
         self.calendar = Cal()
         self.lengths = Counter()
         self.maximum_loss = 0
+        self.chain_checks = 0
+        self.minimum_margin = None
 
     def row(self, n):
         return self.rows[n]
@@ -56,6 +58,10 @@ class Prefix:
             q, theta, x = action["jn"], action["Th"], action["x"]
             loss += action["loss"]
             assert 0 < q < root - loss
+            self.chain_checks += 1
+            witness = (root - loss - q, root, len(chains), q, loss)
+            if self.minimum_margin is None or witness < self.minimum_margin:
+                self.minimum_margin = witness
             chains.append(q)
         assert (tuple(chains), "".join(source_types), len(chains)-1, loss) == (
             expected, kinds, length, expected_loss)
@@ -85,7 +91,9 @@ if __name__ == "__main__":
     assert len(prefix.raw) == 1023
     assert prefix.lengths == {0: 389, 1: 586, 2: 48}
     assert prefix.maximum_loss == 4
+    assert prefix.chain_checks == 682 and prefix.minimum_margin == (1, 5, 1, 3, 1)
     assert max(prefix.row(n)["tau"] for n in range(63)) == 51
     assert prefix.row(1022)["tau"] == 910
     print("1023 row interfaces and symbolic exits agree; lengths:", dict(sorted(prefix.lengths.items())))
     print("maximum exit loss: 4; maximum small clock: 51; tau(1022): 910")
+    print("checked chains:", prefix.chain_checks, "minimum (margin, J, t, q, loss):", prefix.minimum_margin)

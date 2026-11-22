@@ -44,9 +44,10 @@ at most G. At each large input j≥64 the next b/c parameter is at most
 j/2, and a replay costs 1+τ(j−1)≤j² by the earlier clock bound. The
 sum of large costs is at most 4G²/3. At small inputs j≤63 a replay
 costs at most 52 by the raw table. Continuing b/c steps lower the
-positive parameter by at least three. At most 22 such small-input
-replays (including their possible a endpoint), plus one final step,
-suffice. These are upper bounds for the same corridor in the
+positive parameter by at least three. At most 21 such small-input
+replays (20 b/c steps 63,60,…,6 plus a possible a endpoint), plus one
+final step, suffice; charging 22 of them gives the rounder 22·52+1=1145
+used below. These are upper bounds for the same corridor in the
 next-original lemma, including prefixes whose next inspection is the
 first undefined step. Therefore
 

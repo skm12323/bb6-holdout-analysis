@@ -826,3 +826,21 @@ The [small-base assembly](work_mixed_bridge/SMALL_BASE.md) checks
 S(1),…,S(1023) and starts induction at J=1024, obtaining strict EXT
 and applying Theorem U to #1 on the blank tape. The new global argument
 is a research draft; the prior review verdicts apply to its imports.
+
+## work_mixed_bridge (GPT Astra) — GLOBAL strict EXT and NON-HALTING — ACCEPTED (2026-11-22)
+Review: reviews/gc_mixed_bridge_review_record.md (GLM panel, unanimous all correct) and
+reviews/final_mixed_bridge_review_record.md (final round: two Claude Opus 5.5 adversaries `closed in all states`, two blind
+DeepSeek v4.1 flash auditors `all correct`). A final review block at the head of PROOF.md amends LOW items.
+- **Bridge theorem [A + B base]:** in the strict least-counterexample induction, every productive mixed-block word with input
+  chains in [5,Q], Q >= 64, has length <= Q. Base: on the canonical calendar no 7 consecutive productive entries <= 1023
+  (F = 6; 325 productive inputs; reproduced by three independent enumerators). Step: between consecutive high entries a
+  bridge has x_end = a·x_start + β·Θ + γ with 1 <= β <= 2, 0 <= γ <= 2t; both endpoints ≡ 0 mod 2^(h+1), the shared clock
+  Θ_(i+1) = Θ_i + t_i eliminates to an integer Z_i divisible by 2^(h+1) and smaller in size, so Z_i = 0 and
+  p_(i+1) = p_i − t_i <= p_i/2: at most 2+log2(2T) bridges. Scales h = 2^(20·2^n) cover all Q.
+- **Consequence:** the word bound gives at most (g+2)(g+1) <= floor(J/(3 log2 J)) chains in every tie-free prefix (Theorem L),
+  or directly j_t + Γ_t <= 32 l² < J/2; hence **strict EXT for every J**, and by Theorem U **machine #1 never halts on the
+  blank tape**. The small-chain train obstruction is bypassed by the canonical F = 6 certificate (the eternal synthetic
+  trains use non-productive chains such as 7, 9).
+- Caveat: the imported structural lemmas (RULES reduction, PROOF_M, EGX, E1–E4, CLOCK/C1, C2-log, MASS, Theorem U) were taken
+  from their earlier acceptance records, not re-reviewed in the final round. **STATUS: #1 PROVED NON-HALTING (relative to the
+  accepted repository lemmas).**

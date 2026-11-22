@@ -7,7 +7,9 @@ from math import isqrt
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "work_claude_cycle"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cyc import Cal, step
+from audit_bridge import gap_polynomials
 
 
 def valuation(v):
@@ -115,8 +117,17 @@ def scale_checks():
     h, m = 1023, 2**20
     loss, time = 201, 42 * m**3
     assert 2 * loss + (12 * time).bit_length() <= h + 1
-    assert 7 * (4 + (2 * time).bit_length() - 1) <= 497 <= 1024
+    # floor(log2(2T)) = 66 since 2T = 21*2^62, so (5) gives N <= 7*70.
+    assert (2 * time).bit_length() - 1 == 66
+    assert 7 * (4 + 66) == 490 <= 1024
+    # All-scale obligations for every e >= 20: each gap polynomial is the
+    # corresponding difference evaluated at the grid invariant r = 48e+64
+    # (nonnegative coefficients with positive constant term), and each
+    # difference is increasing in r beyond the invariant; both properties
+    # are asserted inside gap_polynomials, with no sampling.
+    assert len(gap_polynomials()) == 4
     for e in (20, 21, 40, 80, 160, 320, 640):
+        # Numeric spot checks on the same grid, exact integers.
         # For odd e use the upper integer square root.
         h = 1 << e
         root = isqrt(h)

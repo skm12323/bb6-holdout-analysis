@@ -1,0 +1,222 @@
+% Compile twice with XeLaTeX. Chinese fonts are supplied by TeX Live.
+\documentclass[UTF8,12pt,a4paper,fontset=fandol,scheme=plain]{ctexart}
+\usepackage[margin=27mm,top=23mm,bottom=24mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array,fancyhdr,enumitem,xcolor}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdftitle={一台六状态二符号图灵机的全局不停机证明}}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small 六状态图灵机的全局不停机证明}
+\fancyhead[R]{\small 研究稿\quad 2026 年 11 月 22 日}\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\linespread{1.24}
+\renewcommand{\tablename}{表}
+\ctexset{section={format=\Large\bfseries,beforeskip=1.5ex,afterskip=.7ex},
+subsection={format=\large\bfseries,beforeskip=1.4ex,afterskip=.5ex}}
+\setlist{nosep,leftmargin=2em}\setlength{\parskip}{.24em}
+\setlength{\emergencystretch}{2em}\raggedbottom
+\newtheoremstyle{cn}{.55em}{.35em}{\normalfont}{}{\bfseries}{.}{.7em}{}
+\theoremstyle{cn}\newtheorem{thm}{定理}\newtheorem{lem}[thm]{引理}
+\renewcommand{\proofname}{证明}
+\newcommand{\vv}{\nu_2}\newcommand{\lgx}{\log_2}
+\newcommand{\src}[1]{{\small\path{#1}}}
+\begin{document}\thispagestyle{plain}
+\begin{center}
+{\LARGE\bfseries 一台六状态二符号图灵机的全局不停机证明\par}
+\vspace{.45em}{\large 混合返回词的长度界与严格退出归纳\par}
+\vspace{.65em}2026 年 11 月 22 日\qquad 中文研究稿
+\end{center}
+\noindent\textbf{摘要}\quad
+考虑 BB(6) 未决机器清单中在本项目编号为 \#1 的机器。已有归约把它的空白带停机问题化为一个整数问题：对每个深度 \(J\)，符号退出过程的每一次二进除法都必须保持严格的赋值余量。难点在于，退出过程可以离开一个已穷举的低链号区间，随后再返回。我们保留相邻两次高链访问之间的全部转移，利用连续两段路径共享的时钟消去初相位。所得整数同时有很高的二进整除性和很小的绝对值；它只能为零，迫使一个非负有理数在每次重访时至少减半。以链号不超过 \(1023\) 的有限证书为起点，可证链号不超过 \(Q\) 的连续生产性混合返回词长度至多为 \(Q\)（\(Q\ge64\)）。由此排除任意深度的首次严格性失效，并推出该机器从空白带出发永不停机。
+
+\section{机器与停机判据}
+初始状态为 \(A\)，双向纸带全为 \(0\)。下表每格依次给出写入符号、移动方向和下一状态。唯一的停机指令在状态 \(F\) 读到 \(0\) 时触发。
+\begin{center}
+\begin{tabular}{c*{6}{c}}\toprule
+读入 & \(A\)&\(B\)&\(C\)&\(D\)&\(E\)&\(F\)\\\midrule
+0 & 1RB & 0RC & 1LC & 1RE & 1LF & 停机\\
+1 & 1LA & 0RD & 1LA & 1RD & 0LA & 0LE\\\bottomrule
+\end{tabular}
+\end{center}
+\begin{thm}[主定理]\label{main}上表所定义的图灵机从空白带出发永不停机。\end{thm}
+宏规则归约把一段读写过程编码为整数列表 \((A_0,b,c,\ldots)\)，空缺项取零，初始列表为 \((3)\)。列表首项为奇数时，把 \(A_0+2b+3\) 唯一写成 \(2^j u\)，其中 \(u\) 为奇数。当且仅当 \(u=1\) 时，这一宏步停机。单元素列表可直接验证安全；从单元素列表出发的每次游程是否安全并最终返回单元素列表，便成为要解决的问题。例如起始列表为 \((3)\)，此时 \(A_0+2b+3=6=2\cdot3\)，第一步安全。上述编码和奇数判据见文末文献 [1]。
+
+本文采用 [2,3] 的游程归约。下一节列出使用它所需的精确接口。核心论证在第 4 节：同一次高链访问既结束前一段，又开始后一段，这提供了两个含有同一未知时钟的同余式。第 5 节说明如何把局部结论推到所有链号，第 6 节将它用于原机器。
+
+\smallskip\noindent\textbf{相关工作。} 项目说明致谢 CyclingCycloid 对这一研究方向的建议；同一台机器在其 \href{https://github.com/CyclingCycloid/bb6-holdout-research}{\texttt{bb6-holdout-research}} 项目中称为 M1。本文的 \#1 沿用本项目编号。
+
+\newpage
+\section{从纸带游程到整数退出过程}
+对非零整数 \(z\)，记 \(\vv(z)\) 为整除 \(z\) 的最大二次幂的指数。配对过程用 \((c,\lambda)\) 表示形如 \(cU+\lambda\) 的带值，其中 \(U\) 是游程初始的奇数参数。用无限队列 \((2^n,0)\)（\(n=0,1,\ldots\)）替换一次游程的有限队列，得到规范过程 \(F\)。它第一次读取第 \(n\) 个原始队列项的时刻为 \(\tau(n)\)，此次读取的记录记为 \(X(n)\)，称为\emph{源行}。待处理队列为空时，一步同时读两个原始项，依次标作类型 \(a\) 和 \(b\)；队列中尚有一个待处理项时，读到的原始项标作类型 \(c\)。每行还记录头部的奇偶性和非负整数亏损 \(\varepsilon(n)\)。全部量由此前轨道确定 [2]。
+
+固定正整数 \(J\)。符号过程 \(S(J)\) 把游程基数当作形式奇参数，逐次计算一个链值的线性式 \(a_t U+x_t\)。若
+\begin{equation}
+             j_t:=\vv(x_t)<\vv(a_t)=J-\Gamma_t,                    \label{safety}
+\end{equation}
+则对每个奇数 \(U\)，实际链值都恰好被 \(2^{j_t}\) 整除到同一阶，可以执行同一次除法。这里 \(\Gamma_t\) 是到第 \(t\) 条链为止的累计亏损，每一步增加 \(1+\varepsilon\)。本文称 (1) 为\emph{严格安全}。只要前面的除法合法，配对过程的质量恒等式给出 \(1\le x_t\le6d_t-1\)，其中 \(d_t\) 是自起点以来的配对步数。这一估计在本次除法之前已成立。
+
+所需的全称命题为：对每个 \(J\)，若 \(F\) 已定义至 \(\tau(J-1)\) 并包括该步，则 \(S(J)\) 到达的每条链都严格安全。[3] 的定理 U 将此命题转回定理 \ref{main}。其理由是，实际游程与严格安全的符号过程逐次取到相同的链号，有限队列的末段也与对应的符号退出一致。安全链的奇数基数大于 \(1\)；退出结束后到达新的单元素列表。这些识别沿用 [1–3] 的证明。
+
+\subsection{实际参与计数的两个坐标}
+保留线性式的常数项 \(x\)，令 \(\Theta=3d+1\)。严格安全保证这个整数投影给出真实的链号。根状态取 \((q,\Theta,x)=(J,1,0)\)，根之后 \(q=\vv(x)\)。这里取线性配对式的常数项仅用于计算；式 (1) 才把该计算转移给每个实际奇参数 \(U\)。每一步读 \(X(q-1)\)；偶头意味着退出结束。奇头时的标量递推为
+\begin{equation}
+\begin{array}{c|cc}
+ & x' & \Theta'-\Theta\\ \hline
+a & 2\Theta+6k-x/2 & 3+6k\\
+b,c & R x+\lambda & 3+3\tau(q-1).
+\end{array}                                                       \label{rules}
+\end{equation}
+在 \(a\) 行，\(2k=\tau(q-1)\)。在 \(b,c\) 行，\(0<R\le1\)，
+\(0<\lambda\le6\tau(q-1)+5\)，且 \(R\) 是二进有理数，\(\vv(R)=-(1+\varepsilon(q-1))\)。下一链号由源行固定，满足 \(q'\le q-2-\varepsilon(q-1)\) [2,4]。后文只把 (2) 用在已经合法的路径上；首次可能失效的一步将单独估计。
+
+\newpage
+\section{生产性返回块及其代价}
+观察相邻两次奇头 \(a\) 返回。前一次的输出先经历零步或若干步 \(b,c\) 转移，再经历下一次 \(a\) 转移。称这一整段为一个\emph{生产性块}，把块的输入链号记为 \(q\)。连续各块的输入链号组成一个词；词长就是块数。这里每一项都来自同一条整数轨道，首项之前的时钟可以任意。\(q\le4\) 的行直接结束，生产性输入均有 \(q\ge5\)。
+
+设块内 \(b,c\) 部分的配对耗时为 \(d\)，亏损为 \(G\)。合成 (2) 得到 \(x\mapsto\alpha x+B\) 和时钟增量 \(3d\)。逐步使用 \(B'=RB+\lambda\)，得 \(0<\alpha\le1,\ 0\le B\le6d\)。以 \(2^G\) 乘 \(\alpha,B\) 均得整数。再接上半时钟为 \(k\) 的末次 \(a\) 转移，整个块便是
+\begin{equation}
+ x'=-\tfrac{\alpha}{2}x+2\Theta+c,\quad \Theta'=\Theta+t,\qquad
+ c=6d+6k-B/2,\quad t=3(d+1+2k).                                  \label{block}
+\end{equation}
+特别地，\(0\le c\le2t,\ t\ge3\)，块亏损 \(l=G+1\) 足以清除式 \eqref{block} 的所有分母。
+
+\begin{lem}[单块估计]\label{cost}在外层严格安全归纳中，若生产性块的输入链号至多为 \(M\ge1024\)，且其源行已可用，则 \(t\le6M^3,\ l\le9\lgx M+3\)。\end{lem}
+\begin{proof}
+由规范时钟界 \(\tau(n)\le n^2\)（附录），每次读取的配对耗时不超过 \(1+M^2\)。块内的 \(b,c\) 链号严格下降，包括末次 \(a\) 在内至多读取 \(M\) 行，由此得时间界。
+
+对 \(q\ge1024\) 的 \(b,c\) 转移，质量界给出
+\[
+ q'\le\lgx(6(q-1)^2+5)\le2\lgx q+3\le\sqrt q .
+\]
+单步亏损至多 \(4\lgx q+4\)。对 \(b\) 行它等于 2；对 \(c\) 行，用 [3] 的 C2-log 引理：该行所复制的游程参数 \(J_W\le\lgx(3(q-1)^2+4)<J\)，其严格安全已由外层归纳给出。这里仅对实际读取的 \(q\le J\) 使用此界。连续大链的对数之和至多 \(2\lgx M\)，且 \(4\lgx q+4\le4.4\lgx q\)。余下至多是一条 \(a\) 步或一个入口不超过 \(1023\) 的生产性尾块；后者亏损至多 3，见表 \ref{base} 的证书。因此 \(l\le8.8\lgx M+3\)。
+\end{proof}
+
+界中的两个量起不同作用。时间 \(t\) 控制普通绝对值，亏损 \(l\) 控制需要清除多少个二进分母。大链输入的作用则相反：知道 \(q>h\)，就知道输入值 \(x\) 含有至少 \(h+1\) 个因子 2。下一节把两者放到同一个整数上比较。
+
+\newpage
+\section{相邻两座桥如何消去时钟}
+取整数门槛 \(h\)。在一个生产性词中标出所有 \(q>h\) 的位置。两相邻标记之间的路径称为一座\emph{桥}：它执行从第一个标记开始的所有块，停在第二个标记的输入处。若连续低链词长至多为 \(F_0\)，一座桥便至多包含 \(F_0+1\) 个块。
+
+\begin{lem}[桥的计数]\label{bridge}
+设每座桥的总亏损不超过 \(S\)，时钟增量不超过 \(T\)。若
+\begin{equation}             12T\,2^{2S}<2^{h+1},                 \label{sep}\end{equation}
+则整个词的长度不超过 \((F_0+1)(4+\lfloor\lgx(2T)\rfloor)\)。
+\end{lem}
+\begin{proof}
+第 \(i\) 座桥具有形式 \(x_{i+1}=a_i x_i+\beta_i\Theta_i+\gamma_i\)，
+\(\Theta_{i+1}=\Theta_i+t_i\)。其中
+\[
+     1\le\beta_i\le2,\qquad 0\le\gamma_i\le2t_i .
+\]
+第一块由 \eqref{block} 满足此界。向时钟已增加 \(t\) 的桥追加一个增量为 \(u\) 的块，系数更新为
+\(\beta'=2-\alpha\beta/2,\ \gamma'=2t-\alpha\gamma/2+c\)；
+于是 \(1\le\beta'\le2\) 且 \(t+c\le\gamma'\le2(t+u)\)。
+
+设这座桥的实际亏损为 \(s_i\)，则 \(2^{s_i}\) 清除三个系数的分母。记
+\(b_i=2^{s_i}\beta_i>0,\ c_i=2^{s_i}\gamma_i\)。桥的两端都是高链，故 \(2^{h+1}\) 同时整除 \(x_i,x_{i+1}\)。将桥的等式清分母，便有
+\[
+                 b_i\Theta_i+c_i\equiv0\pmod {2^{h+1}} .
+\]
+在下一座桥上写下同一个式子，将 \(\Theta_{i+1}=\Theta_i+t_i\) 代入，交叉相乘并相减。消去 \(\Theta_i\) 后，得到整数
+\[
+          Z_i=b_i b_{i+1}t_i+b_i c_{i+1}-b_{i+1}c_i
+          \equiv0\pmod {2^{h+1}} .
+\]
+因为 \(b_i\le2^{S+1}\)、\(c_i\le2^{S+1}T\)，有 \(|Z_i|\le12T2^{2S}\)。由 \eqref{sep}，\(Z_i=0\)。此时才在有理数中相除：令 \(p_i=c_i/b_i\)，得
+\begin{equation}
+              p_{i+1}=p_i-t_i\le p_i/2,\qquad 0\le p_i\le2t_i . \label{half}
+\end{equation}
+若共有 \(r\ge2\) 座桥，从零编号，则 \(p_{r-2}\ge t_{r-2}\ge1\)，而 \(p_0\le2T\)。反复应用 \eqref{half} 给出 \(r\le2+\lfloor\lgx(2T)\rfloor\)。在 \(r+1\) 个高链位置前后及其间，各段至多有 \(F_0\) 个低链位置。这就给出所需词长界；零个或一个高链位置也直接满足此界。
+\end{proof}
+
+\noindent\textbf{一段可以重放的路径。}
+取 \(h=1023\)。局部整数路径 \(661128\to17\to661128\to857036\) 有三个高链位置。第一座桥包含两个块，经低链 17 返回；第二座桥只有一个块。两桥分别有 \(\beta_0=1,\ \beta_1=2\)，清分母所需的指数也不同。实际计算给出
+\[
+          p_0=2\,654\,187,\qquad t_0=1\,769\,472,\qquad p_1=884\,715 .
+\]
+三者恰好满足 \(p_0=t_0+p_1\)。这个例子说明为何要消去相位而保留经过的时间；引理允许任意局部整数起点，故无需假定此例出现在空白带轨道上。
+
+\newpage
+\section{有限证书与尺度归纳}
+\begin{table}[h!]\centering
+\caption{入口链号均不超过 1023 的可行生产性词。}\label{base}
+\begin{tabular}{c*{7}{r}}\toprule
+词长 &1&2&3&4&5&6&7\\\midrule
+词数 &325&105625&25438&17378&6271&504&0\\\bottomrule
+\end{tabular}
+\end{table}
+枚举从相位与链值完全自由的整数约束开始。为理解表 \ref{base} 的覆盖范围，可以把某一步的可行状态写成
+\(\Theta=t_0+2^b v,\ x=r_0+pv+2^a u\)，其中 \(u,v\) 遍历二进整数。选择入口 \(q\) 就是加上 \(x\equiv2^q\bmod 2^{q+1}\)；在公共精度上限制 \(v\)，再把所得集合整体代入 \eqref{block}。奇数乘子在二进整数中可逆。每次分支保留原来的相位约束，穷尽所有普通整数提升。由此任何连续低链段至多有六项，包括刚从高链落回来的段。每个生产性低块亏损至多 3，即使其输出超过门槛也成立。附录列出复算入口。
+
+\begin{thm}[全尺度词长界]\label{word}
+在严格安全的外层归纳下，对每个整数 \(Q\ge64\)，使用可用源行且所有入口均在 \([5,Q]\) 的生产性混合返回词，长度至多为 \(Q\)。
+\end{thm}
+\begin{proof}
+先取 \(h=1023,\ M=2^{20}\)。每桥至多一个高块和六个低块；引理 \ref{cost} 允许取 \(S=183+6\cdot3=201,\ T=42M^3<2^{66}\)。
+因 \(4+66+402<1024\)，分离条件 \eqref{sep} 成立。
+由 \(\lfloor\lgx(2T)\rfloor=66\)，词长至多 \(7(4+66)=490<\sqrt M\)。
+
+再取 \(e=20\cdot2^n,\ h=2^e,\ M=h^2\)。设入口不超过 \(h\) 时词长至多 \(r=\sqrt h\)。在下一尺度每桥仍至多一个高块，故可取
+\[
+        S=18e+3+(9e+3)r,\qquad T=6(r+1)h^6 .
+\]
+整个尺度序列满足 \(r\ge48e+64\)：初值处取等，\(e\) 加倍时 \(r\) 平方。由此得
+\[
+ 4S\le h,\quad 6(r+1)\le h,\quad 2S+7e+4\le h,\quad (r+1)(7e+5)\le h .
+\]
+例如 \(h-4S=r^2-(36e+12)r-72e-12\) 在上述范围内随 \(r\) 递增，在左端点等于 \(576e^2+3192e+3316>0\)。其余三式按同法展开。于是 \(T\le h^7\)，\(12T2^{2S}<2^{h+1}\)。引理 \ref{bridge} 给出的新词长界至多为 \((r+1)(7e+5)\le h=\sqrt M\)。尺度归纳成立。
+
+对 \(64\le Q\le1023\) 用界 6；对 \(1024\le Q\le2^{20}\) 用界 490。再大的 \(Q\) 取序列中首个不小于它的尺度，其平方根即上一尺度，小于 \(Q\)。取整只扩大估计常数，所读取的源行始终是原词所用的行。
+\end{proof}
+
+\newpage
+\section{排除首次失效}
+现对 \(J\) 作强归纳。附录直接验证 \(1\le J\le1023\)。取 \(J\ge1024\)，假设 \(F\) 已定义至 \(\tau(J-1)\)，令 \(L=\lceil\lgx J\rceil,\ g=2L+4\)。设第 \(t\ge1\) 条链可能首次违反 (1)。此前各步的亏损至少为 1，且此前严格安全，所以 \(t\le J\)。首先要限制候选链号本身；这一步不能假设候选除法已经合法。
+
+根的配对耗时为 \(d_1=1+\tau(J-1)\)。若此前链号均至多为 \(g\)，二次时钟界和第二节的质量估计给出
+\[
+ d_i\le1+(J-1)^2+J(1+g^2)\le2J^2,\qquad
+ j_i\le\lgx(6d_i)<g .
+\]
+其中 \(1+g^2\le J\) 在 \(J=1024\) 时可直接核对；自 \(L=11\) 起有 \(1+(2L+4)^2\le2^{L-1}<J\)。由逐项归纳，这个链号界一直适用到候选步。所有内部源行均早于根。
+
+只数已安全输入 \(j_1,\ldots,j_{t-1}\) 之间的转移。若其中有 \(A\) 个 \(a\) 转移，则相邻两次之间给出一个生产性入口；当 \(A\ge1\) 时总计 \(A-1\) 个连续入口。定理 \ref{word} 给出 \(A\le g+1\)（小 \(g\) 时直接使用表 \ref{base}）。将这些转移分为以 \(a\) 结尾的 \(A\) 个块和最后未完成的 \(b,c\) 段。第一块即使从 \(j_1\) 开始，其代价仍仅由该块读取的源行决定。未完成段利用 \(1+\varepsilon\le q-q'\) 求和，亏损至多 \(g\)。
+
+还有三笔需要计入：根亏损至多 \(4L+4\)，进入候选的最后一次转移亏损至多 \(1+\varepsilon(q-1)\le q\le g\)，候选链号自身也至多 \(g\)。若 \(t=1\)，只需根与候选链号两项。于是分为两种情形：
+\begin{itemize}
+\item 若 \(g\le1023\)，则 \(A\le7\)，每块亏损至多 3。因此
+\[
+             j_t+\Gamma_t\le4L+4+7\cdot3+3g=10L+37<J/2 .
+\]
+\item 若 \(g>1023\)，则 \(L\ge510\)。令 \(K_g=9\lgx g+3\)，由引理 \ref{cost}，
+\[
+             j_t+\Gamma_t\le4L+4+(g+1)K_g+3g\le32L^2<J/2 .
+\]
+\end{itemize}
+第一式用 \(10L+37<2^{L-2}\)（\(L\ge10\)）；第二式用 \(g\le3L,\ \lgx g\le L\) 和 \(32L^2<2^{L-2}\)（\(L\ge510\)）。两者都与首次失效所需的 \(j_t+\Gamma_t\ge J\) 矛盾。每条链都安全，且正亏损保证固定 \(J\) 的退出过程必然结束。强归纳完成，依第二节的定理 U，原机器从空白带出发永不停机。这就证明了定理 \ref{main}。\hfill\(\square\)
+
+\newpage
+\section*{附录\quad 计算证书、时钟界与来源}
+\textbf{小基例。} 从规范配对过程按时间生成 \(X(0),\ldots,X(1022)\)。每得到 \(X(n)\)，仅使用已读取的行，分别以完整线性配对递推和标量递推计算 \(S(n+1)\)，比较链号、返回类型和总亏损。1023 个退出中，根后恰有零条、一条、两条链的情形分别为 389、586、48 个；全都遇偶头结束，最大亏损为 4。这也核对了表 \ref{base} 所用的同一批源行。
+
+\textbf{二次时钟界的起点。} 上述前缀给出 \(\tau(n)\le n\)、\(\tau(1022)=910\) 以及 \(\max_{n\le62}\tau(n)=51\)。用 [4] 的下一原始项引理，在已经到达的源行上对 \(n\) 归纳。令 \(G=\lceil\lgx(6n^2+5)\rceil\)，首个链号至多 \(G\)。在链号 \(j\ge64\) 的连续 \(b,c\) 段中，后继至多 \(j/2\)，当次读取代价至多 \(j^2\)；总计至多 \(4G^2/3\)。小链阶段每步至多耗时 52，链号每次延续至少下降 3；宽取 22 步和一次末步，得
+\[
+            \tau(n+1)-\tau(n)\le4G^2/3+1145<2n+1 .
+\]
+末个不等式在 \(n=1022,1023\) 时用 \(G\le23\)。以后取 \(k=\lfloor\lgx n\rfloor\ge10\)，有 \(G\le2k+5\) 且 \(4(2k+5)^2+3435<3\cdot2^{k+1}\)：初值为 \(5935<6144\)，左侧每次递增的倍率小于 2。于是 \(\tau(n+1)\le(n+1)^2\)。此论证只界定已经到达的读取时刻。
+
+\textbf{复现。} 在仓库根目录用 Python 3 分别运行以下三条命令。第一条核对符号退出的起始区间，第二条穷举生产性词并重放高链轨迹，第三条检查桥接恒等式和尺度不等式。
+\begin{flushleft}\small\ttfamily
+python -B work\_mixed\_bridge/verify\_source\_prefix.py\\
+python -B work\_mixed\_bridge/verify\_bridge.py\\
+python -B work\_mixed\_bridge/audit\_bridge.py
+\end{flushleft}
+\textbf{证明来源。} 以下编号指项目仓库内的推导，供核对本文引用的结构性结果。
+\begin{enumerate}[label={[\arabic*]},leftmargin=2.1em]
+\item 宏规则与单元素游程：\src{work_r1/RULES.md}；\src{work_r4/PROOF.md} §1。
+\item 配对过程、返回重放与质量恒等式：\src{work_m/PROOF_M.md}；\src{work_el/PROOF_EL.md} §3；\src{work_global_ext/PROOF_EXT.md} §2。
+\item 退出与原机器的等价、C2-log 引理、定理 U：\src{work_global_egx/PROOF_EGX.md} §§1–5；\src{work_global_endgame/LEMMAS_E.md}。
+\item 规范时钟与块系数：\src{work_global_clock/PROOF_CLOCK.md} §§2–3；\src{work_gateway_trains/origin_contraction/PROOF.md}。
+\item 混合块、有限枚举与本证明：\src{work_g2_mixed_blocks/PROOF_MIXED.md}；\src{work_g2_core_words/PROOF_WORDS.md}；\src{work_mixed_bridge/PROOF.md}；\src{work_mixed_bridge/SMALL_BASE.md}。
+\end{enumerate}
+\smallskip\noindent\small\textbf{版本说明。} 本文据 2026 年 11 月 22 日工作区整理。仓库当日的 \src{reviews/final_mixed_bridge_review_record.md} 已记录对新增桥接论证的内部接受意见；底层机器归约沿用此前的审查记录。本中文稿供人类审读，尚未经外部同行评审。
+\end{document}

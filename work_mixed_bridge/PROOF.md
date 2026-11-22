@@ -1,7 +1,7 @@
 # A proposed global non-halting proof for BB(6) holdout #1
 
 Machine `1RB1LA_0RC0RD_1LC1LA_1RE1RD_1LF0LA_---0LE`.
-Research draft, pending independent mathematical review. The claim is
+Research draft; independently reviewed and accepted 2026-11-22 (see the review block below). The claim is
 relative to the repository's accepted reduction and source estimates.
 It uses strict EXT throughout. The intervening fixed-chain and all-a
 drafts in work_direct_phase are not dependencies.
@@ -14,6 +14,34 @@ has length at most Q for Q ≥ 64, using the available earlier source rows.
 This implies strict EXT and, by the accepted Theorem U, non-halting on
 the blank tape. The new argument is in §§2–4. In particular, it includes
 reentries after excursions above the finite base and changes of b/c type.
+
+> **Final independent review (2026-11-22, reviews/final_mixed_bridge_review_record.md). Verdict: ACCEPTED.**
+> Two Claude Opus 5.5 adversaries (A: §§1–4; B: §5 and SMALL_BASE) returned `1. closed in all states`; two blind
+> DeepSeek v4.1 flash auditors (cmdc) returned `1. all correct`. LOW clarifications, which amend the text below:
+> 1. §2/§3: both base enumerators start from a completely free state (x and Θ unconstrained), so the bound F applies
+>    to every low stretch, including one whose first state is the output of a high block; no restriction on entry
+>    phase, entry type or source.
+> 2. §1/§5: the scalar block identities (PROOF_MIXED STATE/BLOCK) transfer to S(J) through the mass identity (Lemma
+>    T: Σα = 2^J, Σβ = 3d−3, hence Σλ = Θ−4). The λ_u = 0 specialisation is an honest positive integer walk
+>    (x = β_x >= 1, Θ = 3d+1); tie-freeness gives v2(x) = j_t exactly. So every tie-free prefix of S(J) is an
+>    integer-lifted word with Θ_(i+1) = Θ_i + t_i. verify_source_prefix.py checks this chain for chain for J <= 1023.
+> 3. §1: 0 <= B <= 6d follows from B′ = R·B + λ′ with 0 < R <= 1 and 0 < λ′ <= 6τ+5 < 6(1+τ) (MASS).
+> 4. §3: "low-block loss <= 3" is by entry parameter q <= 1023 (a final low block whose output escapes is included).
+>    Under the stricter reading (terminal/escape loss <= 4) one gets S = 207 and 2S+7e+4 = 558 < 1024; unchanged.
+> 5. §2: the exact range is −4T·2^(2S) <= Z_i <= 8T·2^(2S); the stated |Z_i| <= 12T·2^(2S) suffices. s_i may be the
+>    total loss or the least clearing exponent.
+> 6. §5 direct bound: the tail telescoping uses the source-row inequality j_next <= j−2−ε(j−1) (PROOF_CLOCK import,
+>    PROOF_MIXED §2), giving 1+ε <= q−q′−1; cite it instead of "S1". The same fact gives 1+ε <= q <= g for the
+>    transition into the candidate.
+> 7. SMALL_BASE "Downstream": the fire-pointer threshold may be ρ >= 32 (3ρ²+4 < 2^ρ), with ρ < 32 covered by the raw
+>    prefix. The SMALL_BASE prefix checks (X(0..1022), S(1..1023), the 325 blocks) are new [B] computations.
+> 8. Scripts: verify_bridge.py does not assert path constancy along each corridor over the whole input cylinder
+>    (adversary A verified it independently up to 20000); two checks in audit_bridge.py labelled EXACT are
+>    illustrations, the proofs being the one-line divisions in the text.
+>
+> Scope of the review: the new argument (§§1–5, SMALL_BASE) and its use of the imports. The imported structural
+> lemmas (work_r1 RULES reduction, PROOF_M, EGX, E1–E4, CLOCK/C1, C2-log, MASS, Theorem U) were taken from their
+> earlier acceptance records and were not re-reviewed here.
 
 ## 1. Coordinates, source scope and one block
 
@@ -48,7 +76,11 @@ For cap M ≥ 1024 every such block satisfies
 
 For the time bound the b/c input indices strictly decrease, at most M
 rows including the endpoint are read, and CLOCK's quadratic bound C1
-gives 1+τ(q−1) ≤ 1+M². For the loss bound, at q≥1024 an individual
+gives 1+τ(q−1) ≤ 1+M². Summing over the rows read gives d≤M(1+M²), and
+the terminal half-clock obeys 2k=τ≤M² by C1 at the terminal a-row, whose
+index is at most the corridor's first input; hence
+t=3(d+1+2k)≤3(M(1+M²)+1+M²)≤6M³ for M≥2. For the loss bound, at
+q≥1024 an individual
 b/c step costs at most 4 log₂ q+4 and its successor is at most
 log₂(6(q−1)²+5) ≤ 2 log₂ q+3 ≤ √q. The first bound for c is the
 corrected strict C2-log of PROOF_EGX §4: its containing epoch has
@@ -77,7 +109,10 @@ and total phase increment t ≤ T. Composition gives
 
 For the first block use §1. To append a block with multiplier −α/2,
 increment u and constant c, update β to 2−αβ/2, and γ to
-2t−αγ/2+c. The new γ is between 0 and 2(t+u). Multiplication by
+2t−αγ/2+c. Writing t for the accumulated phase and γ≤2t for the
+inductive bound at the entry to the new block, −αγ/2 ≥ −γ/2 ≥ −t gives
+γ′ ≥ t+c ≥ 0, while αγ/2 ≥ 0 and c ≤ 2u give γ′ ≤ 2(t+u): the new γ is
+between 0 and 2(t+u). Multiplication by
 the product of the two clearing denominators clears the new map.
 This proves (2), regardless of corridor shapes and intervening clocks.
 
@@ -137,8 +172,8 @@ the cap is handled in §2, not counted as an actual termination.
 Take M=2^20. A bridge has at most one initial block of loss ≤183 by
 (1) and at most six low blocks of loss ≤3. Thus S=201 suffices and
 T=42 M³ < 2^66 suffices. Inequality (4) follows from
-4+66+402 < 1024. By (5) the word length is at most 7(4+67)=497,
-in particular at most √M=1024.
+4+66+402 < 1024. Since 2T=21·2^62, ⌊log₂(2T)⌋=66, and by (5) the word
+length is at most 7(4+66)=490, in particular at most √M=1024.
 
 ## 4. The infinite sequence of scales
 
@@ -151,7 +186,8 @@ and F low blocks. By (1) one may take
 Put r=√h. On the entire grid r≥48e+64: equality holds initially,
 and squaring r gives at least 48(2e)+64. This elementary invariant
 gives 4S≤h, 6(r+1)≤h and 2S+7e+4<h+1. These imply T≤h⁷
-and (4). From (5)
+and (4), since 12T≤12·2^(7e)<2^(7e+4) because 12<2^4, and therefore
+12T·2^(2S)<2^(2S+7e+4)≤2^h<2^(h+1). From (5)
 
     N ≤ (√h+1)(7e+5) ≤ h = √M.
 
@@ -164,7 +200,7 @@ and the rounded cap. The base rows are already available at the outer
 induction step J≥K′.
 
 For every integer Q≥64 the word length is at most Q. Up to 1023 use 6;
-from 1024 to 2^20 use 497. For larger Q choose the least cap in the
+from 1024 to 2^20 use 490. For larger Q choose the least cap in the
 sequence ≥Q. Its square root is the previous cap, strictly below Q.
 In particular the reviewed sufficient bound W(Q), namely 2^ceil(Q/2),
 holds in the strict outer induction in which it is needed.
@@ -262,13 +298,17 @@ local formulas. None of these reviews assessed the new bridge induction.
 Run `python -B work_mixed_bridge/verify_bridge.py` from the repository
 root. The original base solver is `work_g2_core_words/word_search.py`
 with arguments `1023 7`. The infinite induction is algebraic.
-With z3-solver installed, run `python -B work_mixed_bridge/audit_bridge.py`
-for universal checks of the local polynomial obligations, the squaring
-invariant, and the outer prefix count. This script does not formalize
+Run `python -B work_mixed_bridge/audit_bridge.py` for exact universal
+checks (integer arithmetic only, no third-party packages) of the local
+polynomial obligations, the squaring invariant, and the outer prefix
+count. This script does not formalize
 the repository's machine reduction or certify the source lemma imports.
 Both enumerators were run for this draft. In addition, the new verifier
 replays 661128 → 17 → 661128 → 857036 on the exact scalar map:
-the two bridges give (p₀,t₀,p₁)=(2654187,1769472,884715) with p₀=t₀+p₁.
+bridge 0 is the composite of the two blocks 661128→17 and 17→661128
+(s₀=2, β₀=1), bridge 1 the single escape block 661128→857036
+(s₁=1, β₁=2); they give (p₀,t₀,p₁)=(2654187,1769472,884715) with
+p₀=t₀+p₁.
 This tests the determinant sign on a non-vacuous pair of adjacent
 bridges, with distinct lengths and phase coefficients. This lift is
 local; the proof does not require its reachability from the blank tape.
